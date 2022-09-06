@@ -18,19 +18,13 @@ except flywheel.ApiException as e:
 
 for count, session in enumerate(sessions, 1):
     print(f'session loop {count}: {session.label}')
-    # for acquisition in session.acquisitions():
-    #     print('in acq loop')
-    #     print(f'{acquisition.files[0].modality}')
-    #     if acquisition.files[0].modality == 'MR':
-    #         print('MR found')
-        
-        #if acquisition.files[0].modality contains MR (vs contains PT)
-
 
 
     #if MRI 
-        #if session.label not SubjectIDxYYYYMMDDxScanType
-        #########how to ID incorrect session labels? 
+        
+        #########how to ID incorrect session labels?
+        # ###create exception for study suffix ABC ABCD2
+        #MRI = SubjectIDxYYYYMMDDxScanType 
         # if session.label != "??????x????????x??": 
 
 
@@ -53,7 +47,7 @@ for count, session in enumerate(sessions, 1):
 
 
     #if PET 
-        #if session.label not SubjectIDxScanTypexYYYYMMDD
+        #PET = SubjectIDxScanTypexYYYYMMDD
         # if session.label != "??????xPETx????????": 
             #repeat steps from MRI with order change--unless we switch so they match
 
