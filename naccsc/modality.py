@@ -15,31 +15,34 @@ except flywheel.ApiException as e:
 mri_values = {}
 pet_values = {}
 
+
 for count, session in enumerate(sessions, 1):
     print(f'session loop {count}: {session.label}')
+    test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     for acquisition in session.acquisitions():
-        # print('in acq loop')
-        if acquisition.files[0].modality == 'MR':
-            # print(acquisition.files[0].classification)
-            # mri_values[acquisition.id] = acquisition.files[0].classification
-            if 'Features' in acquisition.files[0].classification and acquisition.files[0].classification['Features'] == ['MP2RAGE']:
-                print('this is a 7T scan' )
-            else: ##need a condition to id 3T scans with
-                print('this is a 3T scan')
-        if acquisition.files[0].modality == 'PT':
-            # print(acquisition)
-            # pet_values[acquisition.id] = acquisition.files[0].name
-            # print(acquisition.label)
-            ####################################################################
-            #works to distinguish type of PET
-            ####will need to add conditions for other naming for older sessions? 
-            if 'Amyloid' in acquisition.label:
-                print('amyloid session')
-            elif 'AV1451' in acquisition.label:
-                print('tau session')
-            elif 'FDG' in acquisition.label:
-                print('FDG session')
-            ########################################################################
+        print('in acq loop')
+    #     if acquisition.files[0].modality == 'MR':
+    #         # print(acquisition.files[0].classification)
+    #         # mri_values[acquisition.id] = acquisition.files[0].classification
+
+
+    #         if 'Features' in acquisition.files[0].classification and acquisition.files[0].classification['Features'] == ['MP2RAGE']:
+    #             print('this is a 7T scan' )
+    #         else: ####need a condition to id 3T scans with
+    #             print('this is a 3T scan')
+    #     if acquisition.files[0].modality == 'PT':
+    #         # print(acquisition)
+    #         # pet_values[acquisition.id] = acquisition.files[0].name
+    #         # print(acquisition.label)
+
+    #         #works to distinguish type of PET
+    #         ####will need to add conditions for other naming for older sessions? 
+    #         if 'Amyloid' in acquisition.label:
+    #             print('amyloid session')
+    #         elif 'AV1451' in acquisition.label:
+    #             print('tau session')
+    #         elif 'FDG' in acquisition.label:
+    #             print('FDG session')
 
             
 

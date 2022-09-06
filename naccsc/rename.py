@@ -10,21 +10,17 @@ except flywheel.ApiException as e:
     print(f'Error: {e}')
 
 #create list of sessions
-#####use a filter here if changing PET to match MRI so only sessions not matching correct format are pulled
+#####use a filter here  so only sessions not matching correct format are pulled?
 try:
-    sessions = project.sessions.iter_find('created>2022-07-19') #subset to test on, incl MRI & PET, remove created filter for actual use
+    sessions = project.sessions.iter_find('created>2022-07-19') #subset to test on
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
 for count, session in enumerate(sessions, 1):
     print(f'session loop {count}: {session.label}')
 
-
-    #if MRI 
-        
         #########how to ID incorrect session labels?
-        # ###create exception for study suffix ABC ABCD2
-        #MRI = SubjectIDxYYYYMMDDxScanType 
+        #SubjectIDxYYYYMMDDxScanType 
         # if session.label != "??????x????????x??": 
 
 
@@ -37,19 +33,15 @@ for count, session in enumerate(sessions, 1):
     
     # #scantype = acquisition file name (parse)
 
+    # ####study = ???
+
     # newlabel = indd + 'x' + date + 'x'
     # print(f'Renaming session to: {newlabel}')
+#############    
 
 #############################################################
-    # session.update(label = newlabel) #in dictionary? test with unsorted first
+    # session.update(label = newlabel)
     # print(f'Session label is now {session.label}')
 #############################################################
 
-
-    #if PET 
-        #PET = SubjectIDxScanTypexYYYYMMDD
-        # if session.label != "??????xPETx????????": 
-            #repeat steps from MRI with order change--unless we switch so they match
-
-print(f'{count} sessions in project {project.label} checked')
-        
+print(f'{count} sessions in project {project.label} checked')  
