@@ -23,21 +23,11 @@ for count, session in enumerate(sessions, 1):
     #     print('MRI')
     # elif 'PT' in test:
     #     print("PET scan")
-    #     petlabels = [acquisition.label for acquisition in session.acquisitions()]
-    #     if 'Amyloid' in petlabels:
-    #         print('amyloid session')
-    #     elif 'AV1451' in petlabels:
-    #         print('tau session')
-    #     elif 'FDG' in petlabels:
-    #         print('FDG session')
+    #     
 
  
-    petlabels = [acquisition.label for acquisition in session.acquisitions()]
-    # if '[BR_CTAC] Amyloid Brain Dyn_2982' in petlabels:
-    #     print('exact match')
-    print([x for x in petlabels if 'Amyloid' in x])
-
     
+
     
   
     # for acquisition in session.acquisitions():

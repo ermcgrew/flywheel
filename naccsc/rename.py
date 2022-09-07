@@ -27,32 +27,49 @@ for count, session in enumerate(sessions, 1):
 #############renaming block
     print(f'Session label: {session.label} is incorrect, renaming...')
     indd = session.subject.label
-    # print(f'Subject indd: {indd}')
     date = str(session.created)[:10].replace('-','')
-    # print(f'Session date: {date}')
     
     modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'MR' in modality:
+        print('MRI')
         scantype = '3T'
-        # print('MRI')
+
+        classes = [acquisition.files[0].classification for acquisition in session.acquisitions()]
+        # print(classes)
+        for x in classes:
+            if 'Features' in x:
+                print('Features found')
+        if 'Features' in classes:
+            print("Features key found")
+
+
+        # if 'Features' in acquisition.files[0].classification and acquisition.files[0].classification['Features'] == ['MP2RAGE']:
+        #     print('this is a 7T scan' )
+        #     scantype = '7T'
+        # else: ####need a condition to id 3T scans with
+        #     print('this is a 3T scan')
+        #     scantype = '3T'
+
+
     elif 'PT' in modality:
-        # print('PET')
         petlabels = [acquisition.label for acquisition in session.acquisitions()]
         for petlabel in petlabels:
-            if 'Amyloid' in petlabel:
-                print('amyloid session')
-                scantype = 'FBBPET'
-            elif 'PI2620' in petlabel:
-                print('tau session')
-                scantype = 'PI2620PET'
-            elif 'AV1451' in petlabel:
-                print('tau session')
-                scantype = 'AV1451PET'
-            elif 'FDG' in petlabel:
-                print('FDG session')
-                scantype = 'FDGPET'
+                if 'Amyloid' in petlabel:
+                    scantype = 'FBBPET'
+                    break
+                elif 'PI2620' in petlabel:
+                    scantype = 'PI2620PET'
+                    break
+                elif 'AV1451' in petlabel:
+                    scantype = 'AV1451PET'
+                    break
+                elif 'FDG' in petlabel:
+                    scantype = 'FDGPET'
+                    break
         
     # ####study = ???
+            #ABC, ABCD2, LEADS, DVCID
+
 
     newlabel = indd + 'x' + date + 'x' + scantype + 'x' #+ study
     print(f'Renaming session to: {newlabel}')
