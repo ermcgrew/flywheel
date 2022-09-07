@@ -10,19 +10,18 @@ except flywheel.ApiException as e:
     print(f'Error: {e}')
 
 #create list of sessions
-#####use a filter here  so only sessions not matching correct format are pulled?
 try:
     sessions = project.sessions.iter_find('created>2022-07-19') #subset to test on
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
+#look at each session and rename as appropriate
 for count, session in enumerate(sessions, 1):
     print(f'***********session loop {count}: {session.label}******************')
-
         #########how to ID incorrect session labels?
+        #####use a filter when pulling sessions so only ones not matching correct format are pulled?
         #SubjectIDxYYYYMMDDxScanType 
         # if session.label != "??????x????????x??": 
-
 
 #############renaming block
     print(f'Session label: {session.label} is incorrect, renaming...')
@@ -31,26 +30,14 @@ for count, session in enumerate(sessions, 1):
     
     modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'MR' in modality:
-        print('MRI')
-        scantype = '3T'
-
         classes = [acquisition.files[0].classification for acquisition in session.acquisitions()]
-        # print(classes)
         for x in classes:
-            if 'Features' in x:
-                print('Features found')
-        if 'Features' in classes:
-            print("Features key found")
-
-
-        # if 'Features' in acquisition.files[0].classification and acquisition.files[0].classification['Features'] == ['MP2RAGE']:
-        #     print('this is a 7T scan' )
-        #     scantype = '7T'
-        # else: ####need a condition to id 3T scans with
-        #     print('this is a 3T scan')
-        #     scantype = '3T'
-
-
+            if 'Features' in x and x['Features'] == ['MP2RAGE']:
+                scantype= '7T'
+                break
+            elif 'Measurement' in x and x['Measurement'] == ['B0']: 
+                scantype = '3T'
+                break
     elif 'PT' in modality:
         petlabels = [acquisition.label for acquisition in session.acquisitions()]
         for petlabel in petlabels:

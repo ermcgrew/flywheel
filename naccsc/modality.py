@@ -24,16 +24,10 @@ for count, session in enumerate(sessions, 1):
     # elif 'PT' in test:
     #     print("PET scan")
     #     
-
- 
-    
-
-    
-  
-    # for acquisition in session.acquisitions():
+    for acquisition in session.acquisitions():
     #     print('in acq loop')
-    #     if acquisition.files[0].modality == 'MR':
-    #         # print(acquisition.files[0].classification)
+        if acquisition.files[0].modality == 'MR':
+            print(acquisition.files[0].classification)
     #         # mri_values[acquisition.id] = acquisition.files[0].classification
 
 
