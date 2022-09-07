@@ -17,7 +17,7 @@ except flywheel.ApiException as e:
     print(f'Error: {e}')
 
 for count, session in enumerate(sessions, 1):
-    print(f'session loop {count}: {session.label}')
+    print(f'***********session loop {count}: {session.label}******************')
 
         #########how to ID incorrect session labels?
         #SubjectIDxYYYYMMDDxScanType 
@@ -25,18 +25,37 @@ for count, session in enumerate(sessions, 1):
 
 
 #############renaming block
-    # print(f'Session label: {session.label} is incorrect, renaming...')
-    # indd = session.subject.label
+    print(f'Session label: {session.label} is incorrect, renaming...')
+    indd = session.subject.label
     # print(f'Subject indd: {indd}')
-    # date = str(session.created)[:10].replace('-','')
+    date = str(session.created)[:10].replace('-','')
     # print(f'Session date: {date}')
     
-    # #scantype = acquisition file name (parse)
-
+    modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
+    if 'MR' in modality:
+        scantype = '3T'
+        # print('MRI')
+    elif 'PT' in modality:
+        # print('PET')
+        petlabels = [acquisition.label for acquisition in session.acquisitions()]
+        for petlabel in petlabels:
+            if 'Amyloid' in petlabel:
+                print('amyloid session')
+                scantype = 'FBBPET'
+            elif 'PI2620' in petlabel:
+                print('tau session')
+                scantype = 'PI2620PET'
+            elif 'AV1451' in petlabel:
+                print('tau session')
+                scantype = 'AV1451PET'
+            elif 'FDG' in petlabel:
+                print('FDG session')
+                scantype = 'FDGPET'
+        
     # ####study = ???
 
-    # newlabel = indd + 'x' + date + 'x'
-    # print(f'Renaming session to: {newlabel}')
+    newlabel = indd + 'x' + date + 'x' + scantype + 'x' #+ study
+    print(f'Renaming session to: {newlabel}')
 #############    
 
 #############################################################

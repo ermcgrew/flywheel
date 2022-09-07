@@ -18,9 +18,30 @@ pet_values = {}
 
 for count, session in enumerate(sessions, 1):
     print(f'session loop {count}: {session.label}')
-    test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
-    for acquisition in session.acquisitions():
-        print('in acq loop')
+    # test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
+    # if 'MR' in test:
+    #     print('MRI')
+    # elif 'PT' in test:
+    #     print("PET scan")
+    #     petlabels = [acquisition.label for acquisition in session.acquisitions()]
+    #     if 'Amyloid' in petlabels:
+    #         print('amyloid session')
+    #     elif 'AV1451' in petlabels:
+    #         print('tau session')
+    #     elif 'FDG' in petlabels:
+    #         print('FDG session')
+
+ 
+    petlabels = [acquisition.label for acquisition in session.acquisitions()]
+    # if '[BR_CTAC] Amyloid Brain Dyn_2982' in petlabels:
+    #     print('exact match')
+    print([x for x in petlabels if 'Amyloid' in x])
+
+    
+    
+  
+    # for acquisition in session.acquisitions():
+    #     print('in acq loop')
     #     if acquisition.files[0].modality == 'MR':
     #         # print(acquisition.files[0].classification)
     #         # mri_values[acquisition.id] = acquisition.files[0].classification
