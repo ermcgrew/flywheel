@@ -1,0 +1,335 @@
+session loop 1: 125081x20220720x3T
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MPRAGE']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['DTI']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['Derived', 'DTI']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['Derived', 'DTI', 'TRACE']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['Derived', 'DTI', 'FA']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['Derived', 'DTI']}
+{'Intent': ['Structural', 'Non-Image'], 'Measurement': ['Diffusion'], 'Features': ['DTI']}
+{'Intent': ['Structural'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T2']}
+{'Measurement': ['Perfusion']}
+{'Measurement': ['Perfusion'], 'Features': ['PASL', '3D']}
+{'Custom': ['N/A']}
+session loop 2: 125901xFlorbetabenPETx20220712
+session loop 3: 02-22-22 2_31 PM
+session loop 4: 02-23-22 2_23 PM
+session loop 5: 126266xAV1451PETx20220621
+session loop 6: 125081xFDGx20220720
+session loop 7: 127794xAV1451PETx20220719
+session loop 8: 128771x20220728x3TxABCD2
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0', 'Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion']}
+session loop 9: 128922x20220728x3TxABCD2
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0', 'Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion']}
+session loop 10: 128314x20220728x3TxABCD2
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0', 'Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion']}
+session loop 11: 124288x20220811x3T
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0', 'Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion']}
+session loop 12: 117376x20220815x3T
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Custom': ['N/A']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0']}
+{'Measurement': ['Perfusion']}
+{'Measurement': ['Perfusion']}
+{'Features': ['3D']}
+{'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+session loop 13: 128013x20220816x3T
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0', 'Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion']}
+session loop 14: 128013x20220816x7T
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MP2RAGE']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MP2RAGE']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MP2RAGE']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MP2RAGE']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MP2RAGE']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MP2RAGE']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MP2RAGE']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MP2RAGE']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Structural'], 'Features': ['FLAIR']}
+{'Intent': ['Structural'], 'Measurement': ['T2']}
+{'Measurement': ['Susceptibility']}
+{'Measurement': ['Susceptibility']}
+{'Measurement': ['Susceptibility'], 'Features': ['MIP']}
+{'Measurement': ['Susceptibility']}
+{'Measurement': ['Susceptibility']}
+{'Measurement': ['Susceptibility'], 'Features': ['SWI']}
+session loop 15: 128986x20220818x3T
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0', 'Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion']}
+session loop 16: 129131x20220818x3T
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0', 'Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+session loop 17: BRAIN RESEARCH^WOLK
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['MPRAGE']}
+{'Custom': ['N/A']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['DTI']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['Derived', 'DTI']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['Derived', 'DTI', 'TRACE']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['Derived', 'DTI', 'FA']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion'], 'Features': ['Derived', 'DTI']}
+{'Intent': ['Structural', 'Non-Image'], 'Measurement': ['Diffusion'], 'Features': ['DTI']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Structural'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T2']}
+{'Measurement': ['Perfusion']}
+{'Measurement': ['Perfusion'], 'Features': ['PASL', '3D']}
+{'Measurement': ['Perfusion']}
+{'Measurement': ['Perfusion'], 'Features': ['PASL', '3D']}
+{'Custom': ['N/A']}
+session loop 18: 125569x20220823x3T
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0', 'Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Fieldmap']}
+{'Intent': ['Structural'], 'Measurement': ['Diffusion']}
+session loop 19: 124738x20220906x3T
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Localizer'], 'Measurement': ['T2']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Measurement': ['T1'], 'Features': ['3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Features': ['FLAIR', '3D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Intent': ['Structural'], 'Measurement': ['T2'], 'Features': ['2D']}
+{'Measurement': ['Perfusion'], 'Features': ['TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['MIP', 'TOF', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['M0', 'Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Measurement': ['Perfusion'], 'Features': ['Spiral', '3D']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Fieldmap'], 'Measurement': ['B0']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+{'Intent': ['Functional'], 'Measurement': ['T2*']}
+session loop 20: 123367x20220906xFBBPETxABC
+session loop 21: 124594x20220831xFBBPETxABC
+session loop 22: 128013x20220817xFBBPETxABC
+session loop 23: 128713x20220810xFBBPETxABC
+session loop 24: 125111x20200829xPI2620PETxABC
