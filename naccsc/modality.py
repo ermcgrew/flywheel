@@ -26,8 +26,12 @@ for count, session in enumerate(sessions, 1):
     #     
     for acquisition in session.acquisitions():
     #     print('in acq loop')
-        if acquisition.files[0].modality == 'MR':
-            print(acquisition.files[0].classification)
+        for f in acquisition.files:
+            f.reload()
+            print(f'Name: {f.name}, type: {f.type}')
+
+        # if acquisition.files[0].modality == 'MR':
+        #     print(acquisition.files[0].classification)
     #         # mri_values[acquisition.id] = acquisition.files[0].classification
 
 
