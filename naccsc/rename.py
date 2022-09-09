@@ -11,7 +11,7 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('created>2022-07-19') #subset to test on
+    sessions = project.sessions.iter_find('created>2022-07-19') #subset to test on 07-19
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -28,17 +28,18 @@ for count, session in enumerate(sessions, 1):
     indd = session.subject.label
     date = str(session.created)[:10].replace('-','')
     
+    for acquisition in session.acquisitions():
+        acquisition = acquisition.reload()
+        magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
+        if 3 in magstrength:
+            scantype='3T'
+            break
+        elif 7 in magstrength:
+            scantype="7T"
+            break
+        break
     modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
-    if 'MR' in modality:
-        classes = [acquisition.files[0].classification for acquisition in session.acquisitions()]
-        for x in classes:
-            if 'Features' in x and x['Features'] == ['MP2RAGE']:
-                scantype= '7T'
-                break
-            elif 'Measurement' in x and x['Measurement'] == ['B0']: 
-                scantype = '3T'
-                break
-    elif 'PT' in modality:
+    if 'PT' in modality:
         petlabels = [acquisition.label for acquisition in session.acquisitions()]
         for petlabel in petlabels:
                 if 'Amyloid' in petlabel:

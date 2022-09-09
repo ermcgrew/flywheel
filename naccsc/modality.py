@@ -18,17 +18,21 @@ pet_values = {}
 
 for count, session in enumerate(sessions, 1):
     print(f'session loop {count}: {session.label}')
-    # test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
-    # if 'MR' in test:
-    #     print('MRI')
-    # elif 'PT' in test:
-    #     print("PET scan")
-    #     
-    for acquisition in session.acquisitions():
-    #     print('in acq loop')
-        for f in acquisition.files:
-            f.reload()
-            print(f'Name: {f.name}, type: {f.type}')
+    test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
+    if 'MR' in test:
+        print('MRI')
+    elif 'PT' in test:
+        print("PET scan")
+        for acquisition in session.acquisitions():
+            acquisition = acquisition.reload()
+            for f in acquisition.files:
+                print(f.info)
+                break
+            break
+
+
+       
+    
 
         # if acquisition.files[0].modality == 'MR':
         #     print(acquisition.files[0].classification)
