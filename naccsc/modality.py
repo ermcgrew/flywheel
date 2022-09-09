@@ -21,14 +21,20 @@ for count, session in enumerate(sessions, 1):
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'MR' in test:
         print('MRI')
-    elif 'PT' in test:
-        print("PET scan")
         for acquisition in session.acquisitions():
             acquisition = acquisition.reload()
             for f in acquisition.files:
                 print(f.info)
                 break
             break
+    # elif 'PT' in test:
+    #     print("PET scan")
+    #     for acquisition in session.acquisitions():
+    #         acquisition = acquisition.reload()
+    #         for f in acquisition.files:
+    #             print(f.info)
+    #             break
+    #         break
 
 
        

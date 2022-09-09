@@ -11,7 +11,7 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('created>2022-07-19') #subset to test on 07-19
+    sessions = project.sessions.iter_find('created>2022-08-19') #subset to test on 07-19
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -22,6 +22,8 @@ for count, session in enumerate(sessions, 1):
         #####use a filter when pulling sessions so only ones not matching correct format are pulled?
         #SubjectIDxYYYYMMDDxScanType 
         # if session.label != "??????x????????x??": 
+    
+
 
 #############renaming block
     print(f'Session label: {session.label} is incorrect, renaming...')
@@ -36,6 +38,7 @@ for count, session in enumerate(sessions, 1):
             break
         elif 7 in magstrength:
             scantype="7T"
+            study = 'ABC'
             break
         break
     modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
