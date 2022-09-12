@@ -18,31 +18,19 @@ except flywheel.ApiException as e:
 #look at each session and rename as appropriate
 for count, session in enumerate(sessions, 1):
     print(f'***********session loop {count}: {session.label}******************')
-        #########ID incorrect session labels
-        #SubjectIDxYYYYMMDDxScanType 
-        
-        #once a session fails an if (fails to match correct format), go to rename block
-
-        #if first 6 chars == subject.label 
-            #if it's a x01 
-                #if chars 7-14 == date #this will catch all the PET scans in the old order
-                    #if last 2 chars == 3T or 7T
-                        #if last chars are study suffix, 
-                            #this session is correctly named
-                            #continue
-        #else go to rename 
-
-    # print(session.label[0:6]) #subject ID
-    print(session.label[6]) #x
-    print(session.label[7:15]) #date
-    print(session.label[16:18]) #3T/7T
+    ########ID incorrect session labels########    
+    #once a session fails an if (fails to match correct format), go to rename block
     if session.label[0:6] == session.subject.label:
         print('subject ID test passed')
         ##add option for x01 subjects
-        if session.label[7:15] == str(session.created)[:10].replace('-',''):
+        if session.label[7:15] == str(session.created)[:10].replace('-',''): ##this catches all incorrectly ordered PET scans
             print('date test passed')
-            if session.label[16:18] == '3T' or session.label[16:18] =='7T':  ##need something else here to catch new correct PET scans
+            if session.label[16:18] == '3T' or session.label[16:18] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET':
                 print('scantype test passed')
+                if session.label[-3:] == 'ABC':
+                    print('study suffix correct')
+                    print(f'Session name {session.label} is correct, skipping session.')
+                    continue
 
     
 
