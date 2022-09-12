@@ -18,14 +18,37 @@ except flywheel.ApiException as e:
 #look at each session and rename as appropriate
 for count, session in enumerate(sessions, 1):
     print(f'***********session loop {count}: {session.label}******************')
-        #########how to ID incorrect session labels?
-        #####use a filter when pulling sessions so only ones not matching correct format are pulled?
+        #########ID incorrect session labels
         #SubjectIDxYYYYMMDDxScanType 
-        # if session.label != "??????x????????x??": 
+        
+        #once a session fails an if (fails to match correct format), go to rename block
+
+        #if first 6 chars == subject.label 
+            #if it's a x01 
+                #if chars 7-14 == date #this will catch all the PET scans in the old order
+                    #if last 2 chars == 3T or 7T
+                        #if last chars are study suffix, 
+                            #this session is correctly named
+                            #continue
+        #else go to rename 
+
+    # print(session.label[0:6]) #subject ID
+    print(session.label[6]) #x
+    print(session.label[7:15]) #date
+    print(session.label[16:18]) #3T/7T
+    if session.label[0:6] == session.subject.label:
+        print('subject ID test passed')
+        ##add option for x01 subjects
+        if session.label[7:15] == str(session.created)[:10].replace('-',''):
+            print('date test passed')
+            if session.label[16:18] == '3T' or session.label[16:18] =='7T':  ##need something else here to catch new correct PET scans
+                print('scantype test passed')
+
     
 
 
 #############renaming block
+#make this a function??
     print(f'Session label: {session.label} is incorrect, renaming...')
     indd = session.subject.label
     date = str(session.created)[:10].replace('-','')
