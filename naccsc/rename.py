@@ -78,7 +78,7 @@ for count, session in enumerate(sessions, 1):
 #############    
 
 #############################################################
-    # session.update(label = newlabel)
+    # session.update({'label': newlabel})
     # print(f'Session label is now {session.label}')
 #############################################################
 
