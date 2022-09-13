@@ -23,7 +23,7 @@ for count, session in enumerate(sessions, 1):
     if session.label[0:6] == session.subject.label:
         print('subject ID test passed')
         ##add option for x01 subjects
-        if session.label[7:15] == str(session.created)[:10].replace('-',''): ##this catches all incorrectly ordered PET scans
+        if session.label[7:15] == str(session.timestamp)[:10].replace('-',''): ##this catches all incorrectly ordered PET scans
             print('date test passed')
             if session.label[16:18] == '3T' or session.label[16:18] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET':
                 print('scantype test passed')
@@ -39,8 +39,8 @@ for count, session in enumerate(sessions, 1):
 #make this a function??
     print(f'Session label: {session.label} is incorrect, renaming...')
     indd = session.subject.label
-    date = str(session.created)[:10].replace('-','')
-    
+    date = str(session.timestamp)[:10].replace('-','')
+
     for acquisition in session.acquisitions():
         acquisition = acquisition.reload()
         magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
