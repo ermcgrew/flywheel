@@ -38,11 +38,13 @@ for count, session in enumerate(sessions, 1):
 #############renaming block
 #make this a function??
     print(f'Session label: {session.label} is incorrect, renaming...')
+    ##fix for if subject.label is wrong e.g. with _
     indd = session.subject.label
     date = str(session.timestamp)[:10].replace('-','')
 
     for acquisition in session.acquisitions():
         acquisition = acquisition.reload()
+        #have to get instituion name for study determination, use it for scan type too?
         magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
         if 3 in magstrength:
             scantype='3T'
@@ -52,6 +54,8 @@ for count, session in enumerate(sessions, 1):
             study = 'ABC'
             break
         break
+
+    
     modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'PT' in modality:
         petlabels = [acquisition.label for acquisition in session.acquisitions()]
