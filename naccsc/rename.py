@@ -27,7 +27,7 @@ for count, session in enumerate(sessions, 1):
             print('date test passed')
             if session.label[16:18] == '3T' or session.label[16:18] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':
                 print('scantype test passed')
-                if session.label[-3:] == 'ABC' or session.label[-4] =="ABCD2" or session.label[-4] == 'VCID':
+                if session.label[-3:] == 'ABC' or session.label[-5:] =="ABCD2" or session.label[-5:] == 'DVCID':
                     print('study suffix correct')
                     print(f'Session name {session.label} is correct, skipping session.')
                     continue
@@ -56,52 +56,53 @@ for count, session in enumerate(sessions, 1):
 
     for acquisition in session.acquisitions():
         acquisition = acquisition.reload()
+        
+        #this block only for MRIs
         for f in acquisition.files:
             instname = f.info['InstitutionName']
-            if instname == 'SC7T':
+            magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
+            if 7 in magstrength:
                 scantype="7T"
-                study='ABC'
+                study = 'ABC'
                 break
-            else:
+            elif 3 in magstrength:
                 scantype='3T'
                 if instname == 'HUP':
-                        study='LEADS or DVCID'
-                        print(study)
-                        break
+                    study='LEADS or DVCID'
+                    break
                 elif instname == 'SC3T':
                     if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
                         study='ABC'
-                        print(study)
                         break
                     else:
                         study='ABC or ABCD2'
-                        print(study)
-                    break
-        break        
+                        break
+            break        
 
     
     modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'PT' in modality:
         petlabels = [acquisition.label for acquisition in session.acquisitions()]
         for petlabel in petlabels:
-                if 'Amyloid' in petlabel:
-                    scantype = 'FBBPET'
-                    break
-                elif 'PI2620' in petlabel:
-                    scantype = 'PI2620PET'
-                    break
-                elif 'AV1451' in petlabel:
-                    scantype = 'AV1451PET'
-                    break
-                elif 'FDG' in petlabel:
-                    scantype = 'FDGPET'
-                    break
-        
-    # ####study = ???
-            #ABC, ABCD2, LEADS, DVCID
+            if 'Amyloid' in petlabel:
+                scantype = 'FBBPET'
+                study='?'
+                break
+            elif 'PI2620' in petlabel:
+                scantype = 'PI2620PET'
+                study='?'
+                break
+            elif 'AV1451' in petlabel:
+                scantype = 'AV1451PET'
+                study='?'
+                break
+            elif 'FDG' in petlabel:
+                scantype = 'FDGPET'
+                study='LEADS'
+                break
 
 
-    newlabel = indd + 'x' + date + 'x' + scantype + 'x' #+ study
+    newlabel = indd + 'x' + date + 'x' + scantype + 'x' + study
     print(f'Renaming session to: {newlabel}') 
 
 #############################################################
