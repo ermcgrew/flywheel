@@ -11,17 +11,18 @@ except flywheel.ApiException as e:
     print(f'Error: {e}')
 
 try:
-    sessions = project.sessions.iter_find('created>2022-08-19') 
+    #sessions = project.sessions.iter_find('created>2022-08-19') 
+    sessions = project.sessions.iter_find('label=101366_20180417_7T')
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
-idlist =[]
+# idlist =[]
 
 for count, session in enumerate(sessions, 1):
     print(f'session loop {count}: {session.label}')
     date = str(session.timestamp)[:10].replace('-','')
-    if date > '2022-07-01':
-        print(f'{date} is after july 1')
+    # if date > '2022-07-01':
+    #     print(f'{date} is after july 1')
     
     
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
@@ -31,31 +32,34 @@ for count, session in enumerate(sessions, 1):
             acquisition = acquisition.reload()
             for f in acquisition.files:
                 instname = f.info['InstitutionName']
+                print(instname)
+             
                 # magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
-                magstrength = f.info['MagneticFieldStrength']
-                print(magstrength)
-                # if 3 in magstrength:
-                if magstrength == 3:
-                    scantype='3T'
-                    if instname == 'HUP':
-                        study='LEADS or DVCID'
-                    elif instname == 'SC3T':
-                        if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
-                            study='ABC'
-                        else:
-                            study = 'ABC or ABCD2'
-                    break
-                # elif 7 in magstrength:
-                elif magstrength == 7:
-                    scantype="7T"
-                    study = 'ABC'
+                # magstrength = f.info['MagneticFieldStrength']
+                # print(magstrength)
+                # # if 3 in magstrength:
+                # if magstrength == 3:
+                #     scantype='3T'
+                #     if instname == 'HUP':
+                #         study='LEADS or DVCID'
+                #     elif instname == 'SC3T':
+                #         if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
+                #             study='ABC'
+                #         else:
+                #             study = 'ABC or ABCD2'
+                #     break
+                # # elif 7 in magstrength:
+                # elif magstrength == 7:
+                #     scantype="7T"
+                #     study = 'ABC'
                 
-                # pprint(f.info)
+                pprint(f.info)
+            break
                 # print(f.info['InstitutionName'])
                 # idlist.append(f.info['InstitutionName'])
                 # idlist.append(f.info['PerformedProcedureStepID'])
-                break
-            break
+            #     break
+            # break
     # elif 'PT' in test:
     #     print("PET scan")
         # for acquisition in session.acquisitions():
@@ -77,4 +81,4 @@ for count, session in enumerate(sessions, 1):
 # print(len(idset))
 # print(idset)
 
-    print(study)
+    # print(study)

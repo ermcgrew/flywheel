@@ -1,3 +1,4 @@
+from datetime import datetime
 import flywheel
 #user must be logged into flywheel via CLI to use flywheel.client()
 fw = flywheel.Client()
@@ -37,7 +38,7 @@ for count, session in enumerate(sessions, 1):
             print('date test passed')
             if session.label[19:21] == '3T' or session.label[19:21] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':  
                 print('scantype test passed')
-                if session.label[-3:] == 'ABC' or session.label[-4] =="ABCD2" or session.label[-4] == 'VCID':
+                if session.label[-3:] == 'ABC' or session.label[-5] =="ABCD2" or session.label[-4] == 'VCID':
                     print('study suffix correct')
                     print(f'Session name {session.label} is correct, skipping session.')
                     continue
@@ -55,16 +56,28 @@ for count, session in enumerate(sessions, 1):
 
     for acquisition in session.acquisitions():
         acquisition = acquisition.reload()
-        ##have to get instituion name for study determination, use it for scan type too?
-        magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
-        if 3 in magstrength:
-            scantype='3T'
-            break
-        elif 7 in magstrength:
-            scantype="7T"
-            study = 'ABC'
-            break
-        break
+        for f in acquisition.files:
+            instname = f.info['InstitutionName']
+            if instname == 'SC7T':
+                scantype="7T"
+                study='ABC'
+                break
+            else:
+                scantype='3T'
+                if instname == 'HUP':
+                        study='LEADS or DVCID'
+                        print(study)
+                        break
+                elif instname == 'SC3T':
+                    if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
+                        study='ABC'
+                        print(study)
+                        break
+                    else:
+                        study='ABC or ABCD2'
+                        print(study)
+                    break
+        break        
 
     
     modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
