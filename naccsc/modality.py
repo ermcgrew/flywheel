@@ -20,7 +20,7 @@ except flywheel.ApiException as e:
 
 for count, session in enumerate(sessions, 1):
     print(f'session loop {count}: {session.label}')
-    # protocol_list=[]
+
     
 
     # date = str(session.timestamp)[:10].replace('-','')
@@ -31,25 +31,22 @@ for count, session in enumerate(sessions, 1):
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'MR' in test:
         # print('MRI')
-        o = open(f'{session.label}', 'a')
+        # o = open(f'{session.label}', 'a')
         for acquisition in session.acquisitions():
-            acquisition = acquisition.reload()
-            for f in acquisition.files:
-                # if f.info['ProtocolName']:
-                try:    
-                    # print(f.info['ProtocolName'])
-                    # protocol_list.append(f.info['ProtocolName'])
-                    o.write(f"{f.info['ProtocolName']} \n")
+            # acquisition = acquisition.reload()
+            print(acquisition.files[0].classification)
+            # for f in acquisition.files:
+            #     print(f.classifier)
+                # try:    
+                #     # print(f.info['ProtocolName'])
+                #     o.write(f"{f.info['ProtocolName']} \n")
 
-                except KeyError as error:
-                    print(f'No protocol name for this file')
+                # except KeyError as error:
+                #     print(f'No protocol name for this file')
 
-        o.close
+        # o.close
 
 
-
-                # with open("MRI_file_info", "w") as outfile:
-                #     json.dump(f,outfile)
                 
                 # instname = f.info['InstitutionName']
                 # magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
