@@ -11,8 +11,8 @@ except flywheel.ApiException as e:
     print(f'Error: {e}')
 
 try:
-    #sessions = project.sessions.iter_find('created>2022-08-19') 
-    sessions = project.sessions.iter_find('label=101366_20180417_7T')
+    # sessions = project.sessions.iter_find('created>2022-09-19')  #07-27') 
+    sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -20,20 +20,38 @@ except flywheel.ApiException as e:
 
 for count, session in enumerate(sessions, 1):
     print(f'session loop {count}: {session.label}')
-    date = str(session.timestamp)[:10].replace('-','')
+    # protocol_list=[]
+    
+
+    # date = str(session.timestamp)[:10].replace('-','')
     # if date > '2022-07-01':
     #     print(f'{date} is after july 1')
-    
+    # import json
     
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'MR' in test:
         # print('MRI')
+        o = open(f'{session.label}', 'a')
         for acquisition in session.acquisitions():
             acquisition = acquisition.reload()
             for f in acquisition.files:
-                instname = f.info['InstitutionName']
-                print(instname)
-             
+                # if f.info['ProtocolName']:
+                try:    
+                    # print(f.info['ProtocolName'])
+                    # protocol_list.append(f.info['ProtocolName'])
+                    o.write(f"{f.info['ProtocolName']} \n")
+
+                except KeyError as error:
+                    print(f'No protocol name for this file')
+
+        o.close
+
+
+
+                # with open("MRI_file_info", "w") as outfile:
+                #     json.dump(f,outfile)
+                
+                # instname = f.info['InstitutionName']
                 # magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
                 # magstrength = f.info['MagneticFieldStrength']
                 # print(magstrength)
@@ -53,8 +71,8 @@ for count, session in enumerate(sessions, 1):
                 #     scantype="7T"
                 #     study = 'ABC'
                 
-                pprint(f.info)
-            break
+                # pprint(f.info)
+            
                 # print(f.info['InstitutionName'])
                 # idlist.append(f.info['InstitutionName'])
                 # idlist.append(f.info['PerformedProcedureStepID'])
