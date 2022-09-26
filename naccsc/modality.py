@@ -12,7 +12,12 @@ except flywheel.ApiException as e:
 
 try:
     # sessions = project.sessions.iter_find('created>2022-09-19')  #07-27') 
-    sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
+    # sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
+    # sessions = project.sessions.iter_find('label=117870x20220920x3TxABC')
+    # sessions = project.sessions.iter_find('label=119202x20220921x3TxVCID')
+    sessions = project.sessions.iter_find('label=123367x20220906xFBBPETxABC') 
+
+
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -20,29 +25,29 @@ except flywheel.ApiException as e:
 
 for count, session in enumerate(sessions, 1):
     print(f'session loop {count}: {session.label}')
-
-    
-
     # date = str(session.timestamp)[:10].replace('-','')
     # if date > '2022-07-01':
     #     print(f'{date} is after july 1')
-    # import json
     
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'MR' in test:
         # print('MRI')
-        # o = open(f'{session.label}', 'a')
+        # o = open(f'TestABCmatchtemplate', 'a')
         for acquisition in session.acquisitions():
-            # acquisition = acquisition.reload()
-            print(acquisition.files[0].classification)
-            # for f in acquisition.files:
-            #     print(f.classifier)
-                # try:    
-                #     # print(f.info['ProtocolName'])
-                #     o.write(f"{f.info['ProtocolName']} \n")
-
-                # except KeyError as error:
-                #     print(f'No protocol name for this file')
+            acquisition = acquisition.reload()
+            print('**********************************')
+            print(f'Acquisition Label: {acquisition.label}')
+            print(f'Classifiction: {acquisition.files[0].classification}')
+        #     o.write('*********New Acquisition******************** \n')
+        #     o.write(f"Classification: {acquisition.files[0].classification} \n")
+            for f in acquisition.files:
+        #     #     print(f.classifier)
+                try:    
+        #             # print('************************************')
+                    print(f"\tProtocol name: {f.info['ProtocolName']}")
+        #             o.write(f"{f.info['ProtocolName']} \n")
+                except KeyError as error:
+                    print(f'No protocol name for this file')
 
         # o.close
 
@@ -75,15 +80,17 @@ for count, session in enumerate(sessions, 1):
                 # idlist.append(f.info['PerformedProcedureStepID'])
             #     break
             # break
-    # elif 'PT' in test:
-    #     print("PET scan")
-        # for acquisition in session.acquisitions():
-        #     print(acquisition)
-            # acquisition = acquisition.reload()
-            # for f in acquisition.files:
-            #     print(f.info)
-            #     break
-            # break
+    elif 'PT' in test:
+        # print("PET scan")
+        for acquisition in session.acquisitions():
+            acquisition = acquisition.reload()
+            print('**********************************')
+            print(f'Acquisition Label: {acquisition.label}')
+            for f in acquisition.files:
+                # print(f"\tProtocol name: {f.info['ProtocolName']}")     
+                print(f.info)
+                #     break
+                # break
 
         # if acquisition.files[0].modality == 'MR':
         #     print(acquisition.files[0].classification)
