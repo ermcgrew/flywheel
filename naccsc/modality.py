@@ -1,3 +1,4 @@
+from csv import field_size_limit
 from pprint import pprint
 from datetime import datetime
 
@@ -11,8 +12,8 @@ except flywheel.ApiException as e:
     print(f'Error: {e}')
 
 try:
-    sessions = project.sessions.iter_find('created>2022-09-01')  #07-27') 
-    # sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
+    # sessions = project.sessions.iter_find('created>2022-09-01')  #07-27') 
+    sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
     # sessions = project.sessions.iter_find('label=117870x20220920x3TxABC')
     # sessions = project.sessions.iter_find('label=119202x20220921x3TxVCID')
     # sessions = project.sessions.iter_find('label=123367x20220906xFBBPETxABC') 
@@ -20,10 +21,11 @@ try:
     # sessions = project.sessions.iter_find('label=128332x20220831xFBBPETxABCD2')
     # sessions = project.sessions.iter_find('label=125111x20220829xPI2620PETxABC')
     # 128387x20220830xAV1451PETxABCD2
-
-
-
-
+    # sessions = project.sessions.iter_find('label=125107x20210609x3T') #LEADS 3t
+    # sessions = project.sessions.iter_find('label=124666xAV1451PETx20210915') #LEADS tau
+    # sessions = project.sessions.iter_find('label=126886xFlorbetabenx20211110') #LEADS FBB/amy
+    # sessions = project.sessions.iter_find('label=124938xAV1451PETx20211208') #ABC tau AV
+    # sessions = project.sessions.iter_find('label=122963xPI2620PETx20220221') #ABC tau PI
 
 except flywheel.ApiException as e:
     print(f'Error: {e}')
@@ -31,10 +33,10 @@ except flywheel.ApiException as e:
 # idlist =[]
 
 for count, session in enumerate(sessions, 1):
-    if session.label[16:25] !="AV1451PET":
-        continue
-    else:
-        print(f'session loop {count}: {session.label}')
+    # if session.label[16:25] !="AV1451PET":
+    #     continue
+    # else:
+    print(f'session loop {count}: {session.label}')
 
     # if session.label[-3:] == 'ABC':
     #     study="ABC"
@@ -43,29 +45,71 @@ for count, session in enumerate(sessions, 1):
     # date = str(session.timestamp)[:10].replace('-','')
     # if date > '2022-07-01':
     #     print(f'{date} is after july 1')
-    
+    import csv
+
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'MR' in test:
-        print('MRI')
-        # o = open(f'TestABCmatchtemplate', 'a')
+        # print('MRI')
+        filename=f'{session.label}.csv'
+        headerrow= ['acquisition.label','f.info["ProtocolName"]', 'Intent', 'Measurement', 'Features']
+        with open(filename, 'w', newline='') as csvfile:
+            csvwriter=csv.writer(csvfile)
+            csvwriter.writerow(headerrow)
+            for acquisition in session.acquisitions():
+                acquisition = acquisition.reload()
+                for f in acquisition.files:
+                    if f.type == 'dicom' :
+                        filerow=[]
+                        filerow.append(acquisition.label)
+                        try:
+                            filerow.append(f.info['ProtocolName'])
+                        except KeyError as error:
+                            filerow.append('n/a')
+
+                        try:
+                            filerow.append(acquisition.files[0].classification['Intent'])
+                        except KeyError as error:
+                            filerow.append('n/a')
+
+                        try:
+                            filerow.append(acquisition.files[0].classification['Measurement'])
+                        except KeyError as error:
+                            filerow.append('n/a')
+
+                        try:
+                            filerow.append(acquisition.files[0].classification['Features'])
+                        except KeyError as error:
+                            filerow.append('n/a')
+
+                        csvwriter.writerow(filerow)
+                    else:
+                        continue
+
+
+        # o = open(f'TestLEADS', 'a')
         # for acquisition in session.acquisitions():
         #     acquisition = acquisition.reload()
-        #     print('**********************************')
-        #     print(f'Acquisition Label: {acquisition.label}')
-        #     print(f'Classifiction: {acquisition.files[0].classification}')
+        # # #     print('**********************************')
+        # #     # print(f'Acquisition Label: {acquisition.label}')
+        # # #     print(f'Classifiction: {acquisition.files[0].classification}')
         # #     o.write('*********New Acquisition******************** \n')
+        # #     o.write(f'Acquisition Label: {acquisition.label}\n')
         # #     o.write(f"Classification: {acquisition.files[0].classification} \n")
         #     for f in acquisition.files:
-        # #     #     print(f.classifier)
+        #         print(f.type)        
+        # # print(f.classifier)
         #         try:    
         # #             # print('************************************')
-        #             print(f"\tProtocol name: {f.info['ProtocolName']}")
-        # #             o.write(f"{f.info['ProtocolName']} \n")
+        #             # print(f"\tProtocol name: {f.info['ProtocolName']}")
+        #             o.write(f"{f.info['ProtocolName']} \n")
         #         except KeyError as error:
         #             print(f'No protocol name for this file')
 
-        # # o.close
+        # o.close
 
+#3T file diffs by: 
+# cat file.txt | sort -u > save.txt
+#diff -y save1.txt save2.txt
 
                 
                 # instname = f.info['InstitutionName']
@@ -178,3 +222,4 @@ for count, session in enumerate(sessions, 1):
 # print(idset)
 
     # print(study)
+

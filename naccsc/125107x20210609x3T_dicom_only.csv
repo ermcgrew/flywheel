@@ -1,0 +1,19 @@
+acquisition.label,"f.info[""ProtocolName""]",Intent,Measurement,Features
+3 Plane Localizer,3 Plane Localizer,['Localizer'],['T2'],n/a
+PhoenixZIPReport,Phoenix Document,['Non-Image'],n/a,n/a
+Accelerated Sagittal MPRAGE,Accelerated Sagittal MPRAGE,['Structural'],['T1'],['MPRAGE']
+Sagittal 3D FLAIR,Sagittal 3D FLAIR,['Structural'],n/a,"['FLAIR', '3D']"
+Axial MB rsfMRI (Eyes Open),Axial MB rsfMRI (Eyes Open),['Functional'],['T2*'],n/a
+Field Mapping,Field Mapping,['Fieldmap'],['B0'],n/a
+Field Mapping,Field Mapping,['Fieldmap'],['B0'],n/a
+Axial MB DTI,Axial MB DTI,['Structural'],['Diffusion'],['DTI']
+Axial MB DTI_ADC,Axial MB DTI,['Structural'],['Diffusion'],"['Derived', 'DTI']"
+Axial MB DTI_TRACEW,Axial MB DTI,['Structural'],['Diffusion'],"['Derived', 'DTI', 'TRACE']"
+Axial MB DTI_FA,Axial MB DTI,['Structural'],['Diffusion'],"['Derived', 'DTI', 'FA']"
+Axial MB DTI_ColFA,Axial MB DTI,['Structural'],['Diffusion'],"['Derived', 'DTI']"
+Axial MB DTI_TENSOR,Axial MB DTI,['Non-Image'],['Diffusion'],['DTI']
+Axial 3TE T2 Star,Axial 3TE T2 Star,['Structural'],['T2'],n/a
+Axial 3TE T2 Star,Axial 3TE T2 Star,['Structural'],['T2'],n/a
+Perfusion_Weighted,Axial 3D PASL (Eyes Open),n/a,['Perfusion'],n/a
+Axial 3D PASL (Eyes Open),Axial 3D PASL (Eyes Open),n/a,['Perfusion'],"['PASL', '3D']"
+HighResHippocampus,HighResHippocampus,n/a,n/a,n/a
