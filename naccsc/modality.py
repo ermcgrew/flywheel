@@ -6,14 +6,16 @@ import flywheel
 fw = flywheel.Client()
 
 try:
-    project = fw.get_project('5c508d5fc2a4ad002d7628d8') #NACC-SC
+    project = fw.get_project('6328e43d7be4e9e7d7d5fcfc')
+    # project = fw.get_project('5c508d5fc2a4ad002d7628d8') #NACC-SC
     # project = fw.get_project('5ba2913fe849c300150d02ed')#Unsorted
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
 try:
+    sessions = project.sessions.iter_find()
     # sessions = project.sessions.iter_find('created>2022-09-01')  #07-27') 
-    sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
+    # sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
     # sessions = project.sessions.iter_find('label=117870x20220920x3TxABC')
     # sessions = project.sessions.iter_find('label=119202x20220921x3TxVCID')
     # sessions = project.sessions.iter_find('label=123367x20220906xFBBPETxABC') 
