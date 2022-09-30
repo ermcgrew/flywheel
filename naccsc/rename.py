@@ -55,29 +55,68 @@ for count, session in enumerate(sessions, 1):
     date = str(session.timestamp)[:10].replace('-','')
 
     for acquisition in session.acquisitions():
-        acquisition = acquisition.reload()
+        if acquisition.label == "PhoenixZIPReport" or acquisition.label == "Exam Summary_401_401":
+            ##those acquisitions don't have the detailed metadata
+            continue
+        else:
+            acquisition = acquisition.reload() 
+            if acquisition.files[0].type == 'dicom':
+                #only need the dicom file's metadata, dicom file is always first??check that
+                f = acquisition.files[0].info #dictionary of metadata info per file
+                instname = f['InstitutionName']
+                petid = f['PerformedProcedureStepDescription']
+                if '829602' in petid:
+                    study = "LEADS"
+
+                if 'Amyloid' in acquisition.label:
+                    scantype = 'FBBPET'
+                    if '844047' in petid:
+                        study = 'ABCD2'
+                    elif '825943' in petid:
+                        study = 'ABC'
+                elif 'PI2620' in acquisition.label:
+                    scantype = 'PI2620PET'
+                    # if '844047' in petid:
+                    #     study = 'ABCD2'
+                    # elif '829602' in petid:
+                    #     study = "LEADS"
+                    # elif '825943' in petid:
+                    study = 'ABC' ##only abc uses pi?
+                elif 'AV1451' in acquisition.label:
+                    scantype = 'AV1451PET'
+                    if '844403' in petid:
+                        study = 'ABCD2'
+                    elif '825944' in petid:
+                        study = 'ABC'
+                elif 'FDG' in acquisition.label:
+                    scantype = 'FDGPET'
+                    study='LEADS'
+                    
+
+        
         
         #this block only for MRIs
-        for f in acquisition.files:
-            instname = f.info['InstitutionName']
-            magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
-            if 7 in magstrength:
-                scantype="7T"
-                study = 'ABC'
-                break
-            elif 3 in magstrength:
-                scantype='3T'
-                if instname == 'HUP':
-                    study='LEADS or DVCID'
-                    break
-                elif instname == 'SC3T':
-                    if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
-                        study='ABC'
-                        break
-                    else:
-                        study='ABC or ABCD2'
-                        break
-            break        
+        # for f in acquisition.files:
+        #     instname = f.info['InstitutionName']
+        #     magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
+        #     if 7 in magstrength:
+        #         scantype="7T"
+        #         study = 'ABC'
+        #         break
+        #     elif 3 in magstrength:
+        #         scantype='3T'
+        #         if instname == 'HUP':
+        #             study='LEADS or DVCID'
+        #             break
+        #         elif instname == 'SC3T':
+        #             if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
+        #                 study='ABC'
+        #                 break
+        #             else:
+        #                 study='ABC or ABCD2'
+        #                 break
+        #     ###add additional f.info filters to id pet scan type/study        
+        #     break        
 
     
     modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]

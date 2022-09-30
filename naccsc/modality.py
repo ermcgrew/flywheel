@@ -6,17 +6,17 @@ import flywheel
 fw = flywheel.Client()
 
 try:
-    project = fw.get_project('6328e43d7be4e9e7d7d5fcfc')
-    # project = fw.get_project('5c508d5fc2a4ad002d7628d8') #NACC-SC
+    # project = fw.get_project('6328e43d7be4e9e7d7d5fcfc') #wecandream
+    project = fw.get_project('5c508d5fc2a4ad002d7628d8') #NACC-SC
     # project = fw.get_project('5ba2913fe849c300150d02ed')#Unsorted
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
 try:
-    sessions = project.sessions.iter_find()
+    # sessions = project.sessions.iter_find() #wecandream
     # sessions = project.sessions.iter_find('created>2022-09-01')  #07-27') 
     # sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
-    # sessions = project.sessions.iter_find('label=117870x20220920x3TxABC')
+    sessions = project.sessions.iter_find('label=117870x20220920x3TxABC')
     # sessions = project.sessions.iter_find('label=119202x20220921x3TxVCID')
     # sessions = project.sessions.iter_find('label=123367x20220906xFBBPETxABC') 
     # sessions = project.sessions.iter_find('label=128394x20220907xFBBPETxABCD2')
@@ -52,45 +52,55 @@ for count, session in enumerate(sessions, 1):
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'MR' in test:
         # print('MRI')
-        filename=f'{session.label}.csv'
-        headerrow= ['acquisition.label','f.info["ProtocolName"]', 'Intent', 'Measurement', 'Features']
-        with open(filename, 'w', newline='') as csvfile:
-            csvwriter=csv.writer(csvfile)
-            csvwriter.writerow(headerrow)
-            for acquisition in session.acquisitions():
-                acquisition = acquisition.reload()
-                for f in acquisition.files:
-                    if f.type == 'dicom' :
-                        filerow=[]
-                        filerow.append(acquisition.label)
-                        try:
-                            filerow.append(f.info['ProtocolName'])
-                        except KeyError as error:
-                            filerow.append('n/a')
+        # filename=f'{session.label}.csv'
+        # headerrow= ['acquisition.label','f.info["ProtocolName"]', 'Intent', 'Measurement', 'Features']
+        # with open(filename, 'w', newline='') as csvfile:
+        #     csvwriter=csv.writer(csvfile)
+        #     csvwriter.writerow(headerrow)
+        #     for acquisition in session.acquisitions():
+        #         acquisition = acquisition.reload()
+        #         for f in acquisition.files:
+        #             if f.type == 'dicom' :
+        #                 filerow=[]
+        #                 filerow.append(acquisition.label)
+        #                 try:
+        #                     filerow.append(f.info['ProtocolName'])
+        #                 except KeyError as error:
+        #                     filerow.append('n/a')
 
-                        try:
-                            filerow.append(acquisition.files[0].classification['Intent'])
-                        except KeyError as error:
-                            filerow.append('n/a')
+        #                 try:
+        #                     filerow.append(acquisition.files[0].classification['Intent'])
+        #                 except KeyError as error:
+        #                     filerow.append('n/a')
 
-                        try:
-                            filerow.append(acquisition.files[0].classification['Measurement'])
-                        except KeyError as error:
-                            filerow.append('n/a')
+        #                 try:
+        #                     filerow.append(acquisition.files[0].classification['Measurement'])
+        #                 except KeyError as error:
+        #                     filerow.append('n/a')
 
-                        try:
-                            filerow.append(acquisition.files[0].classification['Features'])
-                        except KeyError as error:
-                            filerow.append('n/a')
+        #                 try:
+        #                     filerow.append(acquisition.files[0].classification['Features'])
+        #                 except KeyError as error:
+        #                     filerow.append('n/a')
 
-                        csvwriter.writerow(filerow)
-                    else:
-                        continue
+        #                 csvwriter.writerow(filerow)
+        #             else:
+        #                 continue
 
 
         # o = open(f'TestLEADS', 'a')
-        # for acquisition in session.acquisitions():
-        #     acquisition = acquisition.reload()
+        for acquisition in session.acquisitions():   
+            if acquisition.label == "PhoenixZIPReport" or acquisition.label == "Exam Summary_401_401":
+                continue
+            else:
+                acquisition = acquisition.reload() 
+                if acquisition.files[0].type == 'dicom':
+                    # print(acquisition.files[0].info['InstitutionName'])
+                    # print(acquisition.files[0].info['MagneticFieldStrength'])
+                    f = acquisition.files[0].info
+                    instname = f['InstitutionName']
+                    print(instname)
+                
         # # #     print('**********************************')
         # #     # print(f'Acquisition Label: {acquisition.label}')
         # # #     print(f'Classifiction: {acquisition.files[0].classification}')
@@ -145,39 +155,39 @@ for count, session in enumerate(sessions, 1):
         # print("PET scan")
         # o = open(f'{session.label}', 'a')
         petlabels = [acquisition.label for acquisition in session.acquisitions()]
-        for petlabel in petlabels:
-            if 'Amyloid' in petlabel:
-                scantype = 'FBBPET'
-                break
-            elif 'PI2620' in petlabel:
-                scantype = 'PI2620PET'
-                break
-            elif 'AV1451' in petlabel:
-                scantype = 'AV1451PET'
-                break
-            elif 'FDG' in petlabel:
-                scantype = 'FDGPET'
-                study='LEADS'
-                break
-        for acquisition in session.acquisitions():
-            acquisition = acquisition.reload()
+        # for petlabel in petlabels:
+        #     if 'Amyloid' in petlabel:
+        #         scantype = 'FBBPET'
+        #         break
+        #     elif 'PI2620' in petlabel:
+        #         scantype = 'PI2620PET'
+        #         break
+        #     elif 'AV1451' in petlabel:
+        #         scantype = 'AV1451PET'
+        #         break
+        #     elif 'FDG' in petlabel:
+        #         scantype = 'FDGPET'
+        #         study='LEADS'
+        #         break
+        # for acquisition in session.acquisitions():
+        #     acquisition = acquisition.reload()
             # print('**********************************')
             # print(f'Acquisition Label: {acquisition.label}')
             # o.write('**********************************\n')
             # o.write(f'Acquisition Label: {acquisition.label}\n')
-            for f in acquisition.files:
-                try:
-                    # number = f.info['PerformedProcedureStepDescription']
-                    # print(number[:7])
-                    # if '844047' in f.info['PerformedProcedureStepDescription']:
-                    #     print('FBBPETxABCD2')
-                    print(f.info['PerformedProcedureStepDescription'])
-                except KeyError as error:
-                    print(f"not found for this file")
-                try:
-                    print(f.info['ProtocolName'])
-                except KeyError as error:
-                    print('not found')
+            # for f in acquisition.files:
+            #     try:
+            #         # number = f.info['PerformedProcedureStepDescription']
+            #         # print(number[:7])
+            #         # if '844047' in f.info['PerformedProcedureStepDescription']:
+            #         #     print('FBBPETxABCD2')
+            #         print(f.info['PerformedProcedureStepDescription'])
+            #     except KeyError as error:
+            #         print(f"not found for this file")
+            #     try:
+            #         print(f.info['ProtocolName'])
+            #     except KeyError as error:
+            #         print('not found')
                 # print(f"\tProtocol name: {f.info['ProtocolName']}")
                 # o.write('****New file for Acquisition******\n') 
                 # keylist=["InstitutionName", "ManufacturerModelName", "PerformedProcedureStepDescription", "PerformedProcedureStepID", "ProtocolName", "SeriesDescription", "SeriesType", "StationName"]
