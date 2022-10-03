@@ -1,4 +1,5 @@
 from csv import field_size_limit
+import csv
 from pprint import pprint
 from datetime import datetime
 
@@ -14,9 +15,9 @@ except flywheel.ApiException as e:
 
 try:
     # sessions = project.sessions.iter_find() #wecandream
-    # sessions = project.sessions.iter_find('created>2022-09-01')  #07-27') 
+    sessions = project.sessions.iter_find('created>2022-09-02')  #07-27') 
     # sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
-    sessions = project.sessions.iter_find('label=117870x20220920x3TxABC')
+    # sessions = project.sessions.iter_find('label=117870x20220920x3TxABC')
     # sessions = project.sessions.iter_find('label=119202x20220921x3TxVCID')
     # sessions = project.sessions.iter_find('label=123367x20220906xFBBPETxABC') 
     # sessions = project.sessions.iter_find('label=128394x20220907xFBBPETxABCD2')
@@ -31,15 +32,14 @@ try:
 
 except flywheel.ApiException as e:
     print(f'Error: {e}')
-
-# idlist =[]
+headerrow=['Session label', 'uploaded by']
 
 for count, session in enumerate(sessions, 1):
-    # if session.label[16:25] !="AV1451PET":
-    #     continue
-    # else:
+        # if session.label[16:25] !="AV1451PET":
+        #     continue
+        # else:
     print(f'session loop {count}: {session.label}')
-
+    print(session)
     # if session.label[-3:] == 'ABC':
     #     study="ABC"
     # if session.label[-5:] =="ABCD2":
@@ -47,11 +47,12 @@ for count, session in enumerate(sessions, 1):
     # date = str(session.timestamp)[:10].replace('-','')
     # if date > '2022-07-01':
     #     print(f'{date} is after july 1')
-    import csv
+    
 
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     if 'MR' in test:
-        # print('MRI')
+        continue    
+    # print('MRI')
         # filename=f'{session.label}.csv'
         # headerrow= ['acquisition.label','f.info["ProtocolName"]', 'Intent', 'Measurement', 'Features']
         # with open(filename, 'w', newline='') as csvfile:
@@ -89,17 +90,17 @@ for count, session in enumerate(sessions, 1):
 
 
         # o = open(f'TestLEADS', 'a')
-        for acquisition in session.acquisitions():   
-            if acquisition.label == "PhoenixZIPReport" or acquisition.label == "Exam Summary_401_401":
-                continue
-            else:
-                acquisition = acquisition.reload() 
-                if acquisition.files[0].type == 'dicom':
-                    # print(acquisition.files[0].info['InstitutionName'])
-                    # print(acquisition.files[0].info['MagneticFieldStrength'])
-                    f = acquisition.files[0].info
-                    instname = f['InstitutionName']
-                    print(instname)
+        # for acquisition in session.acquisitions():   
+        #     if acquisition.label == "PhoenixZIPReport" or acquisition.label == "Exam Summary_401_401":
+        #         continue
+        #     else:
+        #         acquisition = acquisition.reload() 
+        #         if acquisition.files[0].type == 'dicom':
+        #             # print(acquisition.files[0].info['InstitutionName'])
+        #             # print(acquisition.files[0].info['MagneticFieldStrength'])
+        #             f = acquisition.files[0].info
+        #             instname = f['InstitutionName']
+        #             print(instname)
                 
         # # #     print('**********************************')
         # #     # print(f'Acquisition Label: {acquisition.label}')
@@ -152,9 +153,17 @@ for count, session in enumerate(sessions, 1):
             #     break
             # break
     elif 'PT' in test:
-        # print("PET scan")
-        # o = open(f'{session.label}', 'a')
-        petlabels = [acquisition.label for acquisition in session.acquisitions()]
+        print("PET scan")
+        for acquisition in session.acquisitions():
+            acquisition = acquisition.reload()
+            # pprint(acquisition)
+            # for f in acquisition.files:
+            #     if f.info['PatientName']:
+            #         print('patient name field exists')
+            break
+
+
+        # petlabels = [acquisition.label for acquisition in session.acquisitions()]
         # for petlabel in petlabels:
         #     if 'Amyloid' in petlabel:
         #         scantype = 'FBBPET'
@@ -202,19 +211,6 @@ for count, session in enumerate(sessions, 1):
                 # except KeyError as error:
                 #     o.write("key not found for this file\n")
 
-                # try:
-                #     o.write(f'InstitutionName: {f.info["InstitutionName"]}\n')
-                #     o.write(f'ManufacturerModelName: {f.info["ManufacturerModelName"]}\n')
-                #     o.write(f'PerformedProcedureStepDescription: {f.info["PerformedProcedureStepDescription"]}\n')
-                #     o.write(f'PerformedProcedureStepID: {f.info["PerformedProcedureStepID"]}\n')
-                #     o.write(f'ProtocolName: {f.info["ProtocolName"]}\n')
-                #     o.write(f'SeriesDescription: {f.info["SeriesDescription"]}\n')
-                #     o.write(f'SeriesType: {f.info["SeriesType"]}\n')
-                #     o.write(f'StationName: {f.info["StationName"]}\n')
-
-                
-                # o.write(f.info)
-
 
                 # pprint(f.info, o)
                 # print('**************************')
@@ -227,11 +223,3 @@ for count, session in enumerate(sessions, 1):
     #     if acquisition.files[0].modality == 'PT':
     #         # print(acquisition)
     #         # print(acquisition.label)
-
-
-# idset = set(idlist)
-# print(len(idset))
-# print(idset)
-
-    # print(study)
-
