@@ -56,7 +56,7 @@ for count, session in enumerate(sessions, 1):
 
     for acquisition in session.acquisitions():
         if acquisition.label == "PhoenixZIPReport" or acquisition.label == "Exam Summary_401_401":
-            ##those acquisitions don't have detailed metadata
+            #those acquisitions don't have detailed metadata
             continue
         else:
             acquisition = acquisition.reload() 
@@ -74,24 +74,32 @@ for count, session in enumerate(sessions, 1):
                         scantype = 'FBBPET'
                         if '844047' in petid:
                             study = 'ABCD2'
+                            break
                         elif '825943' in petid:
                             study = 'ABC'
+                            break
                         elif '829602' in petid:
                             study = "LEADS"
+                            break
                     elif 'PI2620' in acquisition.label:
                         scantype = 'PI2620PET'
                         study = 'ABC'
+                        break
                     elif 'AV1451' in acquisition.label:
                         scantype = 'AV1451PET'
                         if '844403' in petid:
                             study = 'ABCD2'
+                            break
                         elif '825944' in petid or '833864' in petid:
                             study = 'ABC'
+                            break
                         elif '829602' in petid:
                             study = "LEADS"
+                            break
                     elif 'FDG' in acquisition.label:
                         scantype = 'FDGPET'
                         study='LEADS'
+                        break
                 ##MRIs        
                 elif 'MR' in modality:
                     ######
@@ -103,23 +111,22 @@ for count, session in enumerate(sessions, 1):
                     elif 3 in magstrength:
                         scantype='3T'
                         if instname == 'HUP':
-                            study='LEADS or DVCID'
-                            ######
-                            # labellist=[acquisition.label for acquisition in session.acquisitions()]
-                            # if 'Axial MB DTI' in labellist:
-                            #     study='LEADS'
-                            # elif 'LLASL_m16LC_3.0s_2.0s_bs31_mis' in labellist:
-                            #     study='DVCID'
-                            break
+                            ######not sure this is the right level to put this
+                            labellist=[acquisition.label for acquisition in session.acquisitions()]
+                            if 'Axial MB DTI' in labellist:
+                                study='LEADS'
+                                break
+                            elif 'LLASL_m16LC_3.0s_2.0s_bs31_mis' in labellist:
+                                study='DVCID'
+                                break
                         elif instname == 'SC3T':
                             if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
                                 study='ABC'
                                 break
                             else:
+                                ######add this session to list for review
                                 study='ABC or ABCD2'
-                                ######
                                 print('determine manually')
-                                ##add this session to list for review
                                 break        
                     
 
