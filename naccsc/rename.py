@@ -48,7 +48,7 @@ for count, session in enumerate(sessions, 1):
 
     if '_' in session.subject.label: 
         indd=session.subject.label.replace('_',"x")
-        ##add update to session.subject.label? 
+        ######add update to session.subject.label? 
     else: 
         indd = session.subject.label
     
@@ -56,96 +56,79 @@ for count, session in enumerate(sessions, 1):
 
     for acquisition in session.acquisitions():
         if acquisition.label == "PhoenixZIPReport" or acquisition.label == "Exam Summary_401_401":
-            ##those acquisitions don't have the detailed metadata
+            ##those acquisitions don't have detailed metadata
             continue
         else:
             acquisition = acquisition.reload() 
             if acquisition.files[0].type == 'dicom':
-                #only need the dicom file's metadata, dicom file is always first??check that
+                #only need the dicom file's metadata, 
+                ######dicom file is always first??check
                 f = acquisition.files[0].info #dictionary of metadata info per file
                 instname = f['InstitutionName']
-                petid = f['PerformedProcedureStepDescription']
-                if '829602' in petid:
-                    study = "LEADS"
-
-                if 'Amyloid' in acquisition.label:
-                    scantype = 'FBBPET'
-                    if '844047' in petid:
-                        study = 'ABCD2'
-                    elif '825943' in petid:
+                modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
+                ##PET scans
+                ######add in break statements for this block
+                if 'PT' in modality:
+                    petid = f['PerformedProcedureStepDescription']                
+                    if 'Amyloid' in acquisition.label:
+                        scantype = 'FBBPET'
+                        if '844047' in petid:
+                            study = 'ABCD2'
+                        elif '825943' in petid:
+                            study = 'ABC'
+                        elif '829602' in petid:
+                            study = "LEADS"
+                    elif 'PI2620' in acquisition.label:
+                        scantype = 'PI2620PET'
                         study = 'ABC'
-                elif 'PI2620' in acquisition.label:
-                    scantype = 'PI2620PET'
-                    # if '844047' in petid:
-                    #     study = 'ABCD2'
-                    # elif '829602' in petid:
-                    #     study = "LEADS"
-                    # elif '825943' in petid:
-                    study = 'ABC' ##only abc uses pi?
-                elif 'AV1451' in acquisition.label:
-                    scantype = 'AV1451PET'
-                    if '844403' in petid:
-                        study = 'ABCD2'
-                    elif '825944' in petid:
+                    elif 'AV1451' in acquisition.label:
+                        scantype = 'AV1451PET'
+                        if '844403' in petid:
+                            study = 'ABCD2'
+                        elif '825944' in petid or '833864' in petid:
+                            study = 'ABC'
+                        elif '829602' in petid:
+                            study = "LEADS"
+                    elif 'FDG' in acquisition.label:
+                        scantype = 'FDGPET'
+                        study='LEADS'
+                ##MRIs        
+                elif 'MR' in modality:
+                    ######
+                    magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
+                    if 7 in magstrength:
+                        scantype="7T"
                         study = 'ABC'
-                elif 'FDG' in acquisition.label:
-                    scantype = 'FDGPET'
-                    study='LEADS'
+                        break
+                    elif 3 in magstrength:
+                        scantype='3T'
+                        if instname == 'HUP':
+                            study='LEADS or DVCID'
+                            ######
+                            # labellist=[acquisition.label for acquisition in session.acquisitions()]
+                            # if 'Axial MB DTI' in labellist:
+                            #     study='LEADS'
+                            # elif 'LLASL_m16LC_3.0s_2.0s_bs31_mis' in labellist:
+                            #     study='DVCID'
+                            break
+                        elif instname == 'SC3T':
+                            if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
+                                study='ABC'
+                                break
+                            else:
+                                study='ABC or ABCD2'
+                                ######
+                                print('determine manually')
+                                ##add this session to list for review
+                                break        
                     
-
-        
-        
-        #this block only for MRIs
-        # for f in acquisition.files:
-        #     instname = f.info['InstitutionName']
-        #     magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
-        #     if 7 in magstrength:
-        #         scantype="7T"
-        #         study = 'ABC'
-        #         break
-        #     elif 3 in magstrength:
-        #         scantype='3T'
-        #         if instname == 'HUP':
-        #             study='LEADS or DVCID'
-        #             break
-        #         elif instname == 'SC3T':
-        #             if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
-        #                 study='ABC'
-        #                 break
-        #             else:
-        #                 study='ABC or ABCD2'
-        #                 break
-        #     ###add additional f.info filters to id pet scan type/study        
-        #     break        
-
-    
-    modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
-    if 'PT' in modality:
-        petlabels = [acquisition.label for acquisition in session.acquisitions()]
-        for petlabel in petlabels:
-            if 'Amyloid' in petlabel:
-                scantype = 'FBBPET'
-                study='?'
-                break
-            elif 'PI2620' in petlabel:
-                scantype = 'PI2620PET'
-                study='?'
-                break
-            elif 'AV1451' in petlabel:
-                scantype = 'AV1451PET'
-                study='?'
-                break
-            elif 'FDG' in petlabel:
-                scantype = 'FDGPET'
-                study='LEADS'
-                break
-
 
     newlabel = indd + 'x' + date + 'x' + scantype + 'x' + study
     print(f'Renaming session to: {newlabel}') 
 
 #############################################################
     # session.update({'label': newlabel})
+    # session.reload()
     # print(f'Session label is now {session.label}')
 #############################################################
 
