@@ -15,7 +15,7 @@ except flywheel.ApiException as e:
 
 try:
     # sessions = project.sessions.iter_find() #wecandream
-    sessions = project.sessions.iter_find('created>2022-09-02')  #07-27') 
+    sessions = project.sessions.iter_find('created>2022-10-02')  #07-27') 
     # sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
     # sessions = project.sessions.iter_find('label=117870x20220920x3TxABC')
     # sessions = project.sessions.iter_find('label=119202x20220921x3TxVCID')
@@ -39,7 +39,17 @@ for count, session in enumerate(sessions, 1):
         #     continue
         # else:
     print(f'session loop {count}: {session.label}')
-    print(session)
+    # print(session)
+    name=session.label
+    namelist=name.split('x')
+    if len(namelist) == 4:
+        print(f'Session {session.label} is correct')
+        continue
+    elif namelist[2] == '3T' or namelist[2] == '7T':
+        print('skip to study id')
+        ##still verify indd & date are correct??
+    else: 
+        print('do whole rename')
     # if session.label[-3:] == 'ABC':
     #     study="ABC"
     # if session.label[-5:] =="ABCD2":
