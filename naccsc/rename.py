@@ -1,4 +1,5 @@
 from datetime import datetime
+from operator import mod
 import flywheel
 #user must be logged into flywheel via CLI to use flywheel.client()
 fw = flywheel.Client()
@@ -12,7 +13,7 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('created>2022-08-19') #subset to test on: created>2022-07-19  label=101628_01_20180508_7T
+    sessions = project.sessions.iter_find('created>2022-07-14') #subset to test on    125081xFDGx20220720 label=127794xAV1451PETx20220719
 except flywheel.ApiException as e:
     print(f'Error: {e}')
  
@@ -27,7 +28,7 @@ for count, session in enumerate(sessions, 1):
             print('date test passed')
             if session.label[16:18] == '3T' or session.label[16:18] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':
                 print('scantype test passed')
-                if session.label[-3:] == 'ABC' or session.label[-5:] =="ABCD2" or session.label[-5:] == 'DVCID':
+                if session.label[-3:] == 'ABC' or session.label[-5:] =="ABCD2" or session.label[-4:] == 'VCID':
                     print('study suffix correct')
                     print(f'Session name {session.label} is correct, skipping session.')
                     continue
@@ -55,21 +56,32 @@ for count, session in enumerate(sessions, 1):
     date = str(session.timestamp)[:10].replace('-','')
 
     for acquisition in session.acquisitions():
-        if acquisition.label == "PhoenixZIPReport" or acquisition.label == "Exam Summary_401_401":
+        modality = acquisition.files[0].modality
+        if modality == 'CT' or modality == 'SR': #acquisition.label == "PhoenixZIPReport" or acquisition.label == "Exam Summary_401_401":
             #those acquisitions don't have detailed metadata
             continue
         else:
-            acquisition = acquisition.reload() 
             if acquisition.files[0].type == 'dicom':
                 #only need the dicom file's metadata, 
                 ######dicom file is always first??check
+                acquisition = acquisition.reload() 
+
                 f = acquisition.files[0].info #dictionary of metadata info per file
                 instname = f['InstitutionName']
-                modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
-                ##PET scans
+                # print(petid)
+                # modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
+                magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
+                
+                labellist=[acquisition.label for acquisition in session.acquisitions()]
+                # print(labellist)
+
+                ##PET scans 
                 ######add in break statements for this block
-                if 'PT' in modality:
-                    petid = f['PerformedProcedureStepDescription']                
+                # if 'PT' in modality:
+                if modality == 'PT':
+                    print(acquisition.label)
+                    petid = f['PerformedProcedureStepDescription'] ###maybe move back to between PT in modality & amyloid in acq.label
+                    print(petid)
                     if 'Amyloid' in acquisition.label:
                         scantype = 'FBBPET'
                         if '844047' in petid:
@@ -81,7 +93,7 @@ for count, session in enumerate(sessions, 1):
                         elif '829602' in petid:
                             study = "LEADS"
                             break
-                    elif 'PI2620' in acquisition.label:
+                    elif '2620' in acquisition.label: #PI2620
                         scantype = 'PI2620PET'
                         study = 'ABC'
                         break
@@ -101,32 +113,36 @@ for count, session in enumerate(sessions, 1):
                         study='LEADS'
                         break
                 ##MRIs        
-                elif 'MR' in modality:
+                # elif 'MR' in modality:
+                elif modality == "MR":
                     ######
-                    magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
                     if 7 in magstrength:
                         scantype="7T"
                         study = 'ABC'
                         break
                     elif 3 in magstrength:
+                        print('magstrength is 3')
                         scantype='3T'
                         if instname == 'HUP':
-                            ######not sure this is the right level to put this
-                            labellist=[acquisition.label for acquisition in session.acquisitions()]
-                            if 'Axial MB DTI' in labellist:
+                            if 'Axial 3TE T2 Star' in labellist:  # MB DTI
+                                ##### if axial in any x of labellist
+                                print('study is LEADS')
                                 study='LEADS'
                                 break
                             elif 'LLASL_m16LC_3.0s_2.0s_bs31_mis' in labellist:
-                                study='DVCID'
+                                study='VCID'
+                                print('study is VCID')
                                 break
                         elif instname == 'SC3T':
-                            if session.timestamp <= datetime.strptime('2021/01/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
+                            print('instname is sc3t')
+                            if session.timestamp <= datetime.strptime('2022/02/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
                                 study='ABC'
+                                print('study is ABC')
                                 break
                             else:
                                 ######add this session to list for review
-                                study='ABC or ABCD2'
-                                print('determine manually')
+                                study=''
+                                print('ABC or ABCD2--determine manually')
                                 break        
                     
 

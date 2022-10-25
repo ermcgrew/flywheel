@@ -40,16 +40,18 @@ for count, session in enumerate(sessions, 1):
         # else:
     print(f'session loop {count}: {session.label}')
     # print(session)
-    name=session.label
-    namelist=name.split('x')
-    if len(namelist) == 4:
-        print(f'Session {session.label} is correct')
-        continue
-    elif namelist[2] == '3T' or namelist[2] == '7T':
-        print('skip to study id')
-        ##still verify indd & date are correct??
-    else: 
-        print('do whole rename')
+    
+    # name=session.label
+    # namelist=name.split('x')
+    # if len(namelist) == 4:
+    #     print(f'Session {session.label} is correct')
+    #     continue
+    # elif namelist[2] == '3T' or namelist[2] == '7T':
+    #     print('skip to study id')
+    #     ##still verify indd & date are correct??
+    # else: 
+    #     print('do whole rename')
+
     # if session.label[-3:] == 'ABC':
     #     study="ABC"
     # if session.label[-5:] =="ABCD2":
@@ -57,9 +59,12 @@ for count, session in enumerate(sessions, 1):
     # date = str(session.timestamp)[:10].replace('-','')
     # if date > '2022-07-01':
     #     print(f'{date} is after july 1')
-    
+    for acquisition in session.acquisitions():
+        print(acquisition.files[0].modality)
+        print(acquisition.label)
 
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
+    # print(test)
     if 'MR' in test:
         continue    
     # print('MRI')
