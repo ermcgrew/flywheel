@@ -13,7 +13,8 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('created>2022-07-14') #subset to test on    125081xFDGx20220720 label=127794xAV1451PETx20220719
+    sessions = project.sessions.iter_find('label=108672x20221011x3TxVCID')  #label=125107x20210609x3T   label=125590x10202022x7T
+    #subset to test on mris:created>2022-10-01   pet: created>2022-07-14  125081xFDGx20220720 label=127794xAV1451PETx20220719
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -64,34 +65,27 @@ for count, session in enumerate(sessions, 1):
 
     for acquisition in session.acquisitions():
         modality = acquisition.files[0].modality
-        if modality == 'CT' or modality == 'SR': 
-            #those acquisitions don't have detailed metadata
+        if modality == 'CT' or modality == 'SR': #those acquisitions don't have detailed metadata
             continue
         else:
-            if acquisition.files[0].type == 'dicom':
-                #only need the dicom file's metadata, 
-                ######dicom file is always first??check
-                
-                labellist=[acquisition.label for acquisition in session.acquisitions()]
-                # print(labellist)
-                
-                magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
-                #does this need to be a list comp? goes here before reload??
-
-
+            if acquisition.files[0].type == 'dicom': #only need the dicom file's metadata
+                labels=' '.join([acquisition.label for acquisition in session.acquisitions()]) #all acq.labels into 1 string to be partial-matched to
 
                 acquisition = acquisition.reload() 
                 f = acquisition.files[0].info #dictionary of metadata info per file
-                instname = f['InstitutionName'] ##add inst.address as another field to match if instname doesn't exist
+                if 'MagneticFieldStrength' in f:
+                    magstrength=f['MagneticFieldStrength']
+
+                instname = f['InstitutionName'] ##add try/except here
+                # instaddress = f['InstitutionAddress']
+                
                 petid = f['PerformedProcedureStepDescription'] #fine here, try as listcomp??
                 #print(petid)
                 
 
                 ##PET scans 
                 if modality == 'PT':
-                    print(acquisition.label)
-
-                    if 'Amyloid' in acquisition.label:
+                    if 'Amyloid' in labels: 
                         scantype = 'FBBPET'
                         if '844047' in petid:
                             study = 'ABCD2'
@@ -103,13 +97,13 @@ for count, session in enumerate(sessions, 1):
                         elif '829602' in petid:
                             study = "LEADS"
                             break
-                    elif '2620' in acquisition.label: #PI2620 sometimes listed with space--PI 2620
+                    elif '2620' in labels: #PI2620 sometimes listed with space--PI 2620
                         scantype = 'PI2620PET'
                         study = 'ABC'
                         print('study ABC assigned line 98')
 
                         break
-                    elif 'AV1451' in acquisition.label:
+                    elif 'AV1451' in labels: 
                         scantype = 'AV1451PET'
                         if '844403' in petid:
                             study = 'ABCD2'
@@ -122,32 +116,33 @@ for count, session in enumerate(sessions, 1):
                         elif '829602' in petid:
                             study = "LEADS"
                             break
-                    elif 'FDG' in acquisition.label:
+                    elif 'FDG' in labels: 
                         scantype = 'FDGPET'
                         study='LEADS'
                         break
                 ##MRIs        
                 elif modality == "MR":
-                    if 7 in magstrength:
+                    if magstrength == 7:
                         scantype="7T"
                         study = 'ABC'
                         print('study ABC assigned line 123')
 
                         break
-                    elif 3 in magstrength:
+                    elif magstrength == 3:
                         print('magstrength is 3')
                         scantype='3T'
                         if instname == 'HUP':
-                            if 'Axial 3TE T2 Star' in labellist:  # MB DTI
-                                ##### if axial in any x of labellist
+                                ##add InstitutionAddress as another field to match if instname doesn't exist
+                            if 'Axial' in labels:
                                 print('study is LEADS')
                                 study='LEADS'
                                 break
-                            elif 'LLASL_m16LC_3.0s_2.0s_bs31_mis' in labellist:
+                            elif 'LLASL' in labels:
                                 study='VCID'
                                 print('study is VCID')
                                 break
                         elif instname == 'SC3T':
+                            ##add InstitutionAddress as another field to match if instname doesn't exist
                             print('instname is sc3t')
                             if session.timestamp <= datetime.strptime('2022/02/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
                                 study='ABC'
