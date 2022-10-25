@@ -1,6 +1,12 @@
 from datetime import datetime
 from operator import mod
 import flywheel
+
+def mknote(indd,date,scantype):
+    newlabel = indd + 'x' + date + 'x' + scantype + 'x'
+    o.write(f'{newlabel}\n')
+    return 
+
 #user must be logged into flywheel via CLI to use flywheel.client()
 fw = flywheel.Client()
 
@@ -13,10 +19,14 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('created>2022-07-14')  #label=125107x20210609x3T   label=125590x10202022x7T
+    sessions = project.sessions.iter_find('created>2022-07-14')  #label=125107x20210609x3T   label=125590x10202022x7T    
     #subset to test on mris:created>2022-10-01   pet: created>2022-07-14  125081xFDGx20220720 label=127794xAV1451PETx20220719
 except flywheel.ApiException as e:
     print(f'Error: {e}')
+
+#document to track sessions that can't be completely renamed:
+time=datetime.now().strftime("%Y%m%d_%H%M")
+o = open(f'sessions_no_study_{time}', 'a')
 
 #look at each session and rename as appropriate
 for count, session in enumerate(sessions, 1):
@@ -65,11 +75,16 @@ for count, session in enumerate(sessions, 1):
 
     for acquisition in session.acquisitions():
         modality = acquisition.files[0].modality
+        # print('for loop working')
         if modality == 'CT' or modality == 'SR': #those acquisitions don't have detailed metadata
             continue
         else:
+            # print('hit the else')
+            # print(acquisition.files[1].type) ###how to handle when dicom is not the [0] file...
             if acquisition.files[0].type == 'dicom': #only need the dicom file's metadata
+                # print("is dicom")
                 labels=' '.join([acquisition.label for acquisition in session.acquisitions()]) #all acq.labels into 1 string to be partial-matched to
+                # print(labels)
                 acquisition = acquisition.reload() 
                 f = acquisition.files[0].info #dictionary of metadata info per file
                 if 'MagneticFieldStrength' in f:
@@ -85,8 +100,7 @@ for count, session in enumerate(sessions, 1):
                 except KeyError as e:
                     print(f'No key {e} exists')
                 
-                petid = f['PerformedProcedureStepDescription'] #fine here, try as listcomp??
-                #print(petid)
+                petid = f['PerformedProcedureStepDescription']
 
                 ##PET scans 
                 if modality == 'PT':
@@ -97,16 +111,19 @@ for count, session in enumerate(sessions, 1):
                             break
                         elif '825943' in petid:
                             study = 'ABC'
-                            print('study ABC assigned line 90')
+                            # print('study ABC assigned line 90')
                             break
                         elif '829602' in petid:
                             study = "LEADS"
                             break
+                        else: ##if no matching petid
+                            print('No matching performed procedure step description found')
+                            mknote(indd,date,scantype)
+                            break
                     elif '2620' in labels: #PI2620 sometimes listed with space--PI 2620
                         scantype = 'PI2620PET'
                         study = 'ABC'
-                        print('study ABC assigned line 98')
-
+                        # print('study ABC assigned line 98')
                         break
                     elif 'AV1451' in labels: 
                         scantype = 'AV1451PET'
@@ -115,11 +132,14 @@ for count, session in enumerate(sessions, 1):
                             break
                         elif '825944' in petid or '833864' in petid:
                             study = 'ABC'
-                            print('study ABC assigned line 108')
-
+                            # print('study ABC assigned line 108')
                             break
                         elif '829602' in petid:
                             study = "LEADS"
+                            break
+                        else: ##if no matching petid
+                            print('No matching performed procedure step description found')
+                            mknote(indd,date,scantype)
                             break
                     elif 'FDG' in labels: 
                         scantype = 'FDGPET'
@@ -132,26 +152,25 @@ for count, session in enumerate(sessions, 1):
                         study = 'ABC'
                         break
                     elif magstrength == 3:
-                        print('magstrength is 3')
+                        # print('magstrength is 3')
                         scantype='3T'
                         if instname == 'HUP' or 'Spruce' in instaddress:
                             if 'Axial' in labels:
-                                print('study is LEADS')
+                                # print('study is LEADS')
                                 study='LEADS'
                                 break
                             elif 'LLASL' in labels:
                                 study='VCID'
-                                print('study is VCID')
+                                # print('study is VCID')
                                 break
                         elif instname == 'SC3T' or 'Curie' in instaddress:
-                            print('instname is sc3t')
+                            # print('instname is sc3t')
                             if session.timestamp <= datetime.strptime('2022/02/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
                                 study='ABC'
                                 break
                             else:
-                                ######add this session to list for review
-                                study=''
                                 print('ABC or ABCD2--determine manually')
+                                mknote(indd,date,scantype)
                                 break        
                     
 
@@ -163,5 +182,5 @@ for count, session in enumerate(sessions, 1):
     # session.reload()
     # print(f'Session label is now {session.label}')
 #############################################################
-
+o.close()
 print(f'{count} sessions in project {project.label} checked')  
