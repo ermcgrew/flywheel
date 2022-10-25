@@ -16,10 +16,17 @@ try:
     sessions = project.sessions.iter_find('created>2022-07-14') #subset to test on    125081xFDGx20220720 label=127794xAV1451PETx20220719
 except flywheel.ApiException as e:
     print(f'Error: {e}')
- 
+
 #look at each session and rename as appropriate
 for count, session in enumerate(sessions, 1):
     print(f'***********session loop {count}: {session.label}******************')
+    
+    #reset variables to empty strings
+    indd=''
+    date=''
+    scantype=''
+    study=''
+
     ########ID incorrect session labels########    
     #once a session fails an if (fails to match correct format), go to rename block
     if session.label[0:6] == session.subject.label:
@@ -57,31 +64,33 @@ for count, session in enumerate(sessions, 1):
 
     for acquisition in session.acquisitions():
         modality = acquisition.files[0].modality
-        if modality == 'CT' or modality == 'SR': #acquisition.label == "PhoenixZIPReport" or acquisition.label == "Exam Summary_401_401":
+        if modality == 'CT' or modality == 'SR': 
             #those acquisitions don't have detailed metadata
             continue
         else:
             if acquisition.files[0].type == 'dicom':
                 #only need the dicom file's metadata, 
                 ######dicom file is always first??check
-                acquisition = acquisition.reload() 
-
-                f = acquisition.files[0].info #dictionary of metadata info per file
-                instname = f['InstitutionName']
-                # print(petid)
-                # modality = [acquisition.files[0].modality for acquisition in session.acquisitions()]
-                magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
                 
                 labellist=[acquisition.label for acquisition in session.acquisitions()]
                 # print(labellist)
+                
+                magstrength=[f.info['MagneticFieldStrength'] for f in acquisition.files if 'MagneticFieldStrength' in f.info]
+                #does this need to be a list comp? goes here before reload??
+
+
+
+                acquisition = acquisition.reload() 
+                f = acquisition.files[0].info #dictionary of metadata info per file
+                instname = f['InstitutionName'] ##add inst.address as another field to match if instname doesn't exist
+                petid = f['PerformedProcedureStepDescription'] #fine here, try as listcomp??
+                #print(petid)
+                
 
                 ##PET scans 
-                ######add in break statements for this block
-                # if 'PT' in modality:
                 if modality == 'PT':
                     print(acquisition.label)
-                    petid = f['PerformedProcedureStepDescription'] ###maybe move back to between PT in modality & amyloid in acq.label
-                    print(petid)
+
                     if 'Amyloid' in acquisition.label:
                         scantype = 'FBBPET'
                         if '844047' in petid:
@@ -89,13 +98,16 @@ for count, session in enumerate(sessions, 1):
                             break
                         elif '825943' in petid:
                             study = 'ABC'
+                            print('study ABC assigned line 90')
                             break
                         elif '829602' in petid:
                             study = "LEADS"
                             break
-                    elif '2620' in acquisition.label: #PI2620
+                    elif '2620' in acquisition.label: #PI2620 sometimes listed with space--PI 2620
                         scantype = 'PI2620PET'
                         study = 'ABC'
+                        print('study ABC assigned line 98')
+
                         break
                     elif 'AV1451' in acquisition.label:
                         scantype = 'AV1451PET'
@@ -104,6 +116,8 @@ for count, session in enumerate(sessions, 1):
                             break
                         elif '825944' in petid or '833864' in petid:
                             study = 'ABC'
+                            print('study ABC assigned line 108')
+
                             break
                         elif '829602' in petid:
                             study = "LEADS"
@@ -113,12 +127,12 @@ for count, session in enumerate(sessions, 1):
                         study='LEADS'
                         break
                 ##MRIs        
-                # elif 'MR' in modality:
                 elif modality == "MR":
-                    ######
                     if 7 in magstrength:
                         scantype="7T"
                         study = 'ABC'
+                        print('study ABC assigned line 123')
+
                         break
                     elif 3 in magstrength:
                         print('magstrength is 3')
@@ -137,7 +151,8 @@ for count, session in enumerate(sessions, 1):
                             print('instname is sc3t')
                             if session.timestamp <= datetime.strptime('2022/02/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
                                 study='ABC'
-                                print('study is ABC')
+                                print('study is ABC assigned line 143')
+
                                 break
                             else:
                                 ######add this session to list for review
