@@ -1,0 +1,212 @@
+***********session loop 1: 124728_AV1451PET_20191120******************
+Session label: 124728_AV1451PET_20191120 is incorrect, renaming...
+Exam Summary [BR-DY_CTAC] AV1451 Brain Dynamic [BR_NAC] AV1451 Brain Dynamic Head-Low Dose CT [BR_CTAC] AV1451 Brain Dynamic [BR-DY_NAC] AV1451 Brain Dynamic
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN AV1451
+From labels: AV1451/tau
+Renaming session to: 124728x20191120xAV1451PETxLEADS
+***********session loop 2: 124728_FlorbetabenPET_20191113******************
+Session label: 124728_FlorbetabenPET_20191113 is incorrect, renaming...
+Head-Low Dose CT Exam Summary [BR_CTAC] Amyloid Brain Dynamic [BR-DY_NAC] Amyloid Brain Dynamic [BR_NAC] Amyloid Brain Dynamic [BR-DY_CTAC] Amyloid Brain Dynamic
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN AMYLOID
+From labels: Amyloid/FBB
+Renaming session to: 124728x20191113xFBBPETxLEADS
+***********session loop 3: 125572_FlorbetabenPET_20191105******************
+Session label: 125572_FlorbetabenPET_20191105 is incorrect, renaming...
+[BR-DY_NAC] Amyloid Brain Dynamic [BR-DY_CTAC] Amyloid Brain Dynamic [BR_CTAC] Amyloid Brain Dynamic [BR_NAC] Amyloid Brain Dynamic Head-Low Dose CT Exam Summary
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN AMYLOID
+From labels: Amyloid/FBB
+Renaming session to: 125572x20191105xFBBPETxLEADS
+***********session loop 4: 125572_AV1451PET_20191118******************
+Session label: 125572_AV1451PET_20191118 is incorrect, renaming...
+[BR-DY_CTAC] AV1451 Brain Dynamic Head-Low Dose CT Exam Summary [BR_NAC] AV1451 Brain Dynamic [BR_CTAC] AV1451 Brain Dynamic [BR-DY_NAC] AV1451 Brain Dynamic
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN AV1451
+From labels: AV1451/tau
+Renaming session to: 125572x20191118xAV1451PETxLEADS
+***********session loop 5: 118418_20200109_7T******************
+Session label: 118418_20200109_7T is incorrect, renaming...
+SWI_Images_ND memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1 RMS memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1_ND RMS memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800_UNI_Images RMS Pha_Images mIP_Images(SW) memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1_ND memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2 RMS memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2_ND RMS Mag_Images T2_Coronal_p2_0.4x0.4x1.0mm T2_Coronal_p2_0.4x0.4x1.0mm_ND flair_mark_p3_0.8mm_ND Mag_Images_ND memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW_UNI_Images_ND RMS Pha_Images_ND b1map_3mm memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1 localizer memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2 memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2_ND flair_mark_p3_0.8mm PhoenixZIPReport memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800H_UNI_Images_ND b1map_3mm memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_UNI_Images
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 118418_20200109_7T
+Renaming session to: 118418x20200109x7TxABC
+***********session loop 6: 1171518_20200109_7T******************
+Session label: 1171518_20200109_7T is incorrect, renaming...
+Mag_Images memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800H_UNI_Images_ND memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1 T2_Coronal_p2_0.4x0.4x1.0mm memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800_UNI_Images RMS Pha_Images memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2_ND memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1 RMS b1map_3mm Mag_Images_ND mIP_Images(SW) Pha_Images_ND localizer memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1_ND b1map_3mm flair_mark_p3_0.8mm memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_UNI_Images memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1_ND RMS memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2 SWI_Images_ND PhoenixZIPReport memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW_UNI_Images_ND RMS memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2_ND RMS memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2 RMS flair_mark_p3_0.8mm_ND T2_Coronal_p2_0.4x0.4x1.0mm_ND
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 11715_20200109_7T
+Renaming session to: 117158x20200109x7TxABC
+***********session loop 7: 117158x20200109x3T******************
+Session label: 117158x20200109x3T is incorrect, renaming...
+AAHead_Scout AAHead_Scout_MPR_sag FLAIR_3D_1x1x1 SpinEchoFieldMap_PA rfMRI_REST_AP Localizer Localizer_aligned FLAIR_3D_1x1x1_ND AAHead_Scout_MPR_cor rfMRI_REST_PA MultiShell_117dir PhoenixZIPReport T1_3D_0.8x0.8x0.8_ND TOF_3D_multi-slab_MIP_TRA TOF_3D_multi-slab_MIP_COR TOF_3D_multi-slab_MIP_SAG AAHead_Scout_MPR_tra B0map ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_M0 SpinEchoFieldMap_AP B0map T1_3D_0.8x0.8x0.8_ND T2_2D_0.4x0.4x1.2mm_180flip T1_3D_0.8x0.8x0.8 ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_ASL T1_3D_0.8x0.8x0.8 TOF_3D_multi-slab T2_2D_0.4x0.4x1.2mm_180flip_ND
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 117158_20200109_3T
+Renaming session to: 117158x20200109x3TxABC
+***********session loop 8: 118418x20200109x3T******************
+Session label: 118418x20200109x3T is incorrect, renaming...
+AAHead_Scout_MPR_tra FLAIR_3D_1x1x1_ND T2_2D_0.4x0.4x1.2mm_180flip_ND PhoenixZIPReport MultiShell_117dir Localizer_aligned SpinEchoFieldMap_PA T1_3D_0.8x0.8x0.8_ND SpinEchoFieldMap_AP TOF_3D_multi-slab_MIP_SAG T1_3D_0.8x0.8x0.8 T2_2D_0.4x0.4x1.2mm_180flip B0map Localizer ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_M0 B0map ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_MeanPerf ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_ASL rfMRI_REST_PA AAHead_Scout rfMRI_REST_AP T1_3D_0.8x0.8x0.8 TOF_3D_multi-slab T1_3D_0.8x0.8x0.8_ND AAHead_Scout_MPR_cor TOF_3D_multi-slab_MIP_COR FLAIR_3D_1x1x1 AAHead_Scout_MPR_sag TOF_3D_multi-slab_MIP_TRA
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 118418_068200_346609_3T
+Renaming session to: 118418x20200109x3TxABC
+***********session loop 9: 114699x20200115x3T******************
+Session label: 114699x20200115x3T is incorrect, renaming...
+PhoenixZIPReport Localizer T1_3D_0.8x0.8x0.8 TOF_3D_multi-slab TOF_3D_multi-slab_MIP_SAG AAHead_Scout_MPR_cor AAHead_Scout_MPR_tra Localizer_aligned TOF_3D_multi-slab_MIP_TRA T1_3D_0.8x0.8x0.8_ND TOF_3D_multi-slab_MIP_COR FLAIR_3D_1x1x1_ND AAHead_Scout AAHead_Scout_MPR_sag FLAIR_3D_1x1x1 T2_2D_0.4x0.4x1.2mm_180flip ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_ASL Pha_Images_ND SpinEchoFieldMap_PA B0map B0map ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_MeanPerf SpinEchoFieldMap_AP Mag_Images_ND SWI_Images T2_2D_0.4x0.4x1.2mm_180flip_ND ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_M0 Mag_Images Pha_Images SWI_Images_ND rfMRI_REST_AP rfMRI_REST_PA mIP_Images(SW) MultiShell_117dir
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 114699_20200115_3T
+Renaming session to: 114699x20200115x3TxABC
+***********session loop 10: 111768x02x20200116x3T******************
+Session label: 111768x02x20200116x3T is incorrect, renaming...
+AAHead_Scout_MPR_tra T1_3D_0.8x0.8x0.8 FLAIR_3D_1x1x1 T2_2D_0.4x0.4x1.2mm_180flip_ND SpinEchoFieldMap_PA T1_3D_0.8x0.8x0.8_ND T2_2D_0.4x0.4x1.2mm_180flip AAHead_Scout FLAIR_3D_1x1x1_ND ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_ASL TOF_3D_multi-slab TOF_3D_multi-slab_MIP_COR rfMRI_REST_PA AAHead_Scout_MPR_sag TOF_3D_multi-slab_MIP_SAG ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_M0 AAHead_Scout_MPR_cor Localizer_aligned B0map B0map PhoenixZIPReport MultiShell_117dir ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_MeanPerf SpinEchoFieldMap_AP Localizer rfMRI_REST_AP TOF_3D_multi-slab_MIP_TRA
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 11178_02_20200116_3T
+Renaming session to: 111768x02x20200116x3TxABC
+***********session loop 11: 111768x01x20200116x7T******************
+Session label: 111768x01x20200116x7T is incorrect, renaming...
+memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2 RMS mIP_Images(SW) memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800_UNI_Images RMS memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800H_UNI_Images_ND b1map_3mm memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW_UNI_Images_ND RMS memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2_ND RMS memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2_ND memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1 RMS b1map_3mm Mag_Images Mag_Images_ND memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_UNI_Images PhoenixZIPReport T2_Coronal_p2_0.4x0.4x1.0mm memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV2 flair_mark_p3_0.8mm_ND Pha_Images_ND flair_mark_p3_0.8mm localizer Pha_Images memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1_ND memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1_ND RMS T2_Coronal_p2_0.4x0.4x1.0mm_ND memp2rage_700um_TI700_2700_TR5000_p3_PF0.75_BW800Hz_INV1 SWI_Images_ND
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 111768_02_20200116_7T
+Renaming session to: 111768x01x20200116x7TxABC
+***********session loop 12: 111768x01x20200116x3T******************
+Session label: 111768x01x20200116x3T is incorrect, renaming...
+PhoenixZIPReport MultiShell_117dir T1_3D_0.8x0.8x0.8 FLAIR_3D_1x1x1_ND TOF_3D_multi-slab_MIP_COR T2_2D_0.4x0.4x1.2mm_180flip AAHead_Scout_MPR_tra FLAIR_3D_1x1x1 AAHead_Scout T2_2D_0.4x0.4x1.2mm_180flip_ND rfMRI_REST_PA AAHead_Scout_MPR_sag ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_MeanPerf AAHead_Scout_MPR_cor T1_3D_0.8x0.8x0.8_ND B0map TOF_3D_multi-slab_MIP_TRA TOF_3D_multi-slab ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_ASL rfMRI_REST_AP Localizer_aligned TOF_3D_multi-slab_MIP_SAG B0map Localizer ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_M0 SpinEchoFieldMap_AP SpinEchoFieldMap_PA
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 111768_01_20200116_3T
+Renaming session to: 111768x01x20200116x3TxABC
+***********session loop 13: 123865x20200121x3T******************
+Session label: 123865x20200121x3T is incorrect, renaming...
+AAHead_Scout_MPR_sag TOF_3D_multi-slab_MIP_TRA AAHead_Scout_MPR_tra TOF_3D_multi-slab TOF_3D_multi-slab_MIP_SAG PhoenixZIPReport AAHead_Scout_MPR_cor AAHead_Scout TOF_3D_multi-slab_MIP_COR Localizer_aligned Localizer FLAIR_3D_1x1x1_ND T1_3D_0.8x0.8x0.8_ND Localizer TOF_3D_multi-slab ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_M0 T2_2D_0.4x0.4x1.2mm_180flip_ND T1_3D_0.8x0.8x0.8 T1_3D_0.8x0.8x0.8 T2_2D_0.4x0.4x1.2mm_180flip TOF_3D_multi-slab_MIP_SAG T1_3D_0.8x0.8x0.8_ND TOF_3D_multi-slab_MIP_TRA TOF_3D_multi-slab_MIP_COR FLAIR_3D_1x1x1 ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_ASL
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 123865_20200121_3T
+Renaming session to: 123865x20200121x3TxABC
+***********session loop 14: 123865_20200121_7T******************
+Session label: 123865_20200121_7T is incorrect, renaming...
+mp2rage_siemens_ipat3_0.69mm_T1_Images b1map_3mm flair_mark_p3_0.8mm PhoenixZIPReport mp2rage_siemens_ipat3_0.69mm_INV2_ND mIP_Images(SW) localizer b1map_3mm mp2rage_siemens_ipat3_0.69mm_UNI_Images_ND mp2rage_siemens_ipat3_0.69mm_INV1 mp2rage_siemens_ipat3_0.69mm_INV2 mp2rage_siemens_ipat3_0.69mm_INV1_ND Pha_Images mp2rage_siemens_ipat3_0.69mm_T1_Images_ND mp2rage_siemens_ipat3_0.69mm_UNI_Images Mag_Images T2_Coronal_p2_0.4x0.4x1.0mm Mag_Images_ND Pha_Images_ND SWI_Images_ND
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 123865_20200121_7T
+Renaming session to: 123865x20200121x7TxABC
+***********session loop 15: phantom NACC-SC******************
+Session label: phantom NACC-SC is incorrect, renaming...
+anat-AAscout__AAHead_Scout anat-AAscout__AAHead_Scout_MPR_tra anat-AAscout__AAHead_Scout_MPR_cor PhoenixZIPReport anat-AAscout__AAHead_Scout_MPR_sag anat-localizer_acq-aligned__Localizer_aligned anat-localizer__Localizer anat-T1w_acq-0.8mm__T1_3D_0.8x0.8x0.8_ND anat-T1w_acq-0.8mm__T1_3D_0.8x0.8x0.8 anat-T2w_acq-hippo__T2_2D_0.4x0.4x1.2mm_180flip anat-T2w_acq-FLAIR__FLAIR_3D_1x1x1_ND anat-TOF__TOF_3D_multi-slab_MIP_COR anat-T2w_acq-FLAIR__FLAIR_3D_1x1x1 anat-T2w_acq-hippo__T2_2D_0.4x0.4x1.2mm_180flip_ND anat-TOF__TOF_3D_multi-slab_MIP_TRA anat-TOF__TOF_3D_multi-slab anat-TOF__TOF_3D_multi-slab_MIP_SAG dwi-multishell_acq-117dir_dir-AP_seq-CMRR__MultiShell_117dir func-pcasl_acq-3D_seq-PennV20__ASL_3DSpiral_4shot_1Dacc_MeanPerf fmap-EPIdist_acq-fmri_dir-PA_seq-CMRR__SpinEchoFieldMap_PA func-BOLD_task-rest_dir-AP_seq-CMRR__rfMRI_REST_AP func-BOLD_task-rest_dir-PA_seq-CMRR__rfMRI_REST_PA fmap-EPIdist_acq-fmri_dir-AP_seq-CMRR__SpinEchoFieldMap_AP func-pcasl_acq-3D_seq-PennV20__ASL_3DSpiral_4shot_1Dacc_V20_ASL fmap-B0phase_acq-grefieldmapping__B0map func-pcasl_acq-3D_seq-PennV20__ASL_3DSpiral_4shot_1Dacc_V20_M0 fmap-B0phase_acq-grefieldmapping__B0map
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^Wolk
+Renaming session to: bidsxphanx20200121x3TxABC
+***********session loop 16: 124288_AV1451PET_20200110******************
+Session label: 124288_AV1451PET_20200110 is incorrect, renaming...
+[BR-DY_CTAC] AV1451 Brain Dynamic [BR-DY_NAC] AV1451 Brain Dynamic Exam Summary [BR_CTAC] AV1451 Brain Dynamic Head-Low Dose CT [BR_NAC] AV1451 Brain Dynamic
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825944 BRAIN AV1451
+From labels: AV1451/tau
+Renaming session to: 124288x20200110xAV1451PETxABC
+***********session loop 17: 124868_AV1451PET_20200114******************
+Session label: 124868_AV1451PET_20200114 is incorrect, renaming...
+[BR-DY_CTAC] AV1451 Brain Dynamic Head-Low Dose CT [BR-DY_NAC] AV1451 Brain Dynamic [BR_CTAC] AV1451 Brain Dynamic Exam Summary [BR_NAC] AV1451 Brain Dynamic
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825944 BRAIN AV1451
+From labels: AV1451/tau
+Renaming session to: 124868x20200114xAV1451PETxABC
+***********session loop 18: 124035_AV1451PET_20200114******************
+Session label: 124035_AV1451PET_20200114 is incorrect, renaming...
+[BR-DY_NAC] AV1451 Brain Dynamic Exam Summary [BR_CTAC] AV1451 Brain Dynamic [BR-DY_CTAC] AV1451 Brain Dynamic Head-Low Dose CT [BR_NAC] AV1451 Brain Dynamic
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825944 BRAIN AV1451
+From labels: AV1451/tau
+Renaming session to: 124035x20200114xAV1451PETxABC
+***********session loop 19: 124877_FlorbetabenPET_20200115******************
+Session label: 124877_FlorbetabenPET_20200115 is incorrect, renaming...
+[BR-DY_NAC] Amyloid Brain Dyn [BR_NAC] Amyloid Brain Dyn Head-Low Dose CT [BR-DY_CTAC] Amyloid Brain Dyn [BR_CTAC] Amyloid Brain Dyn [PREVIEW] Amyloid Brain Dyn Exam Summary
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825943 BRAIN FLORBETABEN
+From labels: Amyloid/FBB
+Renaming session to: 124877x20200115xFBBPETxABC
+***********session loop 20: 121847x20200123x3T******************
+Session label: 121847x20200123x3T is incorrect, renaming...
+TOF_3D_multi-slab_MIP_SAG T1_3D_0.8x0.8x0.8_ND ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_MeanPerf rfMRI_REST_PA Localizer AAHead_Scout_MPR_cor ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_ASL MultiShell_117dir TOF_3D_multi-slab_MIP_TRA FLAIR_3D_1x1x1_ND ASL_3DSpiral_4shot_2.5mm_1Daccel_V20_M0 SpinEchoFieldMap_AP AAHead_Scout PhoenixZIPReport T2_2D_0.4x0.4x1.2mm_180flip_ND FLAIR_3D_1x1x1 B0map AAHead_Scout_MPR_tra Localizer_aligned T2_2D_0.4x0.4x1.2mm_180flip B0map AAHead_Scout_MPR_sag TOF_3D_multi-slab_MIP_COR TOF_3D_multi-slab rfMRI_REST_AP T1_3D_0.8x0.8x0.8 SpinEchoFieldMap_PA
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 121847_20200123_3T
+Renaming session to: 121847x20200123x3TxABC
+***********session loop 21: 122701_FlorbetapirPET_20171201******************
+Session label: 122701_FlorbetapirPET_20171201 is incorrect, renaming...
+[BR-DY_NAC] AV45 Brain Dynamic Head-Low Dose CT Exam Summary [BR-DY_CTAC] AV45 Brain Dynamic [BR_CTAC] AV45 Brain Dynamic [BR_NAC] AV45 Brain Dynamic Exam Summary Head-LD CT 250mm
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 824975 BRAIN AV45 DYN
+[BR-DY_NAC] AV45 Brain Dynamic Head-Low Dose CT Exam Summary [BR-DY_CTAC] AV45 Brain Dynamic [BR_CTAC] AV45 Brain Dynamic [BR_NAC] AV45 Brain Dynamic Exam Summary Head-LD CT 250mm
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 824975 BRAIN AV45 DYN
+[BR-DY_NAC] AV45 Brain Dynamic Head-Low Dose CT Exam Summary [BR-DY_CTAC] AV45 Brain Dynamic [BR_CTAC] AV45 Brain Dynamic [BR_NAC] AV45 Brain Dynamic Exam Summary Head-LD CT 250mm
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 824975 BRAIN AV45 DYN
+[BR-DY_NAC] AV45 Brain Dynamic Head-Low Dose CT Exam Summary [BR-DY_CTAC] AV45 Brain Dynamic [BR_CTAC] AV45 Brain Dynamic [BR_NAC] AV45 Brain Dynamic Exam Summary Head-LD CT 250mm
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 824975 BRAIN AV45 DYN
+Renaming session to: 122701x20171201xx
+***********session loop 22: 123072_FlorbetabenPET_20200122******************
+Session label: 123072_FlorbetabenPET_20200122 is incorrect, renaming...
+[BR-DY_NAC] Amyloid Brain Dyn [BR_CTAC] Amyloid Brain Dyn Exam Summary [BR-DY_CTAC] Amyloid Brain Dyn [BR_NAC] Amyloid Brain Dyn Head-Low Dose CT
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825943 BRAIN AMYLOID
+From labels: Amyloid/FBB
+Renaming session to: 123072x20200122xFBBPETxABC
+***********session loop 23: 123343x20191223x3T******************
+Session label: 123343x20191223x3T is incorrect, renaming...
+Axial MB DTI_ColFA Axial MB DTI_FA Axial MB DTI_ADC Perfusion_Weighted Sagittal 3D FLAIR Accelerated Sagittal MPRAGE Field Mapping Axial MB DTI Axial MB DTI_TENSOR PhoenixZIPReport Field Mapping Axial MB rsfMRI (Eyes Open) Axial 3D PASL (Eyes Open) Axial 3TE T2 Star 3 Plane Localizer HighResHippocampus Axial MB DTI_TRACEW
+No key 'InstitutionName' exists
+inst address: Spruce Street 3400,Philadelphia,Pennsylvania,US,19104
+PerformedProcedureStepDecription: MR HEAD WO IV CONTRAST
+From labels: Axial
+Renaming session to: 123343x20191223x3TxLEADS
+***********session loop 24: 123343_FlorbetabenPET_20191212******************
+Session label: 123343_FlorbetabenPET_20191212 is incorrect, renaming...
+[BR_NAC] Amyloid Brain Dynamic [BR-DY_NAC] Amyloid Brain Dynamic [BR_CTAC] Amyloid Brain Dynamic Exam Summary [BR-DY_CTAC] Amyloid Brain Dynamic Head-Low Dose CT
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN AMYLOID
+From labels: Amyloid/FBB
+Renaming session to: 123343x20191212xFBBPETxLEADS
+***********session loop 25: 123343_AV1451PET_20200106******************
+Session label: 123343_AV1451PET_20200106 is incorrect, renaming...
+[BR-DY_NAC] AV1451 Brain Dynamic Exam Summary [BR_NAC] AV1451 Brain Dynamic [BR_CTAC] AV1451 Brain Dynamic Head-Low Dose CT [BR-DY_CTAC] AV1451 Brain Dynamic
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN TAU
+From labels: AV1451/tau
+Renaming session to: 123343x20200106xAV1451PETxLEADS
+715 sessions in project NACC-SC checked

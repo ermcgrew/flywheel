@@ -20,7 +20,7 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('created>2022-07-14')  #label=125107x20210609x3T   label=125590x10202022x7T    
+    sessions = project.sessions.iter_find('created>2017-06-01')  #label=125107x20210609x3T   label=125590x10202022x7T    
     #subset to test on mris:created>2022-10-01   pet: created>2022-07-14  125081xFDGx20220720 label=127794xAV1451PETx20220719
 except flywheel.ApiException as e:
     print(f'Error: {e}')
@@ -31,6 +31,7 @@ time=datetime.now().strftime("%Y%m%d_%H%M")
 
 #look at each session and rename as appropriate
 for count, session in enumerate(sessions, 1):
+ if count <= 25:
     print(f'***********session loop {count}: {session.label}******************')
     
     #reset variables to empty strings
@@ -41,27 +42,27 @@ for count, session in enumerate(sessions, 1):
 
     ########ID incorrect session labels########    
     #once a session fails an if (fails to match correct format), go to rename block
-    if session.label[0:6] == session.subject.label:
-        print('subject ID test passed')
-        if session.label[7:15] == str(session.timestamp)[:10].replace('-',''): 
-            print('date test passed')
-            if session.label[16:18] == '3T' or session.label[16:18] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':
-                print('scantype test passed')
-                if session.label[-3:] == 'ABC' or session.label[-5:] =="ABCD2" or session.label[-4:] == 'VCID':
-                    print('study suffix correct')
-                    print(f'Session name {session.label} is correct, skipping session.')
-                    continue
-    #if subject has _01 or x02:
-    elif session.label[0:9] == session.subject.label: 
-        print('subject ID test passed with x01') 
-        if session.label[10:18] == str(session.timestamp)[:10].replace('-',''): 
-            print('date test passed')
-            if session.label[19:21] == '3T' or session.label[19:21] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':  
-                print('scantype test passed')
-                if session.label[-3:] == 'ABC' or session.label[-5] =="ABCD2" or session.label[-4] == 'VCID':
-                    print('study suffix correct')
-                    print(f'Session name {session.label} is correct, skipping session.')
-                    continue
+    # if session.label[0:6] == session.subject.label:
+    #     print('subject ID test passed')
+    #     if session.label[7:15] == str(session.timestamp)[:10].replace('-',''): 
+    #         print('date test passed')
+    #         if session.label[16:18] == '3T' or session.label[16:18] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':
+    #             print('scantype test passed')
+    #             if session.label[-3:] == 'ABC' or session.label[-5:] =="ABCD2" or session.label[-4:] == 'VCID':
+    #                 print('study suffix correct')
+    #                 print(f'Session name {session.label} is correct, skipping session.')
+    #                 continue
+    # #if subject has _01 or x02:
+    # elif session.label[0:9] == session.subject.label: 
+    #     print('subject ID test passed with x01') 
+    #     if session.label[10:18] == str(session.timestamp)[:10].replace('-',''): 
+    #         print('date test passed')
+    #         if session.label[19:21] == '3T' or session.label[19:21] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':  
+    #             print('scantype test passed')
+    #             if session.label[-3:] == 'ABC' or session.label[-5] =="ABCD2" or session.label[-4] == 'VCID':
+    #                 print('study suffix correct')
+    #                 print(f'Session name {session.label} is correct, skipping session.')
+    #                 continue
 
     #############renaming block################
     print(f'Session label: {session.label} is incorrect, renaming...')
@@ -87,32 +88,41 @@ for count, session in enumerate(sessions, 1):
                     if acquisition.files[x].type == 'dicom': #only need the dicom file's metadata
                         # print("is dicom")
                         labels=' '.join([acquisition.label for acquisition in session.acquisitions()]) #all acq.labels into 1 string to be partial-matched to
+                        # print(labels)
                         acquisition = acquisition.reload() 
-                        f = acquisition.files[0].info #dictionary of metadata info per file
+                        f = acquisition.files[x].info #dictionary of metadata info per file
+                                                
                         if 'MagneticFieldStrength' in f:
                             magstrength=f['MagneticFieldStrength']
+                            print(f'magstrength: {magstrength}')
 
                         try:
                             instname = f['InstitutionName']
+                            print(f'instname: {instname}')
                         except KeyError as e:
                             print(f'No key {e} exists')
                             instname =''
                         
                         try:
                             instaddress = f['InstitutionAddress']
+                            print(f'inst address: {instaddress}')
                         except KeyError as e:
                             print(f'No key {e} exists')
                             instaddress = ''
                         
                         try:
-                            petid = f['PerformedProcedureStepDescription']                    
+                            petid = f['PerformedProcedureStepDescription']
+                            print(f'PerformedProcedureStepDecription: {petid}')                    
                         except KeyError as e:
                             print(f'No key {e} exists')
                             petid=''
 
+                        
+
                         ##PET scans 
                         if modality == 'PT':
                             if 'Amyloid' in labels: 
+                                print('From labels: Amyloid/FBB')
                                 scantype = 'FBBPET'
                                 # print('scantype fbbpet determined')
                                 if '844047' in petid:
@@ -130,12 +140,14 @@ for count, session in enumerate(sessions, 1):
                                     # mknote(indd,date,scantype)
                                     break                                                    
                             elif '2620' in labels: #PI2620 sometimes listed with space--PI 2620
+                                print('From labels: PI2620/tau')
                                 scantype = 'PI2620PET'
                                 study = 'ABC'
                                 # print('study ABC assigned line 98')
                                 break
                             elif 'AV1451' in labels: 
                                 scantype = 'AV1451PET'
+                                print('From labels: AV1451/tau')
                                 if '844403' in petid:
                                     study = 'ABCD2'
                                     break
@@ -151,12 +163,13 @@ for count, session in enumerate(sessions, 1):
                                     # mknote(indd,date,scantype)
                                     break
                             elif 'FDG' in labels: 
+                                print('From labels: FDG')
                                 scantype = 'FDGPET'
                                 study='LEADS'
                                 break
                         ##MRIs        
                         elif modality == "MR":
-                            if magstrength == 7:
+                            if magstrength == 7 or magstrength == 6.98094: #some 2020 7T scans have this number instead
                                 scantype="7T"
                                 study = 'ABC'
                                 break
@@ -166,9 +179,11 @@ for count, session in enumerate(sessions, 1):
                                 if instname == 'HUP' or 'Spruce' in instaddress:
                                     if 'Axial' in labels:
                                         # print('study is LEADS')
+                                        print('From labels: Axial')
                                         study='LEADS'
                                         break
                                     elif 'LLASL' in labels:
+                                        print('From labels: LLASL')
                                         study='VCID'
                                         # print('study is VCID')
                                         break

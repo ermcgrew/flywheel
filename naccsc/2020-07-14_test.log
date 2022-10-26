@@ -1,0 +1,420 @@
+***********session loop 1: 125687x20200714x3T******************
+Session label: 125687x20200714x3T is incorrect, renaming...
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 125687_20200714_3T
+Renaming session to: 125687x20200714x3TxABC
+***********session loop 2: 112286x01x20200721x3T******************
+Session label: 112286x01x20200721x3T is incorrect, renaming...
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 112286_01_20200721_3T
+Renaming session to: 112286x01x20200721x3TxABC
+***********session loop 3: 112286x01x20200721x7T******************
+Session label: 112286x01x20200721x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+Renaming session to: 112286x01x20200721x7TxABC
+***********session loop 4: 121167x20170905x3T******************
+Session label: 121167x20170905x3T is incorrect, renaming...
+magstrength: 3
+instname: University_of_Pennsylvania
+inst address: Curie_Blvd._422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+Renaming session to: 121167x20170905x3TxABC
+***********session loop 5: 125800x20200728x3T******************
+Session label: 125800x20200728x3T is incorrect, renaming...
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 125800_20200728_3T
+Renaming session to: 125800x20200728x3TxABC
+***********session loop 6: 123727x20200729x3T******************
+Session label: 123727x20200729x3T is incorrect, renaming...
+magstrength: 3
+instname: HUP
+inst address: Spruce Street 3400,Philadelphia,Pennsylvania,US,19104
+PerformedProcedureStepDecription: MR HEAD WO IV CONTRAST
+From labels: Axial
+Renaming session to: 123727x20200729x3TxLEADS
+***********session loop 7: 125081x20200810x3T******************
+Session label: 125081x20200810x3T is incorrect, renaming...
+magstrength: 3
+instname: HUP
+inst address: Spruce Street 3400,Philadelphia,Pennsylvania,US,19104
+PerformedProcedureStepDecription: MR HEAD WO IV CONTRAST
+From labels: Axial
+Renaming session to: 125081x20200810x3TxLEADS
+***********session loop 8: 120686x20200812x3T******************
+Session label: 120686x20200812x3T is incorrect, renaming...
+magstrength: 3
+instname:  SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 120686_20200812_3T
+Renaming session to: 120686x20200812x3TxABC
+***********session loop 9: 120686x20200812x7T******************
+Session label: 120686x20200812x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 120686_20200812_7T
+Renaming session to: 120686x20200812x7TxABC
+***********session loop 10: 124509x20200813x3T******************
+Session label: 124509x20200813x3T is incorrect, renaming...
+magstrength: 3
+instname:  SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 124509_20200813_3T
+Renaming session to: 124509x20200813x3TxABC
+***********session loop 11: 124509x20200813x7T******************
+Session label: 124509x20200813x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 124509_2020813_7T
+Renaming session to: 124509x20200813x7TxABC
+***********session loop 12: 118998x20200818x3T******************
+Session label: 118998x20200818x3T is incorrect, renaming...
+magstrength: 3
+instname:  SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 118998_20200818_3T
+Renaming session to: 118998x20200818x3TxABC
+***********session loop 13: 126266x20200818x3T******************
+Session label: 126266x20200818x3T is incorrect, renaming...
+magstrength: 3
+instname: HUP
+inst address: Spruce Street 3400,Philadelphia,Pennsylvania,US,19104
+PerformedProcedureStepDecription: MR HEAD WO IV CONTRAST
+From labels: Axial
+Renaming session to: 126266x20200818x3TxLEADS
+***********session loop 14: 126324x20200901x3T******************
+Session label: 126324x20200901x3T is incorrect, renaming...
+magstrength: 3
+instname: HUP
+inst address: Spruce Street 3400,Philadelphia,Pennsylvania,US,19104
+PerformedProcedureStepDecription: MR HEAD WO IV CONTRAST
+From labels: Axial
+Renaming session to: 126324x20200901x3TxLEADS
+***********session loop 15: 123725x20190327x7T******************
+Session label: 123725x20190327x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: Copy of CAMRIS^WOLK
+Renaming session to: 123725x20190327x7TxABC
+***********session loop 16: 123894x20190327x7T******************
+Session label: 123894x20190327x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: Copy of CAMRIS^WOLK
+Renaming session to: 123894x20190327x7TxABC
+***********session loop 17: 117796x20190813x7T******************
+Session label: 117796x20190813x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 117796_20190813_7T
+Renaming session to: 117796x20190813x7TxABC
+***********session loop 18: 124800x20190808x7T******************
+Session label: 124800x20190808x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 124800_20190808_3T
+Renaming session to: 124800x20190808x7TxABC
+***********session loop 19: 124650x20190410x7T******************
+Session label: 124650x20190410x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: Copy of CAMRIS^WOLK
+Renaming session to: 124650x20190410x7TxABC
+***********session loop 20: 125310x20190808x7T******************
+Session label: 125310x20190808x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 125310_20190808_7T
+Renaming session to: 125310x20190808x7TxABC
+***********session loop 21: 103907x20171117x7T******************
+Session label: 103907x20171117x7T is incorrect, renaming...
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+Renaming session to: 103907x20171117xx
+***********session loop 22: 118711x20171006x7T******************
+Session label: 118711x20171006x7T is incorrect, renaming...
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: HUP7
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+Renaming session to: 118711x20171006xx
+***********session loop 23: 119035x20180130x7T******************
+Session label: 119035x20180130x7T is incorrect, renaming...
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie_Blvd_422_Philadelphia_PA_US_19104
+No key 'PerformedProcedureStepDescription' exists
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+magstrength: 6.98094
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^WOLK
+Renaming session to: 119035x20180130xx
+***********session loop 24: 118230x20200915x3T******************
+Session label: 118230x20200915x3T is incorrect, renaming...
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 118230_20200915_3T
+Renaming session to: 118230x20200915x3TxABC
+***********session loop 25: 118230x20200915x7T******************
+Session label: 118230x20200915x7T is incorrect, renaming...
+magstrength: 7
+instname: SC7T
+inst address: Curie Blvd 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: 118230_20200915_7T
+Renaming session to: 118230x20200915x7TxABC
+652 sessions in project NACC-SC checked

@@ -1,0 +1,29 @@
+FlorbetapirPET, new PPSD ##
+    ***********session loop 1: 122701_FlorbetapirPET_20171201******************
+    Session label: 122701_FlorbetapirPET_20171201 is incorrect, renaming...
+    [BR-DY_NAC] AV45 Brain Dynamic Head-Low Dose CT Exam Summary [BR-DY_CTAC] AV45 Brain Dynamic [BR_CTAC] AV45 Brain Dynamic [BR_NAC] AV45 Brain Dynamic Exam Summary Head-LD CT 250mm
+    instname: HUP
+    No key 'InstitutionAddress' exists
+    PerformedProcedureStepDecription: 824975 BRAIN AV45 DYN
+
+
+
+    ***********session loop 7: 122152_FlorbetapirPET_20170608******************
+    Session label: 122152_FlorbetapirPET_20170608 is incorrect, renaming...
+    instname: UPHS PCAM
+    No key 'InstitutionAddress' exists
+    PerformedProcedureStepDecription: 825741 BRAIN AV45 DYN
+    instname: UPHS PCAM
+
+sessions that have DUPLICATE in the name?
+
+***********session loop 24: I AM CONFUSED BY THIS******************
+Session label: I AM CONFUSED BY THIS is incorrect, renaming...
+magstrength: 3
+instname: SC3T
+inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
+PerformedProcedureStepDecription: CAMRIS^Wolk
+Renaming session to: 123851x20190410x3TxABC
+
+
+2017 and 2018 tests come out with same results as 2019-03...
