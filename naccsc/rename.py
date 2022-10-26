@@ -20,8 +20,10 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('created>2017-06-01')  #label=125107x20210609x3T   label=125590x10202022x7T    
+    sessions = project.sessions.iter_find('timestamp>2017-08-03')  #label=125107x20210609x3T   label=125590x10202022x7T    
     #subset to test on mris:created>2022-10-01   pet: created>2022-07-14  125081xFDGx20220720 label=127794xAV1451PETx20220719
+    print('sessions found')
+    print(sessions)
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
