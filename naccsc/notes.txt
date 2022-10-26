@@ -1,4 +1,5 @@
-FlorbetapirPET, new PPSD ##
+FlorbetapirPET--add AV45 to ID with scantype FBBPET
+different PPSD ## --use instname, study dates to assign to ABC or LEADS?
     ***********session loop 1: 122701_FlorbetapirPET_20171201******************
     Session label: 122701_FlorbetapirPET_20171201 is incorrect, renaming...
     [BR-DY_NAC] AV45 Brain Dynamic Head-Low Dose CT Exam Summary [BR-DY_CTAC] AV45 Brain Dynamic [BR_CTAC] AV45 Brain Dynamic [BR_NAC] AV45 Brain Dynamic Exam Summary Head-LD CT 250mm
@@ -15,6 +16,28 @@ FlorbetapirPET, new PPSD ##
     PerformedProcedureStepDecription: 825741 BRAIN AV45 DYN
     instname: UPHS PCAM
 
+    ***********session loop 1: 115050_FlorbetabenPET_20170803******************
+    Session label: 115050_FlorbetabenPET_20170803 is incorrect, renaming...
+    instname: UPHS PCAM
+    No key 'InstitutionAddress' exists
+    PerformedProcedureStepDecription: PT BRAIN AMYLOID
+    From labels: Amyloid/FBB
+    No matching performed procedure step description found
+    Renaming session to: 115050x20170803xFBBPETx
+    1 sessions in project NACC-SC checked
+
+    ***********session loop 1: 123221_FlorbetabenPET_20181211******************
+    Session label: 123221_FlorbetabenPET_20181211 is incorrect, renaming...
+    instname: HUP
+    No key 'InstitutionAddress' exists
+    PerformedProcedureStepDecription: PT BRAIN AMYLOID
+    From labels: Amyloid/FBB
+    No matching performed procedure step description found
+    Renaming session to: 123221x20181211xFBBPETx
+    1 sessions in project NACC-SC checked
+
+
+
 sessions that have DUPLICATE in the name?
 
 ***********session loop 24: I AM CONFUSED BY THIS******************
@@ -24,6 +47,3 @@ instname: SC3T
 inst address: Curie Blvd. 422,Philadelphia,PA,US,19104
 PerformedProcedureStepDecription: CAMRIS^Wolk
 Renaming session to: 123851x20190410x3TxABC
-
-
-2017 and 2018 tests come out with same results as 2019-03...

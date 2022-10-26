@@ -20,10 +20,10 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('timestamp>2017-08-03')  #label=125107x20210609x3T   label=125590x10202022x7T    
+    sessions = project.sessions.iter_find('label=109789_AV1451PET_20190104')  #label=125107x20210609x3T   label=125590x10202022x7T    
     #subset to test on mris:created>2022-10-01   pet: created>2022-07-14  125081xFDGx20220720 label=127794xAV1451PETx20220719
-    print('sessions found')
-    print(sessions)
+    # print('sessions found')
+    # print(sessions)
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -123,7 +123,7 @@ for count, session in enumerate(sessions, 1):
 
                         ##PET scans 
                         if modality == 'PT':
-                            if 'Amyloid' in labels: 
+                            if 'Amyloid' in labels or 'AV45' in labels: 
                                 print('From labels: Amyloid/FBB')
                                 scantype = 'FBBPET'
                                 # print('scantype fbbpet determined')
