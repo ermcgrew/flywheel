@@ -71,7 +71,8 @@ for count, session in enumerate(sessions, 1):
 
     if '_' in session.subject.label: 
         indd=session.subject.label.replace('_',"x")
-        ######add update to session.subject.label? 
+        print(f'Updating subject label to {indd}')
+        #session.subject.update(label=indd) ##updates subject label to correct version
     else: 
         indd = session.subject.label
     
