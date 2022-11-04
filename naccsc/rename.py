@@ -42,6 +42,12 @@ for count, session in enumerate(sessions, 1):
     scantype=''
     study=''
 
+    #skip duplicate and Misc. sessions
+    if 'Duplicate' in session.tags or 'Misc.' in session.tags:
+        print(f'{session.label} has tags {session.tags}, not renaming')
+        continue
+    else:
+
     ########ID incorrect session labels########    
     #once a session fails an if (fails to match correct format), go to rename block
     # if session.label[0:6] == session.subject.label:
@@ -67,156 +73,156 @@ for count, session in enumerate(sessions, 1):
     #                 continue
 
     #############renaming block################
-    print(f'Session label: {session.label} is incorrect, renaming...')
+        print(f'Session label: {session.label} is incorrect, renaming...')
 
-    if '_' in session.subject.label: 
-        indd=session.subject.label.replace('_',"x")
-        print(f'Updating subject label to {indd}')
-        #session.subject.update(label=indd) ##updates subject label to correct version
-    else: 
-        indd = session.subject.label
-    
-    date = str(session.timestamp)[:10].replace('-','')
+        if '_' in session.subject.label: 
+            indd=session.subject.label.replace('_',"x")
+            print(f'Updating subject label to {indd}')
+            #session.subject.update(label=indd) ##updates subject label to correct version
+        else: 
+            indd = session.subject.label
+        
+        date = str(session.timestamp)[:10].replace('-','')
 
-    for count2, acquisition in enumerate(session.acquisitions(), 1): 
-        if scantype == '': #keeps from looping through every acq 
-            modality = acquisition.files[0].modality
-            # print(f'acquisition for loop {count2} working')
-            if modality == 'CT' or modality == 'SR': #those acquisitions don't have detailed metadata
-                continue
-            else:
-                # print('hit the else')
-                for x in range(len(acquisition.files)): 
-                    # print(f'this is file loop: {x}')
-                    if acquisition.files[x].type == 'dicom': #only need the dicom file's metadata
-                        # print("is dicom")
-                        labels=' '.join([acquisition.label for acquisition in session.acquisitions()]) #all acq.labels into 1 string to be partial-matched to
-                        # print(labels)
-                        acquisition = acquisition.reload() 
-                        f = acquisition.files[x].info #dictionary of metadata info per file
-                                                
-                        if 'MagneticFieldStrength' in f:
-                            magstrength=f['MagneticFieldStrength']
-                            print(f'magstrength: {magstrength}')
+        for count2, acquisition in enumerate(session.acquisitions(), 1): 
+            if scantype == '': #keeps from looping through every acq 
+                modality = acquisition.files[0].modality
+                # print(f'acquisition for loop {count2} working')
+                if modality == 'CT' or modality == 'SR': #those acquisitions don't have detailed metadata
+                    continue
+                else:
+                    # print('hit the else')
+                    for x in range(len(acquisition.files)): 
+                        # print(f'this is file loop: {x}')
+                        if acquisition.files[x].type == 'dicom': #only need the dicom file's metadata
+                            # print("is dicom")
+                            labels=' '.join([acquisition.label for acquisition in session.acquisitions()]) #all acq.labels into 1 string to be partial-matched to
+                            # print(labels)
+                            acquisition = acquisition.reload() 
+                            f = acquisition.files[x].info #dictionary of metadata info per file
+                                                    
+                            if 'MagneticFieldStrength' in f:
+                                magstrength=f['MagneticFieldStrength']
+                                print(f'magstrength: {magstrength}')
 
-                        try:
-                            instname = f['InstitutionName']
-                            print(f'instname: {instname}')
-                        except KeyError as e:
-                            print(f'No key {e} exists')
-                            instname =''
-                        
-                        try:
-                            instaddress = f['InstitutionAddress']
-                            print(f'inst address: {instaddress}')
-                        except KeyError as e:
-                            print(f'No key {e} exists')
-                            instaddress = ''
-                        
-                        try:
-                            petid = f['PerformedProcedureStepDescription']
-                            print(f'PerformedProcedureStepDecription: {petid}')                    
-                        except KeyError as e:
-                            print(f'No key {e} exists')
-                            petid=''
+                            try:
+                                instname = f['InstitutionName']
+                                print(f'instname: {instname}')
+                            except KeyError as e:
+                                print(f'No key {e} exists')
+                                instname =''
+                            
+                            try:
+                                instaddress = f['InstitutionAddress']
+                                print(f'inst address: {instaddress}')
+                            except KeyError as e:
+                                print(f'No key {e} exists')
+                                instaddress = ''
+                            
+                            try:
+                                petid = f['PerformedProcedureStepDescription']
+                                print(f'PerformedProcedureStepDecription: {petid}')                    
+                            except KeyError as e:
+                                print(f'No key {e} exists')
+                                petid=''
 
-                        
+                            
 
-                        ##PET scans 
-                        if modality == 'PT':
-                            if 'Amyloid' in labels or 'AV45' in labels: 
-                                print('From labels: Amyloid/FBB')
-                                scantype = 'FBBPET'
-                                # print('scantype fbbpet determined')
-                                if '844047' in petid:
-                                    study = 'ABCD2'
-                                    break
-                                elif '825943' in petid:
-                                    study = 'ABC'
-                                    # print('study ABC assigned line 90')
-                                    break
-                                elif '829602' in petid:
-                                    study = "LEADS"
-                                    break
-                                else: 
-                                    print('No matching performed procedure step description found')
-                                    # mknote(indd,date,scantype)
-                                    break                                                    
-                            elif '2620' in labels: #PI2620 sometimes listed with space--PI 2620
-                                print('From labels: PI2620/tau')
-                                scantype = 'PI2620PET'
-                                study = 'ABC'
-                                # print('study ABC assigned line 98')
-                                break
-                            elif 'AV1451' in labels: 
-                                scantype = 'AV1451PET'
-                                print('From labels: AV1451/tau')
-                                if '844403' in petid:
-                                    study = 'ABCD2'
-                                    break
-                                elif '825944' in petid or '833864' in petid:
-                                    study = 'ABC'
-                                    # print('study ABC assigned line 108')
-                                    break
-                                elif '829602' in petid:
-                                    study = "LEADS"
-                                    break
-                                else: 
-                                    print('No matching performed procedure step description found')
-                                    # mknote(indd,date,scantype)
-                                    break
-                            elif 'FDG' in labels: 
-                                print('From labels: FDG')
-                                scantype = 'FDGPET'
-                                study='LEADS'
-                                break
-                        ##MRIs        
-                        elif modality == "MR":
-                            if magstrength == 7 or magstrength == 6.98094: #some 2020 7T scans have this number instead
-                                scantype="7T"
-                                study = 'ABC'
-                                break
-                            elif magstrength == 3:
-                                # print('magstrength is 3')
-                                scantype='3T'
-                                if instname == 'HUP' or 'Spruce' in instaddress:
-                                    if 'Axial' in labels:
-                                        # print('study is LEADS')
-                                        print('From labels: Axial')
-                                        study='LEADS'
+                            ##PET scans 
+                            if modality == 'PT':
+                                if 'Amyloid' in labels or 'AV45' in labels: 
+                                    print('From labels: Amyloid/FBB')
+                                    scantype = 'FBBPET'
+                                    # print('scantype fbbpet determined')
+                                    if '844047' in petid:
+                                        study = 'ABCD2'
                                         break
-                                    elif 'LLASL' in labels:
-                                        print('From labels: LLASL')
-                                        study='VCID'
-                                        # print('study is VCID')
+                                    elif '825943' in petid:
+                                        study = 'ABC'
+                                        # print('study ABC assigned line 90')
                                         break
-                                    else:
-                                        print('HUP 3T scan labels insufficient to id study')
+                                    elif '829602' in petid:
+                                        study = "LEADS"
+                                        break
+                                    else: 
+                                        print('No matching performed procedure step description found')
+                                        # mknote(indd,date,scantype)
+                                        break                                                    
+                                elif '2620' in labels: #PI2620 sometimes listed with space--PI 2620
+                                    print('From labels: PI2620/tau')
+                                    scantype = 'PI2620PET'
+                                    study = 'ABC'
+                                    # print('study ABC assigned line 98')
+                                    break
+                                elif 'AV1451' in labels: 
+                                    scantype = 'AV1451PET'
+                                    print('From labels: AV1451/tau')
+                                    if '844403' in petid:
+                                        study = 'ABCD2'
+                                        break
+                                    elif '825944' in petid or '833864' in petid:
+                                        study = 'ABC'
+                                        # print('study ABC assigned line 108')
+                                        break
+                                    elif '829602' in petid:
+                                        study = "LEADS"
+                                        break
+                                    else: 
+                                        print('No matching performed procedure step description found')
                                         # mknote(indd,date,scantype)
                                         break
-                                elif instname == 'SC3T' or 'Curie' in instaddress:
-                                    # print('instname is sc3t')
-                                    if session.timestamp <= datetime.strptime('2022/02/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
-                                        study='ABC'
-                                        break
+                                elif 'FDG' in labels: 
+                                    print('From labels: FDG')
+                                    scantype = 'FDGPET'
+                                    study='LEADS'
+                                    break
+                            ##MRIs        
+                            elif modality == "MR":
+                                if magstrength == 7 or magstrength == 6.98094: #some 2020 7T scans have this number instead
+                                    scantype="7T"
+                                    study = 'ABC'
+                                    break
+                                elif magstrength == 3:
+                                    # print('magstrength is 3')
+                                    scantype='3T'
+                                    if instname == 'HUP' or 'Spruce' in instaddress:
+                                        if 'Axial' in labels:
+                                            # print('study is LEADS')
+                                            print('From labels: Axial')
+                                            study='LEADS'
+                                            break
+                                        elif 'LLASL' in labels:
+                                            print('From labels: LLASL')
+                                            study='VCID'
+                                            # print('study is VCID')
+                                            break
+                                        else:
+                                            print('HUP 3T scan labels insufficient to id study')
+                                            # mknote(indd,date,scantype)
+                                            break
+                                    elif instname == 'SC3T' or 'Curie' in instaddress:
+                                        # print('instname is sc3t')
+                                        if session.timestamp <= datetime.strptime('2022/02/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
+                                            study='ABC'
+                                            break
+                                        else:
+                                            print('ABC or ABCD2--determine manually')
+                                            # mknote(indd,date,scantype)
+                                            break
                                     else:
-                                        print('ABC or ABCD2--determine manually')
+                                        print('3T scan does not have inst. name or address to ID study')
                                         # mknote(indd,date,scantype)
                                         break
-                                else:
-                                    print('3T scan does not have inst. name or address to ID study')
-                                    # mknote(indd,date,scantype)
-                                    break
-                    else:
-                        continue #not a dicom file, skip it        
+                        else:
+                            continue #not a dicom file, skip it        
 
-    newlabel = indd + 'x' + date + 'x' + scantype + 'x' + study
-    print(f'Renaming session to: {newlabel}') 
+        newlabel = indd + 'x' + date + 'x' + scantype + 'x' + study
+        print(f'Renaming session to: {newlabel}') 
 
-#############################################################
-    # session.update({'label': newlabel})
-    # session.reload()
-    # print(f'Session label is now {session.label}')
-#############################################################
+    #############################################################
+        # session.update({'label': newlabel})
+        # session.reload()
+        # print(f'Session label is now {session.label}')
+    #############################################################
 # o.close()
 print(f'{count} sessions in project {project.label} checked')  
