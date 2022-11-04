@@ -171,6 +171,7 @@ for count, session in enumerate(sessions, 1):
         print("PET scan")
         for acquisition in session.acquisitions():
             acquisition = acquisition.reload()
+            
             # pprint(acquisition)
             # for f in acquisition.files:
             #     if f.info['PatientName']:

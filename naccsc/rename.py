@@ -1,5 +1,4 @@
 from datetime import datetime
-from operator import mod
 import flywheel
 
 #notes sessions where study not findable 
@@ -20,7 +19,7 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('label=109789_AV1451PET_20190104')  #label=125107x20210609x3T   label=125590x10202022x7T    
+    sessions = project.sessions.iter_find('label=TECHDEV_20180927_7T_DELETE')  #label=125107x20210609x3T   label=125590x10202022x7T    
     #subset to test on mris:created>2022-10-01   pet: created>2022-07-14  125081xFDGx20220720 label=127794xAV1451PETx20220719
     # print('sessions found')
     # print(sessions)
@@ -48,31 +47,31 @@ for count, session in enumerate(sessions, 1):
         continue
     else:
 
-    ########ID incorrect session labels########    
-    #once a session fails an if (fails to match correct format), go to rename block
-    # if session.label[0:6] == session.subject.label:
-    #     print('subject ID test passed')
-    #     if session.label[7:15] == str(session.timestamp)[:10].replace('-',''): 
-    #         print('date test passed')
-    #         if session.label[16:18] == '3T' or session.label[16:18] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':
-    #             print('scantype test passed')
-    #             if session.label[-3:] == 'ABC' or session.label[-5:] =="ABCD2" or session.label[-4:] == 'VCID':
-    #                 print('study suffix correct')
-    #                 print(f'Session name {session.label} is correct, skipping session.')
-    #                 continue
-    # #if subject has _01 or x02:
-    # elif session.label[0:9] == session.subject.label: 
-    #     print('subject ID test passed with x01') 
-    #     if session.label[10:18] == str(session.timestamp)[:10].replace('-',''): 
-    #         print('date test passed')
-    #         if session.label[19:21] == '3T' or session.label[19:21] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':  
-    #             print('scantype test passed')
-    #             if session.label[-3:] == 'ABC' or session.label[-5] =="ABCD2" or session.label[-4] == 'VCID':
-    #                 print('study suffix correct')
-    #                 print(f'Session name {session.label} is correct, skipping session.')
-    #                 continue
+        ########ID incorrect session labels########    
+        #once a session fails an if (fails to match correct format), go to rename block
+        # if session.label[0:6] == session.subject.label:
+        #     print('subject ID test passed')
+        #     if session.label[7:15] == str(session.timestamp)[:10].replace('-',''): 
+        #         print('date test passed')
+        #         if session.label[16:18] == '3T' or session.label[16:18] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':
+        #             print('scantype test passed')
+        #             if session.label[-3:] == 'ABC' or session.label[-5:] =="ABCD2" or session.label[-4:] == 'VCID':
+        #                 print('study suffix correct')
+        #                 print(f'Session name {session.label} is correct, skipping session.')
+        #                 continue
+        # #if subject has _01 or x02:
+        # elif session.label[0:9] == session.subject.label: 
+        #     print('subject ID test passed with x01') 
+        #     if session.label[10:18] == str(session.timestamp)[:10].replace('-',''): 
+        #         print('date test passed')
+        #         if session.label[19:21] == '3T' or session.label[19:21] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':  
+        #             print('scantype test passed')
+        #             if session.label[-3:] == 'ABC' or session.label[-5] =="ABCD2" or session.label[-4] == 'VCID':
+        #                 print('study suffix correct')
+        #                 print(f'Session name {session.label} is correct, skipping session.')
+        #                 continue
 
-    #############renaming block################
+        #############renaming block################
         print(f'Session label: {session.label} is incorrect, renaming...')
 
         if '_' in session.subject.label: 
@@ -178,7 +177,7 @@ for count, session in enumerate(sessions, 1):
                                     break
                             ##MRIs        
                             elif modality == "MR":
-                                if magstrength == 7 or magstrength == 6.98094: #some 2020 7T scans have this number instead
+                                if magstrength == 7 or magstrength == 6.98094: #some 2020 7T scans have this number instead of 7
                                     scantype="7T"
                                     study = 'ABC'
                                     break
