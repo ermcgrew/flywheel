@@ -1,3 +1,19 @@
+118923x20220928xAV1451PETxABC
+ProtocolName: Brain-dyn-825944-AV1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 FlorbetapirPET--add AV45 to ID with scantype FBBPET
 different PPSD ## --use instname, study dates to assign to ABC or LEADS?
     ***********session loop 1: 122701_FlorbetapirPET_20171201******************

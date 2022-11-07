@@ -1,0 +1,204 @@
+ermcg@DESKTOP-6IOHF4H MINGW64 ~/git_repos/flywheel/naccsc (master)
+$ python rename.py 
+***********session loop 1: 122963xPI2620PETx20220221******************
+Session label: 122963xPI2620PETx20220221 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 833864 BRAIN PI-2620
+ProtocolName: Brain-dyn-833864.xml
+From labels: PI2620/tau
+Renaming session to: 122963x20220221xPI2620PETxABC
+***********session loop 2: 125213xPI2620PETx20220509******************
+Session label: 125213xPI2620PETx20220509 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: IRB 833864
+ProtocolName: Brain-dyn-833864.xml
+From labels: PI2620/tau
+Renaming session to: 125213x20220509xPI2620PETxABC
+***********session loop 3: 117639xFlorbetabenPETx20220607******************
+Session label: 117639xFlorbetabenPETx20220607 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825943
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 117639x20220607xFBBPETxABC
+***********session loop 4: 123680xFlorbetabenPETx20220413******************
+Session label: 123680xFlorbetabenPETx20220413 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: IRB 825943 F18 FLORBETABEN
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 123680x20220413xFBBPETxABC
+***********session loop 5: 123928xFlorbetabenPETx20220413******************
+Session label: 123928xFlorbetabenPETx20220413 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: PET/CT BRAIN AMYLOID IMAGING
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 123928x20220413xFBBPETxABC
+***********session loop 6: 125103xFlorbetabenPETx20220301******************
+Session label: 125103xFlorbetabenPETx20220301 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825943 BRAIN AMYLOID
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 125103x20220301xFBBPETxABC
+***********session loop 7: 125689xFlorbetabenPETx20220330******************
+Session label: 125689xFlorbetabenPETx20220330 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: PT/CT TUMOR LOCALIZATION WHOLE BODY
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 125689x20220330xFBBPETxABC
+***********session loop 8: 126248xFlorbetabenPETx20220209******************
+Session label: 126248xFlorbetabenPETx20220209 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825943 BRAIN AMYLOID
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 126248x20220209xFBBPETxABC
+***********session loop 9: 127127xFlorbetabenPETx20220405******************
+Session label: 127127xFlorbetabenPETx20220405 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825943 BRAIN AMYLOID DYNAMIC
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 127127x20220405xFBBPETxABC
+***********session loop 10: 127192xFlorbetabenPETx20220126******************
+Session label: 127192xFlorbetabenPETx20220126 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825943 BRAIN AMYLOID
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 127192x20220126xFBBPETxABC
+***********session loop 11: 127211xFlorbetabenPETx20220216******************
+Session label: 127211xFlorbetabenPETx20220216 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: PET/CT BRAIN AMYLOID IMAGING
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 127211x20220216xFBBPETxABC
+***********session loop 12: 127251xFlorbetabenPETx20220427******************
+Session label: 127251xFlorbetabenPETx20220427 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: PET/CT BRAIN AMYLOID IMAGING
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 127251x20220427xFBBPETxABC
+***********session loop 13: 127667xFlorbetabenPETx20220531******************
+Session label: 127667xFlorbetabenPETx20220531 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: PET/CT BRAIN AMYLOID IMAGING
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 127667x20220531xFBBPETxABC
+***********session loop 14: 128035xFlorbetabenPETx20220628******************
+Session label: 128035xFlorbetabenPETx20220628 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825943 BRAIN AMYLOID
+ProtocolName: Brain-dyn-825943.xml
+From labels: Amyloid/FBB
+Renaming session to: 128035x20220628xFBBPETxABC
+***********session loop 15: 122946xAV1451PETx20220330******************
+Session label: 122946xAV1451PETx20220330 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: PET/CT BRAIN METABOLIC EVALUATION
+ProtocolName: Brain-dyn-825944-AV1
+From labels: AV1451/tau
+Renaming session to: 122946x20220308xAV1451PETxABC
+***********session loop 16: 123680xAV1541PETx20220524******************
+Session label: 123680xAV1541PETx20220524 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: PET/CT BRAIN METABOLIC EVALUATION
+ProtocolName: Brain-dyn-825944-AV1
+From labels: AV1451/tau
+Renaming session to: 123680x20220524xAV1451PETxABC
+***********session loop 17: 124314xAV1451PETx20220412******************
+Session label: 124314xAV1451PETx20220412 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: IRB
+ProtocolName: Brain-dyn-825944-AV1
+From labels: AV1451/tau
+Renaming session to: 124314x20220412xAV1451PETxABC
+***********session loop 18: 125041xAV1451PETx20220614******************
+Session label: 125041xAV1451PETx20220614 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 825944 BRAIN AV1451 DYN
+ProtocolName: Brain-dyn-825944-AV1
+From labels: AV1451/tau
+Renaming session to: 125041x20220614xAV1451PETxABC
+***********session loop 19: 126844xAV1451PETx20220208******************
+Session label: 126844xAV1451PETx20220208 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: PET/CT BRAIN METABOLIC EVALUATION
+ProtocolName: Brain-dyn-825944-AV1
+From labels: AV1451/tau
+Renaming session to: 126844x20220208xAV1451PETxABC
+***********session loop 20: 125081x20220720x3T******************
+Session label: 125081x20220720x3T is incorrect, renaming...
+magstrength: 3
+instname: HUP
+inst address: Spruce Street 3400,Philadelphia,Pennsylvania,US,19104
+PerformedProcedureStepDecription: MR HEAD WO IV CONTRAST
+ProtocolName: 3 Plane Localizer
+From labels: Axial
+Renaming session to: 125081x20220720x3TxLEADS
+***********session loop 21: 125901xFlorbetabenPETx20220712******************
+Session label: 125901xFlorbetabenPETx20220712 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: PET/CT BRAIN AMYLOID IMAGING
+ProtocolName: Brain-dyn-829602-Amy
+From labels: Amyloid/FBB
+Renaming session to: 125901x20220712xFBBPETxLEADS
+***********session loop 22: 02-22-22 2_31 PM******************
+Session label: 02-22-22 2_31 PM is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN AV1451
+ProtocolName: Brain-dyn-829602-Tau
+From labels: AV1451/tau
+Renaming session to: 1003598435x20220222xAV1451PETxLEADS
+***********session loop 23: 02-23-22 2_23 PM******************
+Session label: 02-23-22 2_23 PM is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN AMYLOID
+ProtocolName: Brain-dyn-829602-Amy
+From labels: Amyloid/FBB
+Renaming session to: 1002701959x20220223xFBBPETxLEADS
+***********session loop 24: 126266xAV1451PETx20220621******************
+Session label: 126266xAV1451PETx20220621 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN AV1451
+ProtocolName: Brain-dyn-829602-Tau
+From labels: AV1451/tau
+Renaming session to: 126266x20220621xAV1451PETxLEADS
+***********session loop 25: 125081xFDGx20220720******************
+Session label: 125081xFDGx20220720 is incorrect, renaming...
+instname: HUP
+No key 'InstitutionAddress' exists
+PerformedProcedureStepDecription: 829602 BRAIN FDG
+ProtocolName: Brain-dyn-829602-FDG
+From labels: FDG
+Renaming session to: 125081x20220720xFDGPETxLEADS
+107 sessions in project NACC-SC checked

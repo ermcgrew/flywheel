@@ -19,10 +19,8 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('label=TECHDEV_20180927_7T_DELETE')  #label=125107x20210609x3T   label=125590x10202022x7T    
+    sessions = project.sessions.iter_find('created>2022-07-14')  #label=125107x20210609x3T   label=125590x10202022x7T    
     #subset to test on mris:created>2022-10-01   pet: created>2022-07-14  125081xFDGx20220720 label=127794xAV1451PETx20220719
-    # print('sessions found')
-    # print(sessions)
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -32,7 +30,7 @@ time=datetime.now().strftime("%Y%m%d_%H%M")
 
 #look at each session and rename as appropriate
 for count, session in enumerate(sessions, 1):
- if count <= 25:
+ if count <= 25: ##for testing
     print(f'***********session loop {count}: {session.label}******************')
     
     #reset variables to empty strings
@@ -86,17 +84,12 @@ for count, session in enumerate(sessions, 1):
         for count2, acquisition in enumerate(session.acquisitions(), 1): 
             if scantype == '': #keeps from looping through every acq 
                 modality = acquisition.files[0].modality
-                # print(f'acquisition for loop {count2} working')
                 if modality == 'CT' or modality == 'SR': #those acquisitions don't have detailed metadata
                     continue
                 else:
-                    # print('hit the else')
                     for x in range(len(acquisition.files)): 
-                        # print(f'this is file loop: {x}')
                         if acquisition.files[x].type == 'dicom': #only need the dicom file's metadata
-                            # print("is dicom")
                             labels=' '.join([acquisition.label for acquisition in session.acquisitions()]) #all acq.labels into 1 string to be partial-matched to
-                            # print(labels)
                             acquisition = acquisition.reload() 
                             f = acquisition.files[x].info #dictionary of metadata info per file
                                                     
@@ -125,6 +118,12 @@ for count, session in enumerate(sessions, 1):
                                 print(f'No key {e} exists')
                                 petid=''
 
+                            try:
+                                protocolName = f['ProtocolName']
+                                print(f'ProtocolName: {protocolName}')                    
+                            except KeyError as e:
+                                print(f'No key {e} exists')
+                                protocolName=''
                             
 
                             ##PET scans 
@@ -133,18 +132,18 @@ for count, session in enumerate(sessions, 1):
                                     print('From labels: Amyloid/FBB')
                                     scantype = 'FBBPET'
                                     # print('scantype fbbpet determined')
-                                    if '844047' in petid:
+                                    if '844047' in petid or '844047' in protocolName:
                                         study = 'ABCD2'
                                         break
-                                    elif '825943' in petid:
+                                    elif '825943' in petid or '825943' in protocolName:
                                         study = 'ABC'
                                         # print('study ABC assigned line 90')
                                         break
-                                    elif '829602' in petid:
+                                    elif '829602' in petid or '829602' in protocolName:
                                         study = "LEADS"
                                         break
                                     else: 
-                                        print('No matching performed procedure step description found')
+                                        print('No matching performed procedure step description found, making note...')
                                         # mknote(indd,date,scantype)
                                         break                                                    
                                 elif '2620' in labels: #PI2620 sometimes listed with space--PI 2620
@@ -156,18 +155,18 @@ for count, session in enumerate(sessions, 1):
                                 elif 'AV1451' in labels: 
                                     scantype = 'AV1451PET'
                                     print('From labels: AV1451/tau')
-                                    if '844403' in petid:
+                                    if '844403' in petid or '844403' in protocolName:
                                         study = 'ABCD2'
                                         break
-                                    elif '825944' in petid or '833864' in petid:
+                                    elif '825944' in petid or '833864' in petid or '825944' in protocolName or '833864' in protocolName:
                                         study = 'ABC'
                                         # print('study ABC assigned line 108')
                                         break
-                                    elif '829602' in petid:
+                                    elif '829602' in petid or '829602' in protocolName:
                                         study = "LEADS"
                                         break
                                     else: 
-                                        print('No matching performed procedure step description found')
+                                        print('No matching performed procedure step description found, making note...')
                                         # mknote(indd,date,scantype)
                                         break
                                 elif 'FDG' in labels: 
@@ -196,7 +195,7 @@ for count, session in enumerate(sessions, 1):
                                             # print('study is VCID')
                                             break
                                         else:
-                                            print('HUP 3T scan labels insufficient to id study')
+                                            print('HUP 3T scan labels insufficient to id study, making note...')
                                             # mknote(indd,date,scantype)
                                             break
                                     elif instname == 'SC3T' or 'Curie' in instaddress:
@@ -209,7 +208,7 @@ for count, session in enumerate(sessions, 1):
                                             # mknote(indd,date,scantype)
                                             break
                                     else:
-                                        print('3T scan does not have inst. name or address to ID study')
+                                        print('3T scan does not have inst. name or address to ID study, making note...')
                                         # mknote(indd,date,scantype)
                                         break
                         else:
@@ -217,11 +216,9 @@ for count, session in enumerate(sessions, 1):
 
         newlabel = indd + 'x' + date + 'x' + scantype + 'x' + study
         print(f'Renaming session to: {newlabel}') 
-
-    #############################################################
         # session.update({'label': newlabel})
         # session.reload()
         # print(f'Session label is now {session.label}')
-    #############################################################
+
 # o.close()
 print(f'{count} sessions in project {project.label} checked')  
