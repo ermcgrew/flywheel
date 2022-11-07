@@ -1,4 +1,4 @@
-#Reviews all sessions in NACC-SC flywheel project and renames them in correct syntax: INDDxDATExSCANTYPExSTUDY
+#Renames all sessions in NACC-SC flywheel project in correct syntax: INDDxDATExSCANTYPExSTUDY
 #Run from terminal: python rename.py >> rename_log_DATE.txt
 
 from datetime import datetime
@@ -22,7 +22,7 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('created>2022-10-24')
+    sessions = project.sessions.iter_find()
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -41,7 +41,7 @@ for count, session in enumerate(sessions, 1):
     study=''
 
     if 'Duplicate' in session.tags or 'Misc.' in session.tags: #skip duplicate and Misc. sessions
-        print(f'{session.label} has tags {session.tags}, not renaming')
+        print(f'{session.label} has tag {session.tags}, not renaming')
         continue
     else:
         if '_' in session.subject.label: 
@@ -136,9 +136,10 @@ for count, session in enumerate(sessions, 1):
                                     scantype="7T"
                                     if session.label[-4:] == "YMTL":
                                         study = 'YMTL'
+                                        break
                                     else:
                                         study = 'ABC'
-                                    break
+                                        break
                                 elif magstrength == 3:
                                     scantype='3T'
                                     if instname == 'HUP' or 'Spruce' in instaddress:
@@ -158,6 +159,7 @@ for count, session in enumerate(sessions, 1):
                                             break
                                         elif session.label[-4:] == "YMTL":
                                             study = 'YMTL'
+                                            break
                                         else:
                                             print('ABC or ABCD2--determine manually')
                                             mknote(indd,date,scantype)
