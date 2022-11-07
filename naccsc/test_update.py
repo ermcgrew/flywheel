@@ -1,10 +1,11 @@
 import flywheel
 fw = flywheel.Client()
 
-session = fw.get('6304f0e9d1eb12db471e2cb4')
+session = fw.get('63615c9a8724cd74af8fbea8')
 print(session.label)
 if '_' in session.subject.label: 
     indd=session.subject.label.replace('_',"x")
+    session.subject.update(label=indd)
 else: 
     indd = session.subject.label
     

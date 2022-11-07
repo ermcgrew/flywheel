@@ -40,7 +40,31 @@ for count, session in enumerate(sessions, 1):
         # else:
     print(f'session loop {count}: {session.label}')
     # print(session)
-    
+     ########ID incorrect session labels########    
+        #once a session fails an if (fails to match correct format), go to rename block
+        # if session.label[0:6] == session.subject.label:
+        #     print('subject ID test passed')
+        #     if session.label[7:15] == str(session.timestamp)[:10].replace('-',''): 
+        #         print('date test passed')
+        #         if session.label[16:18] == '3T' or session.label[16:18] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':
+        #             print('scantype test passed')
+        #             if session.label[-3:] == 'ABC' or session.label[-5:] =="ABCD2" or session.label[-4:] == 'VCID':
+        #                 print('study suffix correct')
+        #                 print(f'Session name {session.label} is correct, skipping session.')
+        #                 continue
+        # #if subject has _01 or x02:
+        # elif session.label[0:9] == session.subject.label: 
+        #     print('subject ID test passed with x01') 
+        #     if session.label[10:18] == str(session.timestamp)[:10].replace('-',''): 
+        #         print('date test passed')
+        #         if session.label[19:21] == '3T' or session.label[19:21] =='7T' or session.label[16:25] == 'PI2620PET' or session.label[16:22] == 'FBBPET' or session.label[16:25] == 'AV1451PET':  
+        #             print('scantype test passed')
+        #             if session.label[-3:] == 'ABC' or session.label[-5] =="ABCD2" or session.label[-4] == 'VCID':
+        #                 print('study suffix correct')
+        #                 print(f'Session name {session.label} is correct, skipping session.')
+        #                 continue
+
+        
     # name=session.label
     # namelist=name.split('x')
     # if len(namelist) == 4:
