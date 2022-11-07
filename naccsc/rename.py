@@ -22,7 +22,7 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find('label=124738x20220906x3T')      
+    sessions = project.sessions.iter_find('created>2022-10-24')
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -30,9 +30,9 @@ except flywheel.ApiException as e:
 time=datetime.now().strftime("%Y%m%d_%H%M")
 o = open(f'sessions_no_study_{time}.txt', 'a')
 
-#look at each session and rename as appropriate
+#look at each session and rename
 for count, session in enumerate(sessions, 1):
-    print(f'***********session loop {count}: {session.label}******************')
+    print(f'Loop {count}: {session.label}')
     
     #reset variables to empty strings
     indd=''
@@ -44,12 +44,14 @@ for count, session in enumerate(sessions, 1):
         print(f'{session.label} has tags {session.tags}, not renaming')
         continue
     else:
-        print(f'Session label: {session.label} is incorrect, renaming...')
-
         if '_' in session.subject.label: 
             indd=session.subject.label.replace('_',"x")
             print(f'Updating subject label to {indd}')
-            session.subject.update(label=indd) ##updates subject label to correct version
+            # session.subject.update(label=indd)
+        elif '.' in session.subject.label: 
+            indd=session.subject.label.replace('.',"x")
+            print(f'Updating subject label to {indd}')
+            # session.subject.update(label=indd)
         else: 
             indd = session.subject.label
         
@@ -73,25 +75,21 @@ for count, session in enumerate(sessions, 1):
                             try:
                                 instname = f['InstitutionName']
                             except KeyError as e:
-                                print(f'No key {e} exists')
                                 instname =''
                             
                             try:
                                 instaddress = f['InstitutionAddress']
                             except KeyError as e:
-                                print(f'No key {e} exists')
                                 instaddress = ''
                             
                             try:
                                 petid = f['PerformedProcedureStepDescription']
                             except KeyError as e:
-                                print(f'No key {e} exists')
                                 petid=''
 
                             try:
                                 protocolName = f['ProtocolName']
                             except KeyError as e:
-                                print(f'No key {e} exists')
                                 protocolName=''
  
                             if modality == 'PT':
@@ -136,7 +134,10 @@ for count, session in enumerate(sessions, 1):
                             elif modality == "MR":
                                 if magstrength == 7 or magstrength == 6.98094: #some 2020 7T scans have this number instead of 7
                                     scantype="7T"
-                                    study = 'ABC'
+                                    if session.label[-4:] == "YMTL":
+                                        study = 'YMTL'
+                                    else:
+                                        study = 'ABC'
                                     break
                                 elif magstrength == 3:
                                     scantype='3T'
@@ -155,6 +156,8 @@ for count, session in enumerate(sessions, 1):
                                         if session.timestamp <= datetime.strptime('2022/02/01 12:00:00 +00:00', '%Y/%d/%m %H:%M:%S %z'):
                                             study='ABC'
                                             break
+                                        elif session.label[-4:] == "YMTL":
+                                            study = 'YMTL'
                                         else:
                                             print('ABC or ABCD2--determine manually')
                                             mknote(indd,date,scantype)
@@ -168,7 +171,7 @@ for count, session in enumerate(sessions, 1):
 
         newlabel = indd + 'x' + date + 'x' + scantype + 'x' + study
         print(f'Renaming session to: {newlabel}') 
-        session.update({'label': newlabel})
+        # session.update({'label': newlabel})
 
 o.close()
 print(f'{count} sessions in project {project.label} checked')  

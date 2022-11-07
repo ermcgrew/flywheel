@@ -15,7 +15,7 @@ except flywheel.ApiException as e:
 
 try:
     # sessions = project.sessions.iter_find() #wecandream
-    sessions = project.sessions.iter_find('created>2022-10-02')  #07-27') 
+    sessions = project.sessions.iter_find('label=111768.01x20221024x3TxABCD2')  #07-27') 
     # sessions = project.sessions.iter_find('label=128314x20220728x3TxABCD2')
     # sessions = project.sessions.iter_find('label=117870x20220920x3TxABC')
     # sessions = project.sessions.iter_find('label=119202x20220921x3TxVCID')
@@ -75,6 +75,18 @@ for count, session in enumerate(sessions, 1):
     #     ##still verify indd & date are correct??
     # else: 
     #     print('do whole rename')
+    print(session.subject.label)
+    if '_' in session.subject.label: 
+            indd=session.subject.label.replace('_',"x")
+            print(f'Updating subject label to {indd}')
+            # session.subject.update(label=indd)
+    elif '.' in session.subject.label: 
+            indd=session.subject.label.replace('.',"x")
+            print(f'Updating subject label to {indd}')
+            # session.subject.update(label=indd)
+    else: 
+            indd = session.subject.label
+
 
     # if session.label[-3:] == 'ABC':
     #     study="ABC"
@@ -83,9 +95,10 @@ for count, session in enumerate(sessions, 1):
     # date = str(session.timestamp)[:10].replace('-','')
     # if date > '2022-07-01':
     #     print(f'{date} is after july 1')
-    for acquisition in session.acquisitions():
-        print(acquisition.files[0].modality)
-        print(acquisition.label)
+
+    # for acquisition in session.acquisitions():
+        # print(acquisition.files[0].modality)
+        # print(acquisition.label)
 
     test = [acquisition.files[0].modality for acquisition in session.acquisitions()]
     # print(test)
