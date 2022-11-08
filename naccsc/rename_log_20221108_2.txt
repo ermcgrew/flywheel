@@ -1,0 +1,3451 @@
+Loop 1: 105476x01x20190306x3TxABC
+Renaming session to: 105476x01x20190306x3TxABC
+Loop 2: 117375x20190312x3TxABC
+Renaming session to: 117375x20190312x3TxABC
+Loop 3: 119482x20190313x3TxABC
+Renaming session to: 119482x20190313x3TxABC
+Loop 4: 123572x20190313x3TxABC
+Renaming session to: 123572x20190313x3TxABC
+Loop 5: 119493x20190320x3TxABC
+Renaming session to: 119493x20190320x3TxABC
+Loop 6: 114000_20190320_3T_DUPLICATE
+114000_20190320_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 7: 122152x20170608xFBBPETx
+No matching performed procedure step description found, making note...
+Renaming session to: 122152x20170608xFBBPETx
+Loop 8: 124650x20190326x3TxABC
+Renaming session to: 124650x20190326x3TxABC
+Loop 9: 122395x20190326x3TxABC
+Renaming session to: 122395x20190326x3TxABC
+Loop 10: 119621x20190326x3TxABC
+Renaming session to: 119621x20190326x3TxABC
+Loop 11: 123894x20190327x3TxABC
+Renaming session to: 123894x20190327x3TxABC
+Loop 12: 123725x20190327x3TxABC
+Renaming session to: 123725x20190327x3TxABC
+Loop 13: 124613x20190328x3TxABC
+Renaming session to: 124613x20190328x3TxABC
+Loop 14: 124613x20190329x7TxABC
+Renaming session to: 124613x20190329x7TxABC
+Loop 15: 122475x20190402x3TxABC
+Renaming session to: 122475x20190402x3TxABC
+Loop 16: 123434x20190402x3TxABC
+Renaming session to: 123434x20190402x3TxABC
+Loop 17: 123763x20190402x3TxABC
+Renaming session to: 123763x20190402x3TxABC
+Loop 18: 112574x20190403x3TxABC
+Renaming session to: 112574x20190403x3TxABC
+Loop 19: 123950x20190403x3TxABC
+Renaming session to: 123950x20190403x3TxABC
+Loop 20: 112574x20190403x7TxABC
+Renaming session to: 112574x20190403x7TxABC
+Loop 21: 124696x20190404x3TxABC
+Renaming session to: 124696x20190404x3TxABC
+Loop 22: 120896x20190409x3TxABC
+Renaming session to: 120896x20190409x3TxABC
+Loop 23: 115562x20190409x3TxABC
+Renaming session to: 115562x20190409x3TxABC
+Loop 24: I AM CONFUSED BY THIS
+I AM CONFUSED BY THIS has tag ['Misc.'], not renaming
+Loop 25: 124696x20190411x7TxABC
+Renaming session to: 124696x20190411x7TxABC
+Loop 26: 124745x20190415x3TxABC
+Renaming session to: 124745x20190415x3TxABC
+Loop 27: 124745x20190415x7TxABC
+Renaming session to: 124745x20190415x7TxABC
+Loop 28: 124735x20190416x3TxABC
+Renaming session to: 124735x20190416x3TxABC
+Loop 29: 111275x01x20190416x3TxABC
+Renaming session to: 111275x01x20190416x3TxABC
+Loop 30: 124735_20190416_7T_DUPLICATE
+124735_20190416_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 31: 111275_01_20190416_7T_DUPLICATE
+111275_01_20190416_7T_DUPLICATE has tag ['control1', 'Duplicate'], not renaming
+Loop 32: 109459x20190417x3TxABC
+Renaming session to: 109459x20190417x3TxABC
+Loop 33: 118923_20190417_7T_DUPLICATE
+118923_20190417_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 34: 121899_20190423_3T_DUPLICATE
+121899_20190423_3T_DUPLICATE has tag ['control3', 'control4', 'Duplicate'], not renaming
+Loop 35: 102650_01_20190423_3T_DUPLICATE
+102650_01_20190423_3T_DUPLICATE has tag ['control1', 'control3', 'control4', 'Duplicate'], not renaming
+Loop 36: 124789_20190425_3T_DUPLICATE
+124789_20190425_3T_DUPLICATE has tag ['control3', 'control4', 'Duplicate'], not renaming
+Loop 37: 124004_20190430_3T_DUPLICATE
+124004_20190430_3T_DUPLICATE has tag ['control3', 'control4', 'Duplicate'], not renaming
+Loop 38: 106735_20190502_3T_DUPLICATE
+106735_20190502_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 39: 104115x20190507x3TxABC
+Renaming session to: 104115x20190507x3TxABC
+Loop 40: 123072x20190508x3TxABC
+Renaming session to: 123072x20190508x3TxABC
+Loop 41: 104115_20190507_7T_DUPLICATE
+104115_20190507_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 42: 124383_20190515_3T_DUPLICATE
+124383_20190515_3T_DUPLICATE has tag ['control3', 'control4', 'Duplicate'], not renaming
+Loop 43: 123023x20190515x3TxABC
+Renaming session to: 123023x20190515x3TxABC
+Loop 44: 123023_20190515_7T_DUPLICATE
+123023_20190515_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 45: 124383_20190515_7T_DUPLICATE
+124383_20190515_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 46: 124787x20190516x3TxABC
+Renaming session to: 124787x20190516x3TxABC
+Loop 47: 124787x20190517x7TxABC
+Renaming session to: 124787x20190517x7TxABC
+Loop 48: 124961x20190521x3TxABC
+Renaming session to: 124961x20190521x3TxABC
+Loop 49: 119035x20190521x3TxABC
+Renaming session to: 119035x20190521x3TxABC
+Loop 50: 124961x20190521x7TxABC
+Renaming session to: 124961x20190521x7TxABC
+Loop 51: 124851x20190522x3TxABC
+Renaming session to: 124851x20190522x3TxABC
+Loop 52: 124851x20190522x7TxABC
+Renaming session to: 124851x20190522x7TxABC
+Loop 53: 118601x20190523x3TxABC
+Renaming session to: 118601x20190523x3TxABC
+Loop 54: 119363x20190528x3TxABC
+Renaming session to: 119363x20190528x3TxABC
+Loop 55: 119363x20190528x7TxABC
+Renaming session to: 119363x20190528x7TxABC
+Loop 56: 123733x20190528x3TxABC
+Renaming session to: 123733x20190528x3TxABC
+Loop 57: 117376x20190528x7TxABC
+Renaming session to: 117376x20190528x7TxABC
+Loop 58: 113066x02x20190528x3TxABC
+Renaming session to: 113066x02x20190528x3TxABC
+Loop 59: 123485x20190529x3TxABC
+Renaming session to: 123485x20190529x3TxABC
+Loop 60: 123367x20190529x3TxABC
+Renaming session to: 123367x20190529x3TxABC
+Loop 61: 123367x20190529x7TxABC
+Renaming session to: 123367x20190529x7TxABC
+Loop 62: 123194x20190603x3TxABC
+Renaming session to: 123194x20190603x3TxABC
+Loop 63: 124953x20190603x3TxABC
+Renaming session to: 124953x20190603x3TxABC
+Loop 64: 124953x20190603x7TxABC
+Renaming session to: 124953x20190603x7TxABC
+Loop 65: 122987x20190604x3TxABC
+Renaming session to: 122987x20190604x3TxABC
+Loop 66: 124212x20190604x3TxABC
+Renaming session to: 124212x20190604x3TxABC
+Loop 67: 124212x20190604x7TxABC
+Renaming session to: 124212x20190604x7TxABC
+Loop 68: 122987x20190604x7TxABC
+Renaming session to: 122987x20190604x7TxABC
+Loop 69: 124890x20190605x3TxABC
+Renaming session to: 124890x20190605x3TxABC
+Loop 70: 124890x20190605x7TxABC
+Renaming session to: 124890x20190605x7TxABC
+Loop 71: 125023x20190610x7TxABC
+Renaming session to: 125023x20190610x7TxABC
+Loop 72: 125023x20190610x3TxABC
+Renaming session to: 125023x20190610x3TxABC
+Loop 73: 124592x20190611x3TxABC
+Renaming session to: 124592x20190611x3TxABC
+Loop 74: 124738x20190611x3TxABC
+Renaming session to: 124738x20190611x3TxABC
+Loop 75: 100049x20160621x3TxABC
+Renaming session to: 100049x20160621x3TxABC
+Loop 76: 100113x20160620x3TxABC
+Renaming session to: 100113x20160620x3TxABC
+Loop 77: 100639x20160616x3TxABC
+Renaming session to: 100639x20160616x3TxABC
+Loop 78: 101162x20160523x3TxABC
+Renaming session to: 101162x20160523x3TxABC
+Loop 79: 101195x20160825x3TxABC
+Renaming session to: 101195x20160825x3TxABC
+Loop 80: 101366x20161013x3TxABC
+Renaming session to: 101366x20161013x3TxABC
+Loop 81: 101628x01x20161208x3TxABC
+Renaming session to: 101628x01x20161208x3TxABC
+Loop 82: 101712x20161027x3TxABC
+Renaming session to: 101712x20161027x3TxABC
+Loop 83: 102115x20160922x3TxABC
+Renaming session to: 102115x20160922x3TxABC
+Loop 84: 102439x01x20161222x3TxABC
+Renaming session to: 102439x01x20161222x3TxABC
+Loop 85: 102439x20161222x3TxABC
+Renaming session to: 102439x20161222x3TxABC
+Loop 86: 104115x20161201x3TxABC
+Renaming session to: 104115x20161201x3TxABC
+Loop 87: 104497x20160804x3TxABC
+Renaming session to: 104497x20160804x3TxABC
+Loop 88: 104504x20160516x3TxABC
+Renaming session to: 104504x20160516x3TxABC
+Loop 89: 105476x01x20160606x3TxABC
+Renaming session to: 105476x01x20160606x3TxABC
+Loop 90: 106122x01x20160811x3TxABC
+Renaming session to: 106122x01x20160811x3TxABC
+Loop 91: 106122_01_20160811_3T_DUPLICATE
+106122_01_20160811_3T_DUPLICATE has tag ['control1', 'control3', 'control4', 'Duplicate'], not renaming
+Loop 92: 106122x20160830x3TxABC
+Renaming session to: 106122x20160830x3TxABC
+Loop 93: 106509x20161201x3TxABC
+Renaming session to: 106509x20161201x3TxABC
+Loop 94: 106735x20161215x3TxABC
+Renaming session to: 106735x20161215x3TxABC
+Loop 95: 107196x20160419x3TxABC
+Renaming session to: 107196x20160419x3TxABC
+Loop 96: 107799x20160804x3TxABC
+Renaming session to: 107799x20160804x3TxABC
+Loop 97: 107886x01x20160818x3TxABC
+Renaming session to: 107886x01x20160818x3TxABC
+Loop 98: 107970x01x20160929x3TxABC
+Renaming session to: 107970x01x20160929x3TxABC
+Loop 99: 107973x20161201x3TxABC
+Renaming session to: 107973x20161201x3TxABC
+Loop 100: 109789x20160915x3TxABC
+Renaming session to: 109789x20160915x3TxABC
+Loop 101: 111275x01x20161110x3TxABC
+Renaming session to: 111275x01x20161110x3TxABC
+Loop 102: 111487x20161215x3TxABC
+Renaming session to: 111487x20161215x3TxABC
+Loop 103: 111965x20161117x3TxABC
+Renaming session to: 111965x20161117x3TxABC
+Loop 104: 112286x01x20160609x3TxABC
+Renaming session to: 112286x01x20160609x3TxABC
+Loop 105: 112761x20160804x3TxABC
+Renaming session to: 112761x20160804x3TxABC
+Loop 106: 113066x02x20161117x3TxABC
+Renaming session to: 113066x02x20161117x3TxABC
+Loop 107: 113870x20160711x3TxABC
+Renaming session to: 113870x20160711x3TxABC
+Loop 108: 114000x20160516x3TxABC
+Renaming session to: 114000x20160516x3TxABC
+Loop 109: 114035x20161020x3TxABC
+Renaming session to: 114035x20161020x3TxABC
+Loop 110: 114787x20160525x3TxABC
+Renaming session to: 114787x20160525x3TxABC
+Loop 111: 115587x20161027x3TxABC
+Renaming session to: 115587x20161027x3TxABC
+Loop 112: 116497x20160425x3TxABC
+Renaming session to: 116497x20160425x3TxABC
+Loop 113: 116630x20160616x3TxABC
+Renaming session to: 116630x20160616x3TxABC
+Loop 114: 116707x20160620x3TxABC
+Renaming session to: 116707x20160620x3TxABC
+Loop 115: 116815x20160728x3TxABC
+Renaming session to: 116815x20160728x3TxABC
+Loop 116: 117297x20160512x3TxABC
+Renaming session to: 117297x20160512x3TxABC
+Loop 117: 117299x20161117x3TxABC
+Renaming session to: 117299x20161117x3TxABC
+Loop 118: 117376x20160803x3TxABC
+Renaming session to: 117376x20160803x3TxABC
+Loop 119: 117550x20160509x3TxABC
+Renaming session to: 117550x20160509x3TxABC
+Loop 120: 118060x20161010x3TxABC
+Renaming session to: 118060x20161010x3TxABC
+Loop 121: 118060_20161010_3T_DUPLICATE
+118060_20161010_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 122: 118188x20160509x3TxABC
+Renaming session to: 118188x20160509x3TxABC
+Loop 123: 118317x20160915x3TxABC
+Renaming session to: 118317x20160915x3TxABC
+Loop 124: 118404x20160427x3TxABC
+Renaming session to: 118404x20160427x3TxABC
+Loop 125: 118440x20161208x3TxABC
+Renaming session to: 118440x20161208x3TxABC
+Loop 126: 118700x20160509x3TxABC
+Renaming session to: 118700x20160509x3TxABC
+Loop 127: 118711x20160412x3TxABC
+Renaming session to: 118711x20160412x3TxABC
+Loop 128: 118724x20160617x3TxABC
+Renaming session to: 118724x20160617x3TxABC
+Loop 129: 118775x20160523x3TxABC
+Renaming session to: 118775x20160523x3TxABC
+Loop 130: 118964x20160818x3TxABC
+Renaming session to: 118964x20160818x3TxABC
+Loop 131: 118982x20160915x3TxABC
+Renaming session to: 118982x20160915x3TxABC
+Loop 132: 118998x20160901x3TxABC
+Renaming session to: 118998x20160901x3TxABC
+Loop 133: 119035x20161110x3TxABC
+Renaming session to: 119035x20161110x3TxABC
+Loop 134: 119109x20160516x3TxABC
+Renaming session to: 119109x20160516x3TxABC
+Loop 135: 119152x20161013x3TxABC
+Renaming session to: 119152x20161013x3TxABC
+Loop 136: 119167x20160825x3TxABC
+Renaming session to: 119167x20160825x3TxABC
+Loop 137: 119254x20160428x3TxABC
+Renaming session to: 119254x20160428x3TxABC
+Loop 138: 119298x20160620x3TxABC
+Renaming session to: 119298x20160620x3TxABC
+Loop 139: 119390x20161215x3TxABC
+Renaming session to: 119390x20161215x3TxABC
+Loop 140: 119788x20160818x3TxABC
+Renaming session to: 119788x20160818x3TxABC
+Loop 141: 119813x20160811x3TxABC
+Renaming session to: 119813x20160811x3TxABC
+Loop 142: 119989x20160901x3TxABC
+Renaming session to: 119989x20160901x3TxABC
+Loop 143: 120033x20161208x3TxABC
+Renaming session to: 120033x20161208x3TxABC
+Loop 144: 120033_20161208_3T_DUPLICATE
+120033_20161208_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 145: 120132x20160728x3TxABC
+Renaming session to: 120132x20160728x3TxABC
+Loop 146: 120150x20160901x3TxABC
+Renaming session to: 120150x20160901x3TxABC
+Loop 147: 119851x20190613x3TxABC
+Renaming session to: 119851x20190613x3TxABC
+Loop 148: 120184x20160426x3TxABC
+Renaming session to: 120184x20160426x3TxABC
+Loop 149: 120516x20160616x3TxABC
+Renaming session to: 120516x20160616x3TxABC
+Loop 150: 120686x20160414x3TxABC
+Renaming session to: 120686x20160414x3TxABC
+Loop 151: 120937x20160711x3TxABC
+Renaming session to: 120937x20160711x3TxABC
+Loop 152: 121095x20160929x3TxABC
+Renaming session to: 121095x20160929x3TxABC
+Loop 153: 121272x20161103x3TxABC
+Renaming session to: 121272x20161103x3TxABC
+Loop 154: 100437x20170223x3TxABC
+Renaming session to: 100437x20170223x3TxABC
+Loop 155: 100639x20171020xx
+Renaming session to: 100639x20171020xx
+Loop 156: 100836x20170216x3TxABC
+Renaming session to: 100836x20170216x3TxABC
+Loop 157: 100836x20171113xx
+Renaming session to: 100836x20171113xx
+Loop 158: 100836x20171206xAV1451PETxABC
+Renaming session to: 100836x20171206xAV1451PETxABC
+Loop 159: 100836x20170627xFBBPETxABC
+Renaming session to: 100836x20170627xFBBPETxABC
+Loop 160: 100905x01x20170406x3TxABC
+Renaming session to: 100905x01x20170406x3TxABC
+Loop 161: 100905_01_20171114_7T
+Renaming session to: 100905x01x20171114xx
+Loop 162: 100905_01_FlorbetabenPET_20170525
+Renaming session to: 100905x01x20170525xFBBPETxABC
+Loop 163: 100905_01_AV1451PET_20171122
+Renaming session to: 100905x01x20171122xAV1451PETxABC
+Loop 164: 101066x20170601x3T
+Renaming session to: 101066x20170601x3TxABC
+Loop 165: 101066_FlorbetabenAmyloidPET_20170622
+Renaming session to: 101066x20170622xFBBPETxABC
+Loop 166: 101162_20170928_7T
+Renaming session to: 101162x20170928xx
+Loop 167: 101162_AV1451PET_20171130
+No matching performed procedure step description found, making note...
+Renaming session to: 101162x20171130xAV1451PETx
+Loop 168: 101162_FlorbetabenPET_20171109
+Renaming session to: 101162x20171109xFBBPETxABC
+Loop 169: 101737x20171010x3T
+Renaming session to: 101737x20171010x3TxABC
+Loop 170: 101737_20171010_7T
+Renaming session to: 101737x20171010xx
+Loop 171: 102904x20170509x3T
+Renaming session to: 102904x20170509x3TxABC
+Loop 172: 103907x20170202x3T
+Renaming session to: 103907x20170202x3TxABC
+Loop 173: 103907_FlorbetabenPET1_20170815
+Renaming session to: 103907x20170815xFBBPETxABC
+Loop 174: 104115_FlorbetapirPET_20170419
+No matching performed procedure step description found, making note...
+Renaming session to: 104115x20170419xFBBPETx
+Loop 175: 104489x01x20170829x3T
+Renaming session to: 104489x01x20170829x3TxABC
+Loop 176: 105732x01x20170824x3T
+Renaming session to: 105732x01x20170824x3TxABC
+Loop 177: 105732_01_FlorbetabenPET_20170920
+Renaming session to: 105732x01x20170920xFBBPETxABC
+Loop 178: 105733x01x20170824x3T
+Renaming session to: 105733x01x20170824x3TxABC
+Loop 179: 105733_01_FlorbetabenPET_20170920
+Renaming session to: 105733x01x20170920xFBBPETxABC
+Loop 180: 106036x20171003x3T
+Renaming session to: 106036x20171003x3TxABC
+Loop 181: 106247x20170725x3T
+Renaming session to: 106247x20170725x3TxABC
+Loop 182: 106247_FlorbetabenPET_20170726
+No matching performed procedure step description found, making note...
+Renaming session to: 106247x20170726xFBBPETx
+Loop 183: 106615_01_20171031_7T
+Renaming session to: 106615x01x20171031xx
+Loop 184: 106615x01x20171031x3T
+Renaming session to: 106615x01x20171031x3TxABC
+Loop 185: 106615x20171031x3T
+Renaming session to: 106615x20171031x3TxABC
+Loop 186: 106642x20170504x3T
+Renaming session to: 106642x20170504x3TxABC
+Loop 187: 106721x01x20170711x3T
+Renaming session to: 106721x01x20170711x3TxABC
+Loop 188: 106721_01_FlorbetabenPET_20171003
+No matching performed procedure step description found, making note...
+Renaming session to: 106721x01x20171003xFBBPETx
+Loop 189: 106722x01x20170711x3T
+Renaming session to: 106722x01x20170711x3TxABC
+Loop 190: 106722_01_FlorbetabenPET_20171003
+Renaming session to: 106722x01x20171003xFBBPETxABC
+Loop 191: 107196_20170929_7T
+Renaming session to: 107196x20170929xx
+Loop 192: 107196_FlorbetapirPET_20170331
+No matching performed procedure step description found, making note...
+Renaming session to: 107196x20170331xFBBPETx
+Loop 193: 109136_FlorbetapirPET_20170421
+No matching performed procedure step description found, making note...
+Renaming session to: 109136x20170421xFBBPETx
+Loop 194: 109459x20170413x3T
+Renaming session to: 109459x20170413x3TxABC
+Loop 195: 111275_01_FlorbetapirPET_20170517
+No matching performed procedure step description found, making note...
+Renaming session to: 111275x01x20170517xFBBPETx
+Loop 196: 111487_FlorbetapirPET_20170404
+No matching performed procedure step description found, making note...
+Renaming session to: 111487x20170404xFBBPETx
+Loop 197: 111768x01x20170223x3T
+Renaming session to: 111768x01x20170223x3TxABC
+Loop 198: 111768x02x20170216x3T
+Renaming session to: 111768x02x20170216x3TxABC
+Loop 199: 111768x02xFlorbetabenPETx20170822
+Renaming session to: 111768x02x20170822xFBBPETxABC
+Loop 200: 112574x20170316x3T
+Renaming session to: 112574x20170316x3TxABC
+Loop 201: 112574_20171107_7T
+Renaming session to: 112574x20171107xx
+Loop 202: 112574_AV1451PET_20171207
+Renaming session to: 112574x20171207xAV1451PETxABC
+Loop 203: 112574_FlorbetabenPET_20170711
+Renaming session to: 112574x20170711xFBBPETxABC
+Loop 204: 113066_02_20171019_7T
+Renaming session to: 113066x02x20171019xx
+Loop 205: 113870_20171130_7T
+Renaming session to: 113870x20171130xx
+Loop 206: 114000_20170914_7T
+Renaming session to: 114000x20170914x7TxABC
+Loop 207: 114000_FlorbetabenPET_20171011
+Renaming session to: 114000x20171011xFBBPETxABC
+Loop 208: 114699x20171116x3T
+Renaming session to: 114699x20171116x3TxABC
+Loop 209: 114699_20171116_7T
+Renaming session to: 114699x20171116xx
+Loop 210: 114787_20171121_7T
+Renaming session to: 114787x20171121xx
+Loop 211: 115050x20170523x3T
+Renaming session to: 115050x20170523x3TxABC
+Loop 212: 115050_FlorbetabenPET_20170803
+No matching performed procedure step description found, making note...
+Renaming session to: 115050x20170803xFBBPETx
+Loop 213: 115562x20170309x3T
+Renaming session to: 115562x20170309x3TxABC
+Loop 214: 115562_20171201_7T
+Renaming session to: 115562x20171201xx
+Loop 215: 115562_FlorbetabenPET_20170706
+Renaming session to: 115562x20170706xFBBPETxABC
+Loop 216: 115582x02x20170912x3T
+Renaming session to: 115582x02x20170912x3TxABC
+Loop 217: 115582_02_FlorbetapirPET_20170512
+No matching performed procedure step description found, making note...
+Renaming session to: 115582x02x20170512xFBBPETx
+Loop 218: 115919x20170912x3T
+Renaming session to: 115919x20170912x3TxABC
+Loop 219: 115919_FlorbetabenPET_20171108
+Renaming session to: 115919x20171108xFBBPETxABC
+Loop 220: 116638x20170606x3T
+Renaming session to: 116638x20170606x3TxABC
+Loop 221: 116638_FlorbetabenPET_20171121
+Renaming session to: 116638x20171121xFBBPETxABC
+Loop 222: 117158x20170613x3T
+Renaming session to: 117158x20170613x3TxABC
+Loop 223: 117158_20171201_7T
+Renaming session to: 117158x20171201xx
+Loop 224: 117158_AV1451PET_20171220
+Renaming session to: 117158x20171220xAV1451PETxABC
+Loop 225: 117158_FlorbetabenPET_20170628
+Renaming session to: 117158x20170628xFBBPETxABC
+Loop 226: 117326x20170926x3T
+Renaming session to: 117326x20170926x3TxABC
+Loop 227: 117326_FlorbetapirPET_20170707
+No matching performed procedure step description found, making note...
+Renaming session to: 117326x20170707xFBBPETx
+Loop 228: 117358x20170202x3T
+Renaming session to: 117358x20170202x3TxABC
+Loop 229: 117358_FlorbetabenPET_20170801
+Renaming session to: 117358x20170801xFBBPETxABC
+Loop 230: 117550_20170928_7T
+Renaming session to: 117550x20170928xx
+Loop 231: 117550_AV1451PET_20171129
+Renaming session to: 117550x20171129xAV1451PETxABC
+Loop 232: 117550_FlorbetabenPET_20171025
+Renaming session to: 117550x20171025xFBBPETxABC
+Loop 233: 117796x20170815x3T
+Renaming session to: 117796x20170815x3TxABC
+Loop 234: 117796_FlorbetabenPET_20170919
+Renaming session to: 117796x20170919xFBBPETxABC
+Loop 235: 117879_FlorbetapirPET_20170728
+No matching performed procedure step description found, making note...
+Renaming session to: 117879x20170728xFBBPETx
+Loop 236: 117939x20171207x3T
+Renaming session to: 117939x20171207x3TxABC
+Loop 237: 117939_20171207_7T
+Renaming session to: 117939x20171207xx
+Loop 238: 118259x20170309x3T
+Renaming session to: 118259x20170309x3TxABC
+Loop 239: 118259_FlorbetabenPET_20170601
+Renaming session to: 118259x20170601xFBBPETxABC
+Loop 240: 118349x20170105x3T
+Renaming session to: 118349x20170105x3TxABC
+Loop 241: 118390x20170111x3T
+Renaming session to: 118390x20170111x3TxABC
+Loop 242: 118418x20170613x3T
+Renaming session to: 118418x20170613x3TxABC
+Loop 243: 118418_20171201_7T
+Renaming session to: 118418x20171201xx
+Loop 244: 118418_AV1451PET_20171220
+Renaming session to: 118418x20171220xAV1451PETxABC
+Loop 245: 118418_FlorbetapirPET_20170731
+No matching performed procedure step description found, making note...
+Renaming session to: 118418x20170731xFBBPETx
+Loop 246: 118475x20170323x3T
+Renaming session to: 118475x20170323x3TxABC
+Loop 247: 118579x20170629x3T
+Renaming session to: 118579x20170629x3TxABC
+Loop 248: 118579_FlorbetapirPET_20171019
+No matching performed procedure step description found, making note...
+Renaming session to: 118579x20171019xFBBPETx
+Loop 249: 118601x20170509x3T
+Renaming session to: 118601x20170509x3TxABC
+Loop 250: 118601_FlorbetabenPET_20170518
+Renaming session to: 118601x20170518xFBBPETxABC
+Loop 251: 118711_FlorbetabenPET_20171026
+Renaming session to: 118711x20171026xFBBPETxABC
+Loop 252: 118724_20171009_7T
+Renaming session to: 118724x20171009xx
+Loop 253: 118724_FlorbetabenPET_20171031
+No matching performed procedure step description found, making note...
+Renaming session to: 118724x20171031xFBBPETx
+Loop 254: 118743x20170323x3T
+Renaming session to: 118743x20170323x3TxABC
+Loop 255: 118770_FlorbetapirPET_20171122
+No matching performed procedure step description found, making note...
+Renaming session to: 118770x20171122xFBBPETx
+Loop 256: 118775_20171030_7T
+Renaming session to: 118775x20171030x7TxABC
+Loop 257: 118923_FlorbetapirPET_20170925
+No matching performed procedure step description found, making note...
+Renaming session to: 118923x20170925xFBBPETx
+Loop 258: 119035_FlorbetapirPET_20170801
+No matching performed procedure step description found, making note...
+Renaming session to: 119035x20170801xFBBPETx
+Loop 259: 119218_FlorbetapirPET_20171004
+No matching performed procedure step description found, making note...
+Renaming session to: 119218x20171004xFBBPETx
+Loop 260: 119254_20170918_7T
+Renaming session to: 119254x20170918xx
+Loop 261: 119254_FlorbetabenPET_20171101
+Renaming session to: 119254x20171101xFBBPETxABC
+Loop 262: 119374x20171017x3T
+Renaming session to: 119374x20171017x3TxABC
+Loop 263: 119374_20171017_7T
+Renaming session to: 119374x20171017xx
+Loop 264: 119427x20170330x3T
+Renaming session to: 119427x20170330x3TxABC
+Loop 265: 119465x20170309x3T
+Renaming session to: 119465x20170309x3TxABC
+Loop 266: 119473x20170105x3T
+Renaming session to: 119473x20170105x3TxABC
+Loop 267: 119473_20171117_7T
+Renaming session to: 119473x20171117xx
+Loop 268: 119473_AV1451PET_20171212
+No matching performed procedure step description found, making note...
+Renaming session to: 119473x20171212xAV1451PETx
+Loop 269: 119473_Florbetaben1AmyloidPET_20170629
+Renaming session to: 119473x20170629xFBBPETxABC
+Loop 270: 119473_FlorbetabenAmyloidPET_20170629
+Renaming session to: 119473x20170629xFBBPETxABC
+Loop 271: 119493x20170420x3T
+Renaming session to: 119493x20170420x3TxABC
+Loop 272: 119493_FlorbetabenPET_20170809
+Renaming session to: 119493x20170809xFBBPETxABC
+Loop 273: 119582x20170223x3T
+Renaming session to: 119582x20170223x3TxABC
+Loop 274: 119582_FlorbetabenPET_20170816
+Renaming session to: 119582x20170816xFBBPETxABC
+Loop 275: 119655x20170504x3T
+Renaming session to: 119655x20170504x3TxABC
+Loop 276: 119851x20170606x3T
+Renaming session to: 119851x20170606x3TxABC
+Loop 277: 119851_FlorbetabenPET_20170823
+Renaming session to: 119851x20170823xFBBPETxABC
+Loop 278: 119888x20170413x3T
+Renaming session to: 119888x20170413x3TxABC
+Loop 279: 120123x20171024x3T
+Renaming session to: 120123x20171024x3TxABC
+Loop 280: 120200x20170620x3T
+Renaming session to: 120200x20170620x3TxABC
+Loop 281: 120200_FlorbetabenPET_20170727
+Renaming session to: 120200x20170727xFBBPETxABC
+Loop 282: 120257x20170302x3T
+Renaming session to: 120257x20170302x3TxABC
+Loop 283: 120686_FlorbetapirPET_20170414
+No matching performed procedure step description found, making note...
+Renaming session to: 120686x20170414xFBBPETx
+Loop 284: 120735x20171221x3T
+Renaming session to: 120735x20171221x3TxABC
+Loop 285: 120735_20171221_7T
+Renaming session to: 120735x20171221xx
+Loop 286: 120870x20171207x3T
+Renaming session to: 120870x20171207x3TxABC
+Loop 287: 120870_20171207_7T
+Renaming session to: 120870x20171207xx
+Loop 288: 120896x20170330x3T
+Renaming session to: 120896x20170330x3TxABC
+Loop 289: 120896_FlorbetabenPET_20170420
+No matching performed procedure step description found, making note...
+Renaming session to: 120896x20170420xFBBPETx
+Loop 290: 121105x20170427x3T
+Renaming session to: 121105x20170427x3TxABC
+Loop 291: 121195x20170523x3T
+Renaming session to: 121195x20170523x3TxABC
+Loop 292: 121195_FlorbetabenPET_20171018
+Renaming session to: 121195x20171018xFBBPETxABC
+Loop 293: 121258x20170111x3T
+Renaming session to: 121258x20170111x3TxABC
+Loop 294: 121258_20171211_7T
+Renaming session to: 121258x20171211xx
+Loop 295: 121299x20170808x3T
+Renaming session to: 121299x20170808x3TxABC
+Loop 296: 121299_FlorbetabenPET_20171005
+Renaming session to: 121299x20171005xFBBPETxABC
+Loop 297: 121329x20170216x3T
+Renaming session to: 121329x20170216x3TxABC
+Loop 298: 121520x20170919x3T
+Renaming session to: 121520x20170919x3TxABC
+Loop 299: 121520_FlorbetabenPET_20170426
+Renaming session to: 121520x20170426xx
+Loop 300: 121524x20170620x3T
+Renaming session to: 121524x20170620x3TxABC
+Loop 301: 121524_FlorbetabenPET_20170713
+Renaming session to: 121524x20170713xFBBPETxABC
+Loop 302: 121570x20171219x3T
+Renaming session to: 121570x20171219x3TxABC
+Loop 303: 121570_20171219_7T
+Renaming session to: 121570x20171219xx
+Loop 304: 121635_FlorbetapirPET_20170308
+No matching performed procedure step description found, making note...
+Renaming session to: 121635x20170308xFBBPETx
+Loop 305: 121668x20170601x3T
+Renaming session to: 121668x20170601x3TxABC
+Loop 306: 121674x20170815x3T
+Renaming session to: 121674x20170815x3TxABC
+Loop 307: 121674_FlorbetabenPET_20170905
+No matching performed procedure step description found, making note...
+Renaming session to: 121674x20170905xFBBPETx
+Loop 308: 121899x20170725x3T
+Renaming session to: 121899x20170725x3TxABC
+Loop 309: 122005x20171213x3T
+Renaming session to: 122005x20171213x3TxABC
+Loop 310: 122005_20171213_7T
+Renaming session to: 122005x20171213xx
+Loop 311: 122025x20170829x3T
+Renaming session to: 122025x20170829x3TxABC
+Loop 312: 122026x20171108x3T
+Renaming session to: 122026x20171108x3TxABC
+Loop 313: 122026_20171108_7T
+Renaming session to: 122026x20171108xx
+Loop 314: 122027x20170803x3T
+Renaming session to: 122027x20170803x3TxABC
+Loop 315: 122039x20170905x3T
+Renaming session to: 122039x20170905x3TxABC
+Loop 316: 122039_FlorbetabenPET_20171005
+Renaming session to: 122039x20171005xFBBPETxABC
+Loop 317: 122247_FlorbetapirPET_20170726
+No matching performed procedure step description found, making note...
+Renaming session to: 122247x20170726xFBBPETx
+Loop 318: 122328x20171010x3T
+Renaming session to: 122328x20171010x3TxABC
+Loop 319: 122328_20171010_7T
+Renaming session to: 122328x20171010xx
+Loop 320: 122328_FlorbetabenPET_20171102
+Renaming session to: 122328x20171102xFBBPETxABC
+Loop 321: 122407_20171017_7T
+Renaming session to: 122407x20171017xx
+Loop 322: 122407x20171017x3T
+Renaming session to: 122407x20171017x3TxABC
+Loop 323: 122566_FlorbetapirPET_20170915
+No matching performed procedure step description found, making note...
+Renaming session to: 122566x20170915xFBBPETx
+Loop 324: 122619_FlorbetapirPET_20170922
+No matching performed procedure step description found, making note...
+Renaming session to: 122619x20170922xFBBPETx
+Loop 325: 122710_FlorbetapirPET_20171102
+No matching performed procedure step description found, making note...
+Renaming session to: 122710x20171102xFBBPETx
+Loop 326: 122803_FlorbetapirPET_20171127
+No matching performed procedure step description found, making note...
+Renaming session to: 122803x20171127xFBBPETx
+Loop 327: 100049_20180411_7T
+Renaming session to: 100049x20180411xx
+Loop 328: 100049_AV1451PET_20181003
+Renaming session to: 100049x20181003xAV1451PETxABC
+Loop 329: 100049_FlorbetabenPET_20180627
+Renaming session to: 100049x20180627xFBBPETxABC
+Loop 330: 100113x20180821x3T
+Renaming session to: 100113x20180821x3TxABC
+Loop 331: 100113_FlorbetabenPET_20181213
+No matching performed procedure step description found, making note...
+Renaming session to: 100113x20181213xFBBPETx
+Loop 332: 101162x20181017x3T
+Renaming session to: 101162x20181017x3TxABC
+Loop 333: 101195_20180423_7T
+Renaming session to: 101195x20180423xx
+Loop 334: 101195_FlorbetabenPET_20180612
+Renaming session to: 101195x20180612xFBBPETxABC
+Loop 335: 101366_20180417_7T
+Renaming session to: 101366x20180417xx
+Loop 336: 101366_AV1451PET_20180719
+Renaming session to: 101366x20180719xAV1451PETxABC
+Loop 337: 101366_FlorbetabenPET_20180530
+No matching performed procedure step description found, making note...
+Renaming session to: 101366x20180530xFBBPETx
+Loop 338: 101453x20181016x3T
+Renaming session to: 101453x20181016x3TxABC
+Loop 339: 101628_01_20180508_7T
+Renaming session to: 101628x01x20180508x7TxABC
+Loop 340: 101628_01_AV1451PET_20180627
+Renaming session to: 101628x01x20180627xAV1451PETxABC
+Loop 341: 101628_01_FlorbetabenPET_20180531
+Renaming session to: 101628x01x20180531xFBBPETxABC
+Loop 342: 101712_20180326_7T
+Renaming session to: 101712x20180326xx
+Loop 343: 101712_AV1451PET_20180912
+Renaming session to: 101712x20180912xAV1451PETxABC
+Loop 344: 101712_FlorbetabenPET_20180426
+Renaming session to: 101712x20180426xFBBPETxABC
+Loop 345: 101737_FlorbetabenPET_20180404
+No matching performed procedure step description found, making note...
+Renaming session to: 101737x20180404xFBBPETx
+Loop 346: 102115_20180330_7T
+Renaming session to: 102115x20180330xx
+Loop 347: 102115_AV1451PET_20180917
+Renaming session to: 102115x20180917xAV1451PETxABC
+Loop 348: 102115_FlorbetabenPET_20180517
+Renaming session to: 102115x20180517xFBBPETxABC
+Loop 349: 102904_20180420_7T
+Renaming session to: 102904x20180420xx
+Loop 350: 102904_FlorbetabenPET_20180718
+Renaming session to: 102904x20180718xFBBPETxABC
+Loop 351: 103941x20180619x3T
+Renaming session to: 103941x20180619x3TxABC
+Loop 352: 103941_FlorbetabenPET_20181206
+No matching performed procedure step description found, making note...
+Renaming session to: 103941x20181206xFBBPETx
+Loop 353: 104115_20180327_7T
+Renaming session to: 104115x20180327xx
+Loop 354: 104793_01_20181011_7T
+Renaming session to: 104793x01x20181011x7TxABC
+Loop 355: 104793_01_FlorbetabenPET_20181114
+Renaming session to: 104793x01x20181114xFBBPETxABC
+Loop 356: 105476_01_20180402_7T
+Renaming session to: 105476x01x20180402xx
+Loop 357: 105476_01_AV1451PET_20180727
+Renaming session to: 105476x01x20180727xAV1451PETxABC
+Loop 358: 105476_01_FlorbetabenPET_20180503
+No matching performed procedure step description found, making note...
+Renaming session to: 105476x01x20180503xFBBPETx
+Loop 359: 106036_20180419_7T
+Renaming session to: 106036x20180419xx
+Loop 360: 106642_20180530_7T
+Renaming session to: 106642x20180530x7TxABC
+Loop 361: 106642_FlorbetabenPET_20180828
+Renaming session to: 106642x20180828xFBBPETxABC
+Loop 362: 106721_01_7T_20180123
+Renaming session to: 106721x01x20180123xx
+Loop 363: 106721_01_AV1451PET_20180327
+Renaming session to: 106721x01x20180327xAV1451PETxABC
+Loop 364: 106992x20180807x3T
+Renaming session to: 106992x20180807x3TxABC
+Loop 365: 107196x20181205x3T
+Renaming session to: 107196x20181205x3TxABC
+Loop 366: 107476x20181210x3T
+Renaming session to: 107476x20181210x3TxABC
+Loop 367: 107970_01_20180508_7T
+Renaming session to: 107970x01x20180508x7TxABC
+Loop 368: 107970_01_AV1451PET_20181108
+Renaming session to: 107970x01x20181108xAV1451PETxABC
+Loop 369: 107970_01_FlorbetabenPET_20180607
+Renaming session to: 107970x01x20180607xFBBPETxABC
+Loop 370: 108543_FlorbetapirPET_20180202
+No matching performed procedure step description found, making note...
+Renaming session to: 108543x20180202xFBBPETx
+Loop 371: 109459_20180515_7T
+Renaming session to: 109459x20180515x7TxABC
+Loop 372: 109459_FlorbetabenPET_20180808
+Renaming session to: 109459x20180808xFBBPETxABC
+Loop 373: 109789x20181002x3T
+Renaming session to: 109789x20181002x3TxABC
+Loop 374: 109789_20181002_7T
+Renaming session to: 109789x20181002x7TxABC
+Loop 375: 109789_FlorbetabenPET_20181205
+No matching performed procedure step description found, making note...
+Renaming session to: 109789x20181205xFBBPETx
+Loop 376: 110836x20180227x3T
+Renaming session to: 110836x20180227x3TxABC
+Loop 377: 110836_20180227_7T
+Renaming session to: 110836x20180227xx
+Loop 378: 110836_FlorbetabenPET_20180821
+Renaming session to: 110836x20180821xFBBPETxABC
+Loop 379: 111487x20181219x3T
+Renaming session to: 111487x20181219x3TxABC
+Loop 380: 111768_01_20180125_7T
+Renaming session to: 111768x01x20180125xx
+Loop 381: 111768_01_AV1451PET_20180507
+Renaming session to: 111768x01x20180507xAV1451PETxABC
+Loop 382: 111768_01_FlorbetabenPET_20180215
+Renaming session to: 111768x01x20180215xFBBPETxABC
+Loop 383: 111768x02x20180119x7T
+Renaming session to: 111768x02x20180119xx
+Loop 384: 111768x02xAV1451PETx20180131
+Renaming session to: 111768x02x20180131xAV1451PETxABC
+Loop 385: 111965x20181114x3T
+Renaming session to: 111965x20181114x3TxABC
+Loop 386: 112286_01_20180601_7T
+Renaming session to: 112286x01x20180601x7TxABC
+Loop 387: 112286_01_FlorbetabenPET_20180807
+Renaming session to: 112286x01x20180807xFBBPETxABC
+Loop 388: 112761_20180306_7T
+Renaming session to: 112761x20180306xx
+Loop 389: 112761_AV1451PET_20180712
+Renaming session to: 112761x20180712xAV1451PETxABC
+Loop 390: 112761_FlorbetabenPET_20180517
+Renaming session to: 112761x20180517xFBBPETxABC
+Loop 391: 113066_02_AV1451PET_20180410
+Renaming session to: 113066x02x20180410xAV1451PETxABC
+Loop 392: 113066_02_FlorbetabenPET_20180109
+Renaming session to: 113066x02x20180109xFBBPETxABC
+Loop 393: 113870_AV1451PET_20180403
+Renaming session to: 113870x20180403xAV1451PETxABC
+Loop 394: 113870_FlorbetabenPET_20180103
+Renaming session to: 113870x20180103xFBBPETxABC
+Loop 395: 114035_20180822_7T
+Renaming session to: 114035x20180822x7TxABC
+Loop 396: 114035_FlorbetabenPET_20181107
+Renaming session to: 114035x20181107xFBBPETxABC
+Loop 397: 114120x20180717x3T
+Renaming session to: 114120x20180717x3TxABC
+Loop 398: 114699_FlorbetabenPET_20180308
+Renaming session to: 114699x20180308xFBBPETxABC
+Loop 399: 114787x20181030x3T
+Renaming session to: 114787x20181030x3TxABC
+Loop 400: 114787_AV1451PET_20180301
+Renaming session to: 114787x20180301xAV1451PETxABC
+Loop 401: 114787_FlorbetabenPET_20180111
+Renaming session to: 114787x20180111xFBBPETxABC
+Loop 402: 115050_20180126_7T
+Renaming session to: 115050x20180126xx
+Loop 403: 115381x20180227x3T
+Renaming session to: 115381x20180227x3TxABC
+Loop 404: 115381_20180227_7T
+Renaming session to: 115381x20180227xx
+Loop 405: 115381_AV1451PET_20180523
+Renaming session to: 115381x20180523xAV1451PETxABC
+Loop 406: 115381_FlorbetabenPET_20180328
+Renaming session to: 115381x20180328xFBBPETxABC
+Loop 407: 115582_02_20180529_7T_DUPLICATE
+115582_02_20180529_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 408: 115582_02_AV1451PET_20181022
+Renaming session to: 115582x02x20181022xAV1451PETxABC
+Loop 409: 115582_02_FlorbetabenPET_20180814
+Renaming session to: 115582x02x20180814xFBBPETxABC
+Loop 410: 117297_20180312_7T
+Renaming session to: 117297x20180312xx
+Loop 411: 117297_FlorbetabenPET_20181218
+No matching performed procedure step description found, making note...
+Renaming session to: 117297x20181218xFBBPETx
+Loop 412: 117315x20181101x3T
+Renaming session to: 117315x20181101x3TxABC
+Loop 413: 117376x01x20180116x3T
+Renaming session to: 117376x01x20180116x3TxABC
+Loop 414: 117376_01_20180220_7T
+Renaming session to: 117376x01x20180220xx
+Loop 415: 117376_20180501_7T
+Renaming session to: 117376x20180501x7TxABC
+Loop 416: 117870_FlorbetabenPET_20180530
+Renaming session to: 117870x20180530xFBBPETxABC
+Loop 417: 118230x20180717x3T
+Renaming session to: 118230x20180717x3TxABC
+Loop 418: 118230_20180717_7T
+Renaming session to: 118230x20180717x7TxABC
+Loop 419: 118259_20180605_7T
+Renaming session to: 118259x20180605x7TxABC
+Loop 420: 118311x20180911x3T
+Renaming session to: 118311x20180911x3TxABC
+Loop 421: 118317_20180213_7T
+Renaming session to: 118317x20180213xx
+Loop 422: 118317_AV1451PET_20180606
+No matching performed procedure step description found, making note...
+Renaming session to: 118317x20180606xAV1451PETx
+Loop 423: 118317_FlorbetabenPET_20180301
+Renaming session to: 118317x20180301xFBBPETxABC
+Loop 424: 118349x20180904x3T
+Renaming session to: 118349x20180904x3TxABC
+Loop 425: 118349_FlorbetabenPET_20180329
+Renaming session to: 118349x20180329xFBBPETxABC
+Loop 426: 118390_FlorbetapirPET_20180125
+No matching performed procedure step description found, making note...
+Renaming session to: 118390x20180125xFBBPETx
+Loop 427: 118458x20180515x3T
+Renaming session to: 118458x20180515x3TxABC
+Loop 428: 118458_FlorbetabenPET_20180613
+No matching performed procedure step description found, making note...
+Renaming session to: 118458x20180613xFBBPETx
+Loop 429: 118579_20180319_7T
+Renaming session to: 118579x20180319xx
+Loop 430: 118594_20180410_7T
+Renaming session to: 118594x20180410xx
+Loop 431: 118700x20181009x3T
+Renaming session to: 118700x20181009x3TxABC
+Loop 432: 118724x20181029x3T
+Renaming session to: 118724x20181029x3TxABC
+Loop 433: 118736x20181023x3T
+Renaming session to: 118736x20181023x3TxABC
+Loop 434: 118743_20180222_7T
+Renaming session to: 118743x20180222xx
+Loop 435: 118743_AV1451PET_20180514
+Renaming session to: 118743x20180514xAV1451PETxABC
+Loop 436: 118743_FlorbetabenPET_20180314
+Renaming session to: 118743x20180314xFBBPETxABC
+Loop 437: 118775_FlorbetabenPET_20180201
+Renaming session to: 118775x20180201xFBBPETxABC
+Loop 438: 118835x20180206x3T
+Renaming session to: 118835x20180206x3TxABC
+Loop 439: 118835_20180206_7T
+Renaming session to: 118835x20180206xx
+Loop 440: 118998x20180619x3T
+Renaming session to: 118998x20180619x3TxABC
+Loop 441: 118998_FlorbetabenPET_20180822
+Renaming session to: 118998x20180822xFBBPETxABC
+Loop 442: 119035_AV1451PET_20180313
+Renaming session to: 119035x20180313xAV1451PETxABC
+Loop 443: 119109x20180925x3T
+Renaming session to: 119109x20180925x3TxABC
+Loop 444: 119167_20180119_7T
+Renaming session to: 119167x20180119xx
+Loop 445: 119167_AV1451PET_20180510
+Renaming session to: 119167x20180510xAV1451PETxABC
+Loop 446: 119167_FlorbetabenPET_20180306
+Renaming session to: 119167x20180306xFBBPETxABC
+Loop 447: 119254x20181204x3T
+Renaming session to: 119254x20181204x3TxABC
+Loop 448: 119254_AV1451PET_20180315
+Renaming session to: 119254x20180315xAV1451PETxABC
+Loop 449: 119448x20180828x3T
+Renaming session to: 119448x20180828x3TxABC
+Loop 450: 119522x20181023x3T
+Renaming session to: 119522x20181023x3TxABC
+Loop 451: 119522_20181023_7T
+Renaming session to: 119522x20181023x7TxABC
+Loop 452: 119582_20180123_7T
+Renaming session to: 119582x20180123xx
+Loop 453: 119582_AV1451PET_20180213
+Renaming session to: 119582x20180213xAV1451PETxABC
+Loop 454: 119608x20181113x3T
+Renaming session to: 119608x20181113x3TxABC
+Loop 455: 119608_20181113_7T
+Renaming session to: 119608x20181113x7TxABC
+Loop 456: 119670x20180103x3T
+Renaming session to: 119670x20180103x3TxABC
+Loop 457: 119670_20180301_7T
+Renaming session to: 119670x20180301xx
+Loop 458: 119670_FlorbetabenPET_20180829
+Renaming session to: 119670x20180829xFBBPETxABC
+Loop 459: 119788x20180626x3T
+Renaming session to: 119788x20180626x3TxABC
+Loop 460: 119788_20180626_7T
+Renaming session to: 119788x20180626x7TxABC
+Loop 461: 119788x20181010x3T
+Renaming session to: 119788x20181010x3TxABC
+Loop 462: 119913x20180424x3T
+Renaming session to: 119913x20180424x3TxABC
+Loop 463: 119913_20180424_7T
+Renaming session to: 119913x20180424xx
+Loop 464: 119913_FlorbetabenPET_20180905
+Renaming session to: 119913x20180905xFBBPETxABC
+Loop 465: 120123_FlorbetabenPET_20180111
+Renaming session to: 120123x20180111xFBBPETxABC
+Loop 466: 120131x20180315x3T
+Renaming session to: 120131x20180315x3TxABC
+Loop 467: 120131_20180315_7T
+Renaming session to: 120131x20180315xx
+Loop 468: 120131_FlorbetabenPET_20180724
+Renaming session to: 120131x20180724xFBBPETxABC
+Loop 469: 120515x20181127x3T
+Renaming session to: 120515x20181127x3TxABC
+Loop 470: 120580x20180612x3T
+Renaming session to: 120580x20180612x3TxABC
+Loop 471: 120580_FlorbetabenPET_20181016
+Renaming session to: 120580x20181016xFBBPETxABC
+Loop 472: 120686_20180306_7T
+Renaming session to: 120686x20180306xx
+Loop 473: 120735_FlorbetabenPET_20180516
+Renaming session to: 120735x20180516xFBBPETxABC
+Loop 474: 120755_20180315_7T
+Renaming session to: 120755x20180315x7TxABC
+Loop 475: 120755x20180315x3T
+Renaming session to: 120755x20180315x3TxABC
+Loop 476: 120755_FlorbetabenPET_20180725
+Renaming session to: 120755x20180725xFBBPETxABC
+Loop 477: 120965x20180821x3T
+Renaming session to: 120965x20180821x3TxABC
+Loop 478: 121105_20180122_7T
+Renaming session to: 121105x20180122xx
+Loop 479: 121105_FlorbetabenPET_20180215
+Renaming session to: 121105x20180215xFBBPETxABC
+Loop 480: 121181_20180123_7T
+Renaming session to: 121181x20180123xx
+Loop 481: 121258_FlorbetabenPET_20180110
+Renaming session to: 121258x20180110xFBBPETxABC
+Loop 482: 121299_20181219_7T
+Renaming session to: 121299x20181219x7TxABC
+Loop 483: 121469x20180327x3T
+Renaming session to: 121469x20180327x3TxABC
+Loop 484: 121469_20180327_7T
+Renaming session to: 121469x20180327xx
+Loop 485: 121526x20180213x3T
+Renaming session to: 121526x20180213x3TxABC
+Loop 486: 121526_FlorbetabenPET_20180524
+Renaming session to: 121526x20180524xFBBPETxABC
+Loop 487: 121570_FlorbetabenPET_20180306
+Renaming session to: 121570x20180306xFBBPETxABC
+Loop 488: 121655x20180424x3T
+Renaming session to: 121655x20180424x3TxABC
+Loop 489: 121655_FlorbetabenPET_20181002
+Renaming session to: 121655x20181002xFBBPETxABC
+Loop 490: 121666x20180911x3T
+Renaming session to: 121666x20180911x3TxABC
+Loop 491: 121672x20181009x3T
+Renaming session to: 121672x20181009x3TxABC
+Loop 492: 121805x20180515x3T
+Renaming session to: 121805x20180515x3TxABC
+Loop 493: 121805_20180515_7T
+Renaming session to: 121805x20180515x7TxABC
+Loop 494: 121847x20180130x3T
+Renaming session to: 121847x20180130x3TxABC
+Loop 495: 121847_FlorbetabenPET_20180619
+Renaming session to: 121847x20180619xFBBPETxABC
+Loop 496: 122003x20180405x3T
+Renaming session to: 122003x20180405x3TxABC
+Loop 497: 122003_FlorbetabenPET_20180809
+No matching performed procedure step description found, making note...
+Renaming session to: 122003x20180809xFBBPETx
+Loop 498: 122005_FlorbetabenPET_20180425
+Renaming session to: 122005x20180425xFBBPETxABC
+Loop 499: 122039_20180119_7T
+Renaming session to: 122039x20180119xx
+Loop 500: 122056x20180103x3T
+Renaming session to: 122056x20180103x3TxABC
+Loop 501: 122056_20180103_7T
+Renaming session to: 122056x20180103xx
+Loop 502: 122100x20180123x3T
+Renaming session to: 122100x20180123x3TxABC
+Loop 503: 122100_FlorbetabenPET_20180228
+Renaming session to: 122100x20180228xFBBPETxABC
+Loop 504: 122146x20181002x3T
+Renaming session to: 122146x20181002x3TxABC
+Loop 505: 122146_20181002_7T
+Renaming session to: 122146x20181002x7TxABC
+Loop 506: 122216_FlorbetapirPET_20180614
+No matching performed procedure step description found, making note...
+Renaming session to: 122216x20180614xFBBPETx
+Loop 507: 122326x20180522x3T
+Renaming session to: 122326x20180522x3TxABC
+Loop 508: 122326_20180522_7T
+Renaming session to: 122326x20180522x7TxABC
+Loop 509: 122328_AV1451PET_20180201
+Renaming session to: 122328x20180201xAV1451PETxABC
+Loop 510: 122334x20181120x3T
+Renaming session to: 122334x20181120x3TxABC
+Loop 511: 122407_FlorbetabenPET_20180220
+Renaming session to: 122407x20180220xFBBPETxABC
+Loop 512: 122409x20180508x3T
+Renaming session to: 122409x20180508x3TxABC
+Loop 513: 122409_FlorbetabenPET_20180926
+No matching performed procedure step description found, making note...
+Renaming session to: 122409x20180926xFBBPETx
+Loop 514: 122437x20180529x3T
+Renaming session to: 122437x20180529x3TxABC
+Loop 515: 122437_FlorbetabenPET_20181023
+Renaming session to: 122437x20181023xFBBPETxABC
+Loop 516: 122628x20180116x3T
+Renaming session to: 122628x20180116x3TxABC
+Loop 517: 122628_20180116_7T
+Renaming session to: 122628x20180116xx
+Loop 518: 122654x20180605x3T
+Renaming session to: 122654x20180605x3TxABC
+Loop 519: 122702x20180417x3T
+Renaming session to: 122702x20180417x3TxABC
+Loop 520: 122702_20180417_7T
+Renaming session to: 122702x20180417xx
+Loop 521: 122702_AV1451PET_20180914
+Renaming session to: 122702x20180914xAV1451PETxABC
+Loop 522: 122702_FlorbetabenPET_20180821
+Renaming session to: 122702x20180821xFBBPETxABC
+Loop 523: 122705x20180918x3T
+Renaming session to: 122705x20180918x3TxABC
+Loop 524: 122714_20180612_7T
+Renaming session to: 122714x20180612x7TxABC
+Loop 525: 122714_FlorbetabenPET_20181106
+No matching performed procedure step description found, making note...
+Renaming session to: 122714x20181106xFBBPETx
+Loop 526: 122735x20180904x3T
+Renaming session to: 122735x20180904x3TxABC
+Loop 527: 122735_20180904_7T
+Renaming session to: 122735x20180904x7TxABC
+Loop 528: 122735_FlorbetabenPET_20181219
+No matching performed procedure step description found, making note...
+Renaming session to: 122735x20181219xFBBPETx
+Loop 529: 122812x20180417x3T
+Renaming session to: 122812x20180417x3TxABC
+Loop 530: 122812_20180417_7T
+Renaming session to: 122812x20180417xx
+Loop 531: 122812_FlorbetabenPET_20180823
+Renaming session to: 122812x20180823xFBBPETxABC
+Loop 532: 122828_20180503_7T
+Renaming session to: 122828x20180503x7TxABC
+Loop 533: 122828x20180503x3T
+Renaming session to: 122828x20180503x3TxABC
+Loop 534: 122828_FlorbetabenPET_20181004
+Renaming session to: 122828x20181004xFBBPETxABC
+Loop 535: 122840x20180130x3T
+Renaming session to: 122840x20180130x3TxABC
+Loop 536: 122840_FlorbetabenPET_20180405
+Renaming session to: 122840x20180405xFBBPETxABC
+Loop 537: 122888x20181129x3T
+Renaming session to: 122888x20181129x3TxABC
+Loop 538: 122889x20181211x3T
+Renaming session to: 122889x20181211x3TxABC
+Loop 539: 122924x20181212x3T
+Renaming session to: 122924x20181212x3TxABC
+Loop 540: 122954x20181128x3T
+Renaming session to: 122954x20181128x3TxABC
+Loop 541: 122975_FlorbetapirPET_20180214
+No matching performed procedure step description found, making note...
+Renaming session to: 122975x20180214xFBBPETx
+Loop 542: 122987_FlorbetapirPET_20180216
+No matching performed procedure step description found, making note...
+Renaming session to: 122987x20180216xFBBPETx
+Loop 543: 123013_20181120_7T
+Renaming session to: 123013x20181120x7TxABC
+Loop 544: 123019x20180731x3T
+Renaming session to: 123019x20180731x3TxABC
+Loop 545: 123019_20180731_7T
+Renaming session to: 123019x20180731x7TxABC
+Loop 546: 123019_FlorbetabenPET_20181206
+No matching performed procedure step description found, making note...
+Renaming session to: 123019x20181206xFBBPETx
+Loop 547: 123043x20181016x3T
+Renaming session to: 123043x20181016x3TxABC
+Loop 548: 123200x20181127x3T
+Renaming session to: 123200x20181127x3TxABC
+Loop 549: 123213x20180710x3T
+Renaming session to: 123213x20180710x3TxABC
+Loop 550: 123213_20180710_7T
+Renaming session to: 123213x20180710x7TxABC
+Loop 551: 123221x20180918x3T
+Renaming session to: 123221x20180918x3TxABC
+Loop 552: 123221_FlorbetabenPET_20181211
+No matching performed procedure step description found, making note...
+Renaming session to: 123221x20181211xFBBPETx
+Loop 553: 123341x20181219x3T
+Renaming session to: 123341x20181219x3TxABC
+Loop 554: 123364_FlorbetapirPET_20180605
+No matching performed procedure step description found, making note...
+Renaming session to: 123364x20180605xFBBPETx
+Loop 555: 123369x20180724x3T
+Renaming session to: 123369x20180724x3TxABC
+Loop 556: 123369_FlorbetabenPET_20180904
+Renaming session to: 123369x20180904xFBBPETxABC
+Loop 557: 123397x20181212x3T
+Renaming session to: 123397x20181212x3TxABC
+Loop 558: 123473_FlorbetabenPET_20181127
+Renaming session to: 123473x20181127xFBBPETxABC
+Loop 559: 123680x20181218x3T
+Renaming session to: 123680x20181218x3TxABC
+Loop 560: 124131_20181130_7T
+Renaming session to: 124131x20181130xx
+Loop 561: 124131x20181203x3T
+Renaming session to: 124131x20181203x3TxABC
+Loop 562: 124171x20181218x3T
+Renaming session to: 124171x20181218x3TxABC
+Loop 563: 124171_20181218_7T
+Renaming session to: 124171x20181218x7TxABC
+Loop 564: 124172x20181211x3T
+Renaming session to: 124172x20181211x3TxABC
+Loop 565: 124172_20181211_7T
+Renaming session to: 124172x20181211x7TxABC
+Loop 566: 124174x20181204x3T
+Renaming session to: 124174x20181204x3TxABC
+Loop 567: 124179x20181205x3T
+Renaming session to: 124179x20181205x3TxABC
+Loop 568: 124179_20181205_7T
+Renaming session to: 124179x20181205x7TxABC
+Loop 569: 124203x20181212x3T
+Renaming session to: 124203x20181212x3TxABC
+Loop 570: 124203_20181212_7T
+Renaming session to: 124203x20181212x7TxABC
+Loop 571: 124211_20181213_7T
+Renaming session to: 124211x20181213x7TxABC
+Loop 572: 124224_20181217_7T
+Renaming session to: 124224x20181217x7TxABC
+Loop 573: 124224x20181218x3T
+Renaming session to: 124224x20181218x3TxABC
+Loop 574: TECHDEV_20180927_7T_DELETE
+TECHDEV_20180927_7T_DELETE has tag ['Misc.'], not renaming
+Loop 575: 101453_FlorbetabenPET_20190418
+Renaming session to: 101453x20190418xFBBPETxABC
+Loop 576: 102650x01x20190423x3T
+Renaming session to: 102650x01x20190423x3TxABC
+Loop 577: 104115_20190507_7T
+Renaming session to: 104115x20190507x7TxABC
+Loop 578: 104793_01_AV1451PET_20190211
+Renaming session to: 104793x01x20190211xAV1451PETxABC
+Loop 579: 105476_01_20190306_3T_DUPLICATE
+105476_01_20190306_3T_DUPLICATE has tag ['control3', 'control4', 'Duplicate'], not renaming
+Loop 580: 106735x20190502x3T
+Renaming session to: 106735x20190502x3TxABC
+Loop 581: 107196_20190208_7T
+Renaming session to: 107196x20190208x7TxABC
+Loop 582: 107196_AV1451PET_20190305
+Renaming session to: 107196x20190305xAV1451PETxABC
+Loop 583: 107196_FlorbetabenPET_20190129
+No matching performed procedure step description found, making note...
+Renaming session to: 107196x20190129xFBBPETx
+Loop 584: 107476_FlorbetabenPET_20190226
+Renaming session to: 107476x20190226xFBBPETxABC
+Loop 585: 109789_AV1451PET_20190104
+No matching performed procedure step description found, making note...
+Renaming session to: 109789x20190104xAV1451PETx
+Loop 586: 111275_01_20190416_7T
+Renaming session to: 111275x01x20190416x7TxABC
+Loop 587: 111487_AV1451PET_20190425
+No matching performed procedure step description found, making note...
+Renaming session to: 111487x20190425xAV1451PETx
+Loop 588: 111487_FlorbetapirPET_20190423
+No matching performed procedure step description found, making note...
+Renaming session to: 111487x20190423xFBBPETx
+Loop 589: 114000x20190320x3T
+Renaming session to: 114000x20190320x3TxABC
+Loop 590: 114035_AV1451PET_20190319
+Renaming session to: 114035x20190319xAV1451PETxABC
+Loop 591: 115587_20190123_7T
+Renaming session to: 115587x20190123x7TxABC
+Loop 592: 116707x20190117x3T
+Renaming session to: 116707x20190117x3TxABC
+Loop 593: 117358x20190205x3T
+Renaming session to: 117358x20190205x3TxABC
+Loop 594: 117375_20190312_3T_DUPLICATE
+117375_20190312_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 595: 117870x20180220x3T
+Renaming session to: 117870x20180220x3TxABC
+Loop 596: 118380_20190219_7T
+Renaming session to: 118380x20190219x7TxABC
+Loop 597: 118380x20190219x3T
+Renaming session to: 118380x20190219x3TxABC
+Loop 598: 118390x20190211x3T
+Renaming session to: 118390x20190211x3TxABC
+Loop 599: 118390_20190211_7T
+Renaming session to: 118390x20190211x7TxABC
+Loop 600: 118390_AV1451PET_20190313
+Renaming session to: 118390x20190313xAV1451PETxABC
+Loop 601: 118439x20190305x3T
+Renaming session to: 118439x20190305x3TxABC
+Loop 602: 118439_FlorbetabenPET_20190430
+Renaming session to: 118439x20190430xFBBPETxABC
+Loop 603: 118700_FlorbetabenPET_20190115
+No matching performed procedure step description found, making note...
+Renaming session to: 118700x20190115xFBBPETx
+Loop 604: 118923_20190417_7T
+Renaming session to: 118923x20190417x7TxABC
+Loop 605: 119109_FlorbetabenPET_20190320
+Renaming session to: 119109x20190320xFBBPETxABC
+Loop 606: 119482_20190313_3T_DUPLICATE
+119482_20190313_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 607: 119493_20190320_3T_DUPLICATE
+119493_20190320_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 608: 119522_FlorbetabenPET_20190409
+No matching performed procedure step description found, making note...
+Renaming session to: 119522x20190409xFBBPETx
+Loop 609: 119608_AV1451PET_20190509
+Renaming session to: 119608x20190509xAV1451PETxABC
+Loop 610: 119608_FlorbetabenPET_20190321
+Renaming session to: 119608x20190321xFBBPETxABC
+Loop 611: 119788_FlorbetabenPET_20190219
+Renaming session to: 119788x20190219xFBBPETxABC
+Loop 612: 119989x20190227x3T
+Renaming session to: 119989x20190227x3TxABC
+Loop 613: 120374x20190206x3T
+Renaming session to: 120374x20190206x3TxABC
+Loop 614: 120374_FlorbetabenPET_20190328
+Renaming session to: 120374x20190328xFBBPETxABC
+Loop 615: 120929x20190227x3T
+Renaming session to: 120929x20190227x3TxABC
+Loop 616: 120929_20190227_7T
+Renaming session to: 120929x20190227x7TxABC
+Loop 617: 120965_FlorbetabenPET_20190131
+No matching performed procedure step description found, making note...
+Renaming session to: 120965x20190131xFBBPETx
+Loop 618: 121635x20190219x3T
+Renaming session to: 121635x20190219x3TxABC
+Loop 619: 121666_FlorbetabenPET_20190212
+Renaming session to: 121666x20190212xFBBPETxABC
+Loop 620: 121899x20190423x3T
+Renaming session to: 121899x20190423x3TxABC
+Loop 621: 122146_FlorbetabenPET_20190312
+Renaming session to: 122146x20190312xFBBPETxABC
+Loop 622: 122334_FlorbetabenPET_20190402
+Renaming session to: 122334x20190402xFBBPETxABC
+Loop 623: 122348x20190312x3T
+Renaming session to: 122348x20190312x3TxABC
+Loop 624: 122348_FlorbetabenPET_20190605
+No matching performed procedure step description found, making note...
+Renaming session to: 122348x20190605xFBBPETx
+Loop 625: 122484x20190228x3T
+Renaming session to: 122484x20190228x3TxABC
+Loop 626: 122484_FlorbetabenPET_20190425
+Renaming session to: 122484x20190425xFBBPETxABC
+Loop 627: 122706x20190116x3T
+Renaming session to: 122706x20190116x3TxABC
+Loop 628: 122706_FlorbetabenPET_20190501
+Renaming session to: 122706x20190501xFBBPETxABC
+Loop 629: 122900x20190108x3T
+Renaming session to: 122900x20190108x3TxABC
+Loop 630: 122900_FlorbetabenPET_20190416
+Renaming session to: 122900x20190416xFBBPETxABC
+Loop 631: 122924_FlorbetabenPET_20190515
+Renaming session to: 122924x20190515xFBBPETxABC
+Loop 632: 122954_FlorbetabenPET_20190507
+No matching performed procedure step description found, making note...
+Renaming session to: 122954x20190507xFBBPETx
+Loop 633: 122975x20190305x3T
+Renaming session to: 122975x20190305x3TxABC
+Loop 634: 122975_20190305_7T
+Renaming session to: 122975x20190305x7TxABC
+Loop 635: 122975_AV1451PET_20190417
+No matching performed procedure step description found, making note...
+Renaming session to: 122975x20190417xAV1451PETx
+Loop 636: 123013_FlorbetabenPET_20190117
+No matching performed procedure step description found, making note...
+Renaming session to: 123013x20190117xFBBPETx
+Loop 637: 123023_20190515_7T
+Renaming session to: 123023x20190515x7TxABC
+Loop 638: 123043_FlorbetabenPET_20190326
+Renaming session to: 123043x20190326xFBBPETxABC
+Loop 639: 123171_FlorbetabenPET_20190207
+Renaming session to: 123171x20190207xFBBPETxABC
+Loop 640: 123304x20190123x3T
+Renaming session to: 123304x20190123x3TxABC
+Loop 641: 123304_20190123_7T
+Renaming session to: 123304x20190123x7TxABC
+Loop 642: 123304_FlorbetabenPET_20190227
+Renaming session to: 123304x20190227xFBBPETxABC
+Loop 643: 123341_FlorbetabenPET_20190214
+Renaming session to: 123341x20190214xFBBPETxABC
+Loop 644: 123397_FlorbetabenPET_20190515
+No matching performed procedure step description found, making note...
+Renaming session to: 123397x20190515xFBBPETx
+Loop 645: 123572_20190313_3T_DUPLICATE
+123572_20190313_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 646: 123680_FlorbetabenPET_20190321
+Renaming session to: 123680x20190321xFBBPETxABC
+Loop 647: 123725_FlorbetabenPET_20190606
+No matching performed procedure step description found, making note...
+Renaming session to: 123725x20190606xFBBPETx
+Loop 648: 123765x20190102x3T
+Renaming session to: 123765x20190102x3TxABC
+Loop 649: 123765_FlorbetabenPET_20190122
+No matching performed procedure step description found, making note...
+Renaming session to: 123765x20190122xFBBPETx
+Loop 650: 123851x20190306x3T_incomplete
+Renaming session to: 123851x20190306x3TxABC
+Loop 651: 123851_FlorbetabenPET_20190611
+Renaming session to: 123851x20190611xFBBPETxABC
+Loop 652: 123894_FlorbetabenPET_20190514
+Renaming session to: 123894x20190514xFBBPETxABC
+Loop 653: 123928x20190123x3T
+Renaming session to: 123928x20190123x3TxABC
+Loop 654: 123928_FlorbetabenPET_20190424
+No matching performed procedure step description found, making note...
+Renaming session to: 123928x20190424xFBBPETx
+Loop 655: 123935x20190115x3T
+Renaming session to: 123935x20190115x3TxABC
+Loop 656: 123935_FlorbetabenPET_20190327
+Renaming session to: 123935x20190327xFBBPETxABC
+Loop 657: 123950_FlorbetabenPET_20190604
+No matching performed procedure step description found, making note...
+Renaming session to: 123950x20190604xFBBPETx
+Loop 658: 123953x20190228x3T
+Renaming session to: 123953x20190228x3TxABC
+Loop 659: 123953_20190228_7T
+Renaming session to: 123953x20190228x7TxABC
+Loop 660: 123953_AV1451PET_20190530
+No matching performed procedure step description found, making note...
+Renaming session to: 123953x20190530xAV1451PETx
+Loop 661: 123953_FlorbetabenPET_20190425
+Renaming session to: 123953x20190425xFBBPETxABC
+Loop 662: 124004x20190430x3T
+Renaming session to: 124004x20190430x3TxABC
+Loop 663: 124035x20190204x3T
+Renaming session to: 124035x20190204x3TxABC
+Loop 664: 124035_FlorbetabenPET_20190502
+Renaming session to: 124035x20190502xFBBPETxABC
+Loop 665: 124174_20190111_7T
+Renaming session to: 124174x20190111x7TxABC
+Loop 666: 124211x20190117x3T
+Renaming session to: 124211x20190117x3TxABC
+Loop 667: 124287x20190124x3T
+Renaming session to: 124287x20190124x3TxABC
+Loop 668: 124287_20190124_7T
+Renaming session to: 124287x20190124x7TxABC
+Loop 669: 124301x20190121x3T
+Renaming session to: 124301x20190121x3TxABC
+Loop 670: 124301_20190131_7T
+Renaming session to: 124301x20190131x7TxABC
+Loop 671: 124326x20190121x3T
+Renaming session to: 124326x20190121x3TxABC
+Loop 672: 124326_20190201_7T
+Renaming session to: 124326x20190201x7TxABC
+Loop 673: 124327_20190118_7T
+Renaming session to: 124327x20190118x7TxABC
+Loop 674: 124383x20190515x3T
+Renaming session to: 124383x20190515x3TxABC
+Loop 675: 124383_20190515_7T
+Renaming session to: 124383x20190515x7TxABC
+Loop 676: 124387x20190205x3T
+Renaming session to: 124387x20190205x3TxABC
+Loop 677: 124387_20190205_7T
+Renaming session to: 124387x20190205x7TxABC
+Loop 678: 124428x20190206x3T
+Renaming session to: 124428x20190206x3TxABC
+Loop 679: 124428_20190206_7T
+Renaming session to: 124428x20190206x7TxABC
+Loop 680: 118601_20190523_3T_DUPLICATE
+118601_20190523_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 681: 124735_20190416_7T
+Renaming session to: 124735x20190416x7TxABC
+Loop 682: 124789x20190425x3T
+Renaming session to: 124789x20190425x3TxABC
+Loop 683: 124789_20190425_7T
+Renaming session to: 124789x20190425x7TxABC
+Loop 684: 124005x20190618x3T
+Renaming session to: 124005x20190618x3TxABC
+Loop 685: 124004_20190618_7T
+Renaming session to: 124004x20190618x7TxABC
+Loop 686: 121524x20190618x3T
+Renaming session to: 121524x20190618x3TxABC
+Loop 687: 124005_20190618_7T
+Renaming session to: 124005x20190618x7TxABC
+Loop 688: 125070x20190619x3T
+Renaming session to: 125070x20190619x3TxABC
+Loop 689: 115050x20190619x3T
+Renaming session to: 115050x20190619x3TxABC
+Loop 690: 115050_20190619_7T
+Renaming session to: 115050x20190619x7TxABC
+Loop 691: 115582_02_20180529_7T
+Renaming session to: 115582x02x20180529x7TxABC
+Loop 692: 124385x20190208x3T
+Renaming session to: 124385x20190208x3TxLEADS
+Loop 693: 116630x20190625x3T
+Renaming session to: 116630x20190625x3TxABC
+Loop 694: 119888x20190701x3T
+Renaming session to: 119888x20190701x3TxABC
+Loop 695: 118923x20190701x3T
+Renaming session to: 118923x20190701x3TxABC
+Loop 696: 123903x20190709x3T
+Renaming session to: 123903x20190709x3TxABC
+Loop 697: 118068x20190710x3T
+Renaming session to: 118068x20190710x3TxABC
+Loop 698: 117376x20190528x3T
+Renaming session to: 117376x20190528x3TxABC
+Loop 699: 117870_20180220_7T
+Renaming session to: 117870x20180220xx
+Loop 700: 121526_20180213_7T
+Renaming session to: 121526x20180213xx
+Loop 701: 122152x20180503x3T
+Renaming session to: 122152x20180503x3TxABC
+Loop 702: 123851x20190410x3T
+Renaming session to: 123851x20190410x3TxABC
+Loop 703: 124327x20190207x3T
+Renaming session to: 124327x20190207x3TxABC
+Loop 704: 119655x20190716x3T
+Renaming session to: 119655x20190716x3TxABC
+Loop 705: 122344x20190717x3T
+Renaming session to: 122344x20190717x3TxABC
+Loop 706: 109677_01_20160712_3T_DUPLICATE
+109677_01_20160712_3T_DUPLICATE has tag ['control', 'Duplicate'], not renaming
+Loop 707: 106722x01x20190718x3T
+Renaming session to: 106722x01x20190718x3TxABC
+Loop 708: 109677x01x20160712x3T
+Renaming session to: 109677x01x20160712x3TxABC
+Loop 709: 106721x01x20190718x3T
+Renaming session to: 106721x01x20190718x3TxABC
+Loop 710: 106721_01_20190718_7T
+Renaming session to: 106721x01x20190718x7TxABC
+Loop 711: 106722_01_20190718_7T
+Renaming session to: 106722x01x20190718x7TxABC
+Loop 712: 100790x20171219x3T
+Renaming session to: 100790x20171219x3TxABC
+Loop 713: 115587x20181218x3T
+Renaming session to: 115587x20181218x3TxABC
+Loop 714: 124972x20190723x3T
+Renaming session to: 124972x20190723x3TxABC
+Loop 715: 123935_AV1451PET_20190722
+Renaming session to: 123935x20190722xAV1451PETxABC
+Loop 716: 122344_20190723_7T
+Renaming session to: 122344x20190723x7TxABC
+Loop 717: 125259_20190726_7T
+Renaming session to: 125259x20190726x7TxABC
+Loop 718: 125255x20190729x3T
+Renaming session to: 125255x20190729x3TxABC
+Loop 719: 125255_20190729_7T
+Renaming session to: 125255x20190729x7TxABC
+Loop 720: 121444x20190730x3T
+Renaming session to: 121444x20190730x3TxABC
+Loop 721: 121674x20190731x3T
+Renaming session to: 121674x20190731x3TxABC
+Loop 722: 116707_FlorbetabenPET_20190717
+Renaming session to: 116707x20190717xFBBPETxABC
+Loop 723: 104115_FlorbetabenPET_20190711
+Renaming session to: 104115x20190711xFBBPETxABC
+Loop 724: 119655_AV1451PET_20190716
+Renaming session to: 119655x20190716xAV1451PETxABC
+Loop 725: 121635_FlorbetabenPET_20190710
+Renaming session to: 121635x20190710xFBBPETxABC
+Loop 726: 122889_FlorbetabenPET_20190612
+Renaming session to: 122889x20190612xFBBPETxABC
+Loop 727: 122900_AV1451PET_20190715
+Renaming session to: 122900x20190715xAV1451PETxABC
+Loop 728: 123572_FlorbetabenPET_20190717
+Renaming session to: 123572x20190717xFBBPETxABC
+Loop 729: 124800x20190808x3T
+Renaming session to: 124800x20190808x3TxABC
+Loop 730: 125081_FlorbetabenPET_20190723
+Renaming session to: 125081x20190723xFBBPETxLEADS
+Loop 731: 125081_AV1451PET_20190729
+Renaming session to: 125081x20190729xAV1451PETxLEADS
+Loop 732: 123194_FlorbetabenPET_20190807
+Renaming session to: 123194x20190807xFBBPETxABC
+Loop 733: 125310x20190812x3T
+Renaming session to: 125310x20190812x3TxABC
+Loop 734: 118068_FlorbetabenPET_20190808
+Renaming session to: 118068x20190808xFBBPETxABC
+Loop 735: 117796x20190813x3T
+Renaming session to: 117796x20190813x3TxABC
+Loop 736: 125259x20190814x3T
+Renaming session to: 125259x20190814x3TxABC
+Loop 737: 101628x01x20190814x3T
+Renaming session to: 101628x01x20190814x3TxABC
+Loop 738: 125111x20190815x3T
+Renaming session to: 125111x20190815x3TxABC
+Loop 739: 122025x20190820x3T
+Renaming session to: 122025x20190820x3TxABC
+Loop 740: 122025_20190820_7T
+Renaming session to: 122025x20190820x7TxABC
+Loop 741: 101066x20190821x3T
+Renaming session to: 101066x20190821x3TxABC
+Loop 742: 125070x20190822x3T
+Renaming session to: 125070x20190822x3TxABC
+Loop 743: 124212_FlorbetabenPET_20190814
+Renaming session to: 124212x20190814xFBBPETxABC
+Loop 744: 122987_FlorbetabenPET_20190814
+Renaming session to: 122987x20190814xFBBPETxABC
+Loop 745: 123485_FlorbetabenPET_20190815
+Renaming session to: 123485x20190815xFBBPETxABC
+Loop 746: 124738_FlorbetabenPET_20190821
+Renaming session to: 124738x20190821xFBBPETxABC
+Loop 747: 125070_20190822_7T
+Renaming session to: 125070x20190822x7TxABC
+Loop 748: 124868x20190822x3T
+Renaming session to: 124868x20190822x3TxABC
+Loop 749: 124868_20190822_7T
+Renaming session to: 124868x20190822x7TxABC
+Loop 750: 124891_20190827_7T
+Renaming session to: 124891x20190827x7TxABC
+Loop 751: 124891x20190827x3T
+Renaming session to: 124891x20190827x3TxABC
+Loop 752: 103907_20190827_7T
+Renaming session to: 103907x20190827x7TxABC
+Loop 753: 103907x20190827x3T
+Renaming session to: 103907x20190827x3TxABC
+Loop 754: 125399x20190829x3T
+Renaming session to: 125399x20190829x3TxABC
+Loop 755: 125399_20190829_7T
+Renaming session to: 125399x20190829x7TxABC
+Loop 756: 124288x20190829x3T
+Renaming session to: 124288x20190829x3TxABC
+Loop 757: 124288_20190829_7T
+Renaming session to: 124288x20190829x7TxABC
+Loop 758: 123768x20190905x3T
+Renaming session to: 123768x20190905x3TxABC
+Loop 759: 124516_20190905_7T
+Renaming session to: 124516x20190905x7TxABC
+Loop 760: 125107_FlorbetabenPET_20190807
+Renaming session to: 125107x20190807xFBBPETxLEADS
+Loop 761: 125107_AV1451PET_20190821
+No matching performed procedure step description found, making note...
+Renaming session to: 125107x20190821xAV1451PETx
+Loop 762: 124516x20190905x3T
+Renaming session to: 124516x20190905x3TxABC
+Loop 763: 105732_01_20190912_7T
+Renaming session to: 105732x01x20190912x7TxABC
+Loop 764: 105733x01x20190912x3T
+Renaming session to: 105733x01x20190912x3TxABC
+Loop 765: 105732x01x20190912x3T
+Renaming session to: 105732x01x20190912x3TxABC
+Loop 766: 122475_FlorbetabenPET_20190828
+No matching performed procedure step description found, making note...
+Renaming session to: 122475x20190828xFBBPETx
+Loop 767: 125111_FlorbetabenPET_20190828
+Renaming session to: 125111x20190828xFBBPETxABC
+Loop 768: 123434_FlorbetabenPET_20190904
+Renaming session to: 123434x20190904xFBBPETxABC
+Loop 769: 123572_AV1451PET_20190828
+Renaming session to: 123572x20190828xAV1451PETxABC
+Loop 770: 123725_AV1451PET_20190906
+Renaming session to: 123725x20190906xAV1451PETxABC
+Loop 771: 125504_20190917_7T
+Renaming session to: 125504x20190917x7TxABC
+Loop 772: 125504x20190917x3T
+Renaming session to: 125504x20190917x3TxABC
+Loop 773: 108672x20190918x3T
+Renaming session to: 108672x20190918x3TxABC
+Loop 774: 121668x20190919x3T
+Renaming session to: 121668x20190919x3TxABC
+Loop 775: 122027_20190919_7T
+Renaming session to: 122027x20190919x7TxABC
+Loop 776: 122027x20190919x3T
+Renaming session to: 122027x20190919x3TxABC
+Loop 777: 125527_20190924_7T
+Renaming session to: 125527x20190924x7TxABC
+Loop 778: 118724_20190930_7T
+Renaming session to: 118724x20190930x7TxABC
+Loop 779: 119473x20191001x3T
+Renaming session to: 119473x20191001x3TxABC
+Loop 780: 119473_20191001_7T
+Renaming session to: 119473x20191001x7TxABC
+Loop 781: 125527x20191002x3T
+Renaming session to: 125527x20191002x3TxABC
+Loop 782: 121444_FlorbetabenPET_20190924
+Renaming session to: 121444x20190924xFBBPETxABC
+Loop 783: 124800_FlorbetabenPET_20190926
+Renaming session to: 124800x20190926xFBBPETxABC
+Loop 784: 124004_FlorbetabenPET_20191001
+Renaming session to: 124004x20191001xFBBPETxABC
+Loop 785: 124005_FlorbetabenPET_20191001
+Renaming session to: 124005x20191001xFBBPETxABC
+Loop 786: 125569x20191003x7T
+Renaming session to: 126955x20191003x7TxABC
+Loop 787: 116638x20191003x3T
+Renaming session to: 116638x20191003x3TxABC
+Loop 788: 117326x20191003x3T
+Renaming session to: 117326x20191003x3TxABC
+Loop 789: 125590_20191008_7T
+Renaming session to: 125590x20191008x7TxABC
+Loop 790: 118711x20191008x3T
+Renaming session to: 118711x20191008x3TxABC
+Loop 791: 125573x20191010x3T
+Renaming session to: 125573x20191010x3TxABC
+Loop 792: 125573_20191010_7T
+Renaming session to: 125573x20191010x7TxABC
+Loop 793: 107799x20191010x3T
+Renaming session to: 107799x20191010x3TxABC
+Loop 794: 122407_20191010_7T
+Renaming session to: 122407x20191010x7TxABC
+Loop 795: 122407x20191010x3T
+Renaming session to: 122407x20191010x3TxABC
+Loop 796: 107799_20191010_7T
+Renaming session to: 107799x20191010x7TxABC
+Loop 797: 122439x20190225x3T
+Renaming session to: 122439x20190225x3TxLEADS
+Loop 798: 122439_FlorbetabenPET_20190321
+Renaming session to: 122439x20190321xFBBPETxLEADS
+Loop 799: 122439_AV1451PET_20190415
+Renaming session to: 122439x20190415xAV1451PETxLEADS
+Loop 800: 123200x20190322x3T
+Renaming session to: 123200x20190322x3TxLEADS
+Loop 801: 124653x20190418x3T
+Renaming session to: 124653x20190418x3TxLEADS
+Loop 802: 124653_FlorbetabenPET_20190501
+Renaming session to: 124653x20190501xFBBPETxLEADS
+Loop 803: 124653_AV1451PET_20190517
+Renaming session to: 124653x20190517xAV1451PETxLEADS
+Loop 804: 123343x20181130x3T
+Renaming session to: 123343x20181130x3TxLEADS
+Loop 805: 123343_FlorbetabenPET_20181205
+No matching performed procedure step description found, making note...
+Renaming session to: 123343x20181205xFBBPETx
+Loop 806: 123343_AV1451PET_20181217
+No matching performed procedure step description found, making note...
+Renaming session to: 123343x20181217xAV1451PETx
+Loop 807: 123200_FlorbetabenPET_20190410
+Renaming session to: 123200x20190410xFBBPETxLEADS
+Loop 808: 123200_AV1451PET_20190412
+No matching performed procedure step description found, making note...
+Renaming session to: 123200x20190412xAV1451PETx
+Loop 809: 123727x20190311x3T
+Renaming session to: 123727x20190311x3TxLEADS
+Loop 810: 123727_FlorbetabenPET_20190411
+No matching performed procedure step description found, making note...
+Renaming session to: 123727x20190411xFBBPETx
+Loop 811: 123727_AV1451PET_20190415
+Renaming session to: 123727x20190415xAV1451PETxLEADS
+Loop 812: 124561_FlorbetabenPET_20190417
+Renaming session to: 124561x20190417xFBBPETxLEADS
+Loop 813: 124561_AV1451PET_20190429
+Renaming session to: 124561x20190429xAV1451PETxLEADS
+Loop 814: 123718_FlorbetabenPET_20190924
+No matching performed procedure step description found, making note...
+Renaming session to: 123718x20190924xFBBPETx
+Loop 815: 123718_AV1451PET_20190930
+Renaming session to: 123718x20190930xAV1451PETxLEADS
+Loop 816: 125300x20190820x3T
+Renaming session to: 125300x20190820x3TxLEADS
+Loop 817: 125300_FlorbetabenPET_20190905
+No matching performed procedure step description found, making note...
+Renaming session to: 125300x20190905xFBBPETx
+Loop 818: 125300_AV1451PET_20190927
+Renaming session to: 125300x20190927xAV1451PETxLEADS
+Loop 819: 125332x20190905x3T
+Renaming session to: 125332x20190905x3TxLEADS
+Loop 820: 124592_20191015_7T
+Renaming session to: 124592x20191015x7TxABC
+Loop 821: 125332_FlorbetabenPET_20190911
+Renaming session to: 125332x20190911xFBBPETxLEADS
+Loop 822: 125332_AV1451PET_20190925
+No matching performed procedure step description found, making note...
+Renaming session to: 125332x20190925xAV1451PETx
+Loop 823: 125569x20191015x3T
+Renaming session to: 126955x20191015x3TxABC
+Loop 824: 124972_FlorbetabenPET_20191010
+No matching performed procedure step description found, making note...
+Renaming session to: 124972x20191010xFBBPETx
+Loop 825: 124018_AV1451PET_20181207
+No matching performed procedure step description found, making note...
+Renaming session to: 124018x20181207xAV1451PETx
+Loop 826: 124018_FlorbetabenPET_20181120
+Renaming session to: 124018x20181120xFBBPETxLEADS
+Loop 827: 124385_AV1451PET_20190301
+Renaming session to: 124385x20190301xAV1451PETxLEADS
+Loop 828: 124385_FlorbetabenPET_20190305
+Renaming session to: 124385x20190305xFBBPETxLEADS
+Loop 829: 106036x20191017x3T
+Renaming session to: 106036x20191017x3TxABC
+Loop 830: 106036_20191017_7T
+Renaming session to: 106036x20191017x7TxABC
+Loop 831: 124824_AV1451PET_20190605
+Renaming session to: 124824x20190603xAV1451PETxLEADS
+Loop 832: 125415x20190913x3T
+Renaming session to: 125415x20190913x3TxLEADS
+Loop 833: 125415_FlorbetabenPET_20191003
+Renaming session to: 125415x20191003xFBBPETxLEADS
+Loop 834: 125415_AV1451PET_20191010
+No matching performed procedure step description found, making note...
+Renaming session to: 125415x20191010xAV1451PETx
+Loop 835: 123782x20191022x3T
+Renaming session to: 123782x20191022x3TxABC
+Loop 836: 125590x20191023x3T
+Renaming session to: 125590x20191023x3TxABC
+Loop 837: 120123x20191029x3T
+Renaming session to: 120123x20191029x3TxABC
+Loop 838: 124728x20191030x3T
+Renaming session to: 124728x20191030x3TxLEADS
+Loop 839: 106615x20191031x3T
+Renaming session to: 106615x20191031x3TxABC
+Loop 840: 106615_01_20191031_7T
+Renaming session to: 106615x01x20191031x7TxABC
+Loop 841: 106615x01x20191031x3T
+Renaming session to: 106615x01x20191031x3TxABC
+Loop 842: 106615_20191031_7T
+Renaming session to: 106615x20191031x7TxABC
+Loop 843: 122484_AV1451PET_20191009
+Renaming session to: 122484x20191009xAV1451PETxABC
+Loop 844: 124592_FlorbetabenPET_20191015
+Renaming session to: 124592x20191015xFBBPETxABC
+Loop 845: 118923_FlorbetabenPET_20191016
+Renaming session to: 118923x20191016xFBBPETxABC
+Loop 846: 124383_FlorbetabenPET_20191017
+Renaming session to: 124383x20191017xFBBPETxABC
+Loop 847: 123765_AV1451PET_20191031
+Renaming session to: 123765x20191031xAV1451PETxABC
+Loop 848: 123754x20191105x3T
+Renaming session to: 123754x20191105x3TxABC
+Loop 849: 123754_20191105_7T
+Renaming session to: 123754x20191105x7TxABC
+Loop 850: 122328_20191107_7T
+Renaming session to: 122328x20191107x7TxABC
+Loop 851: 119202x20191107x3T
+Renaming session to: 119202x20191107x3TxABC
+Loop 852: 122328x20191107x3T
+Renaming session to: 122328x20191107x3TxABC
+Loop 853: 122963x20191112x3T
+Renaming session to: 122963x20191112x3TxABC
+Loop 854: 122963_20191112_7T
+Renaming session to: 122963x20191112x7TxABC
+Loop 855: 117889x20191113x3T
+Renaming session to: 117889x20191113x3TxABC
+Loop 856: 122039x20191114x3T
+Renaming session to: 122039x20191114x3TxABC
+Loop 857: 118775_20191114_7T
+Renaming session to: 118775x20191114x7TxABC
+Loop 858: 118775x20191114x3T
+Renaming session to: 118775x20191114x3TxABC
+Loop 859: 125041x20191119x3T
+Renaming session to: 125041x20191119x3TxABC
+Loop 860: 125041_20191119_7T
+Renaming session to: 125041x20191119x7TxABC
+Loop 861: 124868_FlorbetabenPET_20191105
+Renaming session to: 124868x20191105xFBBPETxABC
+Loop 862: 106735_FlorbetabenPET_20191106
+Renaming session to: 106735x20191106xFBBPETxABC
+Loop 863: 117326_FlorbetabenPET_20191106
+Renaming session to: 117326x20191106xFBBPETxABC
+Loop 864: 124288_FlorbetabenPET_20191107
+Renaming session to: 124288x20191107xFBBPETxABC
+Loop 865: 123485_AV1451PET_20191112
+Renaming session to: 123485x20191112xAV1451PETxABC
+Loop 866: 123367_AV1451PET_20191112
+Renaming session to: 123367x20191112xAV1451PETxABC
+Loop 867: 124383_AV1451PET_20191114
+Renaming session to: 124383x20191114xAV1451PETxABC
+Loop 868: 120374_AV1451PET_20191118
+Renaming session to: 120374x20191118xAV1451PETxABC
+Loop 869: 124005_AV1451PET_20191119
+Renaming session to: 124005x20191119xAV1451PETxABC
+Loop 870: 124004_AV1451PET_20191119
+Renaming session to: 124004x20191119xAV1451PETxABC
+Loop 871: 123903_FlorbetabenPET_20191120
+Renaming session to: 123903x20191120xFBBPETxABC
+Loop 872: 100905x01x20191126x3T
+Renaming session to: 100905x01x20191126x3TxABC
+Loop 873: 100905_01_20191126_7T
+Renaming session to: 100905x01x20191126x7TxABC
+Loop 874: 122216_20191205_7T
+Renaming session to: 122216x20191205x7TxABC
+Loop 875: 120870x20191205x3T
+Renaming session to: 120870x20191205x3TxABC
+Loop 876: 120870_20191205_7T
+Renaming session to: 120870x20191205x7TxABC
+Loop 877: 124022x20191210x3T
+Renaming session to: 124022x20191210x3TxABC
+Loop 878: 120422_20191210_7T
+Renaming session to: 124022x20191210x7TxABC
+Loop 879: 124877x20191212x3T
+Renaming session to: 124877x20191212x3TxABC
+Loop 880: 120735_20191212_7T
+Renaming session to: 120735x20191212x7TxABC
+Loop 881: 120735x20191212x3T
+Renaming session to: 120735x20191212x3TxABC
+Loop 882: 121570x20191219x3T
+Renaming session to: 121570x20191219x3TxABC
+Loop 883: 124738_AV1451PET_20191122
+Renaming session to: 124738x20191122xAV1451PETxABC
+Loop 884: 104115_AV1451PET_20191125
+Renaming session to: 104115x20191125xAV1451PETxABC
+Loop 885: 123782_FlorbetabenPET_20191126
+Renaming session to: 123782x20191126xFBBPETxABC
+Loop 886: 122987_AV1451PET_20191203
+Renaming session to: 122987x20191203xAV1451PETxABC
+Loop 887: 124212_AV1451PET_20191203
+Renaming session to: 124212x20191203xAV1451PETxABC
+Loop 888: 116630_FlorbetabenPET_20191203
+No matching performed procedure step description found, making note...
+Renaming session to: 116630x20191203xFBBPETx
+Loop 889: 123768_FlorbetabenPET_20191204_DUPLICATE_incomplete
+123768_FlorbetabenPET_20191204_DUPLICATE_incomplete has tag ['Duplicate', 'Incomplete'], not renaming
+Loop 890: 124516_FlorbetabenPET_20191204
+Renaming session to: 124516x20191204xFBBPETxABC
+Loop 891: 118923_AV1451PET_20191209
+Renaming session to: 118923x20191209xAV1451PETxABC
+Loop 892: 124800_AV1451PET_20191210
+Renaming session to: 124800x20191210xAV1451PETxABC
+Loop 893: 107799_FlorbetabenPET_20191211
+Renaming session to: 107799x20191211xFBBPETxABC
+Loop 894: 122963_FlorbetabenPET_20191212
+No matching performed procedure step description found, making note...
+Renaming session to: 122963x20191212xFBBPETx
+Loop 895: 123680_AV1451PET_20191213
+Renaming session to: 123680x20191213xAV1451PETxABC
+Loop 896: 123341_AV1451PET_20191217
+Renaming session to: 123341x20191217xAV1451PETxABC
+Loop 897: 121444_AV1451PET_20191219
+Renaming session to: 121444x20191219xAV1451PETxABC
+Loop 898: 124728_AV1451PET_20191120
+Renaming session to: 124728x20191120xAV1451PETxLEADS
+Loop 899: 124728_FlorbetabenPET_20191113
+Renaming session to: 124728x20191113xFBBPETxLEADS
+Loop 900: 125572_FlorbetabenPET_20191105
+Renaming session to: 125572x20191105xFBBPETxLEADS
+Loop 901: 125572_AV1451PET_20191118
+Renaming session to: 125572x20191118xAV1451PETxLEADS
+Loop 902: 118418_20200109_7T
+Renaming session to: 118418x20200109x7TxABC
+Loop 903: 1171518_20200109_7T
+Renaming session to: 117158x20200109x7TxABC
+Loop 904: 117158x20200109x3T
+Renaming session to: 117158x20200109x3TxABC
+Loop 905: 118418x20200109x3T
+Renaming session to: 118418x20200109x3TxABC
+Loop 906: 114699x20200115x3T
+Renaming session to: 114699x20200115x3TxABC
+Loop 907: 111768x02x20200116x3T
+Renaming session to: 111768x02x20200116x3TxABC
+Loop 908: 111768x01x20200116x7T
+Renaming session to: 111768x01x20200116x7TxABC
+Loop 909: 111768x01x20200116x3T
+Renaming session to: 111768x01x20200116x3TxABC
+Loop 910: 123865x20200121x3T
+Renaming session to: 123865x20200121x3TxABC
+Loop 911: 123865_20200121_7T
+Renaming session to: 123865x20200121x7TxABC
+Loop 912: phantom NACC-SC
+phantom NACC-SC has tag ['Misc.'], not renaming
+Loop 913: 124288_AV1451PET_20200110
+Renaming session to: 124288x20200110xAV1451PETxABC
+Loop 914: 124868_AV1451PET_20200114
+Renaming session to: 124868x20200114xAV1451PETxABC
+Loop 915: 124035_AV1451PET_20200114
+Renaming session to: 124035x20200114xAV1451PETxABC
+Loop 916: 124877_FlorbetabenPET_20200115
+Renaming session to: 124877x20200115xFBBPETxABC
+Loop 917: 121847x20200123x3T
+Renaming session to: 121847x20200123x3TxABC
+Loop 918: 122701_FlorbetapirPET_20171201
+No matching performed procedure step description found, making note...
+Renaming session to: 122701x20171201xFBBPETx
+Loop 919: 123072_FlorbetabenPET_20200122
+Renaming session to: 123072x20200122xFBBPETxABC
+Loop 920: 123343x20191223x3T
+Renaming session to: 123343x20191223x3TxLEADS
+Loop 921: 123343_FlorbetabenPET_20191212
+Renaming session to: 123343x20191212xFBBPETxLEADS
+Loop 922: 123343_AV1451PET_20200106
+Renaming session to: 123343x20200106xAV1451PETxLEADS
+Loop 923: 119582x20200204x3T
+Renaming session to: 119582x20200204x3TxABC
+Loop 924: 119582_20200204_7T
+Renaming session to: 119582x20200204x7TxABC
+Loop 925: 122216x20200205x3Txincomplete
+Renaming session to: 122216x20200205x3TxABC
+Loop 926: 122216x20200205x3T
+Renaming session to: 122216x20200205x3TxABC
+Loop 927: 125901x20200204x3T
+Renaming session to: 125901x20200204x3TxLEADS
+Loop 928: 125067x20200206x3T
+Renaming session to: 125067x20200206x3TxABC
+Loop 929: 124563_20200206_7T
+Renaming session to: 124563x20200206x7TxABC
+Loop 930: 124563x20200206x3T
+Renaming session to: 124563x20200206x3TxABC
+Loop 931: 125067_20200206_7T
+Renaming session to: 125067x20200206x7TxABC
+Loop 932: 124534x20200211x3T
+Renaming session to: 124534x20200211x3TxABC
+Loop 933: 124534_20200211_7T
+Renaming session to: 124534x20200211x7TxABC
+Loop 934: 124305_20200213_7T
+Renaming session to: 124305x20200213x7TxABC
+Loop 935: 124305x20200213x3T
+Renaming session to: 124305x20200213x3TxABC
+Loop 936: 123935_20200213_7T
+Renaming session to: 123935x20200213x7TxABC
+Loop 937: 126067x20200218x3T
+Renaming session to: 126067x20200218x3TxLEADS
+Loop 938: 100639_20200220_7T
+Renaming session to: 100639x20200220x7TxABC
+Loop 939: 100639x20200220x3T
+Renaming session to: 100639x20200220x3TxABC
+Loop 940: 125699x20200220x3T
+Renaming session to: 125699x20200220x3TxABC
+Loop 941: 125699_20200220_7T
+Renaming session to: 125699x20200220x7TxABC
+Loop 942: 124597x20200227x3T
+Renaming session to: 124597x20200227x3TxABC
+Loop 943: 102167_20200227_7T
+Renaming session to: 102167x20200227x7TxABC
+Loop 944: 102167x20200227x3T
+Renaming session to: 102167x20200227x3TxABC
+Loop 945: 124597_20200227_7T
+Renaming session to: 124597x20200227x7TxABC
+Loop 946: 118317x20200303x3T
+Renaming session to: 118317x20200303x3TxABC
+Loop 947: 118317_20200303_7T
+Renaming session to: 118317x20200303x7TxABC
+Loop 948: 126144x20200302x3T
+Renaming session to: 126144x20200302x7TxABC
+Loop 949: 121526x20200305x3T
+Renaming session to: 121526x20200305x3TxABC
+Loop 950: 124048x20200310x3T
+Renaming session to: 124048x20200310x3TxABC
+Loop 951: 124048_20200310_7T
+Renaming session to: 124048x20200310x7TxABC
+Loop 952: 124733x20200312x3T
+Renaming session to: 124733x20200312x3TxABC
+Loop 953: 124733_20200312_7T
+Renaming session to: 124733x20200312x7TxABC
+Loop 954: 123155x20200313x3T
+Renaming session to: 123155x20200313x3TxLEADS
+Loop 955: 124666x20200311x3T
+Renaming session to: 124666x20200311x3TxLEADS
+Loop 956: 125142x20200312x3T
+Renaming session to: 125142x20200312x3TxLEADS
+Loop 957: 122139_FlorbetapirPET_20190627
+No matching performed procedure step description found, making note...
+Renaming session to: 122139x20190627xFBBPETx
+Loop 958: 111768x02x20200116x7T
+Renaming session to: 111768x02x20200116x7TxABC
+Loop 959: 122439x20200708x3T
+Renaming session to: 122439x20200708x3TxLEADS
+Loop 960: 123200x20200713x3T
+Renaming session to: 123200x20200713x3TxLEADS
+Loop 961: 125687x20200714x3T
+Renaming session to: 125687x20200714x3TxABC
+Loop 962: 112286x01x20200721x3T
+Renaming session to: 112286x01x20200721x3TxABC
+Loop 963: 112286x01x20200721x7T
+Renaming session to: 112286x01x20200721x7TxABC
+Loop 964: 121167x20170905x3T
+Renaming session to: 121167x20170905x3TxABC
+Loop 965: 125800x20200728x3T
+Renaming session to: 125800x20200728x3TxABC
+Loop 966: 123727x20200729x3T
+Renaming session to: 123727x20200729x3TxLEADS
+Loop 967: 125081x20200810x3T
+Renaming session to: 125081x20200810x3TxLEADS
+Loop 968: 120686x20200812x3T
+Renaming session to: 120686x20200812x3TxABC
+Loop 969: 120686x20200812x7T
+Renaming session to: 120686x20200812x7TxABC
+Loop 970: 124509x20200813x3T
+Renaming session to: 124509x20200813x3TxABC
+Loop 971: 124509x20200813x7T
+Renaming session to: 124509x20200813x7TxABC
+Loop 972: 118998x20200818x3T
+Renaming session to: 118998x20200818x3TxABC
+Loop 973: 126266x20200818x3T
+Renaming session to: 126266x20200818x3TxLEADS
+Loop 974: 126324x20200901x3T
+Renaming session to: 126324x20200901x3TxLEADS
+Loop 975: 123725x20190327x7T
+Renaming session to: 123725x20190327x7TxABC
+Loop 976: 123894x20190327x7T
+Renaming session to: 123894x20190327x7TxABC
+Loop 977: 117796x20190813x7T
+Renaming session to: 117796x20190813x7TxABC
+Loop 978: 124800x20190808x7T
+Renaming session to: 124800x20190808x7TxABC
+Loop 979: 124650x20190410x7T
+Renaming session to: 124650x20190410x7TxABC
+Loop 980: 125310x20190808x7T
+Renaming session to: 125310x20190808x7TxABC
+Loop 981: 103907x20171117x7T
+Renaming session to: 103907x20171117x7TxABC
+Loop 982: 118711x20171006x7T
+Renaming session to: 118711x20171006x7TxABC
+Loop 983: 119035x20180130x7T
+Renaming session to: 119035x20180130x7TxABC
+Loop 984: 118230x20200915x3T
+Renaming session to: 118230x20200915x3TxABC
+Loop 985: 118230x20200915x7T
+Renaming session to: 118230x20200915x7TxABC
+Loop 986: 125675x20200922x3T
+Renaming session to: 125675x20200922x3TxABC
+Loop 987: 125675x20200922x7T
+Renaming session to: 125675x20200922x7TxABC
+Loop 988: 122139x20200924x3T
+Renaming session to: 122139x20200924x3TxABC
+Loop 989: 122139x20200924x7T
+Renaming session to: 122139x20200924x7TxABC
+Loop 990: 107486x20200929x3T
+Renaming session to: 107486x20200929x3TxABC
+Loop 991: 118743x20201001x3T
+Renaming session to: 118743x20201001x3TxABC
+Loop 992: 118743x20201001x7T
+Renaming session to: 118743x20201001x7TxABC
+Loop 993: 119655_FlorbetapirPET_20190103
+No matching performed procedure step description found, making note...
+Renaming session to: 119655x20190103xFBBPETx
+Loop 994: 124305_FlorbetapirPET_20190313
+No matching performed procedure step description found, making note...
+Renaming session to: 124305x20190313xFBBPETx
+Loop 995: 124824x20201012x3T
+Renaming session to: 124824x20201012x3TxABC
+Loop 996: 117639x20201013x3T
+Renaming session to: 117639x20201013x3TxABC
+Loop 997: 117639x20201013x7T
+Renaming session to: 117639x20201013x7TxABC
+Loop 998: 123575x20201015x3T
+Renaming session to: 123575x20201015x3TxABC
+Loop 999: 122963_PI2620_20201019
+Renaming session to: 122963x20201019xPI2620PETxABC
+Loop 1000: 125111_PI2620_20201019
+Renaming session to: 125111x20201019xPI2620PETxABC
+Loop 1001: 125107x20201029x3T
+Renaming session to: 125107x20201029x3TxABC
+Loop 1002: 125564x20201105x3T
+Renaming session to: 125564x20201105x3TxABC
+Loop 1003: 125564x20201105x7T
+Renaming session to: 125564x20201105x7TxABC
+Loop 1004: 125840x20201110x3T
+Renaming session to: 125840x20201110x3TxABC
+Loop 1005: 125840x20201110x7T
+Renaming session to: 125840x20201110x7TxABC
+Loop 1006: 100049x20201112x3T
+Renaming session to: 100049x20201112x3TxABC
+Loop 1007: 100049x20201112x7T
+Renaming session to: 100049x20201112x7TxABC
+Loop 1008: 124775x20201124x3T
+Renaming session to: 124775x20201124x3TxABC
+Loop 1009: 124775x20201124x7T
+Renaming session to: 124775x20201124x7TxABC
+Loop 1010: 123831x20201201x3T
+Renaming session to: 123831x20201201x3TxABC
+Loop 1011: 123831x20201201x7T
+Renaming session to: 123831x20201201x7TxABC
+Loop 1012: 126501x20201204x3T
+Renaming session to: 126501x20201204x3TxLEADS
+Loop 1013: 124242x20201210x3T
+Renaming session to: 124242x20201210x3TxABC
+Loop 1014: 124242x20201210x7T
+Renaming session to: 124242x20201210x7TxABC
+Loop 1015: 123928xAV1451PETx20200227
+Renaming session to: 123928x20200227xAV1451PETxABC
+Loop 1016: 101162xAV1451PETx20201110
+Renaming session to: 101162x20201110xAV1451PETxABC
+Loop 1017: 107799xAV1451PETx20201012
+Renaming session to: 107799x20201012xAV1451PETxABC
+Loop 1018: 108672xAV1451PETx20200922
+Renaming session to: 108672x20200922xAV1451PETxABC
+Loop 1019: 117326xAV1451PETx20200214
+Renaming session to: 117326x20200214xAV1451PETxABC
+Loop 1020: 117796xAV1451PETx20170606
+No matching performed procedure step description found, making note...
+Renaming session to: 117796x20170606xAV1451PETx
+Loop 1021: 118439xAV1451PETx20200130
+Renaming session to: 118439x20200130xAV1451PETxABC
+Loop 1022: 119888xAV1451PETx20170328
+No matching performed procedure step description found, making note...
+Renaming session to: 119888x20170328xAV1451PETx
+Loop 1023: 121635xAV1451PETx20200204
+Renaming session to: 121635x20200204xAV1451PETxABC
+Loop 1024: 122475xAV1451PETx20200128
+Renaming session to: 122475x20200128xAV1451PETxABC
+Loop 1025: 123727xAV1451PETx20200805
+Renaming session to: 123727x20200805xAV1451PETxLEADS
+Loop 1026: 123754xAV1451PETx20201110
+Renaming session to: 123754x20201110xAV1451PETxABC
+Loop 1027: 123782xAV1451PETx20201109
+Renaming session to: 123782x20201109xAV1451PETxABC
+Loop 1028: 123851xAV1451PETx20200810
+Renaming session to: 123851x20200810xAV1451PETxABC
+Loop 1029: 123865xAV1451PETx20201020
+Renaming session to: 123865x20201020xAV1451PETxABC
+Loop 1030: 123950xAV1451PETx20200228
+Renaming session to: 123950x20200228xAV1451PETxABC
+Loop 1031: 124305xAV1451PETx20200303
+Renaming session to: 124305x20200303xAV1451PETxABC
+Loop 1032: 124534xAV1451PETx20200929
+Renaming session to: 124534x20200929xAV1451PETxABC
+Loop 1033: 124666xAV1451PETx20200716
+Renaming session to: 124666x20200716xAV1451PETxLEADS
+Loop 1034: 125067xAV1451PETx20201012
+Renaming session to: 125067x20201012xAV1451PETxABC
+Loop 1035: 125142xAV1451PETx20200825
+Renaming session to: 125142x20200825xAV1451PETxLEADS
+Loop 1036: 125300xAV1451PETx20201028
+Renaming session to: 125300x20201028xAV1451PETxLEADS
+Loop 1037: 125699xAV1451PETx20201125
+Renaming session to: 125699x20201125xAV1451PETxABC
+Loop 1038: 125901xAV1451PETx20200302
+Renaming session to: 125901x20200302xAV1451PETxLEADS
+Loop 1039: 125944xAV1451PETx20200310
+Renaming session to: 125944x20200310xAV1451PETxLEADS
+Loop 1040: 126067xAV1451PETx20200930
+Renaming session to: 126067x20200930xAV1451PETxLEADS
+Loop 1041: 126266xAV1451PETx20201002
+Renaming session to: 126266x20201002xAV1451PETxLEADS
+Loop 1042: 126324xAV1451PETx20201005
+Renaming session to: 126324x20201005xAV1451PETxLEADS
+Loop 1043: 111275x01xAV1451PETx20190605
+No matching performed procedure step description found, making note...
+Renaming session to: 111275x01x20190605xAV1451PETx
+Loop 1044: 124563xAV1451PETx20201117
+Renaming session to: 124563x20201117xAV1451PETxABC
+Loop 1045: 100049xDUPLICATE
+100049xDUPLICATE has tag ['Duplicate'], not renaming
+Loop 1046: 119888xFlorbetapirPETx20150714
+No matching performed procedure step description found, making note...
+Renaming session to: 119888x20150714xFBBPETx
+Loop 1047: 124022xFlorbetabenPETx20200901
+Renaming session to: 124022x20200901xFBBPETxABC
+Loop 1048: 108672xFlorbetabenPETx20200825
+Renaming session to: 108672x20200825xFBBPETxABC
+Loop 1049: 119655xFlorbetapirPETx20190103
+No matching performed procedure step description found, making note...
+Renaming session to: 119655x20190103xFBBPETx
+Loop 1050: 122139xFlorbetapirPETx20190627
+No matching performed procedure step description found, making note...
+Renaming session to: 122139x20190627xFBBPETx
+Loop 1051: 122701xFlorbetapirPETx20171201
+No matching performed procedure step description found, making note...
+Renaming session to: 122701x20171201xFBBPETx
+Loop 1052: 122946xFlorbetapirPETx20171215
+No matching performed procedure step description found, making note...
+Renaming session to: 122946x20171215xFBBPETx
+Loop 1053: 123155xFlorbetabenPETx20200901
+Renaming session to: 123155x20200901xFBBPETxLEADS
+Loop 1054: 123727xFlorbetabenPETx20200722
+Renaming session to: 123727x20200722xFBBPETxLEADS
+Loop 1055: 124305xFlorbetapirPETx20190313
+No matching performed procedure step description found, making note...
+Renaming session to: 124305x20190313xFBBPETx
+Loop 1056: 124563xFlorbetabenPETx20200722
+Renaming session to: 124563x20200722xFBBPETxABC
+Loop 1057: 124666xFlorbetabenPETx20200728
+Renaming session to: 124666x20200728xFBBPETxLEADS
+Loop 1058: 125300xFlorbetabenPETx20201111
+Renaming session to: 125300x20201111xFBBPETxLEADS
+Loop 1059: 125675xFlorbetabenPETx20200922
+Renaming session to: 125675x20200922xFBBPETxABC
+Loop 1060: 125699xFlorbetabenPETx20200826
+Renaming session to: 125699x20200826xFBBPETxABC
+Loop 1061: 125965xFlorbetabenPETx20200225
+Renaming session to: 125965x20200225xFBBPETxLEADS
+Loop 1062: 126067xFlorbetabenPETx20200303
+Renaming session to: 126067x20200303xFBBPETxLEADS
+Loop 1063: 126266xFlorbetabenPETx20200915
+Renaming session to: 126266x20200915xFBBPETxLEADS
+Loop 1064: 126324xFlorbetabenPETx20200909
+Renaming session to: 126324x20200909xFBBPETxLEADS
+Loop 1065: 111275x01xFlorbetapirPETx20190514
+No matching performed procedure step description found, making note...
+Renaming session to: 111275x01x20190514xFBBPETx
+Loop 1066: 112574xFlorbetabenPETx20201027
+Renaming session to: 112574x20201027xFBBPETxABC
+Loop 1067: 117889xFlorbetabenPETx20200225
+Renaming session to: 117889x20200225xFBBPETxABC
+Loop 1068: 120870xFlorbetabenPETx20200211
+Renaming session to: 120870x20200211xFBBPETxABC
+Loop 1069: 123865xFlorbetabenPETx20200218
+No matching performed procedure step description found, making note...
+Renaming session to: 123865x20200218xFBBPETx
+Loop 1070: 124048xFlorbetapirPETx20190111
+No matching performed procedure step description found, making note...
+Renaming session to: 124048x20190111xFBBPETx
+Loop 1071: 124597xFlorbetabenPETx20201006
+Renaming session to: 124597x20201006xFBBPETxABC
+Loop 1072: 124775xFlorbetabenPETx20201124
+Renaming session to: 124775x20201124xFBBPETxABC
+Loop 1073: 125067xFlorbetabenPETx20200220
+Renaming session to: 125067x20200220xFBBPETxABC
+Loop 1074: 125901xFlorbetabenPETx20200212
+Renaming session to: 125901x20200212xFBBPETxLEADS
+Loop 1075: 125944xFlorbetabenPETx20200220
+Renaming session to: 125944x20200220xFBBPETxLEADS
+Loop 1076: 126022x20210112x3T
+Renaming session to: 126022x20210112x3TxABC
+Loop 1077: 126624x20210113x3T
+Renaming session to: 126624x20210113x3TxLEADS
+Loop 1078: 124822x20210126x3T
+Renaming session to: 124822x20210126x3TxABC
+Loop 1079: 124822x20210126x7T
+Renaming session to: 124822x20210126x7TxABC
+Loop 1080: 101162x20210128x3T
+Renaming session to: 101162x20210128x3TxABC
+Loop 1081: 101162x20210128x7T
+Renaming session to: 101162x20210128x7TxABC
+Loop 1082: 126004x20210204x3T
+Renaming session to: 126004x20210204x3TxABC
+Loop 1083: 126004x20210204x7T
+Renaming session to: 126004x20210204x7TxABC
+Loop 1084: 122865x20210209x3T
+Renaming session to: 122865x20210209x3TxABC
+Loop 1085: 122865x20210209x7T
+Renaming session to: 122865x20210209x7TxABC
+Loop 1086: 125780x20210216x3T
+Renaming session to: 125780x20210216x3TxABC
+Loop 1087: 125780x20210216x7T
+Renaming session to: 125780x20210216x7TxABC
+Loop 1088: 124728x20212124x3T
+Renaming session to: 124728x20210224x3TxLEADS
+Loop 1089: 125487x20210304x3T
+Renaming session to: 125487x20210304x3TxABC
+Loop 1090: 125487x20210304x7T
+Renaming session to: 125487x20210304x7TxABC
+Loop 1091: 119254x20210311x3T
+Renaming session to: 119254x20210311x3TxABC
+Loop 1092: 119788x20210316x3T
+Renaming session to: 119788x20210316x3TxABC
+Loop 1093: 119788x20210316x7T
+Renaming session to: 119788x20210316x7TxABC
+Loop 1094: 126501xAV1451PETx20210303
+Renaming session to: 126501x20210303xAV1451PETxLEADS
+Loop 1095: 126501xFlorbetabenPETx20210209
+Renaming session to: 126501x20210209xFBBPETxLEADS
+Loop 1096: 124728xAV1451PETx20210303
+Renaming session to: 124728x20210303xAV1451PETxLEADS
+Loop 1097: 124728xFlorbetabenPETx20210224
+Renaming session to: 124728x20210224xFBBPETxLEADS
+Loop 1098: 126624xAV1451PETx20210216
+Renaming session to: 126624x20210216xAV1451PETxLEADS
+Loop 1099: 126624xFlorbetabenPETx20210203
+Renaming session to: 126624x20210203xFBBPETxLEADS
+Loop 1100: 125901x20210317x3T
+Renaming session to: 125901x20210317x3TxLEADS
+Loop 1101: 124568x20210318x3T
+Renaming session to: 124568x20210318x3TxABC
+Loop 1102: 124568x20210318x7T
+Renaming session to: 124568x20210318x7TxABC
+Loop 1103: 125572x20210323x3T
+Renaming session to: 125572x20210323x3TxABC
+Loop 1104: 126061x20210323x3T
+Renaming session to: 126061x20210323x3TxABC
+Loop 1105: 126536x20210325x3T
+Renaming session to: 126536x20210325x3TxABC
+Loop 1106: 126536x20210325x7T
+Renaming session to: 126536x20210325x7TxABC
+Loop 1107: 126720x20200329x3T
+Renaming session to: 126720x20210329x3TxLEADS
+Loop 1108: 124287x20210330x3T
+Renaming session to: 124287x20210330x3TxABC
+Loop 1109: 126067x20200405x3T
+Renaming session to: 126067x20210405x3TxLEADS
+Loop 1110: 126078x20210406x3T
+Renaming session to: 126078x20210406x3TxABC
+Loop 1111: 124179x20210406x3T
+Renaming session to: 124179x20210406x3TxABC
+Loop 1112: 126078x20210406x7T
+Renaming session to: 126078x20210406x7TxABC
+Loop 1113: 124179x20210406x7T
+Renaming session to: 124179x20210406x7TxABC
+Loop 1114: 122900x20201014x3T
+HUP 3T scan labels insufficient to id study, making note...
+Renaming session to: 122900x20201014x3Tx
+Loop 1115: 124171x20210408x3T
+Renaming session to: 124171x20210408x3TxABC
+Loop 1116: 124171x20210408x7T
+Renaming session to: 124171x20210408x7TxABC
+Loop 1117: 122975x20210408x3T
+Renaming session to: 122975x20210408x3TxABC
+Loop 1118: 122975x20210408x7T
+Renaming session to: 122975x20210408x7TxABC
+Loop 1119: 118380x20210413x7T
+Renaming session to: 118380x20210413x7TxABC
+Loop 1120: 120929x20210415x7T
+Renaming session to: 120929x20210415x7TxABC
+Loop 1121: 120929x20210415x3T
+Renaming session to: 120929x20210415x3TxABC
+Loop 1122: 120929x20210415x3TxPARTTWO
+Renaming session to: 120929x20210415x3TxABC
+Loop 1123: 125605x20210415x3T
+Renaming session to: 125605x20210415x3TxABC
+Loop 1124: 125605x20210415x7T
+Renaming session to: 125605x20210415x7TxABC
+Loop 1125: 124327x20210415x3T
+Renaming session to: 124327x20210415x3TxABC
+Loop 1126: 124327x20210415x7T
+Renaming session to: 124327x20210415x7TxABC
+Loop 1127: 126275x20210420x3T
+Renaming session to: 126275x20210420x3TxABC
+Loop 1128: 126275x20210420x7T
+Renaming session to: 126275x20210420x7TxABC
+Loop 1129: 126884x20210421x3T
+Renaming session to: 126884x20210421x3TxLEADS
+Loop 1130: 119330x20210422x7T
+Renaming session to: 119330x20210422x7TxABC
+Loop 1131: 126877x20210427x3T
+Renaming session to: 126877x20210427x3TxLEADS
+Loop 1132: 113066x02x20210427x3T
+Renaming session to: 113066x02x20210427x3TxABC
+Loop 1133: 113066x02x20210427x7T
+Renaming session to: 113066x02x20210427x7TxABC
+Loop 1134: 122946x20210427x3T
+Renaming session to: 122946x20210427x3TxABC
+Loop 1135: 122946x20210427x7T
+Renaming session to: 122946x20210427x7TxABC
+Loop 1136: 123343xflorbetabenPETx20210310
+Renaming session to: 123343x20210310xFBBPETxLEADS
+Loop 1137: 123343xav1451PETx20210330
+Renaming session to: 123343x20210330xAV1451PETxLEADS
+Loop 1138: 126720xflorbetabenPETx20210406
+Renaming session to: 126720x20210406xFBBPETxLEADS
+Loop 1139: 126720xAV1451PETx20210414
+Renaming session to: 126720x20210414xAV1451PETxLEADS
+Loop 1140: 125901xflorbetabenPETx20210406
+Renaming session to: 125901x20210406xFBBPETxLEADS
+Loop 1141: 120965x20210429x3T
+Renaming session to: 120965x20210429x3TxABC
+Loop 1142: 120985x20210429x7T
+Renaming session to: 120965x20210429x7TxABC
+Loop 1143: 123343x20210504x3T
+Renaming session to: 123343x20210504x3TxLEADS
+Loop 1144: 126226x20210504x3T
+Renaming session to: 126227x20210504x3TxABC
+Loop 1145: 126226x20210504x7T
+Renaming session to: 126227x20210504x7TxABC
+Loop 1146: 126884xFlorbetabenpetx20210505
+Renaming session to: 126884x20210505xFBBPETxLEADS
+Loop 1147: 124301x20210506x3T
+Renaming session to: 124301x20210506x3TxABC
+Loop 1148: 124301x20210506x7T
+Renaming session to: 124301x20210506x7TxABC
+Loop 1149: 125380x20210506x3T
+Renaming session to: 125380x20210506x3TxABC
+Loop 1150: 124326x20210506x7T
+Renaming session to: 124326x20210506x7TxABC
+Loop 1151: 124326x20210506x3T
+Renaming session to: 124326x20210506x3TxABC
+Loop 1152: 120896x20210511x3T
+Renaming session to: 120896x20210511x3TxABC
+Loop 1153: 122659x20210511x3T
+Renaming session to: 122659x20210511x3TxABC
+Loop 1154: 119254xAV1451PETx20210210
+Renaming session to: 119254x20210210xAV1451PETxABC
+Loop 1155: 107486xFlorbetabenPETx20210217
+Renaming session to: 107486x20210217xFBBPETxABC
+Loop 1156: 118317xFlorbetabenPETx20210224
+Renaming session to: 118317x20210224xFBBPETxABC
+Loop 1157: 122328xFlorbetabenPETx20210302
+Renaming session to: 122328x20210302xFBBPETxABC
+Loop 1158: 119582xAV1451PETx20210302
+Renaming session to: 119582x20210302xAV1451PETxABC
+Loop 1159: 122139xAV1451PETx20210303
+Renaming session to: 122139x20210303xAV1451PETxABC
+Loop 1160: 118317xAV1451PETx20210309
+Renaming session to: 118317x20210309xAV1451PETxABC
+Loop 1161: 122865xFlorbetabenPETx20210309
+Renaming session to: 122865x20210309xFBBPETxABC
+Loop 1162: 111768x01xAV1451PETx20210310
+Renaming session to: 111768x01x20210310xAV1451PETxABC
+Loop 1163: 124509xFlorbetabenPETx20210324
+Renaming session to: 124509x20210324xFBBPETxABC
+Loop 1164: 123831xFlorbetabenPETx20210330
+Renaming session to: 123831x20210330xFBBPETxABC
+Loop 1165: 107196xFlorbetabenPETx20210331
+Renaming session to: 107196x20210331xFBBPETxABC
+Loop 1166: 113066x02xFlorbetabenPETx20210407
+Renaming session to: 113066x02x20210407xFBBPETxABC
+Loop 1167: 122975xFlorbetabenPETx20210413
+Renaming session to: 122975x20210413xFBBPETxABC
+Loop 1168: 124822xFlorbetabenPETx20210414
+Renaming session to: 124822x20210414xFBBPETxABC
+Loop 1169: 107486xAV1451PETx20210414
+Renaming session to: 107486x20210414xAV1451PETxABC
+Loop 1170: 122975xAV1451PETx20210420
+Renaming session to: 122975x20210420xAV1451PETxABC
+Loop 1171: 118743xFlorbetabenPETx20210421
+Renaming session to: 118743x20210421xFBBPETxABC
+Loop 1172: 123575xFlorbetabenPETx20210428
+Renaming session to: 123575x20210428xFBBPETxABC
+Loop 1173: 109789xFlorbetabenPETx20210505
+Renaming session to: 109789x20210505xFBBPETxABC
+Loop 1174: 125041xFlorbetabenPETx20210505
+Renaming session to: 125041x20210505xFBBPETxABC
+Loop 1175: 125213x20210513x3T
+Renaming session to: 125213x20210513x3TxABC
+Loop 1176: 125213x20210513x7T
+Renaming session to: 125213x20210513x7TxABC
+Loop 1177: 126884xAV1451PETx20210512
+Renaming session to: 126884x20210512xAV1451PETxLEADS
+Loop 1178: 123200x20210518x3T
+Renaming session to: 123200x20210518x3TxLEADS
+Loop 1179: 122220x20210518x3T
+Renaming session to: 122220x20210518x3TxABC
+Loop 1180: 122220x20210518x7T
+Renaming session to: 122220x20210518x7TxABC
+Loop 1181: 126955x20210520x3T
+Renaming session to: 126955x20210520x3TxABC
+Loop 1182: 124733xFlorbetabenPETx20210511
+Renaming session to: 124733x20210511xFBBPETxABC
+Loop 1183: 125487xFlorbetabenPETx20210519
+Renaming session to: 125487x20210519xFBBPETxABC
+Loop 1184: 124972x20210525x3T
+Renaming session to: 124972x20210525x3TxABC
+Loop 1185: 118380x20210527x3T
+Renaming session to: 118380x20210527x3TxABC
+Loop 1186: 124938x20210527x3T
+Renaming session to: 124938x20210527x3TxABC
+Loop 1187: 124938x20210527x7T
+Renaming session to: 124938x20210527x7TxABC
+Loop 1188: 124482x20210601x3T
+Renaming session to: 124482x20210601x3TxABC
+Loop 1189: 124482x20210601x7T
+Renaming session to: 124482x20210601x7TxABC
+Loop 1190: 107196x20210603x3T
+Renaming session to: 107196x20210603x3TxABC
+Loop 1191: 122659x20210603x7T
+Renaming session to: 122659x20210603x7TxABC
+Loop 1192: 107196X20210603X7T
+Renaming session to: 107196x20210603x7TxABC
+Loop 1193: 125107x20210609x3T
+Renaming session to: 125107x20210609x3TxLEADS
+Loop 1194: 126884xFDGPETx20210609
+Renaming session to: 126884x20210609xFDGPETxLEADS
+Loop 1195: 123200_FDGPET_20210513
+Renaming session to: 123200x20210513xFDGPETxLEADS
+Loop 1196: 125987x20210610x3T
+Renaming session to: 125987x20210610x3TxABC
+Loop 1197: 125987x20210610x7T
+Renaming session to: 125987x20210610x7TxABC
+Loop 1198: 126067_FDGPET_20210518
+Renaming session to: 126067x20210518xFDGPETxLEADS
+Loop 1199: 126877_AV1451PET_20210525
+Renaming session to: 126877x20210525xAV1451PETxLEADS
+Loop 1200: 126877xFlorbetabenPETx20210518
+Renaming session to: 126877x20210518xFBBPETxLEADS
+Loop 1201: 123155_AV1451PET_20201120
+Renaming session to: 123155x20201120xAV1451PETxLEADS
+Loop 1202: 125095x20210615x3T
+Renaming session to: 125095x20210615x3TxABC
+Loop 1203: 125095x20210615x7T
+Renaming session to: 125095x20210615x7TxABC
+Loop 1204: 124385x20210623x3T
+Renaming session to: 124385x20210623x3TxLEADS
+Loop 1205: 127083x20210624x3T
+Renaming session to: 127083x20210624x3TxABC
+Loop 1206: 124385xFDGPETx20210623
+Renaming session to: 124385x20210623xFDGPETxLEADS
+Loop 1207: 124224x20210629x7T
+Renaming session to: 124224x20210629x7TxABC
+Loop 1208: 124224x20210629x3T
+Renaming session to: 124224x20210629x3TxABC
+Loop 1209: 122714x20180119x3T
+Renaming session to: 122714x20180119x3TxLEADS
+Loop 1210: 126954x20210708x3T
+Renaming session to: 126954x20210708x3TxABC
+Loop 1211: 124018xFDGPETx20210707
+Renaming session to: 124018x20210707xFDGPETxLEADS
+Loop 1212: 100437x20210708x3T
+Renaming session to: 100437x20210708x3TxABC
+Loop 1213: 100437x20210713x7T
+Renaming session to: 100437x20210713x7TxABC
+Loop 1214: 126954x20210713x7T
+Renaming session to: 126954x20210713x7TxABC
+Loop 1215: 120924x20210713x3T
+Renaming session to: 120924x20210713x3TxABC
+Loop 1216: 124018x20210714x3T
+Renaming session to: 124018x20210714x3TxLEADS
+Loop 1217: 126554x20210720x3T
+Renaming session to: 126554x20210720x3TxABC
+Loop 1218: 126554x20210720x7T
+Renaming session to: 126554x20210720x7TxABC
+Loop 1219: 126844x20210722x3T
+Renaming session to: 126844x20210722x3TxABC
+Loop 1220: 126844x20210722x7T
+Renaming session to: 126844x20210722x7TxABC
+Loop 1221: 126202x20210727x3T
+Renaming session to: 126202x20210727x3TxABC
+Loop 1222: 126202x20210727x7T
+Renaming session to: 126202x20210727x7TxABC
+Loop 1223: 123283x20210727x3T
+Renaming session to: 123283x20210727x3TxABC
+Loop 1224: 124005x20210729x3T
+Renaming session to: 124005x20210729x3TxABC
+Loop 1225: 124004x20210729x7T
+Renaming session to: 124004x20210729x7TxABC
+Loop 1226: 124005x20210729x7T
+Renaming session to: 124005x20210729x7TxABC
+Loop 1227: 124004x20210729x3T
+Renaming session to: 124004x20210729x3TxABC
+Loop 1228: 124735x20210803x3T
+Renaming session to: 124735x20210803x3TxABC
+Loop 1229: 124735x20210803x7T
+Renaming session to: 124735x20210803x7TxABC
+Loop 1230: 123727x20210804x3T
+Renaming session to: 123727x20210804x3TxLEADS
+Loop 1231: 126940x20210805x7T
+Renaming session to: 126940x20210805x7TxABC
+Loop 1232: 119931x20210805x3T
+Renaming session to: 119931x20210805x3TxABC
+Loop 1233: 123727xFlorbetabenx20210804
+Renaming session to: 123727x20210804xFBBPETxLEADS
+Loop 1234: 119931x20210805x7T
+Renaming session to: 119931x20210805x7TxABC
+Loop 1235: 127083x20210810x7T
+Renaming session to: 127083x20210810x7TxABC
+Loop 1236: 119035x20210810x3T
+Renaming session to: 119035x20210810x3TxABC
+Loop 1237: 109789x20210812x3T
+Renaming session to: 109789x20210812x3TxABC
+Loop 1238: 109789x20210812x7T
+Renaming session to: 109789x20210812x7TxABC
+Loop 1239: 124005xPI2620x20210426
+Renaming session to: 124005x20210426xPI2620PETxABC
+Loop 1240: 123727xAV1451PETx20210818
+Renaming session to: 123727x20210818xAV1451PETxLEADS
+Loop 1241: 125402x20210817x3T
+Renaming session to: 125402x20210817x3TxABC
+Loop 1242: 124775xPI2620PETx20210524
+Renaming session to: 124775x20210524xPI2620PETxABC
+Loop 1243: 125780xFlorbetabenPETx20210525
+Renaming session to: 125780x20210525xFBBPETxABC
+Loop 1244: 100836xFlorbetabenPETx20210601
+Renaming session to: 100836x20210601xFBBPETxABC
+Loop 1245: 118743xAV1451PETx20210601
+Renaming session to: 118743x20210601xAV1451PETxABC
+Loop 1246: 124242xFlorbetabenPETx20210602
+Renaming session to: 124242x20210602xFBBPETxABC
+Loop 1247: 124568xFlorbetabenPETx20210616
+Renaming session to: 124568x20210616xFBBPETxABC
+Loop 1248: 101366xFlorbetabenPETx20210630
+Renaming session to: 101366x20210630xFBBPETxABC
+Loop 1249: 109789xAV1451PETx20210706
+Renaming session to: 109789x20210706xAV1451PETxABC
+Loop 1250: 117158xFlorbetabenPETx20210713
+Renaming session to: 117158x20210713xFBBPETxABC
+Loop 1251: 118418xAV1451PETx20210713
+Renaming session to: 118418x20210713xAV1451PETxABC
+Loop 1252: 124597xAV1451PETx20210714
+Renaming session to: 124597x20210714xAV1451PETxABC
+Loop 1253: 124733xAV1451PETx20210720
+Renaming session to: 124733x20210720xAV1451PETxABC
+Loop 1254: 101366xAV1451PETx20210803
+Renaming session to: 101366x20210803xAV1451PETxABC
+Loop 1255: 123831xAV1451PETx20210810
+Renaming session to: 123831x20210810xAV1451PETxABC
+Loop 1256: 124666x20210826x3T
+Renaming session to: 124666x20210826x3TxLEADS
+Loop 1257: 124314x20210826x3T
+Renaming session to: 124314x20210826x3TxABC
+Loop 1258: 124314x20210826x7T
+Renaming session to: 124314x20210826x7TxABC
+Loop 1259: 127416x20210831x7T
+Renaming session to: 127416x20210831x7TxABC
+Loop 1260: 123680x20210831x3T
+Renaming session to: 123680x20210831x3TxABC
+Loop 1261: 123680x20210831x7T
+Renaming session to: 123680x20210831x7TxABC
+Loop 1262: 108672x20210909x3T
+Renaming session to: 108672x20210909x3TxABC
+Loop 1263: 108672x20210909x7T
+Renaming session to: 108672x20210909x7TxABC
+Loop 1264: 125687xFlorbetapirPETx20201103
+No matching performed procedure step description found, making note...
+Renaming session to: 125687x20201103xFBBPETx
+Loop 1265: 125687xAV1451PETx20201110
+No matching performed procedure step description found, making note...
+Renaming session to: 125687x20201110xAV1451PETx
+Loop 1266: 124666xAV1451PETx20210915
+Renaming session to: 124666x20210914xAV1451PETxLEADS
+Loop 1267: 100836x20210921x3T
+Renaming session to: 100836x20210921x3TxABC
+Loop 1268: 100836x20210921x7T
+Renaming session to: 100836x20210921x7TxABC
+Loop 1269: 122439x20210923x3T
+Renaming session to: 122439x20210923x3TxLEADS
+Loop 1270: 116707x20210923x3T
+Renaming session to: 116707x20210923x3TxABC
+Loop 1271: 122439x20210923xFDG
+Renaming session to: 122439x20210923xFDGPETxLEADS
+Loop 1272: 127491x20210928x7T
+Renaming session to: 127491x20210928x7TxABC
+Loop 1273: 124740x20210930x7T
+Renaming session to: 124740x20210930x7TxABC
+Loop 1274: 124740x20210930x3T
+Renaming session to: 124740x20210930x3TxABC
+Loop 1275: 124741x20210930x7T
+Renaming session to: 124741x20210930x7TxABC
+Loop 1276: 126940x20210930x3T
+Renaming session to: 126940x20210930x3TxABC
+Loop 1277: 127075x20211005x3T
+Renaming session to: 127075x20211005x3TxLEADS
+Loop 1278: 126886x20211006x3T
+Renaming session to: 126886x20211006x3TxLEADS
+Loop 1279: 125103x20211007x3T
+Renaming session to: 125103x20211007x3TxABC
+Loop 1280: 125103x20211007x7T
+Renaming session to: 125103x20211007x7TxABC
+Loop 1281: 124650x20211012x3T
+Renaming session to: 124650x20211012x3TxABC
+Loop 1282: fMRI_20211013
+fMRI_20211013 has tag ['Misc.'], not renaming
+Loop 1283: 127589x20211014x3T
+Renaming session to: 127589x20211014x3TxABC
+Loop 1284: 127589x20211014x7T
+Renaming session to: 127589x20211014x7TxABC
+Loop 1285: 104115x20211014x3T
+Renaming session to: 104115x20211014x3TxABC
+Loop 1286: 104115x20211014x7T
+Renaming session to: 104115x20211014x7TxABC
+Loop 1287: 124650x20211019x7T
+Renaming session to: 124650x20211019x7TxABC
+Loop 1288: 107476x20211019x3T
+Renaming session to: 107476x20211019x3TxABC
+Loop 1289: 125255x20211021x7T
+Renaming session to: 125255x20211021x7TxABC
+Loop 1290: 125255x20211021x3T
+Renaming session to: 125255x20211021x3TxABC
+Loop 1291: 124170x20211021x3T
+Renaming session to: 124170x20211021x3TxABC
+Loop 1292: 124170x20211021x7T
+Renaming session to: 124170x20211021x7TxABC
+Loop 1293: 125504x20211026x3T
+Renaming session to: 125504x20211026x3TxABC
+Loop 1294: 125300x20211026x3T
+Renaming session to: 125300x20211026x3TxLEADS
+Loop 1295: 101366x20211026x3T
+Renaming session to: 101366x20211026x3TxABC
+Loop 1296: 118579x20211028x3T
+Renaming session to: 118579x20211028x3TxABC
+Loop 1297: 125504x20211102x7T
+Renaming session to: 125504x20211102x7TxABC
+Loop 1298: 126433x20211102x3T
+Renaming session to: 126433x20211102x3TxABC
+Loop 1299: 126433x20211102x7T
+Renaming session to: 126433x20211102x7TxABC
+Loop 1300: 127735x20211102x7T
+Renaming session to: 127735x20211102x7TxABC
+Loop 1301: 127075xFlorbetabenx20211102
+Renaming session to: 127075x20211102xFBBPETxLEADS
+Loop 1302: 124787x20211104x3T
+Renaming session to: 124787x20211104x3TxABC
+Loop 1303: 124787x20211104x7T
+Renaming session to: 124787x20211104x7TxABC
+Loop 1304: 107799x20211104x3T
+Renaming session to: 107799x20211104x3TxABC
+Loop 1305: 127480x20211109x3T
+Renaming session to: 127480x20211109x3TxABC
+Loop 1306: 107476x20211109x7T
+Renaming session to: 107476x20211109x7TxABC
+Loop 1307: 127480x20211109x7T
+Renaming session to: 127480x20211109x7TxABC
+Loop 1308: CAMRIS^Wolk
+CAMRIS^Wolk has tag ['Misc.'], not renaming
+Loop 1309: 126886xFlorbetabenx20211110
+Renaming session to: 126886x20211110xFBBPETxLEADS
+Loop 1310: 127192x20211111x3T
+Renaming session to: 127192x20211111x3TxABC
+Loop 1311: 127192x20211111x7T
+Renaming session to: 127192x20211111x7TxABC
+Loop 1312: 101366x20211116x7T
+Renaming session to: 101366x20211116x7TxABC
+Loop 1313: 123754x20211116x3T
+Renaming session to: 123754x20211116x3TxABC
+Loop 1314: 123754x20211116x7T
+Renaming session to: 123754x20211116x7TxABC
+Loop 1315: 117889x20211118x3T
+Renaming session to: 117889x20211118x3TxABC
+Loop 1316: 124879x20211130x7T
+Renaming session to: 124879x20211130x7TxABC
+Loop 1317: 124879x20211130x3T
+Renaming session to: 124879x20211130x3TxABC
+Loop 1318: 125987x20211202x7T
+Renaming session to: 125987x20211202x7TxABC
+Loop 1319: 127493x20211202x7T
+Renaming session to: 127493x20211202x7TxABC
+Loop 1320: 127494x20211207x7T
+Renaming session to: 127494x20211207x7TxABC
+Loop 1321: 127494x20211207x3T
+Renaming session to: 127494x20211207x3TxABC
+Loop 1322: 127639x20211207x3T
+Renaming session to: 127639x20211207x3TxABC
+Loop 1323: 127639x20211207x7T
+Renaming session to: 127639x20211207x7TxABC
+Loop 1324: 124890x20211209x7T
+Renaming session to: 124890x20211209x7TxABC
+Loop 1325: 117158x20211209x3T
+Renaming session to: 117158x20211209x3TxABC
+Loop 1326: 118418x20211209x7T
+Renaming session to: 118418x20211209x7TxABC
+Loop 1327: 118418x20211209x3T
+Renaming session to: 118418x20211209x3TxABC
+Loop 1328: 117158x20211209x7T
+Renaming session to: 117158x20211209x7TxABC
+Loop 1329: 125282x20211214x3T
+Renaming session to: 125282x20211214x3TxABC
+Loop 1330: 118440x20211216x3T
+Renaming session to: 118440x20211216x3TxABC
+Loop 1331: 125300xFlorbetabenx20211215
+Renaming session to: 125300x20211215xFBBPETxLEADS
+Loop 1332: 125573x20211221x3T
+Renaming session to: 125573x20211221x3TxABC
+Loop 1333: 100836xAV1451PETx20210706
+Renaming session to: 100836x20210706xAV1451PETxABC
+Loop 1334: 107196xAV1451PETx20210511
+Renaming session to: 107196x20210511xAV1451PETxABC
+Loop 1335: 119330xFlorbetabenPETx20210622
+Renaming session to: 119330x20211012xFBBPETxABC
+Loop 1336: 125840xFlorbetabenPETx20210120
+Renaming session to: 125840x20210120xFBBPETxABC
+Loop 1337: 123754xFlorbetabenPETx20200205
+Renaming session to: 123754x20200205xFBBPETxABC
+Loop 1338: 125564xFlorbetabenPETx20210616
+Renaming session to: 125564x20210616xFBBPETxABC
+Loop 1339: 126275xFlorbetabenPETx20210629
+Renaming session to: 126275x20210629xFBBPETxABC
+Loop 1340: 126004xFlorbetabenPETx20210331
+Renaming session to: 126004x20210331xFBBPETxABC
+Loop 1341: 122216xFlorbetabenPETx20200812
+Renaming session to: 122216x20200812xFBBPETxABC
+Loop 1342: 111768x01xFlorbetabenPETx20210223
+Renaming session to: 111768x01x20210223xFBBPETxABC
+Loop 1343: 122139xFlorbetabenPETx20210216
+Renaming session to: 122139x20210216xFBBPETxABC
+Loop 1344: 125800xFlorbetabenPETx20210112
+Renaming session to: 125800x20210112xFBBPETxABC
+Loop 1345: 101162xFlorbetabenPETx20201119
+Renaming session to: 101162x20201119xFBBPETxABC
+Loop 1346: 125142xFlorbetabenPETx20200729
+Renaming session to: 125142x20200729xFBBPETxLEADS
+Loop 1347: 122216xAV1451PETx20210119
+Renaming session to: 122216x20210119xAV1451PETxABC
+Loop 1348: 113066x02xAV1451PETx20210413
+Renaming session to: 113066x02x20210413xAV1451PETxABC
+Loop 1349: 122328xAV1451PETx20210323
+Renaming session to: 122328x20210323xAV1451PETxABC
+Loop 1350: 120686xAV1451PETx20210119
+Renaming session to: 120686x20210119xAV1451PETxABC
+Loop 1351: 124972xAV1451PETx20210323
+Renaming session to: 124972x20210323xAV1451PETxABC
+Loop 1352: 117889xAV1451PETx20210428
+Renaming session to: 117889x20210428xAV1451PETxABC
+Loop 1353: 117158xAV1451PETx20210615
+Renaming session to: 117158x20210615xAV1451PETxABC
+Loop 1354: 119035xAV1451PETx20210615
+Renaming session to: 119035x20210615xAV1451PETxABC
+Loop 1355: 127033x20220106x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127033x20220106x3Tx
+Loop 1356: 127032x20220106x7T
+Renaming session to: 127032x20220106x7TxABC
+Loop 1357: 127033x20220106x7T
+Renaming session to: 127033x20220106x7TxABC
+Loop 1358: 127032x20220106x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127032x20220106x3Tx
+Loop 1359: 100905x01x20220111x3T
+ABC or ABCD2--determine manually
+Renaming session to: 100905x01x20220111x3Tx
+Loop 1360: 100905x01x20220111x7T
+Renaming session to: 100905x01x20220111x7TxABC
+Loop 1361: 127640x20220113x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127640x20220113x3Tx
+Loop 1362: 127640x20220113x7T
+Renaming session to: 127640x20220113x7TxABC
+Loop 1363: 119202x20220118x3T
+ABC or ABCD2--determine manually
+Renaming session to: 119202x20220118x3Tx
+Loop 1364: 126536xFlorbetabenPETx20210824
+Renaming session to: 126536x20210824xFBBPETxABC
+Loop 1365: 122946xFlorbetabenPETx20210824
+Renaming session to: 122946x20210824xFBBPETxABC
+Loop 1366: 124822xAV1451PETx20210831
+Renaming session to: 124822x20210831xAV1451PETxABC
+Loop 1367: 125564xAV1451PETx20210831
+Renaming session to: 125564x20210831xAV1451PETxABC
+Loop 1368: 100437xFlorbetabenPETx20210831
+Renaming session to: 100437x20210831xFBBPETxABC
+Loop 1369: 125402xFlorbetabenPETx20210901
+Renaming session to: 125402x20210901xFBBPETxABC
+Loop 1370: 126022xFlorbetabenPETx20210907
+Renaming session to: 126022x20210907xFBBPETxABC
+Loop 1371: 125800xAV1451PETx20210907
+Renaming session to: 125800x20210907xAV1451PETxABC
+Loop 1372: 126844xFlorbetabenPETx20210921
+Renaming session to: 126844x20210921xFBBPETxABC
+Loop 1373: 125780xAV1451PETx20210928
+Renaming session to: 125780x20210928xAV1451PETxABC
+Loop 1374: 125487xPI2620PETx20211018
+Renaming session to: 125487x20211018xPI2620PETxABC
+Loop 1375: 126004xPI2620PETx20211025
+Renaming session to: 126004x20211025xPI2620PETxABC
+Loop 1376: 123283xFlorbetabenPETx20211102
+Renaming session to: 123283x20211102xFBBPETxABC
+Loop 1377: 127480xFlorbetabenPETx20211109
+Renaming session to: 127480x20211109xFBBPETxABC
+Loop 1378: 123575xAV1451PETx20211109
+Renaming session to: 123575x20211109xAV1451PETxABC
+Loop 1379: 118579xFlorbetabenPETx20211130
+Renaming session to: 118579x20211130xFBBPETxABC
+Loop 1380: 124879xFlorbetabenPETx20211130
+Renaming session to: 124879x20211130xFBBPETxABC
+Loop 1381: 124938xAV1451PETx20211208
+Renaming session to: 124938x20211208xAV1451PETxABC
+Loop 1382: 126536xAV1451PETx20211215
+Renaming session to: 126536x20211215xAV1451PETxABC
+Loop 1383: 124482xAV1451PETx20220105
+Renaming session to: 124482x20220105xAV1451PETxABC
+Loop 1384: 124314xFlorbetabenPETx20220111
+Renaming session to: 124314x20220111xFBBPETxABC
+Loop 1385: 124877x20220127x3T
+ABC or ABCD2--determine manually
+Renaming session to: 124877x20220127x3Tx
+Loop 1386: 125300xAV1451PETx20220118
+Renaming session to: 125300x20220118xAV1451PETxLEADS
+Loop 1387: 127075xAV1451PETx20211116
+Renaming session to: 127075x20211116xAV1451PETxLEADS
+Loop 1388: 126886xAV1451PETx20211116
+Renaming session to: 126886x20211116xAV1451PETxLEADS
+Loop 1389: 124666xFlorbetabenPETx20211123
+Renaming session to: 124666x20211123xFBBPETxLEADS
+Loop 1390: 125107xFDGPETx20210721
+Renaming session to: 125107x20210721xFDGPETxLEADS
+Loop 1391: 126248x20220201x7T
+Renaming session to: 126248x20220201x7TxABC
+Loop 1392: 126248x20220201x3T
+ABC or ABCD2--determine manually
+Renaming session to: 126248x20220201x3Tx
+Loop 1393: 127127x20220201x7T
+Renaming session to: 127127x20220201x7TxABC
+Loop 1394: 125067x20220203x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125067x20220203x3Tx
+Loop 1395: 125067x20220203x7T
+Renaming session to: 125067x20220203x7TxABC
+Loop 1396: 103907x20220208x3T
+ABC or ABCD2--determine manually
+Renaming session to: 103907x20220208x3Tx
+Loop 1397: 127211x20220215x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127211x20220215x3Tx
+Loop 1398: 124953x20220215x3T
+ABC or ABCD2--determine manually
+Renaming session to: 124953x20220215x3Tx
+Loop 1399: 124890x20220217x3T
+ABC or ABCD2--determine manually
+Renaming session to: 124890x20220217x3Tx
+Loop 1400: 118390x20220217x3T
+ABC or ABCD2--determine manually
+Renaming session to: 118390x20220217x3Tx
+Loop 1401: 118390x20220217x3T
+ABC or ABCD2--determine manually
+Renaming session to: 118390x20220217x3Tx
+Loop 1402: 128147x20220222x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128147x20220222x3Tx
+Loop 1403: 114787x20220222x3T
+ABC or ABCD2--determine manually
+Renaming session to: 114787x20220222x3Tx
+Loop 1404: 114787x20220222x7T
+Renaming session to: 114787x20220222x7TxABC
+Loop 1405: 124305x20220224x3T
+ABC or ABCD2--determine manually
+Renaming session to: 124305x20220224x3Tx
+Loop 1406: 124305x20220224x7T
+Renaming session to: 124305x20220224x7TxABC
+Loop 1407: 127108x20220301x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127108x20220301x3Tx
+Loop 1408: 128267x20220301x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128267x20220301x3Tx
+Loop 1409: 127108x20220301x7T
+Renaming session to: 127108x20220301x7TxABC
+Loop 1410: 125689x20220303x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125689x20220303x3Tx
+Loop 1411: 125689x20220303x7T
+Renaming session to: 125689x20220303x7TxABC
+Loop 1412: 124961x20220308x7T
+Renaming session to: 124961x20220308x7TxABC
+Loop 1413: 124961x20220308x3T
+ABC or ABCD2--determine manually
+Renaming session to: 124961x20220308x3Tx
+Loop 1414: 109459x20220308x3T
+ABC or ABCD2--determine manually
+Renaming session to: 109459x20220308x3Tx
+Loop 1415: 128035x20220308x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128035x20220308x3Tx
+Loop 1416: 128035x20220308x7T
+Renaming session to: 128035x20220308x7TxABC
+Loop 1417: 128296x20220310x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128296x20220310x3Tx
+Loop 1418: 128296x20220310x7T
+Renaming session to: 128296x20220310x7TxABC
+Loop 1419: 122039x20220310x3T
+ABC or ABCD2--determine manually
+Renaming session to: 122039x20220310x3Tx
+Loop 1420: 128320x20220310x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128320x20220310x3Tx
+Loop 1421: 127251x20220315x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127251x20220315x3Tx
+Loop 1422: 127251x20220315x7T
+Renaming session to: 127251x20220315x7TxABC
+Loop 1423: 127667x20220317x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127667x20220317x3Tx
+Loop 1424: 127667x20220317x7T
+Renaming session to: 127667x20220317x7TxABC
+Loop 1425: 128362x20220317x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128362x20220317x3Tx
+Loop 1426: 128362x20220317x7T
+Renaming session to: 128362x20220317x7TxABC
+Loop 1427: 124594x20220322x3T
+ABC or ABCD2--determine manually
+Renaming session to: 124594x20220322x3Tx
+Loop 1428: 124594x20220322x7T
+Renaming session to: 124594x20220322x7TxABC
+Loop 1429: 125573x20220324x7T
+Renaming session to: 125573x20220324x7TxABC
+Loop 1430: 117326x20220324x3T
+ABC or ABCD2--determine manually
+Renaming session to: 117326x20220324x3Tx
+Loop 1431: 122146x20220329x3T
+ABC or ABCD2--determine manually
+Renaming session to: 122146x20220329x3Tx
+Loop 1432: 122146x20220329x7T
+Renaming session to: 122146x20220329x7TxABC
+Loop 1433: 100113x20220329x3T
+ABC or ABCD2--determine manually
+Renaming session to: 100113x20220329x3Tx
+Loop 1434: 125572x20220329x3t
+Renaming session to: 125572x20220329x3TxLEADS
+Loop 1435: 125572xFDGx20220324
+Renaming session to: 125572x20220324xFDGPETxLEADS
+Loop 1436: 127482x20220325x3T
+Renaming session to: 127482x20220325x3TxLEADS
+Loop 1437: 128320x20220331x7T
+Renaming session to: 128320x20220331x7TxABC
+Loop 1438: 123724x20220331x3T
+ABC or ABCD2--determine manually
+Renaming session to: 123724x20220331x3Tx
+Loop 1439: 125928x20220331x7T
+Renaming session to: 125928x20220331x7TxABC
+Loop 1440: 125928x20220331x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125928x20220331x3Tx
+Loop 1441: 123724x20220331x7T
+Renaming session to: 123724x20220331x7TxABC
+Loop 1442: 127127x20220405x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127127x20220405x3Tx
+Loop 1443: 118923x20220407x3T
+ABC or ABCD2--determine manually
+Renaming session to: 118923x20220407x3Tx
+Loop 1444: 120123x20220412x3T
+ABC or ABCD2--determine manually
+Renaming session to: 120123x20220412x3Tx
+Loop 1445: 120123x202200412x7T
+Renaming session to: 120123x20220412x7TxABC
+Loop 1446: 125043x20220414x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125043x20220414x3Tx
+Loop 1447: 128394x20220414x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128394x20220414x3Tx
+Loop 1448: 125043x20220414x7T
+Renaming session to: 125043x20220414x7TxABC
+Loop 1449: 127995x20220414x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127995x20220414x3Tx
+Loop 1450: 127995x20220414x7T
+Renaming session to: 127995x20220414x7TxABC
+Loop 1451: 126067x04192022x3T
+Renaming session to: 126067x20220419x3TxLEADS
+Loop 1452: 118923x20220419x7T
+Renaming session to: 118923x20220419x7TxABC
+Loop 1453: 123865x20220421x3T
+ABC or ABCD2--determine manually
+Renaming session to: 123865x20220421x3Tx
+Loop 1454: 126884x20220421x3T
+Renaming session to: 126884x20220421x3TxLEADS
+Loop 1455: 123865x20220421x7T
+Renaming session to: 123865x20220421x7TxABC
+Loop 1456: 127416x20220421x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127416x20220421x3Tx
+Loop 1457: 128281x20220426x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128281x20220426x3Tx
+Loop 1458: 125908x20220426x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125908x20220426x3Tx
+Loop 1459: 124048x20220426x7T
+Renaming session to: 124048x20220426x7TxABC
+Loop 1460: 124048x20220426x3T
+ABC or ABCD2--determine manually
+Renaming session to: 124048x20220426x3Tx
+Loop 1461: 125908x20220426x7T
+Renaming session to: 125908x20220426x7TxABC
+Loop 1462: 119448x20220428x3T
+ABC or ABCD2--determine manually
+Renaming session to: 119448x20220428x3Tx
+Loop 1463: 128279x20220428x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128279x20220428x3Tx
+Loop 1464: 124592xAV1451PETx20201215
+Renaming session to: 124592x20201215xAV1451PETxABC
+Loop 1465: 125041x20220503x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125041x20220503x3Tx
+Loop 1466: 114000x20220503x7T
+Renaming session to: 114000x20220503x7TxABC
+Loop 1467: 114000x20220503x3T
+ABC or ABCD2--determine manually
+Renaming session to: 114000x20220503x3Tx
+Loop 1468: 125041x20220503x7T
+Renaming session to: 125041x20220503x7TxABC
+Loop 1469: 125901x20220503x3T
+Renaming session to: 125901x20220503x3TxLEADS
+Loop 1470: 128284x20220503x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128284x20220503x3Tx
+Loop 1471: 128332x20220505x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128332x20220505x3Tx
+Loop 1472: 127211x20220510x7T
+Renaming session to: 127211x20220510x7TxABC
+Loop 1473: 126535x20220510x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 126535x20220510x3Tx
+Loop 1474: 120735x20220510x3T
+ABC or ABCD2--determine manually
+Renaming session to: 120735x20220510x3Tx
+Loop 1475: 120735x20220510x7T
+Renaming session to: 120735x20220510x7TxABC
+Loop 1476: 128280x20220512x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128280x20220512x3Tx
+Loop 1477: 125792x20220512x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125792x20220512x3Tx
+Loop 1478: 125792x20220512x7T
+Renaming session to: 125792x20220512x7TxABC
+Loop 1479: 127493x20220512x3T
+ABC or ABCD2--determine manually
+Renaming session to: 127493x20220512x3Tx
+Loop 1480: 112574x20220517x7T
+Renaming session to: 112574x20220517x7TxABC
+Loop 1481: 117796x20220517x3T
+ABC or ABCD2--determine manually
+Renaming session to: 117796x20220517x3Tx
+Loop 1482: 117796x20220517x7T
+Renaming session to: 117796x20220517x7TxABC
+Loop 1483: 128705x20220519x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128705x20220519x3Tx
+Loop 1484: 128705x20220519x7T
+Renaming session to: 128705x20220519x7TxABC
+Loop 1485: 117639x20220519x3T
+ABC or ABCD2--determine manually
+Renaming session to: 117639x20220519x3Tx
+Loop 1486: 117639x20220519x7T
+Renaming session to: 117639x20220519x7TxABC
+Loop 1487: 128387x20220524x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128387x20220524x3Tx
+Loop 1488: 127794x20220531x3T
+Renaming session to: 127794x20220531x3TxLEADS
+Loop 1489: 127692x20220531x3T
+Renaming session to: 127692x20220531x3TxLEADS
+Loop 1490: 124592x20220601x3T
+Renaming session to: 124592x20220601x3TxLEADS
+Loop 1491: 128386x20220602x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128386x20220602x3Tx
+Loop 1492: 105732x01x20220607x3T
+Renaming session to: 105732x01x20220607x3TxLEADS
+Loop 1493: 105733x01x20220607x3T
+Renaming session to: 105733x01x20220607x3TxLEADS
+Loop 1494: 113612x01x20220607x3T
+ABC or ABCD2--determine manually
+Renaming session to: 113612x01x20220607x3Tx
+Loop 1495: 113612x01x20220607x7T
+Renaming session to: 113612x01x20220607x7TxABC
+Loop 1496: 128391x20220614x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128391x20220614x3Tx
+Loop 1497: 128714x20220617x3T
+Renaming session to: 128714x20220614x3TxLEADS
+Loop 1498: 122828x20220614x3T
+ABC or ABCD2--determine manually
+Renaming session to: 122828x20220614x3Tx
+Loop 1499: 128301x20220616x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128301x20220616x3Tx
+Loop 1500: 119035x20220616x7T
+Renaming session to: 119035x20220616x7TxABC
+Loop 1501: 128798x20220617x3T
+Renaming session to: 128798x20220617x3TxLEADS
+Loop 1502: 112574x20220621x3T
+ABC or ABCD2--determine manually
+Renaming session to: 112574x20220621x3Tx
+Loop 1503: 118601x20220621x3T
+ABC or ABCD2--determine manually
+Renaming session to: 118601x20220621x3Tx
+Loop 1504: 125590x20220621x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125590x20220621x3Tx
+Loop 1505: 106642x20220622x3T
+Renaming session to: 106642x20220622x3TxLEADS
+Loop 1506: 128713x20220624x3T
+Renaming session to: 128713x20220624x3TxLEADS
+Loop 1507: 128827x20220628x7T
+Renaming session to: 128827x20220628x7TxABC
+Loop 1508: 128827x20220628x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128827x20220628x3Tx
+Loop 1509: 128563x20220628x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128563x20220628x3Tx
+Loop 1510: 125527x20220628x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125527x20220628x3Tx
+Loop 1511: 125527x20220628x7T
+Renaming session to: 125527x20220628x7TxABC
+Loop 1512: 127794x20220630x3T
+Renaming session to: 118998x20220630x3TxVCID
+Loop 1513: 124728x20220706x3T
+Renaming session to: 124728x20220706x3TxLEADS
+Loop 1514: 128928x20220707x3T
+ABC or ABCD2--determine manually
+Renaming session to: 123928x20220707x3Tx
+Loop 1515: 126549x20220708x3T
+Renaming session to: 126549x20220708x3TxVCID
+Loop 1516: 121444x20220712x3T
+ABC or ABCD2--determine manually
+Renaming session to: 121444x20220712x3Tx
+Loop 1517: 125142x20220713x3T
+Renaming session to: 125142x20220713x3TxLEADS
+Loop 1518: 122963xPI2620PETx20220221
+Renaming session to: 122963x20220221xPI2620PETxABC
+Loop 1519: 125213xPI2620PETx20220509
+Renaming session to: 125213x20220509xPI2620PETxABC
+Loop 1520: 117639xFlorbetabenPETx20220607
+Renaming session to: 117639x20220607xFBBPETxABC
+Loop 1521: 123680xFlorbetabenPETx20220413
+Renaming session to: 123680x20220413xFBBPETxABC
+Loop 1522: 123928xFlorbetabenPETx20220413
+Renaming session to: 123928x20220413xFBBPETxABC
+Loop 1523: 125103xFlorbetabenPETx20220301
+Renaming session to: 125103x20220301xFBBPETxABC
+Loop 1524: 125689xFlorbetabenPETx20220330
+Renaming session to: 125689x20220330xFBBPETxABC
+Loop 1525: 126248xFlorbetabenPETx20220209
+Renaming session to: 126248x20220209xFBBPETxABC
+Loop 1526: 127127xFlorbetabenPETx20220405
+Renaming session to: 127127x20220405xFBBPETxABC
+Loop 1527: 127192xFlorbetabenPETx20220126
+Renaming session to: 127192x20220126xFBBPETxABC
+Loop 1528: 127211xFlorbetabenPETx20220216
+Renaming session to: 127211x20220216xFBBPETxABC
+Loop 1529: 127251xFlorbetabenPETx20220427
+Renaming session to: 127251x20220427xFBBPETxABC
+Loop 1530: 127667xFlorbetabenPETx20220531
+Renaming session to: 127667x20220531xFBBPETxABC
+Loop 1531: 128035xFlorbetabenPETx20220628
+Renaming session to: 128035x20220628xFBBPETxABC
+Loop 1532: 122946xAV1451PETx20220330
+Renaming session to: 122946x20220308xAV1451PETxABC
+Loop 1533: 123680xAV1541PETx20220524
+Renaming session to: 123680x20220524xAV1451PETxABC
+Loop 1534: 124314xAV1451PETx20220412
+Renaming session to: 124314x20220412xAV1451PETxABC
+Loop 1535: 125041xAV1451PETx20220614
+Renaming session to: 125041x20220614xAV1451PETxABC
+Loop 1536: 126844xAV1451PETx20220208
+Renaming session to: 126844x20220208xAV1451PETxABC
+Loop 1537: 125081x20220720x3T
+Renaming session to: 125081x20220720x3TxLEADS
+Loop 1538: 125901xFlorbetabenPETx20220712
+Renaming session to: 125901x20220712xFBBPETxLEADS
+Loop 1539: 02-22-22 2_31 PM
+Renaming session to: 1003598435x20220222xAV1451PETxLEADS
+Loop 1540: 02-23-22 2_23 PM
+Renaming session to: 1002701959x20220223xFBBPETxLEADS
+Loop 1541: 126266xAV1451PETx20220621
+Renaming session to: 126266x20220621xAV1451PETxLEADS
+Loop 1542: 125081xFDGx20220720
+Renaming session to: 125081x20220720xFDGPETxLEADS
+Loop 1543: 127794xAV1451PETx20220719
+Renaming session to: 127794x20220719xAV1451PETxLEADS
+Loop 1544: 128771x20220728x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128771x20220728x3Tx
+Loop 1545: 128922x20220728x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128922x20220728x3Tx
+Loop 1546: 128314x20220728x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128314x20220728x3Tx
+Loop 1547: 124288x20220811x3T
+ABC or ABCD2--determine manually
+Renaming session to: 124288x20220811x3Tx
+Loop 1548: 117376x20220815x3T
+Renaming session to: 117376x20220815x3TxVCID
+Loop 1549: 128013x20220816x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128013x20220816x3Tx
+Loop 1550: 128013x20220816x7T
+Renaming session to: 128013x20220816x7TxABC
+Loop 1551: 128986x20220818x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128986x20220818x3Tx
+Loop 1552: 129131x20220818x3T
+ABC or ABCD2--determine manually
+Renaming session to: 129131x20220818x3Tx
+Loop 1553: 123727x20220823x3TxLEADS
+Renaming session to: 123727x20220823x3TxLEADS
+Loop 1554: 125569x20220823x3T
+ABC or ABCD2--determine manually
+Renaming session to: 125569x20220823x3Tx
+Loop 1555: 124738x20220906x3Tx
+ABC or ABCD2--determine manually
+Renaming session to: 124738x20220906x3Tx
+Loop 1556: 126535x20220628xFBBPETxABCD2
+Renaming session to: 126535x20220628xFBBPETxABCD2
+Loop 1557: 128147x20220511xFBBPETxABCD2
+Renaming session to: 128147x20220511xFBBPETxABCD2
+Loop 1558: 128279x20220615xFBBPETxABCD2
+Renaming session to: 128279x20220615xFBBPETxABCD2
+Loop 1559: 128281x20220608xFBBPETxABCD2
+Renaming session to: 128281x20220608xFBBPETxABCD2
+Loop 1560: 128281x20220706xAV1451PETxABCD2
+Renaming session to: 128281x20220706xAV1451PETxABCD2
+Loop 1561: 125735x20220920x3TxABC
+ABC or ABCD2--determine manually
+Renaming session to: 125735x20220920x3Tx
+Loop 1562: 117870x20220920x3TxABC
+ABC or ABCD2--determine manually
+Renaming session to: 117870x20220920x3Tx
+Loop 1563: 119202x20220921x3TxVCID
+Renaming session to: 119202x20220921x3TxVCID
+Loop 1564: 125259x20220927x3TxYMTL
+Renaming session to: 125259x20220927x3TxYMTL
+Loop 1565: 123782x20220929x3TxABC
+ABC or ABCD2--determine manually
+Renaming session to: 123782x20220929x3Tx
+Loop 1566: 127133x20220929x3TxABC
+ABC or ABCD2--determine manually
+Renaming session to: 127133x20220929x3Tx
+Loop 1567: 127133x20220929x7TxABC
+Renaming session to: 127133x20220929x7TxABC
+Loop 1568: 121700x20221006x3TxABC
+ABC or ABCD2--determine manually
+Renaming session to: 121700x20221006x3Tx
+Loop 1569: 121700x20221006x7TxABC
+Renaming session to: 121700x20221006x7TxABC
+Loop 1570: 125081x20190701x3T
+Renaming session to: 125081x20190701x3TxLEADS
+Loop 1571: 125107x20190726x3T
+Renaming session to: 125107x20190726x3TxLEADS
+Loop 1572: 124561x20190408x3T
+Renaming session to: 124561x20190404x3TxLEADS
+Loop 1573: 124018x20181108x3T
+Renaming session to: 124018x20181109x3TxLEADS
+Loop 1574: 123718x20190812x3T
+Renaming session to: 123718x20190812x3TxLEADS
+Loop 1575: 124824x20190516x3T
+Renaming session to: 124824x20190515x3TxLEADS
+Loop 1576: 125572x20191021x3T
+Renaming session to: 125572x20191021x3TxLEADS
+Loop 1577: 125944x20200203x3T
+Renaming session to: 125944x20200203x3TxLEADS
+Loop 1578: 125965x20200204x3T
+Renaming session to: 125965x20200204x3TxLEADS
+Loop 1579: 123367x20220906xFBBPETxABC
+Renaming session to: 123367x20220906xFBBPETxABC
+Loop 1580: 128013x20220817xFBBPETxABC
+Renaming session to: 128013x20220817xFBBPETxABC
+Loop 1581: 124594x20220831xFBBPETxABC
+Renaming session to: 124594x20220831xx
+Loop 1582: 128713x20220810xFBBPETxABC
+Renaming session to: 128713x20220810xFBBPETxABC
+Loop 1583: 125111x20220829xPI2620PETxABC
+Renaming session to: 125111x20220829xPI2620PETxABC
+Loop 1584: 128301x20220810xFBBPETxABCD2
+Renaming session to: 128301x20220810xFBBPETxABCD2
+Loop 1585: 125300x20201116x3T
+Renaming session to: 125300x20201116x3TxLEADS
+Loop 1586: 128332x20220831xFBBPETxABCD2
+Renaming session to: 128332x20220831xFBBPETxABCD2
+Loop 1587: 128387x20220803xFBBPETxABCD2
+Renaming session to: 128387x20220803xFBBPETxABCD2
+Loop 1588: 128391x20220817xFBBPETxABCD2
+Renaming session to: 128391x20220817xFBBPETxABCD2
+Loop 1589: 128314x20220907xFBBPETxABCD2
+Renaming session to: 128314x20220907xFBBPETxABCD2
+Loop 1590: 128394x20220907xFBBPETxABCD2
+Renaming session to: 128394x20220907xFBBPETxABCD2
+Loop 1591: 128147x20220901xAV1451PETxABCD2
+Renaming session to: 128147x20220901xAV1451PETxABCD2
+Loop 1592: 128279x20220802xAV1451PETxABCD2
+No matching performed procedure step description found, making note...
+Renaming session to: 128279x20220802xAV1451PETx
+Loop 1593: 128301x20220824xAV1451PETxABCD2
+Renaming session to: 128301x20220824xAV1451PETxABCD2
+Loop 1594: 128387x20220830xAV1451PETxABCD2
+Renaming session to: 128387x20220830xAV1451PETxABCD2
+Loop 1595: 126535x20220810xAV1451PETxABCD2
+Renaming session to: 126535x20220810xAV1451PETxABCD2
+Loop 1596: 123367x20190917xFBBPETxABC
+No matching performed procedure step description found, making note...
+Renaming session to: 123367x20190917xFBBPETx
+Loop 1597: 128386x20220914xFBBPETxABCD2
+Renaming session to: 128386x20220914xFBBPETxABCD2
+Loop 1598: 108672x20221011x3TxVCID
+Renaming session to: 108672x20221011x3TxVCID
+Loop 1599: 128735x20221011x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128735x20221011x3Tx
+Loop 1600: 128953x20221013x3TxABC
+ABC or ABCD2--determine manually
+Renaming session to: 128953x20221013x3Tx
+Loop 1601: 128504x20221018x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128504x20221018x3Tx
+Loop 1602: 129131x20221018x7TxABC
+Renaming session to: 129131x20221018x7TxABC
+Loop 1603: 125987x20221019x3TxVCID
+Renaming session to: 125987x20221019x3TxVCID
+Loop 1604: 125590x10202022x7TxYMTL
+Renaming session to: 125590x20221020x7TxYMTL
+Loop 1605: 128983x20221020x3TxABC
+ABC or ABCD2--determine manually
+Renaming session to: 128983x20221020x3Tx
+Loop 1606: 128983x20221020x7TxABC
+Renaming session to: 128983x20221020x7TxABC
+Loop 1607: 125259x20221025x7TxYMTL
+Renaming session to: 125259x20221025x7TxYMTL
+Loop 1608: 124288x20221025x7TxABC
+Renaming session to: 124288x20221025x7TxABC
+Loop 1609: 123763x20221025x3TxABC
+ABC or ABCD2--determine manually
+Renaming session to: 123763x20221025x3Tx
+Loop 1610: 125569x20221025x7TxYMTL
+Renaming session to: 125569x20221025x7TxYMTL
+Loop 1611: BRAIN RESEARCH^WOLK
+Renaming session to: 123200x20221026x3TxLEADS
+Loop 1612: 111768x01x20221024x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 111768x01x20221026x3Tx
+Loop 1613: 128345x20221027x3TxABCD2
+ABC or ABCD2--determine manually
+Renaming session to: 128345x20221027x3Tx
+Loop 1614: 123768x20191204xFBBPETxABC
+Renaming session to: 123768x20191204xFBBPETxABC
+Loop 1615: 128440x20221101x3Tx
+ABC or ABCD2--determine manually
+Renaming session to: 128440x20221101x3Tx
+Loop 1616: 127192x20220912xPI2620PETxABC
+Renaming session to: 127192x20220912xPI2620PETxABC
+Loop 1617: 118923x20220928xAV1451PETxABC
+Renaming session to: 118923x20220928xAV1451PETxABC
+Loop 1618: 127251x20220921xAV1451PETxABC
+Renaming session to: 127251x20220921xAV1451PETxABC
+Loop 1619: 127032x20220913xFBBPETxABC
+Renaming session to: 127032x20220913xFBBPETxABC
+Loop 1620: 127995x20220913xFBBPETxABC
+Renaming session to: 127995x20220913xFBBPETxABC
+Loop 1621: 124972x20220920xFBBPETxABC
+Renaming session to: 124972x20220920xFBBPETxABC
+Loop 1622: 118923x20220921xFBBPETxABC
+Renaming session to: 118923x20220921xFBBPETxABC
+Loop 1623: 124004x20220927xFBBPETxABC
+Renaming session to: 124004x20220927xFBBPETxABC
+Loop 1624: 128986x20220928xFBBPETxABC
+Renaming session to: 128986x20220928xFBBPETxABC
+Loop 1625: 128481_20221108x3T
+ABC or ABCD2--determine manually
+Renaming session to: 128481x20221108x3Tx
+1625 sessions in project NACC-SC checked

@@ -47,11 +47,11 @@ for count, session in enumerate(sessions, 1):
         if '_' in session.subject.label: 
             indd=session.subject.label.replace('_',"x")
             print(f'Updating subject label to {indd}')
-            # session.subject.update(label=indd)
+            session.subject.update(label=indd)
         elif '.' in session.subject.label: 
             indd=session.subject.label.replace('.',"x")
             print(f'Updating subject label to {indd}')
-            # session.subject.update(label=indd)
+            session.subject.update(label=indd)
         else: 
             indd = session.subject.label
         
@@ -173,7 +173,7 @@ for count, session in enumerate(sessions, 1):
 
         newlabel = indd + 'x' + date + 'x' + scantype + 'x' + study
         print(f'Renaming session to: {newlabel}') 
-        # session.update({'label': newlabel})
+        session.update({'label': newlabel})
 
 o.close()
 print(f'{count} sessions in project {project.label} checked')  

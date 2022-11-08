@@ -1,0 +1,360 @@
+Loop 1: 105476x01x20190306x3T
+Renaming session to: 105476x01x20190306x3TxABC
+Loop 2: 117375x20190312x3T
+Renaming session to: 117375x20190312x3TxABC
+Loop 3: 119482x20190313x3T
+Renaming session to: 119482x20190313x3TxABC
+Loop 4: 123572x20190313x3T
+Renaming session to: 123572x20190313x3TxABC
+Loop 5: 119493x20190320x3T
+Renaming session to: 119493x20190320x3TxABC
+Loop 6: 114000_20190320_3T_DUPLICATE
+114000_20190320_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 7: 122152_FlorbetapirPET_20170608
+No matching performed procedure step description found, making note...
+Renaming session to: 122152x20170608xFBBPETx
+Loop 8: 124650x20190326x3T
+Renaming session to: 124650x20190326x3TxABC
+Loop 9: 122395x20190326x3T
+Renaming session to: 122395x20190326x3TxABC
+Loop 10: 119621x20190326x3T
+Renaming session to: 119621x20190326x3TxABC
+Loop 11: 123894x20190327x3T
+Renaming session to: 123894x20190327x3TxABC
+Loop 12: 123725x20190327x3T
+Renaming session to: 123725x20190327x3TxABC
+Loop 13: 124613x20190328x3T
+Renaming session to: 124613x20190328x3TxABC
+Loop 14: 124613_20190329_7T
+Renaming session to: 124613x20190329x7TxABC
+Loop 15: 122475x20190402x3T
+Renaming session to: 122475x20190402x3TxABC
+Loop 16: 123434x20190402x3T
+Renaming session to: 123434x20190402x3TxABC
+Loop 17: 123763x20190402x3T
+Renaming session to: 123763x20190402x3TxABC
+Loop 18: 112574x20190403x3T
+Renaming session to: 112574x20190403x3TxABC
+Loop 19: 123950x20190403x3T
+Renaming session to: 123950x20190403x3TxABC
+Loop 20: 112574_20190403_7T
+Renaming session to: 112574x20190403x7TxABC
+Loop 21: 124696x20190404x3T
+Renaming session to: 124696x20190404x3TxABC
+Loop 22: 120896x20190409x3T
+Renaming session to: 120896x20190409x3TxABC
+Loop 23: 115562x20190409x3T
+Renaming session to: 115562x20190409x3TxABC
+Loop 24: I AM CONFUSED BY THIS
+I AM CONFUSED BY THIS has tag ['Misc.'], not renaming
+Loop 25: 124696_20190411_7T
+Renaming session to: 124696x20190411x7TxABC
+Loop 26: 124745x20190415x3T
+Renaming session to: 124745x20190415x3TxABC
+Loop 27: 1245745_20190415_7T
+Renaming session to: 124745x20190415x7TxABC
+Loop 28: 124735x20190416x3T
+Renaming session to: 124735x20190416x3TxABC
+Loop 29: 111275x01x20190416x3T
+Renaming session to: 111275x01x20190416x3TxABC
+Loop 30: 124735_20190416_7T_DUPLICATE
+124735_20190416_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 31: 111275_01_20190416_7T_DUPLICATE
+111275_01_20190416_7T_DUPLICATE has tag ['control1', 'Duplicate'], not renaming
+Loop 32: 109459x20190417x3T
+Renaming session to: 109459x20190417x3TxABC
+Loop 33: 118923_20190417_7T_DUPLICATE
+118923_20190417_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 34: 121899_20190423_3T_DUPLICATE
+121899_20190423_3T_DUPLICATE has tag ['control3', 'control4', 'Duplicate'], not renaming
+Loop 35: 102650_01_20190423_3T_DUPLICATE
+102650_01_20190423_3T_DUPLICATE has tag ['control1', 'control3', 'control4', 'Duplicate'], not renaming
+Loop 36: 124789_20190425_3T_DUPLICATE
+124789_20190425_3T_DUPLICATE has tag ['control3', 'control4', 'Duplicate'], not renaming
+Loop 37: 124004_20190430_3T_DUPLICATE
+124004_20190430_3T_DUPLICATE has tag ['control3', 'control4', 'Duplicate'], not renaming
+Loop 38: 106735_20190502_3T_DUPLICATE
+106735_20190502_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 39: 104115x20190507x3T
+Renaming session to: 104115x20190507x3TxABC
+Loop 40: 123072x20190508x3T
+Renaming session to: 123072x20190508x3TxABC
+Loop 41: 104115_20190507_7T_DUPLICATE
+104115_20190507_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 42: 124383_20190515_3T_DUPLICATE
+124383_20190515_3T_DUPLICATE has tag ['control3', 'control4', 'Duplicate'], not renaming
+Loop 43: 123023x20190515x3T
+Renaming session to: 123023x20190515x3TxABC
+Loop 44: 123023_20190515_7T_DUPLICATE
+123023_20190515_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 45: 124383_20190515_7T_DUPLICATE
+124383_20190515_7T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 46: 124787x20190517x3T
+Renaming session to: 124787x20190516x3TxABC
+Loop 47: 124787_20190517_7T
+Renaming session to: 124787x20190517x7TxABC
+Loop 48: 124961x20190521x3T
+Renaming session to: 124961x20190521x3TxABC
+Loop 49: 119035x20190521x3T
+Renaming session to: 119035x20190521x3TxABC
+Loop 50: 124961_20190521_7T
+Renaming session to: 124961x20190521x7TxABC
+Loop 51: 124851x20190522x3T
+Renaming session to: 124851x20190522x3TxABC
+Loop 52: 124851_20190522_7T
+Renaming session to: 124851x20190522x7TxABC
+Loop 53: 118601x20190523x3T
+Renaming session to: 118601x20190523x3TxABC
+Loop 54: 119363x20190528x3T
+Renaming session to: 119363x20190528x3TxABC
+Loop 55: 119363_20190528_7T
+Renaming session to: 119363x20190528x7TxABC
+Loop 56: 123733x20190528x3T
+Renaming session to: 123733x20190528x3TxABC
+Loop 57: 117376_20190528_7T
+Renaming session to: 117376x20190528x7TxABC
+Loop 58: 113066x02x20190528x3T
+Renaming session to: 113066x02x20190528x3TxABC
+Loop 59: 123485x20190529x3T
+Renaming session to: 123485x20190529x3TxABC
+Loop 60: 123367x20190529x3T
+Renaming session to: 123367x20190529x3TxABC
+Loop 61: 123367_20190529_7T
+Renaming session to: 123367x20190529x7TxABC
+Loop 62: 123194x20190603x3T
+Renaming session to: 123194x20190603x3TxABC
+Loop 63: 124953x20190603x3T
+Renaming session to: 124953x20190603x3TxABC
+Loop 64: 124953_20190603_7T
+Renaming session to: 124953x20190603x7TxABC
+Loop 65: 122987x20190604x3T
+Renaming session to: 122987x20190604x3TxABC
+Loop 66: 124212x20190604x3T
+Renaming session to: 124212x20190604x3TxABC
+Loop 67: 124212_20190604_7T
+Renaming session to: 124212x20190604x7TxABC
+Loop 68: 122987_20190604_7T
+Renaming session to: 122987x20190604x7TxABC
+Loop 69: 124890x20190605x3T
+Renaming session to: 124890x20190605x3TxABC
+Loop 70: 124890_20190605_7T
+Renaming session to: 124890x20190605x7TxABC
+Loop 71: 125023_20190610_7T
+Renaming session to: 125023x20190610x7TxABC
+Loop 72: 125023x20190610x3T
+Renaming session to: 125023x20190610x3TxABC
+Loop 73: 124592x20190611x3T
+Renaming session to: 124592x20190611x3TxABC
+Loop 74: 124738x20190611x3T
+Renaming session to: 124738x20190611x3TxABC
+Loop 75: 100049x20160621x3T
+Renaming session to: 100049x20160621x3TxABC
+Loop 76: 100113x20160620x3T
+Renaming session to: 100113x20160620x3TxABC
+Loop 77: 100639x20160616x3T
+Renaming session to: 100639x20160616x3TxABC
+Loop 78: 101162x20160523x3T
+Renaming session to: 101162x20160523x3TxABC
+Loop 79: 101195x20160825x3T
+Renaming session to: 101195x20160825x3TxABC
+Loop 80: 101366x20161013x3T
+Renaming session to: 101366x20161013x3TxABC
+Loop 81: 101628x01x20161208x3T
+Renaming session to: 101628x01x20161208x3TxABC
+Loop 82: 101712x20161027x3T
+Renaming session to: 101712x20161027x3TxABC
+Loop 83: 102115x20160922x3T
+Renaming session to: 102115x20160922x3TxABC
+Loop 84: 102439x01x20161222x3T
+Renaming session to: 102439x01x20161222x3TxABC
+Loop 85: 102439x20161222x3T
+Renaming session to: 102439x20161222x3TxABC
+Loop 86: 104115x20161201x3T
+Renaming session to: 104115x20161201x3TxABC
+Loop 87: 104497x20160804x3T
+Renaming session to: 104497x20160804x3TxABC
+Loop 88: 104504x20160516x3T
+Renaming session to: 104504x20160516x3TxABC
+Loop 89: 105476x01x20160606x3T
+Renaming session to: 105476x01x20160606x3TxABC
+Loop 90: 106122x01x20160811x3T
+Renaming session to: 106122x01x20160811x3TxABC
+Loop 91: 106122_01_20160811_3T_DUPLICATE
+106122_01_20160811_3T_DUPLICATE has tag ['control1', 'control3', 'control4', 'Duplicate'], not renaming
+Loop 92: 106122x20160830x3T
+Renaming session to: 106122x20160830x3TxABC
+Loop 93: 106509x20161201x3T
+Renaming session to: 106509x20161201x3TxABC
+Loop 94: 106735x20161215x3T
+Renaming session to: 106735x20161215x3TxABC
+Loop 95: 107196x20160419x3T
+Renaming session to: 107196x20160419x3TxABC
+Loop 96: 107799x20160804x3T
+Renaming session to: 107799x20160804x3TxABC
+Loop 97: 107886x01x20160818x3T
+Renaming session to: 107886x01x20160818x3TxABC
+Loop 98: 107970x01x20160929x3T
+Renaming session to: 107970x01x20160929x3TxABC
+Loop 99: 107973x20161201x3T
+Renaming session to: 107973x20161201x3TxABC
+Loop 100: 109789x20160915x3T
+Renaming session to: 109789x20160915x3TxABC
+Loop 101: 111275x01x20161110x3T
+Renaming session to: 111275x01x20161110x3TxABC
+Loop 102: 111487x20161215x3T
+Renaming session to: 111487x20161215x3TxABC
+Loop 103: 111965x20161117x3T
+Renaming session to: 111965x20161117x3TxABC
+Loop 104: 112286x01x20160609x3T
+Renaming session to: 112286x01x20160609x3TxABC
+Loop 105: 112761x20160804x3T
+Renaming session to: 112761x20160804x3TxABC
+Loop 106: 113066x02x20161117x3T
+Renaming session to: 113066x02x20161117x3TxABC
+Loop 107: 113870x20160711x3T
+Renaming session to: 113870x20160711x3TxABC
+Loop 108: 114000x20160516x3T
+Renaming session to: 114000x20160516x3TxABC
+Loop 109: 114035x20161020x3T
+Renaming session to: 114035x20161020x3TxABC
+Loop 110: 114787x20160525x3T
+Renaming session to: 114787x20160525x3TxABC
+Loop 111: 115587x20161027x3T
+Renaming session to: 115587x20161027x3TxABC
+Loop 112: 116497x20160425x3T
+Renaming session to: 116497x20160425x3TxABC
+Loop 113: 116630x20160616x3T
+Renaming session to: 116630x20160616x3TxABC
+Loop 114: 116707x20160620x3T
+Renaming session to: 116707x20160620x3TxABC
+Loop 115: 116815x20160728x3T
+Renaming session to: 116815x20160728x3TxABC
+Loop 116: 117297x20160512x3T
+Renaming session to: 117297x20160512x3TxABC
+Loop 117: 117299x20161117x3T
+Renaming session to: 117299x20161117x3TxABC
+Loop 118: 117376x20160803x3T
+Renaming session to: 117376x20160803x3TxABC
+Loop 119: 117550x20160509x3T
+Renaming session to: 117550x20160509x3TxABC
+Loop 120: 118060x20161010x3T
+Renaming session to: 118060x20161010x3TxABC
+Loop 121: 118060_20161010_3T_DUPLICATE
+118060_20161010_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 122: 118188x20160509x3T
+Renaming session to: 118188x20160509x3TxABC
+Loop 123: 118317x20160915x3T
+Renaming session to: 118317x20160915x3TxABC
+Loop 124: 118404x20160427x3T
+Renaming session to: 118404x20160427x3TxABC
+Loop 125: 118440x20161208x3T
+Renaming session to: 118440x20161208x3TxABC
+Loop 126: 118700x20160509x3T
+Renaming session to: 118700x20160509x3TxABC
+Loop 127: 118711x20160412x3T
+Renaming session to: 118711x20160412x3TxABC
+Loop 128: 118724x20160617x3T
+Renaming session to: 118724x20160617x3TxABC
+Loop 129: 118775x20160523x3T
+Renaming session to: 118775x20160523x3TxABC
+Loop 130: 118964x20160818x3T
+Renaming session to: 118964x20160818x3TxABC
+Loop 131: 118982x20160915x3T
+Renaming session to: 118982x20160915x3TxABC
+Loop 132: 118998x20160901x3T
+Renaming session to: 118998x20160901x3TxABC
+Loop 133: 119035x20161110x3T
+Renaming session to: 119035x20161110x3TxABC
+Loop 134: 119109x20160516x3T
+Renaming session to: 119109x20160516x3TxABC
+Loop 135: 119152x20161013x3T
+Renaming session to: 119152x20161013x3TxABC
+Loop 136: 119167x20160825x3T
+Renaming session to: 119167x20160825x3TxABC
+Loop 137: 119254x20160428x3T
+Renaming session to: 119254x20160428x3TxABC
+Loop 138: 119298x20160620x3T
+Renaming session to: 119298x20160620x3TxABC
+Loop 139: 119390x20161215x3T
+Renaming session to: 119390x20161215x3TxABC
+Loop 140: 119788x20160818x3T
+Renaming session to: 119788x20160818x3TxABC
+Loop 141: 119813x20160811x3T
+Renaming session to: 119813x20160811x3TxABC
+Loop 142: 119989x20160901x3T
+Renaming session to: 119989x20160901x3TxABC
+Loop 143: 120033x20161208x3T
+Renaming session to: 120033x20161208x3TxABC
+Loop 144: 120033_20161208_3T_DUPLICATE
+120033_20161208_3T_DUPLICATE has tag ['Duplicate'], not renaming
+Loop 145: 120132x20160728x3T
+Renaming session to: 120132x20160728x3TxABC
+Loop 146: 120150x20160901x3T
+Renaming session to: 120150x20160901x3TxABC
+Loop 147: 119851x20190613x3T
+Renaming session to: 119851x20190613x3TxABC
+Loop 148: 120184x20160426x3T
+Renaming session to: 120184x20160426x3TxABC
+Loop 149: 120516x20160616x3T
+Renaming session to: 120516x20160616x3TxABC
+Loop 150: 120686x20160414x3T
+Renaming session to: 120686x20160414x3TxABC
+Loop 151: 120937x20160711x3T
+Renaming session to: 120937x20160711x3TxABC
+Loop 152: 121095x20160929x3T
+Renaming session to: 121095x20160929x3TxABC
+Loop 153: 121272x20161103x3T
+Renaming session to: 121272x20161103x3TxABC
+Loop 154: 100437x20170223x3T
+Renaming session to: 100437x20170223x3TxABC
+Loop 155: 100639_20171020_7T
+Renaming session to: 100639x20171020xx
+Loop 156: 100836x20170216x3T
+Renaming session to: 100836x20170216x3TxABC
+Loop 157: 100836_20171113_7T
+Renaming session to: 100836x20171113xx
+Loop 158: 100836_AV1451PET_20171206
+Renaming session to: 100836x20171206xAV1451PETxABC
+Loop 159: 100836_FlorbetabenAmyloidPET_20170627
+Renaming session to: 100836x20170627xFBBPETxABC
+Loop 160: 100905x01x20170406x3T
+Renaming session to: 100905x01x20170406x3TxABC
+Loop 161: 100905_01_20171114_7T
+Updating subject label to 100905x01
+
+
+
+Traceback (most recent call last):
+  File "rename.py", line 50, in <module>
+    session.subject.update(label=indd)
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\models\mixins.py", line 71, in update
+    return self._invoke_container_api("modify_{}", self.id, body)
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\models\mixins.py", line 36, in _invoke_container_api
+    return fn(*args, **kwargs)
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\flywheel.py", line 6093, in modify_subject
+    return self.subjects_api.modify_subject(subject_id, body, **kwargs)
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\api\subjects_api.py", line 3358, in modify_subject
+    (data) = self.modify_subject_with_http_info(subject_id, body, **kwargs)  # noqa: E501
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\api\subjects_api.py", line 3423, in modify_subject_with_http_info
+    return self.api_client.call_api(
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\api_client.py", line 361, in call_api
+    return self.__call_api(resource_path, method,
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\api_client.py", line 192, in __call_api
+    response_data = self.request(
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\api_client.py", line 411, in request
+    return self.rest_client.PUT(url,
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\rest.py", line 270, in PUT
+    return self.request("PUT", url,
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\rest.py", line 164, in request
+    r = self.session.request(method, url,
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\requests\sessions.py", line 662, in send
+    r = dispatch_hook('response', hooks, r, **kwargs)
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\requests\hooks.py", line 31, in dispatch_hook
+    _hook_data = hook(hook_data, **kwargs)
+  File "C:\Users\ermcg\anaconda3\envs\PythonData\lib\site-packages\flywheel\rest.py", line 104, in response_hook
+    raise ApiException(http_resp=resp)
+flywheel.rest.ApiException: (422) Reason: Subject will not be unique based on code, label, master_code and project
+
+##Sessions with incorrect subject labels moved to corrected subject labels in GUI
