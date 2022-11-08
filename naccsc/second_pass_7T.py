@@ -1,5 +1,4 @@
-#Renames all sessions in NACC-SC flywheel project in correct syntax: INDDxDATExSCANTYPExSTUDY
-#Run from terminal: python rename.py >> rename_log_DATE.txt
+
 
 from datetime import datetime
 import flywheel
@@ -22,7 +21,7 @@ except flywheel.ApiException as e:
 
 #create list of sessions
 try:
-    sessions = project.sessions.iter_find()
+    sessions = project.sessions.find("label=~.*xx")
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -47,11 +46,11 @@ for count, session in enumerate(sessions, 1):
         if '_' in session.subject.label: 
             indd=session.subject.label.replace('_',"x")
             print(f'Updating subject label to {indd}')
-            session.subject.update(label=indd)
+            # session.subject.update(label=indd)
         elif '.' in session.subject.label: 
             indd=session.subject.label.replace('.',"x")
             print(f'Updating subject label to {indd}')
-            session.subject.update(label=indd)
+            # session.subject.update(label=indd)
         else: 
             indd = session.subject.label
         
@@ -91,7 +90,7 @@ for count, session in enumerate(sessions, 1):
                                 protocolName = f['ProtocolName']
                             except KeyError as e:
                                 protocolName=''
- 
+
                             if modality == 'PT':
                                 if 'Amyloid' in labels or 'AV45' in labels: 
                                     scantype = 'FBBPET'
@@ -130,9 +129,9 @@ for count, session in enumerate(sessions, 1):
                                 elif 'FDG' in labels: 
                                     scantype = 'FDGPET'
                                     study='LEADS'
-                                    break
+                                    break    
                                 else: 
-                                    print(f'{session.label} PET scan needs scantype')        
+                                    print(f'{session.label} needs scantype')   
                             elif modality == "MR":
                                 if magstrength == 7 or round(magstrength) == 7 or magstrength == 6.98094: #some 2020 7T scans have this number instead of 7
                                     scantype="7T"
@@ -171,7 +170,7 @@ for count, session in enumerate(sessions, 1):
                                         mknote(indd,date,scantype)
                                         break
                                 else:
-                                    print(f'{session.label} MRI needs scantype')
+                                    print(f'{session.label} needs scantype')
                         else:
                             continue #not a dicom file, skip it        
 
@@ -179,5 +178,5 @@ for count, session in enumerate(sessions, 1):
         print(f'Renaming session to: {newlabel}') 
         session.update({'label': newlabel})
 
-o.close()
+    o.close()
 print(f'{count} sessions in project {project.label} checked')  
