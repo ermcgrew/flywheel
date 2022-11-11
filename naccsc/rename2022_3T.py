@@ -1,17 +1,8 @@
-
-
+import pandas as pd
 from datetime import datetime
 import flywheel
 
-#notes sessions where study cannot be ID'ed
-# def mknote(indd,date,scantype):
-#     newlabel = indd + 'x' + date + 'x' + scantype + 'x'
-#     o.write(f'{newlabel}\n')
-#     return 
-
-#user must be logged into flywheel via CLI to use flywheel.client()
 fw = flywheel.Client()
-
 #select project by project ID
 try:
     project = fw.get_project('5c508d5fc2a4ad002d7628d8') #NACC-SC
@@ -19,14 +10,9 @@ try:
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
-import pandas as pd
 df_study=pd.read_csv('MRISessionList_with_study.csv')
-
 df_study['INDDID']=df_study['INDDID'].astype(int).astype(str)
 df_study['MRIDate']=df_study['MRIDate'].astype(str)
-
-# print(df_study.info())
-# print(df_study.head())
 
 needstudy = open('3T_need_study.txt','r')
 for line in needstudy:
