@@ -1,5 +1,4 @@
 import pandas as pd
-from datetime import datetime
 import flywheel
 
 fw = flywheel.Client()
@@ -14,6 +13,28 @@ df_study=pd.read_csv('MRISessionList_with_study.csv')
 df_study['INDDID']=df_study['INDDID'].astype(int).astype(str)
 df_study['MRIDate']=df_study['MRIDate'].astype(str)
 
+##Sessions that had study suffix originally and was mistakenely overwritten
+#cat rename_log_20221108_2.txt | grep -C 1 manually | sed '/--/d’ | grep ABC | cut -f 3 -d " " >> log_OG_sessionNames.txt
+with open('log_OG_sessionNames.txt') as f:
+    ognames = f.readlines()
+    f.close()
+nameDict={}
+for x in ognames:
+    y=x.split('x')
+    if len(y[1]) == 2:
+        key=y[0:4]
+        key2='x'.join(key)
+        key2=key2 + 'x'   
+    else:
+        key=y[0:3]
+        key2='x'.join(key)
+        key2=key2 + 'x'   
+    value=y[-1]
+    value=value.strip()
+    nameDict[key2]=value
+
+o = open('3T_need_study_still.txt', 'a')
+
 needstudy = open('3T_need_study.txt','r')
 for line in needstudy:
     #reset variables to empty strings
@@ -22,10 +43,6 @@ for line in needstudy:
     study=''
     
     line = line.strip()
-    try:
-        session = project.sessions.find(f'label={line}')
-    except flywheel.ApiException as e:
-        print(f'Error: {e}')
 
     #to find study
     linelist = line.split('x')
@@ -48,19 +65,34 @@ for line in needstudy:
         elif mriprotocol == 'NACC-SC' or mriprotocol == 'Young MTL' and scanner == 'SC (3T)':
             study='ABC'
     
-        newlabel = line + study
+        if study == '':
+            o.write(f"{line}, something wrong\n")
+        else: 
+            newlabel = line + study
 
         ##check against rename_log for existing study label
-        #cat rename_log_20221108_2.txt | grep -C 1 manually >> log_2022_3T_only.txt
-        #sed '/--/d’ log_2022_3T_only.txt >> 2log_22_3T_only.txt
-                
-        # cat 2log | grep -B line (finds line before)
-        #if line before | cut -f -1 -d 'x' == study
-        #then proceed
-        #else flag
+        if line in nameDict:
+            if study == nameDict[line]:
+                print(f'Original study {nameDict[line]} matches newly assigned study {study}')
+            else:
+                print(f'flagging session {line} for review before renaming')
+                o.write(f"{line}, something wrong\n")
+                break
+ 
+        print(f'Renaming {line} session to: {newlabel}')
+        try:
+            session = project.sessions.find(f'label={line}')
+        except flywheel.ApiException as e:
+            print(f'Error: {e}') 
+        
+        session[0].update({'label': newlabel})
 
-
-        print(f'Renaming {line} session to: {newlabel}') 
-        # session[0].update({'label': newlabel})
     else:
-        print(f'{line} INDD & Date not in MRIsession list')
+        o.write(f"{line},not in Dave's list\n")
+
+o.close()
+
+
+##not picking up 128827x20220628x3Tx or 125527x20220628x3Tx 
+##128827 had 7t and 3t same day, is YMTL, rename manually as ABC
+##125527 3T date listed as 0629, is YMTL, rename manually as ABC
