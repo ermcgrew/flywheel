@@ -49,6 +49,17 @@ for line in needstudy:
             study='ABC'
     
         newlabel = line + study
+
+        ##check against rename_log for existing study label
+        #cat rename_log_20221108_2.txt | grep -C 1 manually >> log_2022_3T_only.txt
+        #sed '/--/d’ log_2022_3T_only.txt >> 2log_22_3T_only.txt
+                
+        # cat 2log | grep -B line (finds line before)
+        #if line before | cut -f -1 -d 'x' == study
+        #then proceed
+        #else flag
+
+
         print(f'Renaming {line} session to: {newlabel}') 
         # session[0].update({'label': newlabel})
     else:
