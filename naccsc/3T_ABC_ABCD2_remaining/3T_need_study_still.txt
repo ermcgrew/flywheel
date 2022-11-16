@@ -1,0 +1,20 @@
+122900x20201014x3Tx,not in Dave's list
+    session not listed in Dave's list, another session for same subject is NACC-SC/ABC
+100905x01x20220111x3Tx,not in Dave's list
+    dave's list has '.', is NACC-SC/ABC
+113612x01x20220607x3Tx,not in Dave's list
+    dave's list has '.', is NACC-SC/ABC
+128827x20220628x3Tx, something wrong
+    had 7t and 3t same day, is YMTL, rename manually as ABC
+125527x20220628x3Tx, something wrong
+    3T date listed as 0629, is YMTL, rename manually as ABC
+128504x20221018x3Tx,not in Dave's list
+    ABCD2 orginally before rename.py
+111768x01x20221026x3Tx,not in Dave's list
+    session not listed in Dave's list, another session for same subject is NACC-SC/ABC
+128345x20221027x3Tx,not in Dave's list
+    ABCD2 orginally before rename.py
+128440x20221101x3Tx,not in Dave's list
+    already renamed in flywheel?
+128481x20221108x3Tx,not in Dave's list
+    already renamed in flywheel?

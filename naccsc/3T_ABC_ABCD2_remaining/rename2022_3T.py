@@ -35,7 +35,7 @@ for x in ognames:
 
 o = open('3T_need_study_still.txt', 'a')
 
-needstudy = open('3T_need_study.txt','r')
+needstudy = open('after_error.txt','r') #3T_need_study.txt
 for line in needstudy:
     #reset variables to empty strings
     indd=''
@@ -93,6 +93,3 @@ for line in needstudy:
 o.close()
 
 
-##not picking up 128827x20220628x3Tx or 125527x20220628x3Tx 
-##128827 had 7t and 3t same day, is YMTL, rename manually as ABC
-##125527 3T date listed as 0629, is YMTL, rename manually as ABC
