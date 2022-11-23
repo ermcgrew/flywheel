@@ -18,7 +18,7 @@ df_study['PETDate']=df_study['PETDate'].astype(str)
 # df_study.info()
 
 #file to record any sessions stil unidentified
-# o = open('PET_need_study_still.txt', 'a')
+o = open('PET_need_study_still.txt', 'a')
 
 #loop through each session needing a study ID'ed
 needstudy = open('PET_need_study.txt','r') 
@@ -41,14 +41,12 @@ for line in needstudy:
     date=linelist[-3]
     dateDMY=date[4:6] + '/' + date[6:] + '/' + date[0:4]
     scantype=linelist[-2]
-    # print(scantype)
 
     dfmatch=df_study.loc[(df_study['INDDID'] == indd) & (df_study['PETDate'] == dateDMY)]
     
     #check that dfmatch has only 1 row
     if len(dfmatch) == 1:
         petprotocol = dfmatch['PETProtocol'].iloc[0]
-        # print(petprotocol)
         tracer = dfmatch['PETTracer'].iloc[0]
         if 'Florbeta' in tracer:
             tracershort='FBBPET'
@@ -58,7 +56,6 @@ for line in needstudy:
             tracershort=''
 
         if tracershort == scantype:
-            # print(f'Confirm tracer {tracer} and scantype {scantype} match')
             if petprotocol == 'ABCD2':
                 study = 'ABCD2'
             elif petprotocol == 'LEADS':
@@ -66,28 +63,30 @@ for line in needstudy:
             else:
                 study='ABC'
         else:
+            o.write(f"{line}, tracer\n")
             print(f'Tracer cannot be matched for {indd},{dateDMY}')
             break
 
         if study == '':
-            # o.write(f"{line}, something wrong\n")
+            o.write(f"{line}, study\n")
             print(f'{indd},{dateDMY} matched but study not IDed') 
             break
         else: 
             newlabel = line + study
- 
-        print(f'Renaming {line} session to: {newlabel}')
-#         try:
-#             session = project.sessions.find(f'label={line}')
-#         except flywheel.ApiException as e:
-#             print(f'Error: {e}') 
         
-#         session[0].update({'label': newlabel})
+        try:
+            session = project.sessions.find(f'label={line}')
+        except flywheel.ApiException as e:
+            print(f'Error: {e}') 
+        
+        # print(f'Found session: {session[0].label}')
+        print(f'Renaming {line} session to: {newlabel}')
+        session[0].update({'label': newlabel})
 
     else:
-        # o.write(f"{line}\n")
+        o.write(f"{line}\n")
         print(f"INDDID, Date {indd}, {dateDMY} not found in Dave's list")
 
-# o.close()
+o.close()
 
 
