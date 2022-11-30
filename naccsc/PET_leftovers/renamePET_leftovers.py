@@ -7,7 +7,6 @@ fw = flywheel.Client()
 #select project by project ID
 try:
     project = fw.get_project('5c508d5fc2a4ad002d7628d8') #NACC-SC
-    # project = fw.get_project('5ba2913fe849c300150d02ed')#Unsorted
 except flywheel.ApiException as e:
     print(f'Error: {e}')
 
@@ -18,7 +17,7 @@ df_study['PETDate']=df_study['PETDate'].astype(str)
 # df_study.info()
 
 #file to record any sessions stil unidentified
-o = open('PET_need_study_still.txt', 'a')
+# o = open('PET_need_study_still.txt', 'a')
 
 #loop through each session needing a study ID'ed
 needstudy = open('PET_need_study.txt','r') 
@@ -38,11 +37,31 @@ for line in needstudy:
     else:
         indd=linelist[0]
     
-    date=linelist[-3]
-    dateDMY=date[4:6] + '/' + date[6:] + '/' + date[0:4]
+    date=linelist[-3] 
+    # date, from list: 20140723, YYYYMMDD
+    # Year = date[0:4]
+    # Month  = date[4:6]
+    # Day  = date[6:]
+
+    # needs to match session csv: 7/23/2014, MM/DD/YYYY 
+    #if 0th position in MM and DD are 0, drop it
+    if date[4] == '0':
+        month = date[5]
+    else:
+        month = date[4:6]
+
+    if date[6] == '0':
+        day = date[7]
+    else:
+        day = date[6:]
+
+    dateMDY= month + '/' + day + '/' + date[0:4]
+    # print(dateMDY)
+    
     scantype=linelist[-2]
 
-    dfmatch=df_study.loc[(df_study['INDDID'] == indd) & (df_study['PETDate'] == dateDMY)]
+
+    dfmatch=df_study.loc[(df_study['INDDID'] == indd) & (df_study['PETDate'] == dateMDY)]
     
     #check that dfmatch has only 1 row
     if len(dfmatch) == 1:
@@ -56,20 +75,23 @@ for line in needstudy:
             tracershort=''
 
         if tracershort == scantype:
+            # print(f'{line} is {petprotocol}')
             if petprotocol == 'ABCD2':
                 study = 'ABCD2'
             elif petprotocol == 'LEADS':
                 study = "LEADS"
-            else:
+            elif petprotocol == 'REVEAL-SCAN 825741':
+                study = "REVEAL"
+            else: 
                 study='ABC'
         else:
-            o.write(f"{line}, tracer\n")
-            print(f'Tracer cannot be matched for {indd},{dateDMY}')
+            # o.write(f"{line}, tracer\n")
+            print(f'Tracer cannot be matched for {indd},{dateMDY}')
             break
 
         if study == '':
-            o.write(f"{line}, study\n")
-            print(f'{indd},{dateDMY} matched but study not IDed') 
+            # o.write(f"{line}, study\n")
+            print(f'{indd},{dateMDY} matched but study not IDed') 
             break
         else: 
             newlabel = line + study
@@ -80,13 +102,17 @@ for line in needstudy:
             print(f'Error: {e}') 
         
         # print(f'Found session: {session[0].label}')
-        print(f'Renaming {line} session to: {newlabel}')
-        session[0].update({'label': newlabel})
+        # print(f'Renaming {line} session to: {newlabel}')
+        # session[0].update({'label': newlabel})
 
     else:
-        o.write(f"{line}\n")
-        print(f"INDDID, Date {indd}, {dateDMY} not found in Dave's list")
+        # o.write(f"{line}\n")
+        print(f"INDDID, Date {indd}, {dateMDY} not found in Dave's list")
+        # print(type(indd))
 
-o.close()
+
+
+
+# o.close()
 
 
