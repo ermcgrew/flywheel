@@ -1,0 +1,3292 @@
+Loop 1: 105476x01x20190306x3TxABC
+writing indd 105476x01 to list
+Loop 2: 117375x20190312x3TxABC
+writing indd 117375 to list
+Loop 3: 119482x20190313x3TxABC
+writing indd 119482 to list
+Loop 4: 123572x20190313x3TxABC
+writing indd 123572 to list
+Loop 5: 119493x20190320x3TxABC
+writing indd 119493 to list
+Loop 6: 114000_20190320_3T_DUPLICATE
+writing indd 114000 to list
+Loop 7: 122152x20170608xFBBPETxABC
+writing indd 122152 to list
+Loop 8: 124650x20190326x3TxABC
+writing indd 124650 to list
+Loop 9: 122395x20190326x3TxABC
+writing indd 122395 to list
+Loop 10: 119621x20190326x3TxABC
+writing indd 119621 to list
+Loop 11: 123894x20190327x3TxABC
+writing indd 123894 to list
+Loop 12: 123725x20190327x3TxABC
+writing indd 123725 to list
+Loop 13: 124613x20190328x3TxABC
+writing indd 124613 to list
+Loop 14: 124613x20190329x7TxABC
+indd 124613 already captured, skipping
+Loop 15: 122475x20190402x3TxABC
+writing indd 122475 to list
+Loop 16: 123434x20190402x3TxABC
+writing indd 123434 to list
+Loop 17: 123763x20190402x3TxABC
+writing indd 123763 to list
+Loop 18: 112574x20190403x3TxABC
+writing indd 112574 to list
+Loop 19: 123950x20190403x3TxABC
+writing indd 123950 to list
+Loop 20: 112574x20190403x7TxABC
+indd 112574 already captured, skipping
+Loop 21: 124696x20190404x3TxABC
+writing indd 124696 to list
+Loop 22: 120896x20190409x3TxABC
+writing indd 120896 to list
+Loop 23: 115562x20190409x3TxABC
+writing indd 115562 to list
+Loop 24: I AM CONFUSED BY THIS
+writing indd 123851 to list
+Loop 25: 124696x20190411x7TxABC
+indd 124696 already captured, skipping
+Loop 26: 124745x20190415x3TxABC
+writing indd 124745 to list
+Loop 27: 124745x20190415x7TxABC
+indd 124745 already captured, skipping
+Loop 28: 124735x20190416x3TxABC
+writing indd 124735 to list
+Loop 29: 111275x01x20190416x3TxABC
+writing indd 111275x01 to list
+Loop 30: 124735_20190416_7T_DUPLICATE
+indd 124735 already captured, skipping
+Loop 31: 111275_01_20190416_7T_DUPLICATE
+indd 111275x01 already captured, skipping
+Loop 32: 109459x20190417x3TxABC
+writing indd 109459 to list
+Loop 33: 118923_20190417_7T_DUPLICATE
+writing indd 118923 to list
+Loop 34: 121899_20190423_3T_DUPLICATE
+writing indd 121899 to list
+Loop 35: 102650_01_20190423_3T_DUPLICATE
+writing indd 102650x01 to list
+Loop 36: 124789_20190425_3T_DUPLICATE
+writing indd 124789 to list
+Loop 37: 124004_20190430_3T_DUPLICATE
+writing indd 124004 to list
+Loop 38: 106735_20190502_3T_DUPLICATE
+writing indd 106735 to list
+Loop 39: 104115x20190507x3TxABC
+writing indd 104115 to list
+Loop 40: 123072x20190508x3TxABC
+writing indd 123072 to list
+Loop 41: 104115_20190507_7T_DUPLICATE
+indd 104115 already captured, skipping
+Loop 42: 124383_20190515_3T_DUPLICATE
+writing indd 124383 to list
+Loop 43: 123023x20190515x3TxABC
+writing indd 123023 to list
+Loop 44: 123023_20190515_7T_DUPLICATE
+indd 123023 already captured, skipping
+Loop 45: 124383_20190515_7T_DUPLICATE
+indd 124383 already captured, skipping
+Loop 46: 124787x20190516x3TxABC
+writing indd 124787 to list
+Loop 47: 124787x20190517x7TxABC
+indd 124787 already captured, skipping
+Loop 48: 124961x20190521x3TxABC
+writing indd 124961 to list
+Loop 49: 119035x20190521x3TxABC
+writing indd 119035 to list
+Loop 50: 124961x20190521x7TxABC
+indd 124961 already captured, skipping
+Loop 51: 124851x20190522x3TxABC
+writing indd 124851 to list
+Loop 52: 124851x20190522x7TxABC
+indd 124851 already captured, skipping
+Loop 53: 118601x20190523x3TxABC
+writing indd 118601 to list
+Loop 54: 119363x20190528x3TxABC
+writing indd 119363 to list
+Loop 55: 119363x20190528x7TxABC
+indd 119363 already captured, skipping
+Loop 56: 123733x20190528x3TxABC
+writing indd 123733 to list
+Loop 57: 117376x20190528x7TxABC
+writing indd 117376 to list
+Loop 58: 113066x02x20190528x3TxABC
+writing indd 113066x02 to list
+Loop 59: 123485x20190529x3TxABC
+writing indd 123485 to list
+Loop 60: 123367x20190529x3TxABC
+writing indd 123367 to list
+Loop 61: 123367x20190529x7TxABC
+indd 123367 already captured, skipping
+Loop 62: 123194x20190603x3TxABC
+writing indd 123194 to list
+Loop 63: 124953x20190603x3TxABC
+writing indd 124953 to list
+Loop 64: 124953x20190603x7TxABC
+indd 124953 already captured, skipping
+Loop 65: 122987x20190604x3TxABC
+writing indd 122987 to list
+Loop 66: 124212x20190604x3TxABC
+writing indd 124212 to list
+Loop 67: 124212x20190604x7TxABC
+indd 124212 already captured, skipping
+Loop 68: 122987x20190604x7TxABC
+indd 122987 already captured, skipping
+Loop 69: 124890x20190605x3TxABC
+writing indd 124890 to list
+Loop 70: 124890x20190605x7TxABC
+indd 124890 already captured, skipping
+Loop 71: 125023x20190610x7TxABC
+writing indd 125023 to list
+Loop 72: 125023x20190610x3TxABC
+indd 125023 already captured, skipping
+Loop 73: 124592x20190611x3TxABC
+writing indd 124592 to list
+Loop 74: 124738x20190611x3TxABC
+writing indd 124738 to list
+Loop 75: 100049x20160621x3TxABC
+writing indd 100049 to list
+Loop 76: 100113x20160620x3TxABC
+writing indd 100113 to list
+Loop 77: 100639x20160616x3TxABC
+writing indd 100639 to list
+Loop 78: 101162x20160523x3TxABC
+writing indd 101162 to list
+Loop 79: 101195x20160825x3TxABC
+writing indd 101195 to list
+Loop 80: 101366x20161013x3TxABC
+writing indd 101366 to list
+Loop 81: 101628x01x20161208x3TxABC
+writing indd 101628x01 to list
+Loop 82: 101712x20161027x3TxABC
+writing indd 101712 to list
+Loop 83: 102115x20160922x3TxABC
+writing indd 102115 to list
+Loop 84: 102439x01x20161222x3TxABC
+writing indd 102439x01 to list
+Loop 85: 102439x20161222x3TxABC
+writing indd 102439 to list
+Loop 86: 104115x20161201x3TxABC
+indd 104115 already captured, skipping
+Loop 87: 104497x20160804x3TxABC
+writing indd 104497 to list
+Loop 88: 104504x20160516x3TxABC
+writing indd 104504 to list
+Loop 89: 105476x01x20160606x3TxABC
+indd 105476x01 already captured, skipping
+Loop 90: 106122x01x20160811x3TxABC
+writing indd 106122x01 to list
+Loop 91: 106122_01_20160811_3T_DUPLICATE
+indd 106122x01 already captured, skipping
+Loop 92: 106122x20160830x3TxABC
+writing indd 106122 to list
+Loop 93: 106509x20161201x3TxABC
+writing indd 106509 to list
+Loop 94: 106735x20161215x3TxABC
+indd 106735 already captured, skipping
+Loop 95: 107196x20160419x3TxABC
+writing indd 107196 to list
+Loop 96: 107799x20160804x3TxABC
+writing indd 107799 to list
+Loop 97: 107886x01x20160818x3TxABC
+writing indd 107886x01 to list
+Loop 98: 107970x01x20160929x3TxABC
+writing indd 107970x01 to list
+Loop 99: 107973x20161201x3TxABC
+writing indd 107973 to list
+Loop 100: 109789x20160915x3TxABC
+writing indd 109789 to list
+Loop 101: 111275x01x20161110x3TxABC
+indd 111275x01 already captured, skipping
+Loop 102: 111487x20161215x3TxABC
+writing indd 111487 to list
+Loop 103: 111965x20161117x3TxABC
+writing indd 111965 to list
+Loop 104: 112286x01x20160609x3TxABC
+writing indd 112286x01 to list
+Loop 105: 112761x20160804x3TxABC
+writing indd 112761 to list
+Loop 106: 113066x02x20161117x3TxABC
+indd 113066x02 already captured, skipping
+Loop 107: 113870x20160711x3TxABC
+writing indd 113870 to list
+Loop 108: 114000x20160516x3TxABC
+indd 114000 already captured, skipping
+Loop 109: 114035x20161020x3TxABC
+writing indd 114035 to list
+Loop 110: 114787x20160525x3TxABC
+writing indd 114787 to list
+Loop 111: 115587x20161027x3TxABC
+writing indd 115587 to list
+Loop 112: 116497x20160425x3TxABC
+writing indd 116497 to list
+Loop 113: 116630x20160616x3TxABC
+writing indd 116630 to list
+Loop 114: 116707x20160620x3TxABC
+writing indd 116707 to list
+Loop 115: 116815x20160728x3TxABC
+writing indd 116815 to list
+Loop 116: 117297x20160512x3TxABC
+writing indd 117297 to list
+Loop 117: 117299x20161117x3TxABC
+writing indd 117299 to list
+Loop 118: 117376x20160803x3TxABC
+indd 117376 already captured, skipping
+Loop 119: 117550x20160509x3TxABC
+writing indd 117550 to list
+Loop 120: 118060x20161010x3TxABC
+writing indd 118060 to list
+Loop 121: 118060_20161010_3T_DUPLICATE
+indd 118060 already captured, skipping
+Loop 122: 118188x20160509x3TxABC
+writing indd 118188 to list
+Loop 123: 118317x20160915x3TxABC
+writing indd 118317 to list
+Loop 124: 118404x20160427x3TxABC
+writing indd 118404 to list
+Loop 125: 118440x20161208x3TxABC
+writing indd 118440 to list
+Loop 126: 118700x20160509x3TxABC
+writing indd 118700 to list
+Loop 127: 118711x20160412x3TxABC
+writing indd 118711 to list
+Loop 128: 118724x20160617x3TxABC
+writing indd 118724 to list
+Loop 129: 118775x20160523x3TxABC
+writing indd 118775 to list
+Loop 130: 118964x20160818x3TxABC
+writing indd 118964 to list
+Loop 131: 118982x20160915x3TxABC
+writing indd 118982 to list
+Loop 132: 118998x20160901x3TxABC
+writing indd 118998 to list
+Loop 133: 119035x20161110x3TxABC
+indd 119035 already captured, skipping
+Loop 134: 119109x20160516x3TxABC
+writing indd 119109 to list
+Loop 135: 119152x20161013x3TxABC
+writing indd 119152 to list
+Loop 136: 119167x20160825x3TxABC
+writing indd 119167 to list
+Loop 137: 119254x20160428x3TxABC
+writing indd 119254 to list
+Loop 138: 119298x20160620x3TxABC
+writing indd 119298 to list
+Loop 139: 119390x20161215x3TxABC
+writing indd 119390 to list
+Loop 140: 119788x20160818x3TxABC
+writing indd 119788 to list
+Loop 141: 119813x20160811x3TxABC
+writing indd 119813 to list
+Loop 142: 119989x20160901x3TxABC
+writing indd 119989 to list
+Loop 143: 120033x20161208x3TxABC
+writing indd 120033 to list
+Loop 144: 120033_20161208_3T_DUPLICATE
+indd 120033 already captured, skipping
+Loop 145: 120132x20160728x3TxABC
+writing indd 120132 to list
+Loop 146: 120150x20160901x3TxABC
+writing indd 120150 to list
+Loop 147: 119851x20190613x3TxABC
+writing indd 119851 to list
+Loop 148: 120184x20160426x3TxABC
+writing indd 120184 to list
+Loop 149: 120516x20160616x3TxABC
+writing indd 120516 to list
+Loop 150: 120686x20160414x3TxABC
+writing indd 120686 to list
+Loop 151: 120937x20160711x3TxABC
+writing indd 120937 to list
+Loop 152: 121095x20160929x3TxABC
+writing indd 121095 to list
+Loop 153: 121272x20161103x3TxABC
+writing indd 121272 to list
+Loop 154: 100437x20170223x3TxABC
+writing indd 100437 to list
+Loop 155: 100639x20171020x7TxABC
+indd 100639 already captured, skipping
+Loop 156: 100836x20170216x3TxABC
+writing indd 100836 to list
+Loop 157: 100836x20171113x7TxABC
+indd 100836 already captured, skipping
+Loop 158: 100836x20171206xAV1451PETxABC
+indd 100836 already captured, skipping
+Loop 159: 100836x20170627xFBBPETxABC
+indd 100836 already captured, skipping
+Loop 160: 100905x01x20170406x3TxABC
+writing indd 100905x01 to list
+Loop 161: 100905x01x20171114x7TxABC
+indd 100905x01 already captured, skipping
+Loop 162: 100905x01x20170525xFBBPETxABC
+indd 100905x01 already captured, skipping
+Loop 163: 100905x01x20171122xAV1451PETxABC
+indd 100905x01 already captured, skipping
+Loop 164: 101066x20170601x3TxABC
+writing indd 101066 to list
+Loop 165: 101066x20170622xFBBPETxABC
+indd 101066 already captured, skipping
+Loop 166: 101162x20170928x7TxABC
+indd 101162 already captured, skipping
+Loop 167: 101162x20171130xAV1451PETx
+indd 101162 already captured, skipping
+Loop 168: 101162x20171109xFBBPETxABC
+indd 101162 already captured, skipping
+Loop 169: 101737x20171010x3TxABC
+writing indd 101737 to list
+Loop 170: 101737x20171010x7TxABC
+indd 101737 already captured, skipping
+Loop 171: 102904x20170509x3TxABC
+writing indd 102904 to list
+Loop 172: 103907x20170202x3TxABC
+writing indd 103907 to list
+Loop 173: 103907x20170815xFBBPETxABC
+indd 103907 already captured, skipping
+Loop 174: 104115x20170419xFBBPETxABC
+indd 104115 already captured, skipping
+Loop 175: 104489x01x20170829x3TxABC
+writing indd 104489x01 to list
+Loop 176: 105732x01x20170824x3TxABC
+writing indd 105732x01 to list
+Loop 177: 105732x01x20170920xFBBPETxABC
+indd 105732x01 already captured, skipping
+Loop 178: 105733x01x20170824x3TxABC
+writing indd 105733x01 to list
+Loop 179: 105733x01x20170920xFBBPETxABC
+indd 105733x01 already captured, skipping
+Loop 180: 106036x20171003x3TxABC
+writing indd 106036 to list
+Loop 181: 106247x20170725x3TxABC
+writing indd 106247 to list
+Loop 182: 106247x20170726xFBBPETxABC
+indd 106247 already captured, skipping
+Loop 183: 106615x01x20171031x7TxABC
+writing indd 106615x01 to list
+Loop 184: 106615x01x20171031x3TxABC
+indd 106615x01 already captured, skipping
+Loop 185: 106615x20171031x3TxABC
+writing indd 106615 to list
+Loop 186: 106642x20170504x3TxABC
+writing indd 106642 to list
+Loop 187: 106721x01x20170711x3TxABC
+writing indd 106721x01 to list
+Loop 188: 106721x01x20171003xFBBPETx
+indd 106721x01 already captured, skipping
+Loop 189: 106722x01x20170711x3TxABC
+writing indd 106722x01 to list
+Loop 190: 106722x01x20171003xFBBPETxABC
+indd 106722x01 already captured, skipping
+Loop 191: 107196x20170929x7TxABC
+indd 107196 already captured, skipping
+Loop 192: 107196x20170331xFBBPETxABC
+indd 107196 already captured, skipping
+Loop 193: 109136x20170421xFBBPETxABC
+writing indd 109136 to list
+Loop 194: 109459x20170413x3TxABC
+indd 109459 already captured, skipping
+Loop 195: 111275x01x20170517xFBBPETx
+indd 111275x01 already captured, skipping
+Loop 196: 111487x20170404xFBBPETxABC
+indd 111487 already captured, skipping
+Loop 197: 111768x01x20170223x3TxABC
+writing indd 111768x01 to list
+Loop 198: 111768x02x20170216x3TxABC
+writing indd 111768x02 to list
+Loop 199: 111768x02x20170822xFBBPETxABC
+indd 111768x02 already captured, skipping
+Loop 200: 112574x20170316x3TxABC
+indd 112574 already captured, skipping
+Loop 201: 112574x20171107x7TxABC
+indd 112574 already captured, skipping
+Loop 202: 112574x20171207xAV1451PETxABC
+indd 112574 already captured, skipping
+Loop 203: 112574x20170711xFBBPETxABC
+indd 112574 already captured, skipping
+Loop 204: 113066x02x20171019x7TxABC
+indd 113066x02 already captured, skipping
+Loop 205: 113870x20171130x7TxABC
+indd 113870 already captured, skipping
+Loop 206: 114000x20170914x7TxABC
+indd 114000 already captured, skipping
+Loop 207: 114000x20171011xFBBPETxABC
+indd 114000 already captured, skipping
+Loop 208: 114699x20171116x3TxABC
+writing indd 114699 to list
+Loop 209: 114699x20171116x7TxABC
+indd 114699 already captured, skipping
+Loop 210: 114787x20171121x7TxABC
+indd 114787 already captured, skipping
+Loop 211: 115050x20170523x3TxABC
+writing indd 115050 to list
+Loop 212: 115050x20170803xFBBPETxABC
+indd 115050 already captured, skipping
+Loop 213: 115562x20170309x3TxABC
+indd 115562 already captured, skipping
+Loop 214: 115562x20171201x7TxABC
+indd 115562 already captured, skipping
+Loop 215: 115562x20170706xFBBPETxABC
+indd 115562 already captured, skipping
+Loop 216: 115582x02x20170912x3TxABC
+writing indd 115582x02 to list
+Loop 217: 115582x02x20170512xFBBPETx
+indd 115582x02 already captured, skipping
+Loop 218: 115919x20170912x3TxABC
+writing indd 115919 to list
+Loop 219: 115919x20171108xFBBPETxABC
+indd 115919 already captured, skipping
+Loop 220: 116638x20170606x3TxABC
+writing indd 116638 to list
+Loop 221: 116638x20171121xFBBPETxABC
+indd 116638 already captured, skipping
+Loop 222: 117158x20170613x3TxABC
+writing indd 117158 to list
+Loop 223: 117158x20171201x7TxABC
+indd 117158 already captured, skipping
+Loop 224: 117158x20171220xAV1451PETxABC
+indd 117158 already captured, skipping
+Loop 225: 117158x20170628xFBBPETxABC
+indd 117158 already captured, skipping
+Loop 226: 117326x20170926x3TxABC
+writing indd 117326 to list
+Loop 227: 117326x20170707xFBBPETxABC
+indd 117326 already captured, skipping
+Loop 228: 117358x20170202x3TxABC
+writing indd 117358 to list
+Loop 229: 117358x20170801xFBBPETxABC
+indd 117358 already captured, skipping
+Loop 230: 117550x20170928x7TxABC
+indd 117550 already captured, skipping
+Loop 231: 117550x20171129xAV1451PETxABC
+indd 117550 already captured, skipping
+Loop 232: 117550x20171025xFBBPETxABC
+indd 117550 already captured, skipping
+Loop 233: 117796x20170815x3TxABC
+writing indd 117796 to list
+Loop 234: 117796x20170919xFBBPETxABC
+indd 117796 already captured, skipping
+Loop 235: 117879x20170728xFBBPETxABC
+writing indd 117879 to list
+Loop 236: 117939x20171207x3TxABC
+writing indd 117939 to list
+Loop 237: 117939x20171207x7TxABC
+indd 117939 already captured, skipping
+Loop 238: 118259x20170309x3TxABC
+writing indd 118259 to list
+Loop 239: 118259x20170601xFBBPETxABC
+indd 118259 already captured, skipping
+Loop 240: 118349x20170105x3TxABC
+writing indd 118349 to list
+Loop 241: 118390x20170111x3TxABC
+writing indd 118390 to list
+Loop 242: 118418x20170613x3TxABC
+writing indd 118418 to list
+Loop 243: 118418x20171201x7TxABC
+indd 118418 already captured, skipping
+Loop 244: 118418x20171220xAV1451PETxABC
+indd 118418 already captured, skipping
+Loop 245: 118418x20170731xFBBPETxABC
+indd 118418 already captured, skipping
+Loop 246: 118475x20170323x3TxABC
+writing indd 118475 to list
+Loop 247: 118579x20170629x3TxABC
+writing indd 118579 to list
+Loop 248: 118579x20171019xFBBPETxABC
+indd 118579 already captured, skipping
+Loop 249: 118601x20170509x3TxABC
+indd 118601 already captured, skipping
+Loop 250: 118601x20170518xFBBPETxABC
+indd 118601 already captured, skipping
+Loop 251: 118711x20171026xFBBPETxABC
+indd 118711 already captured, skipping
+Loop 252: 118724x20171009x7TxABC
+indd 118724 already captured, skipping
+Loop 253: 118724x20171031xFBBPETxABC
+indd 118724 already captured, skipping
+Loop 254: 118743x20170323x3TxABC
+writing indd 118743 to list
+Loop 255: 118770x20171122xFBBPETxABC
+writing indd 118770 to list
+Loop 256: 118775x20171030x7TxABC
+indd 118775 already captured, skipping
+Loop 257: 118923x20170925xFBBPETxABC
+indd 118923 already captured, skipping
+Loop 258: 119035x20170801xFBBPETxABC
+indd 119035 already captured, skipping
+Loop 259: 119218x20171004xFBBPETxABC
+writing indd 119218 to list
+Loop 260: 119254x20170918x7TxABC
+indd 119254 already captured, skipping
+Loop 261: 119254x20171101xFBBPETxABC
+indd 119254 already captured, skipping
+Loop 262: 119374x20171017x3TxABC
+writing indd 119374 to list
+Loop 263: 119374x20171017x7TxABC
+indd 119374 already captured, skipping
+Loop 264: 119427x20170330x3TxABC
+writing indd 119427 to list
+Loop 265: 119465x20170309x3TxABC
+writing indd 119465 to list
+Loop 266: 119473x20170105x3TxABC
+writing indd 119473 to list
+Loop 267: 119473x20171117x7TxABC
+indd 119473 already captured, skipping
+Loop 268: 119473x20171212xAV1451PETx
+indd 119473 already captured, skipping
+Loop 269: 119473x20170629xFBBPETxABC
+indd 119473 already captured, skipping
+Loop 270: 119473x20170629xFBBPETxABC
+indd 119473 already captured, skipping
+Loop 271: 119493x20170420x3TxABC
+indd 119493 already captured, skipping
+Loop 272: 119493x20170809xFBBPETxABC
+indd 119493 already captured, skipping
+Loop 273: 119582x20170223x3TxABC
+writing indd 119582 to list
+Loop 274: 119582x20170816xFBBPETxABC
+indd 119582 already captured, skipping
+Loop 275: 119655x20170504x3TxABC
+writing indd 119655 to list
+Loop 276: 119851x20170606x3TxABC
+indd 119851 already captured, skipping
+Loop 277: 119851x20170823xFBBPETxABC
+indd 119851 already captured, skipping
+Loop 278: 119888x20170413x3TxABC
+writing indd 119888 to list
+Loop 279: 120123x20171024x3TxABC
+writing indd 120123 to list
+Loop 280: 120200x20170620x3TxABC
+writing indd 120200 to list
+Loop 281: 120200x20170727xFBBPETxABC
+indd 120200 already captured, skipping
+Loop 282: 120257x20170302x3TxABC
+writing indd 120257 to list
+Loop 283: 120686x20170414xFBBPETxABC
+indd 120686 already captured, skipping
+Loop 284: 120735x20171221x3TxABC
+writing indd 120735 to list
+Loop 285: 120735x20171221x7TxABC
+indd 120735 already captured, skipping
+Loop 286: 120870x20171207x3TxABC
+writing indd 120870 to list
+Loop 287: 120870x20171207x7TxABC
+indd 120870 already captured, skipping
+Loop 288: 120896x20170330x3TxABC
+indd 120896 already captured, skipping
+Loop 289: 120896x20170420xFBBPETxABC
+indd 120896 already captured, skipping
+Loop 290: 121105x20170427x3TxABC
+writing indd 121105 to list
+Loop 291: 121195x20170523x3TxABC
+writing indd 121195 to list
+Loop 292: 121195x20171018xFBBPETxABC
+indd 121195 already captured, skipping
+Loop 293: 121258x20170111x3TxABC
+writing indd 121258 to list
+Loop 294: 121258x20171211x7TxABC
+indd 121258 already captured, skipping
+Loop 295: 121299x20170808x3TxABC
+writing indd 121299 to list
+Loop 296: 121299x20171005xFBBPETxABC
+indd 121299 already captured, skipping
+Loop 297: 121329x20170216x3TxABC
+writing indd 121329 to list
+Loop 298: 121520x20170919x3TxABC
+writing indd 121520 to list
+Loop 299: 121520x20170426xFBBPETx
+indd 121520 already captured, skipping
+Loop 300: 121524x20170620x3TxABC
+writing indd 121524 to list
+Loop 301: 121524x20170713xFBBPETxABC
+indd 121524 already captured, skipping
+Loop 302: 121570x20171219x3TxABC
+writing indd 121570 to list
+Loop 303: 121570x20171219x7TxABC
+indd 121570 already captured, skipping
+Loop 304: 121635x20170308xFBBPETxABC
+writing indd 121635 to list
+Loop 305: 121668x20170601x3TxABC
+writing indd 121668 to list
+Loop 306: 121674x20170815x3TxABC
+writing indd 121674 to list
+Loop 307: 121674x20170905xFBBPETxABC
+indd 121674 already captured, skipping
+Loop 308: 121899x20170725x3TxABC
+indd 121899 already captured, skipping
+Loop 309: 122005x20171213x3TxABC
+writing indd 122005 to list
+Loop 310: 122005x20171213x7TxABC
+indd 122005 already captured, skipping
+Loop 311: 122025x20170829x3TxABC
+writing indd 122025 to list
+Loop 312: 122026x20171108x3TxABC
+writing indd 122026 to list
+Loop 313: 122026x20171108x7TxABC
+indd 122026 already captured, skipping
+Loop 314: 122027x20170803x3TxABC
+writing indd 122027 to list
+Loop 315: 122039x20170905x3TxABC
+writing indd 122039 to list
+Loop 316: 122039x20171005xFBBPETxABC
+indd 122039 already captured, skipping
+Loop 317: 122247x20170726xFBBPETx
+writing indd 122247 to list
+Loop 318: 122328x20171010x3TxABC
+writing indd 122328 to list
+Loop 319: 122328x20171010x7TxABC
+indd 122328 already captured, skipping
+Loop 320: 122328x20171102xFBBPETxABC
+indd 122328 already captured, skipping
+Loop 321: 122407x20171017x7TxABC
+writing indd 122407 to list
+Loop 322: 122407x20171017x3TxABC
+indd 122407 already captured, skipping
+Loop 323: 122566x20170915xFBBPETx
+writing indd 122566 to list
+Loop 324: 122619x20170922xFBBPETx
+writing indd 122619 to list
+Loop 325: 122710x20171102xFBBPETx
+writing indd 122710 to list
+Loop 326: 122803x20171127xFBBPETx
+writing indd 122803 to list
+Loop 327: 100049x20180411x7TxABC
+indd 100049 already captured, skipping
+Loop 328: 100049x20181003xAV1451PETxABC
+indd 100049 already captured, skipping
+Loop 329: 100049x20180627xFBBPETxABC
+indd 100049 already captured, skipping
+Loop 330: 100113x20180821x3TxABC
+indd 100113 already captured, skipping
+Loop 331: 100113x20181213xFBBPETxABC
+indd 100113 already captured, skipping
+Loop 332: 101162x20181017x3TxABC
+indd 101162 already captured, skipping
+Loop 333: 101195x20180423x7TxABC
+indd 101195 already captured, skipping
+Loop 334: 101195x20180612xFBBPETxABC
+indd 101195 already captured, skipping
+Loop 335: 101366x20180417x7TxABC
+indd 101366 already captured, skipping
+Loop 336: 101366x20180719xAV1451PETxABC
+indd 101366 already captured, skipping
+Loop 337: 101366x20180530xFBBPETxABC
+indd 101366 already captured, skipping
+Loop 338: 101453x20181016x3TxABC
+writing indd 101453 to list
+Loop 339: 101628x01x20180508x7TxABC
+indd 101628x01 already captured, skipping
+Loop 340: 101628x01x20180627xAV1451PETxABC
+indd 101628x01 already captured, skipping
+Loop 341: 101628x01x20180531xFBBPETxABC
+indd 101628x01 already captured, skipping
+Loop 342: 101712x20180326x7TxABC
+indd 101712 already captured, skipping
+Loop 343: 101712x20180912xAV1451PETxABC
+indd 101712 already captured, skipping
+Loop 344: 101712x20180426xFBBPETxABC
+indd 101712 already captured, skipping
+Loop 345: 101737x20180404xFBBPETxABC
+indd 101737 already captured, skipping
+Loop 346: 102115x20180330x7TxABC
+indd 102115 already captured, skipping
+Loop 347: 102115x20180917xAV1451PETxABC
+indd 102115 already captured, skipping
+Loop 348: 102115x20180517xFBBPETxABC
+indd 102115 already captured, skipping
+Loop 349: 102904x20180420x7TxABC
+indd 102904 already captured, skipping
+Loop 350: 102904x20180718xFBBPETxABC
+indd 102904 already captured, skipping
+Loop 351: 103941x20180619x3TxABC
+writing indd 103941 to list
+Loop 352: 103941x20181206xFBBPETxABC
+indd 103941 already captured, skipping
+Loop 353: 104115x20180327x7TxABC
+indd 104115 already captured, skipping
+Loop 354: 104793x01x20181011x7TxABC
+writing indd 104793x01 to list
+Loop 355: 104793x01x20181114xFBBPETxABC
+indd 104793x01 already captured, skipping
+Loop 356: 105476x01x20180402x7TxABC
+indd 105476x01 already captured, skipping
+Loop 357: 105476x01x20180727xAV1451PETxABC
+indd 105476x01 already captured, skipping
+Loop 358: 105476x01x20180503xFBBPETx
+indd 105476x01 already captured, skipping
+Loop 359: 106036x20180419x7TxABC
+indd 106036 already captured, skipping
+Loop 360: 106642x20180530x7TxABC
+indd 106642 already captured, skipping
+Loop 361: 106642x20180828xFBBPETxABC
+indd 106642 already captured, skipping
+Loop 362: 106721x01x20180123x7TxABC
+indd 106721x01 already captured, skipping
+Loop 363: 106721x01x20180327xAV1451PETxABC
+indd 106721x01 already captured, skipping
+Loop 364: 106992x20180807x3TxABC
+writing indd 106992 to list
+Loop 365: 107196x20181205x3TxABC
+indd 107196 already captured, skipping
+Loop 366: 107476x20181210x3TxABC
+writing indd 107476 to list
+Loop 367: 107970x01x20180508x7TxABC
+indd 107970x01 already captured, skipping
+Loop 368: 107970x01x20181108xAV1451PETxABC
+indd 107970x01 already captured, skipping
+Loop 369: 107970x01x20180607xFBBPETxABC
+indd 107970x01 already captured, skipping
+Loop 370: 108543x20180202xFBBPETxABC
+writing indd 108543 to list
+Loop 371: 109459x20180515x7TxABC
+indd 109459 already captured, skipping
+Loop 372: 109459x20180808xFBBPETxABC
+indd 109459 already captured, skipping
+Loop 373: 109789x20181002x3TxABC
+indd 109789 already captured, skipping
+Loop 374: 109789x20181002x7TxABC
+indd 109789 already captured, skipping
+Loop 375: 109789x20181205xFBBPETx
+indd 109789 already captured, skipping
+Loop 376: 110836x20180227x3TxABC
+writing indd 110836 to list
+Loop 377: 110836x20180227x7TxABC
+indd 110836 already captured, skipping
+Loop 378: 110836x20180821xFBBPETxABC
+indd 110836 already captured, skipping
+Loop 379: 111487x20181219x3TxABC
+indd 111487 already captured, skipping
+Loop 380: 111768x01x20180125x7TxABC
+indd 111768x01 already captured, skipping
+Loop 381: 111768x01x20180507xAV1451PETxABC
+indd 111768x01 already captured, skipping
+Loop 382: 111768x01x20180215xFBBPETxABC
+indd 111768x01 already captured, skipping
+Loop 383: 111768x02x20180119x7TxABC
+indd 111768x02 already captured, skipping
+Loop 384: 111768x02x20180131xAV1451PETxABC
+indd 111768x02 already captured, skipping
+Loop 385: 111965x20181114x3TxABC
+indd 111965 already captured, skipping
+Loop 386: 112286x01x20180601x7TxABC
+indd 112286x01 already captured, skipping
+Loop 387: 112286x01x20180807xFBBPETxABC
+indd 112286x01 already captured, skipping
+Loop 388: 112761x20180306x7TxABC
+indd 112761 already captured, skipping
+Loop 389: 112761x20180712xAV1451PETxABC
+indd 112761 already captured, skipping
+Loop 390: 112761x20180517xFBBPETxABC
+indd 112761 already captured, skipping
+Loop 391: 113066x02x20180410xAV1451PETxABC
+indd 113066x02 already captured, skipping
+Loop 392: 113066x02x20180109xFBBPETxABC
+indd 113066x02 already captured, skipping
+Loop 393: 113870x20180403xAV1451PETxABC
+indd 113870 already captured, skipping
+Loop 394: 113870x20180103xFBBPETxABC
+indd 113870 already captured, skipping
+Loop 395: 114035x20180822x7TxABC
+indd 114035 already captured, skipping
+Loop 396: 114035x20181107xFBBPETxABC
+indd 114035 already captured, skipping
+Loop 397: 114120x20180717x3TxABC
+writing indd 114120 to list
+Loop 398: 114699x20180308xFBBPETxABC
+indd 114699 already captured, skipping
+Loop 399: 114787x20181030x3TxABC
+indd 114787 already captured, skipping
+Loop 400: 114787x20180301xAV1451PETxABC
+indd 114787 already captured, skipping
+Loop 401: 114787x20180111xFBBPETxABC
+indd 114787 already captured, skipping
+Loop 402: 115050x20180126x7TxABC
+indd 115050 already captured, skipping
+Loop 403: 115381x20180227x3TxABC
+writing indd 115381 to list
+Loop 404: 115381x20180227x7TxABC
+indd 115381 already captured, skipping
+Loop 405: 115381x20180523xAV1451PETxABC
+indd 115381 already captured, skipping
+Loop 406: 115381x20180328xFBBPETxABC
+indd 115381 already captured, skipping
+Loop 407: 115582_02_20180529_7T_DUPLICATE
+indd 115582x02 already captured, skipping
+Loop 408: 115582x02x20181022xAV1451PETxABC
+indd 115582x02 already captured, skipping
+Loop 409: 115582x02x20180814xFBBPETxABC
+indd 115582x02 already captured, skipping
+Loop 410: 117297x20180312x7TxABC
+indd 117297 already captured, skipping
+Loop 411: 117297x20181218xFBBPETxABC
+indd 117297 already captured, skipping
+Loop 412: 117315x20181101x3TxABC
+writing indd 117315 to list
+Loop 413: 117376x01x20180116x3TxABC
+writing indd 117376x01 to list
+Loop 414: 117376x01x20180220x7TxABC
+indd 117376x01 already captured, skipping
+Loop 415: 117376x20180501x7TxABC
+indd 117376 already captured, skipping
+Loop 416: 117870x20180530xFBBPETxABC
+writing indd 117870 to list
+Loop 417: 118230x20180717x3TxABC
+writing indd 118230 to list
+Loop 418: 118230x20180717x7TxABC
+indd 118230 already captured, skipping
+Loop 419: 118259x20180605x7TxABC
+indd 118259 already captured, skipping
+Loop 420: 118311x20180911x3TxABC
+writing indd 118311 to list
+Loop 421: 118317x20180213x7TxABC
+indd 118317 already captured, skipping
+Loop 422: 118317x20180606xAV1451PETx
+indd 118317 already captured, skipping
+Loop 423: 118317x20180301xFBBPETxABC
+indd 118317 already captured, skipping
+Loop 424: 118349x20180904x3TxABC
+indd 118349 already captured, skipping
+Loop 425: 118349x20180329xFBBPETxABC
+indd 118349 already captured, skipping
+Loop 426: 118390x20180125xFBBPETxABC
+indd 118390 already captured, skipping
+Loop 427: 118458x20180515x3TxABC
+writing indd 118458 to list
+Loop 428: 118458x20180613xFBBPETxABC
+indd 118458 already captured, skipping
+Loop 429: 118579x20180319x7TxABC
+indd 118579 already captured, skipping
+Loop 430: 118594x20180410x7TxABC
+writing indd 118594 to list
+Loop 431: 118700x20181009x3TxABC
+indd 118700 already captured, skipping
+Loop 432: 118724x20181029x3TxABC
+indd 118724 already captured, skipping
+Loop 433: 118736x20181023x3TxABC
+writing indd 118736 to list
+Loop 434: 118743x20180222x7TxABC
+indd 118743 already captured, skipping
+Loop 435: 118743x20180514xAV1451PETxABC
+indd 118743 already captured, skipping
+Loop 436: 118743x20180314xFBBPETxABC
+indd 118743 already captured, skipping
+Loop 437: 118775x20180201xFBBPETxABC
+indd 118775 already captured, skipping
+Loop 438: 118835x20180206x3TxABC
+writing indd 118835 to list
+Loop 439: 118835x20180206x7TxABC
+indd 118835 already captured, skipping
+Loop 440: 118998x20180619x3TxABC
+indd 118998 already captured, skipping
+Loop 441: 118998x20180822xFBBPETxABC
+indd 118998 already captured, skipping
+Loop 442: 119035x20180313xAV1451PETxABC
+indd 119035 already captured, skipping
+Loop 443: 119109x20180925x3TxABC
+indd 119109 already captured, skipping
+Loop 444: 119167x20180119x7TxABC
+indd 119167 already captured, skipping
+Loop 445: 119167x20180510xAV1451PETxABC
+indd 119167 already captured, skipping
+Loop 446: 119167x20180306xFBBPETxABC
+indd 119167 already captured, skipping
+Loop 447: 119254x20181204x3TxABC
+indd 119254 already captured, skipping
+Loop 448: 119254x20180315xAV1451PETxABC
+indd 119254 already captured, skipping
+Loop 449: 119448x20180828x3TxABC
+writing indd 119448 to list
+Loop 450: 119522x20181023x3TxABC
+writing indd 119522 to list
+Loop 451: 119522x20181023x7TxABC
+indd 119522 already captured, skipping
+Loop 452: 119582x20180123x7TxABC
+indd 119582 already captured, skipping
+Loop 453: 119582x20180213xAV1451PETxABC
+indd 119582 already captured, skipping
+Loop 454: 119608x20181113x3TxABC
+writing indd 119608 to list
+Loop 455: 119608x20181113x7TxABC
+indd 119608 already captured, skipping
+Loop 456: 119670x20180103x3TxABC
+writing indd 119670 to list
+Loop 457: 119670x20180301x7TxABC
+indd 119670 already captured, skipping
+Loop 458: 119670x20180829xFBBPETxABC
+indd 119670 already captured, skipping
+Loop 459: 119788x20180626x3TxABC
+indd 119788 already captured, skipping
+Loop 460: 119788x20180626x7TxABC
+indd 119788 already captured, skipping
+Loop 461: 119788x20181010x3TxABC
+indd 119788 already captured, skipping
+Loop 462: 119913x20180424x3TxABC
+writing indd 119913 to list
+Loop 463: 119913x20180424x7TxABC
+indd 119913 already captured, skipping
+Loop 464: 119913x20180905xFBBPETxABC
+indd 119913 already captured, skipping
+Loop 465: 120123x20180111xFBBPETxABC
+indd 120123 already captured, skipping
+Loop 466: 120131x20180315x3TxABC
+writing indd 120131 to list
+Loop 467: 120131x20180315x7TxABC
+indd 120131 already captured, skipping
+Loop 468: 120131x20180724xFBBPETxABC
+indd 120131 already captured, skipping
+Loop 469: 120515x20181127x3TxABC
+writing indd 120515 to list
+Loop 470: 120580x20180612x3TxABC
+writing indd 120580 to list
+Loop 471: 120580x20181016xFBBPETxABC
+indd 120580 already captured, skipping
+Loop 472: 120686x20180306x7TxABC
+indd 120686 already captured, skipping
+Loop 473: 120735x20180516xFBBPETxABC
+indd 120735 already captured, skipping
+Loop 474: 120755x20180315x7TxABC
+writing indd 120755 to list
+Loop 475: 120755x20180315x3TxABC
+indd 120755 already captured, skipping
+Loop 476: 120755x20180725xFBBPETxABC
+indd 120755 already captured, skipping
+Loop 477: 120965x20180821x3TxABC
+writing indd 120965 to list
+Loop 478: 121105x20180122x7TxABC
+indd 121105 already captured, skipping
+Loop 479: 121105x20180215xFBBPETxABC
+indd 121105 already captured, skipping
+Loop 480: 121181x20180123x7TxABC
+writing indd 121181 to list
+Loop 481: 121258x20180110xFBBPETxABC
+indd 121258 already captured, skipping
+Loop 482: 121299x20181219x7TxABC
+indd 121299 already captured, skipping
+Loop 483: 121469x20180327x3TxABC
+writing indd 121469 to list
+Loop 484: 121469x20180327x7TxABC
+indd 121469 already captured, skipping
+Loop 485: 121526x20180213x3TxABC
+writing indd 121526 to list
+Loop 486: 121526x20180524xFBBPETxABC
+indd 121526 already captured, skipping
+Loop 487: 121570x20180306xFBBPETxABC
+indd 121570 already captured, skipping
+Loop 488: 121655x20180424x3TxABC
+writing indd 121655 to list
+Loop 489: 121655x20181002xFBBPETxABC
+indd 121655 already captured, skipping
+Loop 490: 121666x20180911x3TxABC
+writing indd 121666 to list
+Loop 491: 121672x20181009x3TxABC
+writing indd 121672 to list
+Loop 492: 121805x20180515x3TxABC
+writing indd 121805 to list
+Loop 493: 121805x20180515x7TxABC
+indd 121805 already captured, skipping
+Loop 494: 121847x20180130x3TxABC
+writing indd 121847 to list
+Loop 495: 121847x20180619xFBBPETxABC
+indd 121847 already captured, skipping
+Loop 496: 122003x20180405x3TxABC
+writing indd 122003 to list
+Loop 497: 122003x20180809xFBBPETxABC
+indd 122003 already captured, skipping
+Loop 498: 122005x20180425xFBBPETxABC
+indd 122005 already captured, skipping
+Loop 499: 122039x20180119x7TxABC
+indd 122039 already captured, skipping
+Loop 500: 122056x20180103x3TxABC
+writing indd 122056 to list
+Loop 501: 122056x20180103x7TxABC
+indd 122056 already captured, skipping
+Loop 502: 122100x20180123x3TxABC
+writing indd 122100 to list
+Loop 503: 122100x20180228xFBBPETxABC
+indd 122100 already captured, skipping
+Loop 504: 122146x20181002x3TxABC
+writing indd 122146 to list
+Loop 505: 122146x20181002x7TxABC
+indd 122146 already captured, skipping
+Loop 506: 122216x20180614xFBBPETxABC
+writing indd 122216 to list
+Loop 507: 122326x20180522x3TxABC
+writing indd 122326 to list
+Loop 508: 122326x20180522x7TxABC
+indd 122326 already captured, skipping
+Loop 509: 122328x20180201xAV1451PETxABC
+indd 122328 already captured, skipping
+Loop 510: 122334x20181120x3TxABC
+writing indd 122334 to list
+Loop 511: 122407x20180220xFBBPETxABC
+indd 122407 already captured, skipping
+Loop 512: 122409x20180508x3TxABC
+writing indd 122409 to list
+Loop 513: 122409x20180926xFBBPETxABC
+indd 122409 already captured, skipping
+Loop 514: 122437x20180529x3TxABC
+writing indd 122437 to list
+Loop 515: 122437x20181023xFBBPETxABC
+indd 122437 already captured, skipping
+Loop 516: 122628x20180116x3TxABC
+writing indd 122628 to list
+Loop 517: 122628x20180116x7TxABC
+indd 122628 already captured, skipping
+Loop 518: 122654x20180605x3TxABC
+writing indd 122654 to list
+Loop 519: 122702x20180417x3TxABC
+writing indd 122702 to list
+Loop 520: 122702x20180417x7TxABC
+indd 122702 already captured, skipping
+Loop 521: 122702x20180914xAV1451PETxABC
+indd 122702 already captured, skipping
+Loop 522: 122702x20180821xFBBPETxABC
+indd 122702 already captured, skipping
+Loop 523: 122705x20180918x3TxABC
+writing indd 122705 to list
+Loop 524: 122714x20180612x7TxABC
+writing indd 122714 to list
+Loop 525: 122714x20181106xFBBPETxABC
+indd 122714 already captured, skipping
+Loop 526: 122735x20180904x3TxABC
+writing indd 122735 to list
+Loop 527: 122735x20180904x7TxABC
+indd 122735 already captured, skipping
+Loop 528: 122735x20181219xFBBPETxABC
+indd 122735 already captured, skipping
+Loop 529: 122812x20180417x3TxABC
+writing indd 122812 to list
+Loop 530: 122812x20180417x7TxABC
+indd 122812 already captured, skipping
+Loop 531: 122812x20180823xFBBPETxABC
+indd 122812 already captured, skipping
+Loop 532: 122828x20180503x7TxABC
+writing indd 122828 to list
+Loop 533: 122828x20180503x3TxABC
+indd 122828 already captured, skipping
+Loop 534: 122828x20181004xFBBPETxABC
+indd 122828 already captured, skipping
+Loop 535: 122840x20180130x3TxABC
+writing indd 122840 to list
+Loop 536: 122840x20180405xFBBPETxABC
+indd 122840 already captured, skipping
+Loop 537: 122888x20181129x3TxABC
+writing indd 122888 to list
+Loop 538: 122889x20181211x3TxABC
+writing indd 122889 to list
+Loop 539: 122924x20181212x3TxABC
+writing indd 122924 to list
+Loop 540: 122954x20181128x3TxABC
+writing indd 122954 to list
+Loop 541: 122975x20180214xFBBPETxABC
+writing indd 122975 to list
+Loop 542: 122987x20180216xFBBPETxABC
+indd 122987 already captured, skipping
+Loop 543: 123013x20181120x7TxABC
+writing indd 123013 to list
+Loop 544: 123019x20180731x3TxABC
+writing indd 123019 to list
+Loop 545: 123019x20180731x7TxABC
+indd 123019 already captured, skipping
+Loop 546: 123019x20181206xFBBPETxABC
+indd 123019 already captured, skipping
+Loop 547: 123043x20181016x3TxABC
+writing indd 123043 to list
+Loop 548: 123200x20181127x3TxABC
+writing indd 123200 to list
+Loop 549: 123213x20180710x3TxABC
+writing indd 123213 to list
+Loop 550: 123213x20180710x7TxABC
+indd 123213 already captured, skipping
+Loop 551: 123221x20180918x3TxABC
+writing indd 123221 to list
+Loop 552: 123221x20181211xFBBPETxABC
+indd 123221 already captured, skipping
+Loop 553: 123341x20181219x3TxABC
+writing indd 123341 to list
+Loop 554: 123364x20180605xFBBPETx
+writing indd 123364 to list
+Loop 555: 123369x20180724x3TxABC
+writing indd 123369 to list
+Loop 556: 123369x20180904xFBBPETxABC
+indd 123369 already captured, skipping
+Loop 557: 123397x20181212x3TxABC
+writing indd 123397 to list
+Loop 558: 123473x20181127xFBBPETxABC
+writing indd 123473 to list
+Loop 559: 123680x20181218x3TxABC
+writing indd 123680 to list
+Loop 560: 124131x20181130x7TxABC
+writing indd 124131 to list
+Loop 561: 124131x20181203x3TxABC
+indd 124131 already captured, skipping
+Loop 562: 124171x20181218x3TxABC
+writing indd 124171 to list
+Loop 563: 124171x20181218x7TxABC
+indd 124171 already captured, skipping
+Loop 564: 124172x20181211x3TxABC
+writing indd 124172 to list
+Loop 565: 124172x20181211x7TxABC
+indd 124172 already captured, skipping
+Loop 566: 124174x20181204x3TxABC
+writing indd 124174 to list
+Loop 567: 124179x20181205x3TxABC
+writing indd 124179 to list
+Loop 568: 124179x20181205x7TxABC
+indd 124179 already captured, skipping
+Loop 569: 124203x20181212x3TxABC
+writing indd 124203 to list
+Loop 570: 124203x20181212x7TxABC
+indd 124203 already captured, skipping
+Loop 571: 124211x20181213x7TxABC
+writing indd 124211 to list
+Loop 572: 124224x20181217x7TxABC
+writing indd 124224 to list
+Loop 573: 124224x20181218x3TxABC
+indd 124224 already captured, skipping
+Loop 574: TECHDEV_20180927_7T_DELETE
+writing indd TECHDEV to list
+Loop 575: 101453x20190418xFBBPETxABC
+indd 101453 already captured, skipping
+Loop 576: 102650x01x20190423x3TxABC
+indd 102650x01 already captured, skipping
+Loop 577: 104115x20190507x7TxABC
+indd 104115 already captured, skipping
+Loop 578: 104793x01x20190211xAV1451PETxABC
+indd 104793x01 already captured, skipping
+Loop 579: 105476_01_20190306_3T_DUPLICATE
+indd 105476x01 already captured, skipping
+Loop 580: 106735x20190502x3TxABC
+indd 106735 already captured, skipping
+Loop 581: 107196x20190208x7TxABC
+indd 107196 already captured, skipping
+Loop 582: 107196x20190305xAV1451PETxABC
+indd 107196 already captured, skipping
+Loop 583: 107196x20190129xFBBPETxABC
+indd 107196 already captured, skipping
+Loop 584: 107476x20190226xFBBPETxABC
+indd 107476 already captured, skipping
+Loop 585: 109789x20190104xAV1451PETxABC
+indd 109789 already captured, skipping
+Loop 586: 111275x01x20190416x7TxABC
+indd 111275x01 already captured, skipping
+Loop 587: 111487x20190425xAV1451PETx
+indd 111487 already captured, skipping
+Loop 588: 111487x20190423xFBBPETxABC
+indd 111487 already captured, skipping
+Loop 589: 114000x20190320x3TxABC
+indd 114000 already captured, skipping
+Loop 590: 114035x20190319xAV1451PETxABC
+indd 114035 already captured, skipping
+Loop 591: 115587x20190123x7TxABC
+indd 115587 already captured, skipping
+Loop 592: 116707x20190117x3TxABC
+indd 116707 already captured, skipping
+Loop 593: 117358x20190205x3TxABC
+indd 117358 already captured, skipping
+Loop 594: 117375_20190312_3T_DUPLICATE
+indd 117375 already captured, skipping
+Loop 595: 117870x20180220x3TxABC
+indd 117870 already captured, skipping
+Loop 596: 118380x20190219x7TxABC
+writing indd 118380 to list
+Loop 597: 118380x20190219x3TxABC
+indd 118380 already captured, skipping
+Loop 598: 118390x20190211x3TxABC
+indd 118390 already captured, skipping
+Loop 599: 118390x20190211x7TxABC
+indd 118390 already captured, skipping
+Loop 600: 118390x20190313xAV1451PETxABC
+indd 118390 already captured, skipping
+Loop 601: 118439x20190305x3TxABC
+writing indd 118439 to list
+Loop 602: 118439x20190430xFBBPETxABC
+indd 118439 already captured, skipping
+Loop 603: 118700x20190115xFBBPETxABC
+indd 118700 already captured, skipping
+Loop 604: 118923x20190417x7TxABC
+indd 118923 already captured, skipping
+Loop 605: 119109x20190320xFBBPETxABC
+indd 119109 already captured, skipping
+Loop 606: 119482_20190313_3T_DUPLICATE
+indd 119482 already captured, skipping
+Loop 607: 119493_20190320_3T_DUPLICATE
+indd 119493 already captured, skipping
+Loop 608: 119522x20190409xFBBPETxABC
+indd 119522 already captured, skipping
+Loop 609: 119608x20190509xAV1451PETxABC
+indd 119608 already captured, skipping
+Loop 610: 119608x20190321xFBBPETxABC
+indd 119608 already captured, skipping
+Loop 611: 119788x20190219xFBBPETxABC
+indd 119788 already captured, skipping
+Loop 612: 119989x20190227x3TxABC
+indd 119989 already captured, skipping
+Loop 613: 120374x20190206x3TxABC
+writing indd 120374 to list
+Loop 614: 120374x20190328xFBBPETxABC
+indd 120374 already captured, skipping
+Loop 615: 120929x20190227x3TxABC
+writing indd 120929 to list
+Loop 616: 120929x20190227x7TxABC
+indd 120929 already captured, skipping
+Loop 617: 120965x20190131xFBBPETxABC
+indd 120965 already captured, skipping
+Loop 618: 121635x20190219x3TxABC
+indd 121635 already captured, skipping
+Loop 619: 121666x20190212xFBBPETxABC
+indd 121666 already captured, skipping
+Loop 620: 121899x20190423x3TxABC
+indd 121899 already captured, skipping
+Loop 621: 122146x20190312xFBBPETxABC
+indd 122146 already captured, skipping
+Loop 622: 122334x20190402xFBBPETxABC
+indd 122334 already captured, skipping
+Loop 623: 122348x20190312x3TxABC
+writing indd 122348 to list
+Loop 624: 122348x20190605xFBBPETxABC
+indd 122348 already captured, skipping
+Loop 625: 122484x20190228x3TxABC
+writing indd 122484 to list
+Loop 626: 122484x20190425xFBBPETxABC
+indd 122484 already captured, skipping
+Loop 627: 122706x20190116x3TxABC
+writing indd 122706 to list
+Loop 628: 122706x20190501xFBBPETxABC
+indd 122706 already captured, skipping
+Loop 629: 122900x20190108x3TxABC
+writing indd 122900 to list
+Loop 630: 122900x20190416xFBBPETxABC
+indd 122900 already captured, skipping
+Loop 631: 122924x20190515xFBBPETxABC
+indd 122924 already captured, skipping
+Loop 632: 122954x20190507xFBBPETxABC
+indd 122954 already captured, skipping
+Loop 633: 122975x20190305x3TxABC
+indd 122975 already captured, skipping
+Loop 634: 122975x20190305x7TxABC
+indd 122975 already captured, skipping
+Loop 635: 122975x20190417xAV1451PETxABC
+indd 122975 already captured, skipping
+Loop 636: 123013x20190117xFBBPETxABC
+indd 123013 already captured, skipping
+Loop 637: 123023x20190515x7TxABC
+indd 123023 already captured, skipping
+Loop 638: 123043x20190326xFBBPETxABC
+indd 123043 already captured, skipping
+Loop 639: 123171x20190207xFBBPETxABC
+writing indd 123171 to list
+Loop 640: 123304x20190123x3TxABC
+writing indd 123304 to list
+Loop 641: 123304x20190123x7TxABC
+indd 123304 already captured, skipping
+Loop 642: 123304x20190227xFBBPETxABC
+indd 123304 already captured, skipping
+Loop 643: 123341x20190214xFBBPETxABC
+indd 123341 already captured, skipping
+Loop 644: 123397x20190515xFBBPETxABC
+indd 123397 already captured, skipping
+Loop 645: 123572_20190313_3T_DUPLICATE
+indd 123572 already captured, skipping
+Loop 646: 123680x20190321xFBBPETxABC
+indd 123680 already captured, skipping
+Loop 647: 123725x20190606xFBBPETxABC
+indd 123725 already captured, skipping
+Loop 648: 123765x20190102x3TxABC
+writing indd 123765 to list
+Loop 649: 123765x20190122xFBBPETxABC
+indd 123765 already captured, skipping
+Loop 650: 123851x20190306x3TxABC
+indd 123851 already captured, skipping
+Loop 651: 123851x20190611xFBBPETxABC
+indd 123851 already captured, skipping
+Loop 652: 123894x20190514xFBBPETxABC
+indd 123894 already captured, skipping
+Loop 653: 123928x20190123x3TxABC
+writing indd 123928 to list
+Loop 654: 123928x20190424xFBBPETxABC
+indd 123928 already captured, skipping
+Loop 655: 123935x20190115x3TxABC
+writing indd 123935 to list
+Loop 656: 123935x20190327xFBBPETxABC
+indd 123935 already captured, skipping
+Loop 657: 123950x20190604xFBBPETxABC
+indd 123950 already captured, skipping
+Loop 658: 123953x20190228x3TxABC
+writing indd 123953 to list
+Loop 659: 123953x20190228x7TxABC
+indd 123953 already captured, skipping
+Loop 660: 123953x20190530xAV1451PETx
+indd 123953 already captured, skipping
+Loop 661: 123953x20190425xFBBPETxABC
+indd 123953 already captured, skipping
+Loop 662: 124004x20190430x3TxABC
+indd 124004 already captured, skipping
+Loop 663: 124035x20190204x3TxABC
+writing indd 124035 to list
+Loop 664: 124035x20190502xFBBPETxABC
+indd 124035 already captured, skipping
+Loop 665: 124174x20190111x7TxABC
+indd 124174 already captured, skipping
+Loop 666: 124211x20190117x3TxABC
+indd 124211 already captured, skipping
+Loop 667: 124287x20190124x3TxABC
+writing indd 124287 to list
+Loop 668: 124287x20190124x7TxABC
+indd 124287 already captured, skipping
+Loop 669: 124301x20190121x3TxABC
+writing indd 124301 to list
+Loop 670: 124301x20190131x7TxABC
+indd 124301 already captured, skipping
+Loop 671: 124326x20190121x3TxABC
+writing indd 124326 to list
+Loop 672: 124326x20190201x7TxABC
+indd 124326 already captured, skipping
+Loop 673: 124327x20190118x7TxABC
+writing indd 124327 to list
+Loop 674: 124383x20190515x3TxABC
+indd 124383 already captured, skipping
+Loop 675: 124383x20190515x7TxABC
+indd 124383 already captured, skipping
+Loop 676: 124387x20190205x3TxABC
+writing indd 124387 to list
+Loop 677: 124387x20190205x7TxABC
+indd 124387 already captured, skipping
+Loop 678: 124428x20190206x3TxABC
+writing indd 124428 to list
+Loop 679: 124428x20190206x7TxABC
+indd 124428 already captured, skipping
+Loop 680: 118601_20190523_3T_DUPLICATE
+indd 118601 already captured, skipping
+Loop 681: 124735x20190416x7TxABC
+indd 124735 already captured, skipping
+Loop 682: 124789x20190425x3TxABC
+indd 124789 already captured, skipping
+Loop 683: 124789x20190425x7TxABC
+indd 124789 already captured, skipping
+Loop 684: 124005x20190618x3TxABC
+writing indd 124005 to list
+Loop 685: 124004x20190618x7TxABC
+indd 124004 already captured, skipping
+Loop 686: 121524x20190618x3TxABC
+indd 121524 already captured, skipping
+Loop 687: 124005x20190618x7TxABC
+indd 124005 already captured, skipping
+Loop 688: 125070x20190619x3TxABC
+writing indd 125070 to list
+Loop 689: 115050x20190619x3TxABC
+indd 115050 already captured, skipping
+Loop 690: 115050x20190619x7TxABC
+indd 115050 already captured, skipping
+Loop 691: 115582x02x20180529x7TxABC
+indd 115582x02 already captured, skipping
+Loop 692: 124385x20190208x3TxLEADS
+writing indd 124385 to list
+Loop 693: 116630x20190625x3TxABC
+indd 116630 already captured, skipping
+Loop 694: 119888x20190701x3TxABC
+indd 119888 already captured, skipping
+Loop 695: 118923x20190701x3TxABC
+indd 118923 already captured, skipping
+Loop 696: 123903x20190709x3TxABC
+writing indd 123903 to list
+Loop 697: 118068x20190710x3TxABC
+writing indd 118068 to list
+Loop 698: 117376x20190528x3TxABC
+indd 117376 already captured, skipping
+Loop 699: 117870x20180220x7TxABC
+indd 117870 already captured, skipping
+Loop 700: 121526x20180213x7TxABC
+indd 121526 already captured, skipping
+Loop 701: 122152x20180503x3TxABC
+indd 122152 already captured, skipping
+Loop 702: 123851x20190410x3TxABC
+indd 123851 already captured, skipping
+Loop 703: 124327x20190207x3TxABC
+indd 124327 already captured, skipping
+Loop 704: 119655x20190716x3TxABC
+indd 119655 already captured, skipping
+Loop 705: 122344x20190717x3TxABC
+writing indd 122344 to list
+Loop 706: 109677_01_20160712_3T_DUPLICATE
+writing indd 109677x01 to list
+Loop 707: 106722x01x20190718x3TxABC
+indd 106722x01 already captured, skipping
+Loop 708: 109677x01x20160712x3TxABC
+indd 109677x01 already captured, skipping
+Loop 709: 106721x01x20190718x3TxABC
+indd 106721x01 already captured, skipping
+Loop 710: 106721x01x20190718x7TxABC
+indd 106721x01 already captured, skipping
+Loop 711: 106722x01x20190718x7TxABC
+indd 106722x01 already captured, skipping
+Loop 712: 100790x20171219x3TxABC
+writing indd 100790 to list
+Loop 713: 115587x20181218x3TxABC
+indd 115587 already captured, skipping
+Loop 714: 124972x20190723x3TxABC
+writing indd 124972 to list
+Loop 715: 123935x20190722xAV1451PETxABC
+indd 123935 already captured, skipping
+Loop 716: 122344x20190723x7TxABC
+indd 122344 already captured, skipping
+Loop 717: 125259x20190726x7TxABC
+writing indd 125259 to list
+Loop 718: 125255x20190729x3TxABC
+writing indd 125255 to list
+Loop 719: 125255x20190729x7TxABC
+indd 125255 already captured, skipping
+Loop 720: 121444x20190730x3TxABC
+writing indd 121444 to list
+Loop 721: 121674x20190731x3TxABC
+indd 121674 already captured, skipping
+Loop 722: 116707x20190717xFBBPETxABC
+indd 116707 already captured, skipping
+Loop 723: 104115x20190711xFBBPETxABC
+indd 104115 already captured, skipping
+Loop 724: 119655x20190716xAV1451PETxABC
+indd 119655 already captured, skipping
+Loop 725: 121635x20190710xFBBPETxABC
+indd 121635 already captured, skipping
+Loop 726: 122889x20190612xFBBPETxABC
+indd 122889 already captured, skipping
+Loop 727: 122900x20190715xAV1451PETxABC
+indd 122900 already captured, skipping
+Loop 728: 123572x20190717xFBBPETxABC
+indd 123572 already captured, skipping
+Loop 729: 124800x20190808x3TxABC
+writing indd 124800 to list
+Loop 730: 125081x20190723xFBBPETxLEADS
+writing indd 125081 to list
+Loop 731: 125081x20190729xAV1451PETxLEADS
+indd 125081 already captured, skipping
+Loop 732: 123194x20190807xFBBPETxABC
+indd 123194 already captured, skipping
+Loop 733: 125310x20190812x3TxABC
+writing indd 125310 to list
+Loop 734: 118068x20190808xFBBPETxABC
+indd 118068 already captured, skipping
+Loop 735: 117796x20190813x3TxABC
+indd 117796 already captured, skipping
+Loop 736: 125259x20190814x3TxABC
+indd 125259 already captured, skipping
+Loop 737: 101628x01x20190814x3TxABC
+indd 101628x01 already captured, skipping
+Loop 738: 125111x20190815x3TxABC
+writing indd 125111 to list
+Loop 739: 122025x20190820x3TxABC
+indd 122025 already captured, skipping
+Loop 740: 122025x20190820x7TxABC
+indd 122025 already captured, skipping
+Loop 741: 101066x20190821x3TxABC
+indd 101066 already captured, skipping
+Loop 742: 125070x20190822x3TxABC
+indd 125070 already captured, skipping
+Loop 743: 124212x20190814xFBBPETxABC
+indd 124212 already captured, skipping
+Loop 744: 122987x20190814xFBBPETxABC
+indd 122987 already captured, skipping
+Loop 745: 123485x20190815xFBBPETxABC
+indd 123485 already captured, skipping
+Loop 746: 124738x20190821xFBBPETxABC
+indd 124738 already captured, skipping
+Loop 747: 125070x20190822x7TxABC
+indd 125070 already captured, skipping
+Loop 748: 124868x20190822x3TxABC
+writing indd 124868 to list
+Loop 749: 124868x20190822x7TxABC
+indd 124868 already captured, skipping
+Loop 750: 124891x20190827x7TxABC
+writing indd 124891 to list
+Loop 751: 124891x20190827x3TxABC
+indd 124891 already captured, skipping
+Loop 752: 103907x20190827x7TxABC
+indd 103907 already captured, skipping
+Loop 753: 103907x20190827x3TxABC
+indd 103907 already captured, skipping
+Loop 754: 125399x20190829x3TxABC
+writing indd 125399 to list
+Loop 755: 125399x20190829x7TxABC
+indd 125399 already captured, skipping
+Loop 756: 124288x20190829x3TxABC
+writing indd 124288 to list
+Loop 757: 124288x20190829x7TxABC
+indd 124288 already captured, skipping
+Loop 758: 123768x20190905x3TxABC
+writing indd 123768 to list
+Loop 759: 124516x20190905x7TxABC
+writing indd 124516 to list
+Loop 760: 125107x20190807xFBBPETxLEADS
+writing indd 125107 to list
+Loop 761: 125107x20190821xAV1451PETx
+indd 125107 already captured, skipping
+Loop 762: 124516x20190905x3TxABC
+indd 124516 already captured, skipping
+Loop 763: 105732x01x20190912x7TxABC
+indd 105732x01 already captured, skipping
+Loop 764: 105733x01x20190912x3TxABC
+indd 105733x01 already captured, skipping
+Loop 765: 105732x01x20190912x3TxABC
+indd 105732x01 already captured, skipping
+Loop 766: 122475x20190828xFBBPETxABC
+indd 122475 already captured, skipping
+Loop 767: 125111x20190828xFBBPETxABC
+indd 125111 already captured, skipping
+Loop 768: 123434x20190904xFBBPETxABC
+indd 123434 already captured, skipping
+Loop 769: 123572x20190828xAV1451PETxABC
+indd 123572 already captured, skipping
+Loop 770: 123725x20190906xAV1451PETxABC
+indd 123725 already captured, skipping
+Loop 771: 125504x20190917x7TxABC
+writing indd 125504 to list
+Loop 772: 125504x20190917x3TxABC
+indd 125504 already captured, skipping
+Loop 773: 108672x20190918x3TxABC
+writing indd 108672 to list
+Loop 774: 121668x20190919x3TxABC
+indd 121668 already captured, skipping
+Loop 775: 122027x20190919x7TxABC
+indd 122027 already captured, skipping
+Loop 776: 122027x20190919x3TxABC
+indd 122027 already captured, skipping
+Loop 777: 125527x20190924x7TxABC
+writing indd 125527 to list
+Loop 778: 118724x20190930x7TxABC
+indd 118724 already captured, skipping
+Loop 779: 119473x20191001x3TxABC
+indd 119473 already captured, skipping
+Loop 780: 119473x20191001x7TxABC
+indd 119473 already captured, skipping
+Loop 781: 125527x20191002x3TxABC
+indd 125527 already captured, skipping
+Loop 782: 121444x20190924xFBBPETxABC
+indd 121444 already captured, skipping
+Loop 783: 124800x20190926xFBBPETxABC
+indd 124800 already captured, skipping
+Loop 784: 124004x20191001xFBBPETxABC
+indd 124004 already captured, skipping
+Loop 785: 124005x20191001xFBBPETxABC
+indd 124005 already captured, skipping
+Loop 786: 126955x20191003x7TxABC
+writing indd 126955 to list
+Loop 787: 116638x20191003x3TxABC
+indd 116638 already captured, skipping
+Loop 788: 117326x20191003x3TxABC
+indd 117326 already captured, skipping
+Loop 789: 125590x20191008x7TxABC
+writing indd 125590 to list
+Loop 790: 118711x20191008x3TxABC
+indd 118711 already captured, skipping
+Loop 791: 125573x20191010x3TxABC
+writing indd 125573 to list
+Loop 792: 125573x20191010x7TxABC
+indd 125573 already captured, skipping
+Loop 793: 107799x20191010x3TxABC
+indd 107799 already captured, skipping
+Loop 794: 122407x20191010x7TxABC
+indd 122407 already captured, skipping
+Loop 795: 122407x20191010x3TxABC
+indd 122407 already captured, skipping
+Loop 796: 107799x20191010x7TxABC
+indd 107799 already captured, skipping
+Loop 797: 122439x20190225x3TxLEADS
+writing indd 122439 to list
+Loop 798: 122439x20190321xFBBPETxLEADS
+indd 122439 already captured, skipping
+Loop 799: 122439x20190415xAV1451PETxLEADS
+indd 122439 already captured, skipping
+Loop 800: 123200x20190322x3TxLEADS
+indd 123200 already captured, skipping
+Loop 801: 124653x20190418x3TxLEADS
+writing indd 124653 to list
+Loop 802: 124653x20190501xFBBPETxLEADS
+indd 124653 already captured, skipping
+Loop 803: 124653x20190517xAV1451PETxLEADS
+indd 124653 already captured, skipping
+Loop 804: 123343x20181130x3TxLEADS
+writing indd 123343 to list
+Loop 805: 123343x20181205xFBBPETx
+indd 123343 already captured, skipping
+Loop 806: 123343x20181217xAV1451PETx
+indd 123343 already captured, skipping
+Loop 807: 123200x20190410xFBBPETxLEADS
+indd 123200 already captured, skipping
+Loop 808: 123200x20190412xAV1451PETx
+indd 123200 already captured, skipping
+Loop 809: 123727x20190311x3TxLEADS
+writing indd 123727 to list
+Loop 810: 123727x20190411xFBBPETx
+indd 123727 already captured, skipping
+Loop 811: 123727x20190415xAV1451PETxLEADS
+indd 123727 already captured, skipping
+Loop 812: 124561x20190417xFBBPETxLEADS
+writing indd 124561 to list
+Loop 813: 124561x20190429xAV1451PETxLEADS
+indd 124561 already captured, skipping
+Loop 814: 123718x20190924xFBBPETx
+writing indd 123718 to list
+Loop 815: 123718x20190930xAV1451PETxLEADS
+indd 123718 already captured, skipping
+Loop 816: 125300x20190820x3TxLEADS
+writing indd 125300 to list
+Loop 817: 125300x20190905xFBBPETx
+indd 125300 already captured, skipping
+Loop 818: 125300x20190927xAV1451PETxLEADS
+indd 125300 already captured, skipping
+Loop 819: 125332x20190905x3TxLEADS
+writing indd 125332 to list
+Loop 820: 124592x20191015x7TxABC
+indd 124592 already captured, skipping
+Loop 821: 125332x20190911xFBBPETxLEADS
+indd 125332 already captured, skipping
+Loop 822: 125332x20190925xAV1451PETx
+indd 125332 already captured, skipping
+Loop 823: 126955x20191015x3TxABC
+indd 126955 already captured, skipping
+Loop 824: 124972x20191010xFBBPETxABC
+indd 124972 already captured, skipping
+Loop 825: 124018x20181207xAV1451PETx
+writing indd 124018 to list
+Loop 826: 124018x20181120xFBBPETxLEADS
+indd 124018 already captured, skipping
+Loop 827: 124385x20190301xAV1451PETxLEADS
+indd 124385 already captured, skipping
+Loop 828: 124385x20190305xFBBPETxLEADS
+indd 124385 already captured, skipping
+Loop 829: 106036x20191017x3TxABC
+indd 106036 already captured, skipping
+Loop 830: 106036x20191017x7TxABC
+indd 106036 already captured, skipping
+Loop 831: 124824x20190603xAV1451PETxLEADS
+writing indd 124824 to list
+Loop 832: 125415x20190913x3TxLEADS
+writing indd 125415 to list
+Loop 833: 125415x20191003xFBBPETxLEADS
+indd 125415 already captured, skipping
+Loop 834: 125415x20191010xAV1451PETx
+indd 125415 already captured, skipping
+Loop 835: 123782x20191022x3TxABC
+writing indd 123782 to list
+Loop 836: 125590x20191023x3TxABC
+indd 125590 already captured, skipping
+Loop 837: 120123x20191029x3TxABC
+indd 120123 already captured, skipping
+Loop 838: 124728x20191030x3TxLEADS
+writing indd 124728 to list
+Loop 839: 106615x20191031x3TxABC
+indd 106615 already captured, skipping
+Loop 840: 106615x01x20191031x7TxABC
+indd 106615x01 already captured, skipping
+Loop 841: 106615x01x20191031x3TxABC
+indd 106615x01 already captured, skipping
+Loop 842: 106615x20191031x7TxABC
+indd 106615 already captured, skipping
+Loop 843: 122484x20191009xAV1451PETxABC
+indd 122484 already captured, skipping
+Loop 844: 124592x20191015xFBBPETxABC
+indd 124592 already captured, skipping
+Loop 845: 118923x20191016xFBBPETxABC
+indd 118923 already captured, skipping
+Loop 846: 124383x20191017xFBBPETxABC
+indd 124383 already captured, skipping
+Loop 847: 123765x20191031xAV1451PETxABC
+indd 123765 already captured, skipping
+Loop 848: 123754x20191105x3TxABC
+writing indd 123754 to list
+Loop 849: 123754x20191105x7TxABC
+indd 123754 already captured, skipping
+Loop 850: 122328x20191107x7TxABC
+indd 122328 already captured, skipping
+Loop 851: 119202x20191107x3TxABC
+writing indd 119202 to list
+Loop 852: 122328x20191107x3TxABC
+indd 122328 already captured, skipping
+Loop 853: 122963x20191112x3TxABC
+writing indd 122963 to list
+Loop 854: 122963x20191112x7TxABC
+indd 122963 already captured, skipping
+Loop 855: 117889x20191113x3TxABC
+writing indd 117889 to list
+Loop 856: 122039x20191114x3TxABC
+indd 122039 already captured, skipping
+Loop 857: 118775x20191114x7TxABC
+indd 118775 already captured, skipping
+Loop 858: 118775x20191114x3TxABC
+indd 118775 already captured, skipping
+Loop 859: 125041x20191119x3TxABC
+writing indd 125041 to list
+Loop 860: 125041x20191119x7TxABC
+indd 125041 already captured, skipping
+Loop 861: 124868x20191105xFBBPETxABC
+indd 124868 already captured, skipping
+Loop 862: 106735x20191106xFBBPETxABC
+indd 106735 already captured, skipping
+Loop 863: 117326x20191106xFBBPETxABC
+indd 117326 already captured, skipping
+Loop 864: 124288x20191107xFBBPETxABC
+indd 124288 already captured, skipping
+Loop 865: 123485x20191112xAV1451PETxABC
+indd 123485 already captured, skipping
+Loop 866: 123367x20191112xAV1451PETxABC
+indd 123367 already captured, skipping
+Loop 867: 124383x20191114xAV1451PETxABC
+indd 124383 already captured, skipping
+Loop 868: 120374x20191118xAV1451PETxABC
+indd 120374 already captured, skipping
+Loop 869: 124005x20191119xAV1451PETxABC
+indd 124005 already captured, skipping
+Loop 870: 124004x20191119xAV1451PETxABC
+indd 124004 already captured, skipping
+Loop 871: 123903x20191120xFBBPETxABC
+indd 123903 already captured, skipping
+Loop 872: 100905x01x20191126x3TxABC
+indd 100905x01 already captured, skipping
+Loop 873: 100905x01x20191126x7TxABC
+indd 100905x01 already captured, skipping
+Loop 874: 122216x20191205x7TxABC
+indd 122216 already captured, skipping
+Loop 875: 120870x20191205x3TxABC
+indd 120870 already captured, skipping
+Loop 876: 120870x20191205x7TxABC
+indd 120870 already captured, skipping
+Loop 877: 124022x20191210x3TxABC
+writing indd 124022 to list
+Loop 878: 124022x20191210x7TxABC
+indd 124022 already captured, skipping
+Loop 879: 124877x20191212x3TxABC
+writing indd 124877 to list
+Loop 880: 120735x20191212x7TxABC
+indd 120735 already captured, skipping
+Loop 881: 120735x20191212x3TxABC
+indd 120735 already captured, skipping
+Loop 882: 121570x20191219x3TxABC
+indd 121570 already captured, skipping
+Loop 883: 124738x20191122xAV1451PETxABC
+indd 124738 already captured, skipping
+Loop 884: 104115x20191125xAV1451PETxABC
+indd 104115 already captured, skipping
+Loop 885: 123782x20191126xFBBPETxABC
+indd 123782 already captured, skipping
+Loop 886: 122987x20191203xAV1451PETxABC
+indd 122987 already captured, skipping
+Loop 887: 124212x20191203xAV1451PETxABC
+indd 124212 already captured, skipping
+Loop 888: 116630x20191203xFBBPETxABC
+indd 116630 already captured, skipping
+Loop 889: 123768_FlorbetabenPET_20191204_DUPLICATE_incomplete
+indd 123768 already captured, skipping
+Loop 890: 124516x20191204xFBBPETxABC
+indd 124516 already captured, skipping
+Loop 891: 118923x20191209xAV1451PETxABC
+indd 118923 already captured, skipping
+Loop 892: 124800x20191210xAV1451PETxABC
+indd 124800 already captured, skipping
+Loop 893: 107799x20191211xFBBPETxABC
+indd 107799 already captured, skipping
+Loop 894: 122963x20191212xFBBPETxABC
+indd 122963 already captured, skipping
+Loop 895: 123680x20191213xAV1451PETxABC
+indd 123680 already captured, skipping
+Loop 896: 123341x20191217xAV1451PETxABC
+indd 123341 already captured, skipping
+Loop 897: 121444x20191219xAV1451PETxABC
+indd 121444 already captured, skipping
+Loop 898: 124728x20191120xAV1451PETxLEADS
+indd 124728 already captured, skipping
+Loop 899: 124728x20191113xFBBPETxLEADS
+indd 124728 already captured, skipping
+Loop 900: 125572x20191105xFBBPETxLEADS
+writing indd 125572 to list
+Loop 901: 125572x20191118xAV1451PETxLEADS
+indd 125572 already captured, skipping
+Loop 902: 118418x20200109x7TxABC
+indd 118418 already captured, skipping
+Loop 903: 117158x20200109x7TxABC
+indd 117158 already captured, skipping
+Loop 904: 117158x20200109x3TxABC
+indd 117158 already captured, skipping
+Loop 905: 118418x20200109x3TxABC
+indd 118418 already captured, skipping
+Loop 906: 114699x20200115x3TxABC
+indd 114699 already captured, skipping
+Loop 907: 111768x02x20200116x3TxABC
+indd 111768x02 already captured, skipping
+Loop 908: 111768x01x20200116x7TxABC
+indd 111768x01 already captured, skipping
+Loop 909: 111768x01x20200116x3TxABC
+indd 111768x01 already captured, skipping
+Loop 910: 123865x20200121x3TxABC
+writing indd 123865 to list
+Loop 911: 123865x20200121x7TxABC
+indd 123865 already captured, skipping
+Loop 912: phantom NACC-SC
+writing indd bids_phan to list
+Loop 913: 124288x20200110xAV1451PETxABC
+indd 124288 already captured, skipping
+Loop 914: 124868x20200114xAV1451PETxABC
+indd 124868 already captured, skipping
+Loop 915: 124035x20200114xAV1451PETxABC
+indd 124035 already captured, skipping
+Loop 916: 124877x20200115xFBBPETxABC
+indd 124877 already captured, skipping
+Loop 917: 121847x20200123x3TxABC
+indd 121847 already captured, skipping
+Loop 918: 122701x20171201xFBBPETx
+writing indd 122701 to list
+Loop 919: 123072x20200122xFBBPETxABC
+indd 123072 already captured, skipping
+Loop 920: 123343x20191223x3TxLEADS
+indd 123343 already captured, skipping
+Loop 921: 123343x20191212xFBBPETxLEADS
+indd 123343 already captured, skipping
+Loop 922: 123343x20200106xAV1451PETxLEADS
+indd 123343 already captured, skipping
+Loop 923: 119582x20200204x3TxABC
+indd 119582 already captured, skipping
+Loop 924: 119582x20200204x7TxABC
+indd 119582 already captured, skipping
+Loop 925: 122216x20200205x3TxABC
+indd 122216 already captured, skipping
+Loop 926: 122216x20200205x3TxABC
+indd 122216 already captured, skipping
+Loop 927: 125901x20200204x3TxLEADS
+writing indd 125901 to list
+Loop 928: 125067x20200206x3TxABC
+writing indd 125067 to list
+Loop 929: 124563x20200206x7TxABC
+writing indd 124563 to list
+Loop 930: 124563x20200206x3TxABC
+indd 124563 already captured, skipping
+Loop 931: 125067x20200206x7TxABC
+indd 125067 already captured, skipping
+Loop 932: 124534x20200211x3TxABC
+writing indd 124534 to list
+Loop 933: 124534x20200211x7TxABC
+indd 124534 already captured, skipping
+Loop 934: 124305x20200213x7TxABC
+writing indd 124305 to list
+Loop 935: 124305x20200213x3TxABC
+indd 124305 already captured, skipping
+Loop 936: 123935x20200213x7TxABC
+indd 123935 already captured, skipping
+Loop 937: 126067x20200218x3TxLEADS
+writing indd 126067 to list
+Loop 938: 100639x20200220x7TxABC
+indd 100639 already captured, skipping
+Loop 939: 100639x20200220x3TxABC
+indd 100639 already captured, skipping
+Loop 940: 125699x20200220x3TxABC
+writing indd 125699 to list
+Loop 941: 125699x20200220x7TxABC
+indd 125699 already captured, skipping
+Loop 942: 124597x20200227x3TxABC
+writing indd 124597 to list
+Loop 943: 102167x20200227x7TxABC
+writing indd 102167 to list
+Loop 944: 102167x20200227x3TxABC
+indd 102167 already captured, skipping
+Loop 945: 124597x20200227x7TxABC
+indd 124597 already captured, skipping
+Loop 946: 118317x20200303x3TxABC
+indd 118317 already captured, skipping
+Loop 947: 118317x20200303x7TxABC
+indd 118317 already captured, skipping
+Loop 948: 126144x20200302x7TxABC
+writing indd 126144 to list
+Loop 949: 121526x20200305x3TxABC
+indd 121526 already captured, skipping
+Loop 950: 124048x20200310x3TxABC
+writing indd 124048 to list
+Loop 951: 124048x20200310x7TxABC
+indd 124048 already captured, skipping
+Loop 952: 124733x20200312x3TxABC
+writing indd 124733 to list
+Loop 953: 124733x20200312x7TxABC
+indd 124733 already captured, skipping
+Loop 954: 123155x20200313x3TxLEADS
+writing indd 123155 to list
+Loop 955: 124666x20200311x3TxLEADS
+writing indd 124666 to list
+Loop 956: 125142x20200312x3TxLEADS
+writing indd 125142 to list
+Loop 957: 122139x20190627xFBBPETx
+writing indd 122139 to list
+Loop 958: 111768x02x20200116x7TxABC
+indd 111768x02 already captured, skipping
+Loop 959: 122439x20200708x3TxLEADS
+indd 122439 already captured, skipping
+Loop 960: 123200x20200713x3TxLEADS
+indd 123200 already captured, skipping
+Loop 961: 125687x20200714x3TxABC
+writing indd 125687 to list
+Loop 962: 112286x01x20200721x3TxABC
+indd 112286x01 already captured, skipping
+Loop 963: 112286x01x20200721x7TxABC
+indd 112286x01 already captured, skipping
+Loop 964: 121167x20170905x3TxABC
+writing indd 121167 to list
+Loop 965: 125800x20200728x3TxABC
+writing indd 125800 to list
+Loop 966: 123727x20200729x3TxLEADS
+indd 123727 already captured, skipping
+Loop 967: 125081x20200810x3TxLEADS
+indd 125081 already captured, skipping
+Loop 968: 120686x20200812x3TxABC
+indd 120686 already captured, skipping
+Loop 969: 120686x20200812x7TxABC
+indd 120686 already captured, skipping
+Loop 970: 124509x20200813x3TxABC
+writing indd 124509 to list
+Loop 971: 124509x20200813x7TxABC
+indd 124509 already captured, skipping
+Loop 972: 118998x20200818x3TxABC
+indd 118998 already captured, skipping
+Loop 973: 126266x20200818x3TxLEADS
+writing indd 126266 to list
+Loop 974: 126324x20200901x3TxLEADS
+writing indd 126324 to list
+Loop 975: 123725x20190327x7TxABC
+indd 123725 already captured, skipping
+Loop 976: 123894x20190327x7TxABC
+indd 123894 already captured, skipping
+Loop 977: 117796x20190813x7TxABC
+indd 117796 already captured, skipping
+Loop 978: 124800x20190808x7TxABC
+indd 124800 already captured, skipping
+Loop 979: 124650x20190410x7TxABC
+indd 124650 already captured, skipping
+Loop 980: 125310x20190808x7TxABC
+indd 125310 already captured, skipping
+Loop 981: 103907x20171117x7TxABC
+indd 103907 already captured, skipping
+Loop 982: 118711x20171006x7TxABC
+indd 118711 already captured, skipping
+Loop 983: 119035x20180130x7TxABC
+indd 119035 already captured, skipping
+Loop 984: 118230x20200915x3TxABC
+indd 118230 already captured, skipping
+Loop 985: 118230x20200915x7TxABC
+indd 118230 already captured, skipping
+Loop 986: 125675x20200922x3TxABC
+writing indd 125675 to list
+Loop 987: 125675x20200922x7TxABC
+indd 125675 already captured, skipping
+Loop 988: 122139x20200924x3TxABC
+indd 122139 already captured, skipping
+Loop 989: 122139x20200924x7TxABC
+indd 122139 already captured, skipping
+Loop 990: 107486x20200929x3TxABC
+writing indd 107486 to list
+Loop 991: 118743x20201001x3TxABC
+indd 118743 already captured, skipping
+Loop 992: 118743x20201001x7TxABC
+indd 118743 already captured, skipping
+Loop 993: 119655x20190103xFBBPETx
+indd 119655 already captured, skipping
+Loop 994: 124305x20190313xFBBPETxABC
+indd 124305 already captured, skipping
+Loop 995: 124824x20201012x3TxABC
+indd 124824 already captured, skipping
+Loop 996: 117639x20201013x3TxABC
+writing indd 117639 to list
+Loop 997: 117639x20201013x7TxABC
+indd 117639 already captured, skipping
+Loop 998: 123575x20201015x3TxABC
+writing indd 123575 to list
+Loop 999: 122963x20201019xPI2620PETxABC
+indd 122963 already captured, skipping
+Loop 1000: 125111x20201019xPI2620PETxABC
+indd 125111 already captured, skipping
+Loop 1001: 125107x20201029x3TxABC
+indd 125107 already captured, skipping
+Loop 1002: 125564x20201105x3TxABC
+writing indd 125564 to list
+Loop 1003: 125564x20201105x7TxABC
+indd 125564 already captured, skipping
+Loop 1004: 125840x20201110x3TxABC
+writing indd 125840 to list
+Loop 1005: 125840x20201110x7TxABC
+indd 125840 already captured, skipping
+Loop 1006: 100049x20201112x3TxABC
+indd 100049 already captured, skipping
+Loop 1007: 100049x20201112x7TxABC
+indd 100049 already captured, skipping
+Loop 1008: 124775x20201124x3TxABC
+writing indd 124775 to list
+Loop 1009: 124775x20201124x7TxABC
+indd 124775 already captured, skipping
+Loop 1010: 123831x20201201x3TxABC
+writing indd 123831 to list
+Loop 1011: 123831x20201201x7TxABC
+indd 123831 already captured, skipping
+Loop 1012: 126501x20201204x3TxLEADS
+writing indd 126501 to list
+Loop 1013: 124242x20201210x3TxABC
+writing indd 124242 to list
+Loop 1014: 124242x20201210x7TxABC
+indd 124242 already captured, skipping
+Loop 1015: 123928x20200227xAV1451PETxABC
+indd 123928 already captured, skipping
+Loop 1016: 101162x20201110xAV1451PETxABC
+indd 101162 already captured, skipping
+Loop 1017: 107799x20201012xAV1451PETxABC
+indd 107799 already captured, skipping
+Loop 1018: 108672x20200922xAV1451PETxABC
+indd 108672 already captured, skipping
+Loop 1019: 117326x20200214xAV1451PETxABC
+indd 117326 already captured, skipping
+Loop 1020: 117796x20170606xAV1451PETxABC
+indd 117796 already captured, skipping
+Loop 1021: 118439x20200130xAV1451PETxABC
+indd 118439 already captured, skipping
+Loop 1022: 119888x20170328xAV1451PETxABC
+indd 119888 already captured, skipping
+Loop 1023: 121635x20200204xAV1451PETxABC
+indd 121635 already captured, skipping
+Loop 1024: 122475x20200128xAV1451PETxABC
+indd 122475 already captured, skipping
+Loop 1025: 123727x20200805xAV1451PETxLEADS
+indd 123727 already captured, skipping
+Loop 1026: 123754x20201110xAV1451PETxABC
+indd 123754 already captured, skipping
+Loop 1027: 123782x20201109xAV1451PETxABC
+indd 123782 already captured, skipping
+Loop 1028: 123851x20200810xAV1451PETxABC
+indd 123851 already captured, skipping
+Loop 1029: 123865x20201020xAV1451PETxABC
+indd 123865 already captured, skipping
+Loop 1030: 123950x20200228xAV1451PETxABC
+indd 123950 already captured, skipping
+Loop 1031: 124305x20200303xAV1451PETxABC
+indd 124305 already captured, skipping
+Loop 1032: 124534x20200929xAV1451PETxABC
+indd 124534 already captured, skipping
+Loop 1033: 124666x20200716xAV1451PETxLEADS
+indd 124666 already captured, skipping
+Loop 1034: 125067x20201012xAV1451PETxABC
+indd 125067 already captured, skipping
+Loop 1035: 125142x20200825xAV1451PETxLEADS
+indd 125142 already captured, skipping
+Loop 1036: 125300x20201028xAV1451PETxLEADS
+indd 125300 already captured, skipping
+Loop 1037: 125699x20201125xAV1451PETxABC
+indd 125699 already captured, skipping
+Loop 1038: 125901x20200302xAV1451PETxLEADS
+indd 125901 already captured, skipping
+Loop 1039: 125944x20200310xAV1451PETxLEADS
+writing indd 125944 to list
+Loop 1040: 126067x20200930xAV1451PETxLEADS
+indd 126067 already captured, skipping
+Loop 1041: 126266x20201002xAV1451PETxLEADS
+indd 126266 already captured, skipping
+Loop 1042: 126324x20201005xAV1451PETxLEADS
+indd 126324 already captured, skipping
+Loop 1043: 111275x01x20190605xAV1451PETx
+indd 111275x01 already captured, skipping
+Loop 1044: 124563x20201117xAV1451PETxABC
+indd 124563 already captured, skipping
+Loop 1045: 100049xDUPLICATE
+indd 100049 already captured, skipping
+Loop 1046: 119888x20150714xFBBPETx
+indd 119888 already captured, skipping
+Loop 1047: 124022x20200901xFBBPETxABC
+indd 124022 already captured, skipping
+Loop 1048: 108672x20200825xFBBPETxABC
+indd 108672 already captured, skipping
+Loop 1049: 119655x20190103xFBBPETx
+indd 119655 already captured, skipping
+Loop 1050: 122139x20190627xFBBPETx
+indd 122139 already captured, skipping
+Loop 1051: 122701x20171201xFBBPETx
+indd 122701 already captured, skipping
+Loop 1052: 122946x20171215xFBBPETx
+writing indd 122946 to list
+Loop 1053: 123155x20200901xFBBPETxLEADS
+indd 123155 already captured, skipping
+Loop 1054: 123727x20200722xFBBPETxLEADS
+indd 123727 already captured, skipping
+Loop 1055: 124305x20190313xFBBPETxABC
+indd 124305 already captured, skipping
+Loop 1056: 124563x20200722xFBBPETxABC
+indd 124563 already captured, skipping
+Loop 1057: 124666x20200728xFBBPETxLEADS
+indd 124666 already captured, skipping
+Loop 1058: 125300x20201111xFBBPETxLEADS
+indd 125300 already captured, skipping
+Loop 1059: 125675x20200922xFBBPETxABC
+indd 125675 already captured, skipping
+Loop 1060: 125699x20200826xFBBPETxABC
+indd 125699 already captured, skipping
+Loop 1061: 125965x20200225xFBBPETxLEADS
+writing indd 125965 to list
+Loop 1062: 126067x20200303xFBBPETxLEADS
+indd 126067 already captured, skipping
+Loop 1063: 126266x20200915xFBBPETxLEADS
+indd 126266 already captured, skipping
+Loop 1064: 126324x20200909xFBBPETxLEADS
+indd 126324 already captured, skipping
+Loop 1065: 111275x01x20190514xFBBPETx
+indd 111275x01 already captured, skipping
+Loop 1066: 112574x20201027xFBBPETxABC
+indd 112574 already captured, skipping
+Loop 1067: 117889x20200225xFBBPETxABC
+indd 117889 already captured, skipping
+Loop 1068: 120870x20200211xFBBPETxABC
+indd 120870 already captured, skipping
+Loop 1069: 123865x20200218xFBBPETxABC
+indd 123865 already captured, skipping
+Loop 1070: 124048x20190111xFBBPETxABC
+indd 124048 already captured, skipping
+Loop 1071: 124597x20201006xFBBPETxABC
+indd 124597 already captured, skipping
+Loop 1072: 124775x20201124xFBBPETxABC
+indd 124775 already captured, skipping
+Loop 1073: 125067x20200220xFBBPETxABC
+indd 125067 already captured, skipping
+Loop 1074: 125901x20200212xFBBPETxLEADS
+indd 125901 already captured, skipping
+Loop 1075: 125944x20200220xFBBPETxLEADS
+indd 125944 already captured, skipping
+Loop 1076: 126022x20210112x3TxABC
+writing indd 126022 to list
+Loop 1077: 126624x20210113x3TxLEADS
+writing indd 126624 to list
+Loop 1078: 124822x20210126x3TxABC
+writing indd 124822 to list
+Loop 1079: 124822x20210126x7TxABC
+indd 124822 already captured, skipping
+Loop 1080: 101162x20210128x3TxABC
+indd 101162 already captured, skipping
+Loop 1081: 101162x20210128x7TxABC
+indd 101162 already captured, skipping
+Loop 1082: 126004x20210204x3TxABC
+writing indd 126004 to list
+Loop 1083: 126004x20210204x7TxABC
+indd 126004 already captured, skipping
+Loop 1084: 122865x20210209x3TxABC
+writing indd 122865 to list
+Loop 1085: 122865x20210209x7TxABC
+indd 122865 already captured, skipping
+Loop 1086: 125780x20210216x3TxABC
+writing indd 125780 to list
+Loop 1087: 125780x20210216x7TxABC
+indd 125780 already captured, skipping
+Loop 1088: 124728x20210224x3TxLEADS
+indd 124728 already captured, skipping
+Loop 1089: 125487x20210304x3TxABC
+writing indd 125487 to list
+Loop 1090: 125487x20210304x7TxABC
+indd 125487 already captured, skipping
+Loop 1091: 119254x20210311x3TxABC
+indd 119254 already captured, skipping
+Loop 1092: 119788x20210316x3TxABC
+indd 119788 already captured, skipping
+Loop 1093: 119788x20210316x7TxABC
+indd 119788 already captured, skipping
+Loop 1094: 126501x20210303xAV1451PETxLEADS
+indd 126501 already captured, skipping
+Loop 1095: 126501x20210209xFBBPETxLEADS
+indd 126501 already captured, skipping
+Loop 1096: 124728x20210303xAV1451PETxLEADS
+indd 124728 already captured, skipping
+Loop 1097: 124728x20210224xFBBPETxLEADS
+indd 124728 already captured, skipping
+Loop 1098: 126624x20210216xAV1451PETxLEADS
+indd 126624 already captured, skipping
+Loop 1099: 126624x20210203xFBBPETxLEADS
+indd 126624 already captured, skipping
+Loop 1100: 125901x20210317x3TxLEADS
+indd 125901 already captured, skipping
+Loop 1101: 124568x20210318x3TxABC
+writing indd 124568 to list
+Loop 1102: 124568x20210318x7TxABC
+indd 124568 already captured, skipping
+Loop 1103: 125572x20210323x3TxABC
+indd 125572 already captured, skipping
+Loop 1104: 126061x20210323x3TxABC
+writing indd 126061 to list
+Loop 1105: 126536x20210325x3TxABC
+writing indd 126536 to list
+Loop 1106: 126536x20210325x7TxABC
+indd 126536 already captured, skipping
+Loop 1107: 126720x20210329x3TxLEADS
+writing indd 126720 to list
+Loop 1108: 124287x20210330x3TxABC
+indd 124287 already captured, skipping
+Loop 1109: 126067x20210405x3TxLEADS
+indd 126067 already captured, skipping
+Loop 1110: 126078x20210406x3TxABC
+writing indd 126078 to list
+Loop 1111: 124179x20210406x3TxABC
+indd 124179 already captured, skipping
+Loop 1112: 126078x20210406x7TxABC
+indd 126078 already captured, skipping
+Loop 1113: 124179x20210406x7TxABC
+indd 124179 already captured, skipping
+Loop 1114: 122900x20201014x3TxABC
+indd 122900 already captured, skipping
+Loop 1115: 124171x20210408x3TxABC
+indd 124171 already captured, skipping
+Loop 1116: 124171x20210408x7TxABC
+indd 124171 already captured, skipping
+Loop 1117: 122975x20210408x3TxABC
+indd 122975 already captured, skipping
+Loop 1118: 122975x20210408x7TxABC
+indd 122975 already captured, skipping
+Loop 1119: 118380x20210413x7TxABC
+indd 118380 already captured, skipping
+Loop 1120: 120929x20210415x7TxABC
+indd 120929 already captured, skipping
+Loop 1121: 120929x20210415x3TxABC
+indd 120929 already captured, skipping
+Loop 1122: 120929x20210415x3TxABC
+indd 120929 already captured, skipping
+Loop 1123: 125605x20210415x3TxABC
+writing indd 125605 to list
+Loop 1124: 125605x20210415x7TxABC
+indd 125605 already captured, skipping
+Loop 1125: 124327x20210415x3TxABC
+indd 124327 already captured, skipping
+Loop 1126: 124327x20210415x7TxABC
+indd 124327 already captured, skipping
+Loop 1127: 126275x20210420x3TxABC
+writing indd 126275 to list
+Loop 1128: 126275x20210420x7TxABC
+indd 126275 already captured, skipping
+Loop 1129: 126884x20210421x3TxLEADS
+writing indd 126884 to list
+Loop 1130: 119330x20210422x7TxABC
+writing indd 119330 to list
+Loop 1131: 126877x20210427x3TxLEADS
+writing indd 126877 to list
+Loop 1132: 113066x02x20210427x3TxABC
+indd 113066x02 already captured, skipping
+Loop 1133: 113066x02x20210427x7TxABC
+indd 113066x02 already captured, skipping
+Loop 1134: 122946x20210427x3TxABC
+indd 122946 already captured, skipping
+Loop 1135: 122946x20210427x7TxABC
+indd 122946 already captured, skipping
+Loop 1136: 123343x20210310xFBBPETxLEADS
+indd 123343 already captured, skipping
+Loop 1137: 123343x20210330xAV1451PETxLEADS
+indd 123343 already captured, skipping
+Loop 1138: 126720x20210406xFBBPETxLEADS
+indd 126720 already captured, skipping
+Loop 1139: 126720x20210414xAV1451PETxLEADS
+indd 126720 already captured, skipping
+Loop 1140: 125901x20210406xFBBPETxLEADS
+indd 125901 already captured, skipping
+Loop 1141: 120965x20210429x3TxABC
+indd 120965 already captured, skipping
+Loop 1142: 120965x20210429x7TxABC
+indd 120965 already captured, skipping
+Loop 1143: 123343x20210504x3TxLEADS
+indd 123343 already captured, skipping
+Loop 1144: 126227x20210504x3TxABC
+writing indd 126227 to list
+Loop 1145: 126227x20210504x7TxABC
+indd 126227 already captured, skipping
+Loop 1146: 126884x20210505xFBBPETxLEADS
+indd 126884 already captured, skipping
+Loop 1147: 124301x20210506x3TxABC
+indd 124301 already captured, skipping
+Loop 1148: 124301x20210506x7TxABC
+indd 124301 already captured, skipping
+Loop 1149: 125380x20210506x3TxABC
+writing indd 125380 to list
+Loop 1150: 124326x20210506x7TxABC
+indd 124326 already captured, skipping
+Loop 1151: 124326x20210506x3TxABC
+indd 124326 already captured, skipping
+Loop 1152: 120896x20210511x3TxABC
+indd 120896 already captured, skipping
+Loop 1153: 122659x20210511x3TxABC
+writing indd 122659 to list
+Loop 1154: 119254x20210210xAV1451PETxABC
+indd 119254 already captured, skipping
+Loop 1155: 107486x20210217xFBBPETxABC
+indd 107486 already captured, skipping
+Loop 1156: 118317x20210224xFBBPETxABC
+indd 118317 already captured, skipping
+Loop 1157: 122328x20210302xFBBPETxABC
+indd 122328 already captured, skipping
+Loop 1158: 119582x20210302xAV1451PETxABC
+indd 119582 already captured, skipping
+Loop 1159: 122139x20210303xAV1451PETxABC
+indd 122139 already captured, skipping
+Loop 1160: 118317x20210309xAV1451PETxABC
+indd 118317 already captured, skipping
+Loop 1161: 122865x20210309xFBBPETxABC
+indd 122865 already captured, skipping
+Loop 1162: 111768x01x20210310xAV1451PETxABC
+indd 111768x01 already captured, skipping
+Loop 1163: 124509x20210324xFBBPETxABC
+indd 124509 already captured, skipping
+Loop 1164: 123831x20210330xFBBPETxABC
+indd 123831 already captured, skipping
+Loop 1165: 107196x20210331xFBBPETxABC
+indd 107196 already captured, skipping
+Loop 1166: 113066x02x20210407xFBBPETxABC
+indd 113066x02 already captured, skipping
+Loop 1167: 122975x20210413xFBBPETxABC
+indd 122975 already captured, skipping
+Loop 1168: 124822x20210414xFBBPETxABC
+indd 124822 already captured, skipping
+Loop 1169: 107486x20210414xAV1451PETxABC
+indd 107486 already captured, skipping
+Loop 1170: 122975x20210420xAV1451PETxABC
+indd 122975 already captured, skipping
+Loop 1171: 118743x20210421xFBBPETxABC
+indd 118743 already captured, skipping
+Loop 1172: 123575x20210428xFBBPETxABC
+indd 123575 already captured, skipping
+Loop 1173: 109789x20210505xFBBPETxABC
+indd 109789 already captured, skipping
+Loop 1174: 125041x20210505xFBBPETxABC
+indd 125041 already captured, skipping
+Loop 1175: 125213x20210513x3TxABC
+writing indd 125213 to list
+Loop 1176: 125213x20210513x7TxABC
+indd 125213 already captured, skipping
+Loop 1177: 126884x20210512xAV1451PETxLEADS
+indd 126884 already captured, skipping
+Loop 1178: 123200x20210518x3TxLEADS
+indd 123200 already captured, skipping
+Loop 1179: 122220x20210518x3TxABC
+writing indd 122220 to list
+Loop 1180: 122220x20210518x7TxABC
+indd 122220 already captured, skipping
+Loop 1181: 126955x20210520x3TxABC
+indd 126955 already captured, skipping
+Loop 1182: 124733x20210511xFBBPETxABC
+indd 124733 already captured, skipping
+Loop 1183: 125487x20210519xFBBPETxABC
+indd 125487 already captured, skipping
+Loop 1184: 124972x20210525x3TxABC
+indd 124972 already captured, skipping
+Loop 1185: 118380x20210527x3TxABC
+indd 118380 already captured, skipping
+Loop 1186: 124938x20210527x3TxABC
+writing indd 124938 to list
+Loop 1187: 124938x20210527x7TxABC
+indd 124938 already captured, skipping
+Loop 1188: 124482x20210601x3TxABC
+writing indd 124482 to list
+Loop 1189: 124482x20210601x7TxABC
+indd 124482 already captured, skipping
+Loop 1190: 107196x20210603x3TxABC
+indd 107196 already captured, skipping
+Loop 1191: 122659x20210603x7TxABC
+indd 122659 already captured, skipping
+Loop 1192: 107196x20210603x7TxABC
+indd 107196 already captured, skipping
+Loop 1193: 125107x20210609x3TxLEADS
+indd 125107 already captured, skipping
+Loop 1194: 126884x20210609xFDGPETxLEADS
+indd 126884 already captured, skipping
+Loop 1195: 123200x20210513xFDGPETxLEADS
+indd 123200 already captured, skipping
+Loop 1196: 125987x20210610x3TxABC
+writing indd 125987 to list
+Loop 1197: 125987x20210610x7TxABC
+indd 125987 already captured, skipping
+Loop 1198: 126067x20210518xFDGPETxLEADS
+indd 126067 already captured, skipping
+Loop 1199: 126877x20210525xAV1451PETxLEADS
+indd 126877 already captured, skipping
+Loop 1200: 126877x20210518xFBBPETxLEADS
+indd 126877 already captured, skipping
+Loop 1201: 123155x20201120xAV1451PETxLEADS
+indd 123155 already captured, skipping
+Loop 1202: 125095x20210615x3TxABC
+writing indd 125095 to list
+Loop 1203: 125095x20210615x7TxABC
+indd 125095 already captured, skipping
+Loop 1204: 124385x20210623x3TxLEADS
+indd 124385 already captured, skipping
+Loop 1205: 127083x20210624x3TxABC
+writing indd 127083 to list
+Loop 1206: 124385x20210623xFDGPETxLEADS
+indd 124385 already captured, skipping
+Loop 1207: 124224x20210629x7TxABC
+indd 124224 already captured, skipping
+Loop 1208: 124224x20210629x3TxABC
+indd 124224 already captured, skipping
+Loop 1209: 122714x20180119x3TxLEADS
+indd 122714 already captured, skipping
+Loop 1210: 126954x20210708x3TxABC
+writing indd 126954 to list
+Loop 1211: 124018x20210707xFDGPETxLEADS
+indd 124018 already captured, skipping
+Loop 1212: 100437x20210708x3TxABC
+indd 100437 already captured, skipping
+Loop 1213: 100437x20210713x7TxABC
+indd 100437 already captured, skipping
+Loop 1214: 126954x20210713x7TxABC
+indd 126954 already captured, skipping
+Loop 1215: 120924x20210713x3TxABC
+writing indd 120924 to list
+Loop 1216: 124018x20210714x3TxLEADS
+indd 124018 already captured, skipping
+Loop 1217: 126554x20210720x3TxABC
+writing indd 126554 to list
+Loop 1218: 126554x20210720x7TxABC
+indd 126554 already captured, skipping
+Loop 1219: 126844x20210722x3TxABC
+writing indd 126844 to list
+Loop 1220: 126844x20210722x7TxABC
+indd 126844 already captured, skipping
+Loop 1221: 126202x20210727x3TxABC
+writing indd 126202 to list
+Loop 1222: 126202x20210727x7TxABC
+indd 126202 already captured, skipping
+Loop 1223: 123283x20210727x3TxABC
+writing indd 123283 to list
+Loop 1224: 124005x20210729x3TxABC
+indd 124005 already captured, skipping
+Loop 1225: 124004x20210729x7TxABC
+indd 124004 already captured, skipping
+Loop 1226: 124005x20210729x7TxABC
+indd 124005 already captured, skipping
+Loop 1227: 124004x20210729x3TxABC
+indd 124004 already captured, skipping
+Loop 1228: 124735x20210803x3TxABC
+indd 124735 already captured, skipping
+Loop 1229: 124735x20210803x7TxABC
+indd 124735 already captured, skipping
+Loop 1230: 123727x20210804x3TxLEADS
+indd 123727 already captured, skipping
+Loop 1231: 126940x20210805x7TxABC
+writing indd 126940 to list
+Loop 1232: 119931x20210805x3TxABC
+writing indd 119931 to list
+Loop 1233: 123727x20210804xFBBPETxLEADS
+indd 123727 already captured, skipping
+Loop 1234: 119931x20210805x7TxABC
+indd 119931 already captured, skipping
+Loop 1235: 127083x20210810x7TxABC
+indd 127083 already captured, skipping
+Loop 1236: 119035x20210810x3TxABC
+indd 119035 already captured, skipping
+Loop 1237: 109789x20210812x3TxABC
+indd 109789 already captured, skipping
+Loop 1238: 109789x20210812x7TxABC
+indd 109789 already captured, skipping
+Loop 1239: 124005x20210426xPI2620PETxABC
+indd 124005 already captured, skipping
+Loop 1240: 123727x20210818xAV1451PETxLEADS
+indd 123727 already captured, skipping
+Loop 1241: 125402x20210817x3TxABC
+writing indd 125402 to list
+Loop 1242: 124775x20210524xPI2620PETxABC
+indd 124775 already captured, skipping
+Loop 1243: 125780x20210525xFBBPETxABC
+indd 125780 already captured, skipping
+Loop 1244: 100836x20210601xFBBPETxABC
+indd 100836 already captured, skipping
+Loop 1245: 118743x20210601xAV1451PETxABC
+indd 118743 already captured, skipping
+Loop 1246: 124242x20210602xFBBPETxABC
+indd 124242 already captured, skipping
+Loop 1247: 124568x20210616xFBBPETxABC
+indd 124568 already captured, skipping
+Loop 1248: 101366x20210630xFBBPETxABC
+indd 101366 already captured, skipping
+Loop 1249: 109789x20210706xAV1451PETxABC
+indd 109789 already captured, skipping
+Loop 1250: 117158x20210713xFBBPETxABC
+indd 117158 already captured, skipping
+Loop 1251: 118418x20210713xAV1451PETxABC
+indd 118418 already captured, skipping
+Loop 1252: 124597x20210714xAV1451PETxABC
+indd 124597 already captured, skipping
+Loop 1253: 124733x20210720xAV1451PETxABC
+indd 124733 already captured, skipping
+Loop 1254: 101366x20210803xAV1451PETxABC
+indd 101366 already captured, skipping
+Loop 1255: 123831x20210810xAV1451PETxABC
+indd 123831 already captured, skipping
+Loop 1256: 124666x20210826x3TxLEADS
+indd 124666 already captured, skipping
+Loop 1257: 124314x20210826x3TxABC
+writing indd 124314 to list
+Loop 1258: 124314x20210826x7TxABC
+indd 124314 already captured, skipping
+Loop 1259: 127416x20210831x7TxABC
+writing indd 127416 to list
+Loop 1260: 123680x20210831x3TxABC
+indd 123680 already captured, skipping
+Loop 1261: 123680x20210831x7TxABC
+indd 123680 already captured, skipping
+Loop 1262: 108672x20210909x3TxABC
+indd 108672 already captured, skipping
+Loop 1263: 108672x20210909x7TxABC
+indd 108672 already captured, skipping
+Loop 1264: 125687x20201103xFBBPETxABC
+indd 125687 already captured, skipping
+Loop 1265: 125687x20201110xAV1451PETxABC
+indd 125687 already captured, skipping
+Loop 1266: 124666x20210914xAV1451PETxLEADS
+indd 124666 already captured, skipping
+Loop 1267: 100836x20210921x3TxABC
+indd 100836 already captured, skipping
+Loop 1268: 100836x20210921x7TxABC
+indd 100836 already captured, skipping
+Loop 1269: 122439x20210923x3TxLEADS
+indd 122439 already captured, skipping
+Loop 1270: 116707x20210923x3TxABC
+indd 116707 already captured, skipping
+Loop 1271: 122439x20210923xFDGPETxLEADS
+indd 122439 already captured, skipping
+Loop 1272: 127491x20210928x7TxABC
+writing indd 127491 to list
+Loop 1273: 124740x20210930x7TxABC
+writing indd 124740 to list
+Loop 1274: 124740x20210930x3TxABC
+indd 124740 already captured, skipping
+Loop 1275: 124741x20210930x7TxABC
+writing indd 124741 to list
+Loop 1276: 126940x20210930x3TxABC
+indd 126940 already captured, skipping
+Loop 1277: 127075x20211005x3TxLEADS
+writing indd 127075 to list
+Loop 1278: 126886x20211006x3TxLEADS
+writing indd 126886 to list
+Loop 1279: 125103x20211007x3TxABC
+writing indd 125103 to list
+Loop 1280: 125103x20211007x7TxABC
+indd 125103 already captured, skipping
+Loop 1281: 124650x20211012x3TxABC
+indd 124650 already captured, skipping
+Loop 1282: fMRI_20211013
+writing indd S000_SD to list
+Loop 1283: 127589x20211014x3TxABC
+writing indd 127589 to list
+Loop 1284: 127589x20211014x7TxABC
+indd 127589 already captured, skipping
+Loop 1285: 104115x20211014x3TxABC
+indd 104115 already captured, skipping
+Loop 1286: 104115x20211014x7TxABC
+indd 104115 already captured, skipping
+Loop 1287: 124650x20211019x7TxABC
+indd 124650 already captured, skipping
+Loop 1288: 107476x20211019x3TxABC
+indd 107476 already captured, skipping
+Loop 1289: 125255x20211021x7TxABC
+indd 125255 already captured, skipping
+Loop 1290: 125255x20211021x3TxABC
+indd 125255 already captured, skipping
+Loop 1291: 124170x20211021x3TxABC
+writing indd 124170 to list
+Loop 1292: 124170x20211021x7TxABC
+indd 124170 already captured, skipping
+Loop 1293: 125504x20211026x3TxABC
+indd 125504 already captured, skipping
+Loop 1294: 125300x20211026x3TxLEADS
+indd 125300 already captured, skipping
+Loop 1295: 101366x20211026x3TxABC
+indd 101366 already captured, skipping
+Loop 1296: 118579x20211028x3TxABC
+indd 118579 already captured, skipping
+Loop 1297: 125504x20211102x7TxABC
+indd 125504 already captured, skipping
+Loop 1298: 126433x20211102x3TxABC
+writing indd 126433 to list
+Loop 1299: 126433x20211102x7TxABC
+indd 126433 already captured, skipping
+Loop 1300: 127735x20211102x7TxABC
+writing indd 127735 to list
+Loop 1301: 127075x20211102xFBBPETxLEADS
+indd 127075 already captured, skipping
+Loop 1302: 124787x20211104x3TxABC
+indd 124787 already captured, skipping
+Loop 1303: 124787x20211104x7TxABC
+indd 124787 already captured, skipping
+Loop 1304: 107799x20211104x3TxABC
+indd 107799 already captured, skipping
+Loop 1305: 127480x20211109x3TxABC
+writing indd 127480 to list
+Loop 1306: 107476x20211109x7TxABC
+indd 107476 already captured, skipping
+Loop 1307: 127480x20211109x7TxABC
+indd 127480 already captured, skipping
+Loop 1308: CAMRIS^Wolk
+writing indd Techdev_SH to list
+Loop 1309: 126886x20211110xFBBPETxLEADS
+indd 126886 already captured, skipping
+Loop 1310: 127192x20211111x3TxABC
+writing indd 127192 to list
+Loop 1311: 127192x20211111x7TxABC
+indd 127192 already captured, skipping
+Loop 1312: 101366x20211116x7TxABC
+indd 101366 already captured, skipping
+Loop 1313: 123754x20211116x3TxABC
+indd 123754 already captured, skipping
+Loop 1314: 123754x20211116x7TxABC
+indd 123754 already captured, skipping
+Loop 1315: 117889x20211118x3TxABC
+indd 117889 already captured, skipping
+Loop 1316: 124879x20211130x7TxABC
+writing indd 124879 to list
+Loop 1317: 124879x20211130x3TxABC
+indd 124879 already captured, skipping
+Loop 1318: 125987x20211202x7TxABC
+indd 125987 already captured, skipping
+Loop 1319: 127493x20211202x7TxABC
+writing indd 127493 to list
+Loop 1320: 127494x20211207x7TxABC
+writing indd 127494 to list
+Loop 1321: 127494x20211207x3TxABC
+indd 127494 already captured, skipping
+Loop 1322: 127639x20211207x3TxABC
+writing indd 127639 to list
+Loop 1323: 127639x20211207x7TxABC
+indd 127639 already captured, skipping
+Loop 1324: 124890x20211209x7TxABC
+indd 124890 already captured, skipping
+Loop 1325: 117158x20211209x3TxABC
+indd 117158 already captured, skipping
+Loop 1326: 118418x20211209x7TxABC
+indd 118418 already captured, skipping
+Loop 1327: 118418x20211209x3TxABC
+indd 118418 already captured, skipping
+Loop 1328: 117158x20211209x7TxABC
+indd 117158 already captured, skipping
+Loop 1329: 125282x20211214x3TxABC
+writing indd 125282 to list
+Loop 1330: 118440x20211216x3TxABC
+indd 118440 already captured, skipping
+Loop 1331: 125300x20211215xFBBPETxLEADS
+indd 125300 already captured, skipping
+Loop 1332: 125573x20211221x3TxABC
+indd 125573 already captured, skipping
+Loop 1333: 100836x20210706xAV1451PETxABC
+indd 100836 already captured, skipping
+Loop 1334: 107196x20210511xAV1451PETxABC
+indd 107196 already captured, skipping
+Loop 1335: 119330x20211012xFBBPETxABC
+indd 119330 already captured, skipping
+Loop 1336: 125840x20210120xFBBPETxABC
+indd 125840 already captured, skipping
+Loop 1337: 123754x20200205xFBBPETxABC
+indd 123754 already captured, skipping
+Loop 1338: 125564x20210616xFBBPETxABC
+indd 125564 already captured, skipping
+Loop 1339: 126275x20210629xFBBPETxABC
+indd 126275 already captured, skipping
+Loop 1340: 126004x20210331xFBBPETxABC
+indd 126004 already captured, skipping
+Loop 1341: 122216x20200812xFBBPETxABC
+indd 122216 already captured, skipping
+Loop 1342: 111768x01x20210223xFBBPETxABC
+indd 111768x01 already captured, skipping
+Loop 1343: 122139x20210216xFBBPETxABC
+indd 122139 already captured, skipping
+Loop 1344: 125800x20210112xFBBPETxABC
+indd 125800 already captured, skipping
+Loop 1345: 101162x20201119xFBBPETxABC
+indd 101162 already captured, skipping
+Loop 1346: 125142x20200729xFBBPETxLEADS
+indd 125142 already captured, skipping
+Loop 1347: 122216x20210119xAV1451PETxABC
+indd 122216 already captured, skipping
+Loop 1348: 113066x02x20210413xAV1451PETxABC
+indd 113066x02 already captured, skipping
+Loop 1349: 122328x20210323xAV1451PETxABC
+indd 122328 already captured, skipping
+Loop 1350: 120686x20210119xAV1451PETxABC
+indd 120686 already captured, skipping
+Loop 1351: 124972x20210323xAV1451PETxABC
+indd 124972 already captured, skipping
+Loop 1352: 117889x20210428xAV1451PETxABC
+indd 117889 already captured, skipping
+Loop 1353: 117158x20210615xAV1451PETxABC
+indd 117158 already captured, skipping
+Loop 1354: 119035x20210615xAV1451PETxABC
+indd 119035 already captured, skipping
+Loop 1355: 127033x20220106x3TxABC
+writing indd 127033 to list
+Loop 1356: 127032x20220106x7TxABC
+writing indd 127032 to list
+Loop 1357: 127033x20220106x7TxABC
+indd 127033 already captured, skipping
+Loop 1358: 127032x20220106x3TxABC
+indd 127032 already captured, skipping
+Loop 1359: 100905x01x20220111x3TxABC
+indd 100905x01 already captured, skipping
+Loop 1360: 100905x01x20220111x7TxABC
+indd 100905x01 already captured, skipping
+Loop 1361: 127640x20220113x3TxABC
+writing indd 127640 to list
+Loop 1362: 127640x20220113x7TxABC
+indd 127640 already captured, skipping
+Loop 1363: 119202x20220118x3TxABC
+indd 119202 already captured, skipping
+Loop 1364: 126536x20210824xFBBPETxABC
+indd 126536 already captured, skipping
+Loop 1365: 122946x20210824xFBBPETxABC
+indd 122946 already captured, skipping
+Loop 1366: 124822x20210831xAV1451PETxABC
+indd 124822 already captured, skipping
+Loop 1367: 125564x20210831xAV1451PETxABC
+indd 125564 already captured, skipping
+Loop 1368: 100437x20210831xFBBPETxABC
+indd 100437 already captured, skipping
+Loop 1369: 125402x20210901xFBBPETxABC
+indd 125402 already captured, skipping
+Loop 1370: 126022x20210907xFBBPETxABC
+indd 126022 already captured, skipping
+Loop 1371: 125800x20210907xAV1451PETxABC
+indd 125800 already captured, skipping
+Loop 1372: 126844x20210921xFBBPETxABC
+indd 126844 already captured, skipping
+Loop 1373: 125780x20210928xAV1451PETxABC
+indd 125780 already captured, skipping
+Loop 1374: 125487x20211018xPI2620PETxABC
+indd 125487 already captured, skipping
+Loop 1375: 126004x20211025xPI2620PETxABC
+indd 126004 already captured, skipping
+Loop 1376: 123283x20211102xFBBPETxABC
+indd 123283 already captured, skipping
+Loop 1377: 127480x20211109xFBBPETxABC
+indd 127480 already captured, skipping
+Loop 1378: 123575x20211109xAV1451PETxABC
+indd 123575 already captured, skipping
+Loop 1379: 118579x20211130xFBBPETxABC
+indd 118579 already captured, skipping
+Loop 1380: 124879x20211130xFBBPETxABC
+indd 124879 already captured, skipping
+Loop 1381: 124938x20211208xAV1451PETxABC
+indd 124938 already captured, skipping
+Loop 1382: 126536x20211215xAV1451PETxABC
+indd 126536 already captured, skipping
+Loop 1383: 124482x20220105xAV1451PETxABC
+indd 124482 already captured, skipping
+Loop 1384: 124314x20220111xFBBPETxABC
+indd 124314 already captured, skipping
+Loop 1385: 124877x20220127x3TxABC
+indd 124877 already captured, skipping
+Loop 1386: 125300x20220118xAV1451PETxLEADS
+indd 125300 already captured, skipping
+Loop 1387: 127075x20211116xAV1451PETxLEADS
+indd 127075 already captured, skipping
+Loop 1388: 126886x20211116xAV1451PETxLEADS
+indd 126886 already captured, skipping
+Loop 1389: 124666x20211123xFBBPETxLEADS
+indd 124666 already captured, skipping
+Loop 1390: 125107x20210721xFDGPETxLEADS
+indd 125107 already captured, skipping
+Loop 1391: 126248x20220201x7TxABC
+writing indd 126248 to list
+Loop 1392: 126248x20220201x3TxABC
+indd 126248 already captured, skipping
+Loop 1393: 127127x20220201x7TxABC
+writing indd 127127 to list
+Loop 1394: 125067x20220203x3TxABC
+indd 125067 already captured, skipping
+Loop 1395: 125067x20220203x7TxABC
+indd 125067 already captured, skipping
+Loop 1396: 103907x20220208x3TxABC
+indd 103907 already captured, skipping
+Loop 1397: 127211x20220215x3TxABC
+writing indd 127211 to list
+Loop 1398: 124953x20220215x3TxABC
+indd 124953 already captured, skipping
+Loop 1399: 124890x20220217x3TxABC
+indd 124890 already captured, skipping
+Loop 1400: 118390x20220217x3TxABC
+indd 118390 already captured, skipping
+Loop 1401: 118390x20220217x3TxABC
+indd 118390 already captured, skipping
+Loop 1402: 128147x20220222x3TxABCD2
+writing indd 128147 to list
+Loop 1403: 114787x20220222x3TxABC
+indd 114787 already captured, skipping
+Loop 1404: 114787x20220222x7TxABC
+indd 114787 already captured, skipping
+Loop 1405: 124305x20220224x3TxABC
+indd 124305 already captured, skipping
+Loop 1406: 124305x20220224x7TxABC
+indd 124305 already captured, skipping
+Loop 1407: 127108x20220301x3TxABC
+writing indd 127108 to list
+Loop 1408: 128267x20220301x3TxABCD2
+writing indd 128267 to list
+Loop 1409: 127108x20220301x7TxABC
+indd 127108 already captured, skipping
+Loop 1410: 125689x20220303x3TxABC
+writing indd 125689 to list
+Loop 1411: 125689x20220303x7TxABC
+indd 125689 already captured, skipping
+Loop 1412: 124961x20220308x7TxABC
+indd 124961 already captured, skipping
+Loop 1413: 124961x20220308x3TxABC
+indd 124961 already captured, skipping
+Loop 1414: 109459x20220308x3TxABC
+indd 109459 already captured, skipping
+Loop 1415: 128035x20220308x3TxABC
+writing indd 128035 to list
+Loop 1416: 128035x20220308x7TxABC
+indd 128035 already captured, skipping
+Loop 1417: 128296x20220310x3TxABC
+writing indd 128296 to list
+Loop 1418: 128296x20220310x7TxABC
+indd 128296 already captured, skipping
+Loop 1419: 122039x20220310x3TxABC
+indd 122039 already captured, skipping
+Loop 1420: 128320x20220310x3TxABC
+writing indd 128320 to list
+Loop 1421: 127251x20220315x3TxABC
+writing indd 127251 to list
+Loop 1422: 127251x20220315x7TxABC
+indd 127251 already captured, skipping
+Loop 1423: 127667x20220317x3TxABC
+writing indd 127667 to list
+Loop 1424: 127667x20220317x7TxABC
+indd 127667 already captured, skipping
+Loop 1425: 128362x20220317x3TxABC
+writing indd 128362 to list
+Loop 1426: 128362x20220317x7TxABC
+indd 128362 already captured, skipping
+Loop 1427: 124594x20220322x3TxABC
+writing indd 124594 to list
+Loop 1428: 124594x20220322x7TxABC
+indd 124594 already captured, skipping
+Loop 1429: 125573x20220324x7TxABC
+indd 125573 already captured, skipping
+Loop 1430: 117326x20220324x3TxABC
+indd 117326 already captured, skipping
+Loop 1431: 122146x20220329x3TxABC
+indd 122146 already captured, skipping
+Loop 1432: 122146x20220329x7TxABC
+indd 122146 already captured, skipping
+Loop 1433: 100113x20220329x3TxABC
+indd 100113 already captured, skipping
+Loop 1434: 125572x20220329x3TxLEADS
+indd 125572 already captured, skipping
+Loop 1435: 125572x20220324xFDGPETxLEADS
+indd 125572 already captured, skipping
+Loop 1436: 127482x20220325x3TxLEADS
+writing indd 127482 to list
+Loop 1437: 128320x20220331x7TxABC
+indd 128320 already captured, skipping
+Loop 1438: 123724x20220331x3TxABC
+writing indd 123724 to list
+Loop 1439: 125928x20220331x7TxABC
+writing indd 125928 to list
+Loop 1440: 125928x20220331x3TxABC
+indd 125928 already captured, skipping
+Loop 1441: 123724x20220331x7TxABC
+indd 123724 already captured, skipping
+Loop 1442: 127127x20220405x3TxABC
+indd 127127 already captured, skipping
+Loop 1443: 118923x20220407x3TxABC
+indd 118923 already captured, skipping
+Loop 1444: 120123x20220412x3TxABC
+indd 120123 already captured, skipping
+Loop 1445: 120123x20220412x7TxABC
+indd 120123 already captured, skipping
+Loop 1446: 125043x20220414x3TxABC
+writing indd 125043 to list
+Loop 1447: 128394x20220414x3TxABCD2
+writing indd 128394 to list
+Loop 1448: 125043x20220414x7TxABC
+indd 125043 already captured, skipping
+Loop 1449: 127995x20220414x3TxABC
+writing indd 127995 to list
+Loop 1450: 127995x20220414x7TxABC
+indd 127995 already captured, skipping
+Loop 1451: 126067x20220419x3TxLEADS
+indd 126067 already captured, skipping
+Loop 1452: 118923x20220419x7TxABC
+indd 118923 already captured, skipping
+Loop 1453: 123865x20220421x3TxABC
+indd 123865 already captured, skipping
+Loop 1454: 126884x20220421x3TxLEADS
+indd 126884 already captured, skipping
+Loop 1455: 123865x20220421x7TxABC
+indd 123865 already captured, skipping
+Loop 1456: 127416x20220421x3TxABC
+indd 127416 already captured, skipping
+Loop 1457: 128281x20220426x3TxABCD2
+writing indd 128281 to list
+Loop 1458: 125908x20220426x3TxABC
+writing indd 125908 to list
+Loop 1459: 124048x20220426x7TxABC
+indd 124048 already captured, skipping
+Loop 1460: 124048x20220426x3TxABC
+indd 124048 already captured, skipping
+Loop 1461: 125908x20220426x7TxABC
+indd 125908 already captured, skipping
+Loop 1462: 119448x20220428x3TxABC
+indd 119448 already captured, skipping
+Loop 1463: 128279x20220428x3TxABCD2
+writing indd 128279 to list
+Loop 1464: 124592x20201215xAV1451PETxABC
+indd 124592 already captured, skipping
+Loop 1465: 125041x20220503x3TxABC
+indd 125041 already captured, skipping
+Loop 1466: 114000x20220503x7TxABC
+indd 114000 already captured, skipping
+Loop 1467: 114000x20220503x3TxABC
+indd 114000 already captured, skipping
+Loop 1468: 125041x20220503x7TxABC
+indd 125041 already captured, skipping
+Loop 1469: 125901x20220503x3TxLEADS
+indd 125901 already captured, skipping
+Loop 1470: 128284x20220503x3TxABCD2
+writing indd 128284 to list
+Loop 1471: 128332x20220505x3TxABCD2
+writing indd 128332 to list
+Loop 1472: 127211x20220510x7TxABC
+indd 127211 already captured, skipping
+Loop 1473: 126535x20220510x3TxABCD2
+writing indd 126535 to list
+Loop 1474: 120735x20220510x3TxABC
+indd 120735 already captured, skipping
+Loop 1475: 120735x20220510x7TxABC
+indd 120735 already captured, skipping
+Loop 1476: 128280x20220512x3TxABCD2
+writing indd 128280 to list
+Loop 1477: 125792x20220512x3TxABC
+writing indd 125792 to list
+Loop 1478: 125792x20220512x7TxABC
+indd 125792 already captured, skipping
+Loop 1479: 127493x20220512x3TxABC
+indd 127493 already captured, skipping
+Loop 1480: 112574x20220517x7TxABC
+indd 112574 already captured, skipping
+Loop 1481: 117796x20220517x3TxABC
+indd 117796 already captured, skipping
+Loop 1482: 117796x20220517x7TxABC
+indd 117796 already captured, skipping
+Loop 1483: 128705x20220519x3TxABC
+writing indd 128705 to list
+Loop 1484: 128705x20220519x7TxABC
+indd 128705 already captured, skipping
+Loop 1485: 117639x20220519x3TxABC
+indd 117639 already captured, skipping
+Loop 1486: 117639x20220519x7TxABC
+indd 117639 already captured, skipping
+Loop 1487: 128387x20220524x3TxABCD2
+writing indd 128387 to list
+Loop 1488: 127794x20220531x3TxLEADS
+writing indd 127794 to list
+Loop 1489: 127692x20220531x3TxLEADS
+writing indd 127692 to list
+Loop 1490: 124592x20220601x3TxLEADS
+indd 124592 already captured, skipping
+Loop 1491: 128386x20220602x3TxABCD2
+writing indd 128386 to list
+Loop 1492: 105732x01x20220607x3TxLEADS
+indd 105732x01 already captured, skipping
+Loop 1493: 105733x01x20220607x3TxLEADS
+indd 105733x01 already captured, skipping
+Loop 1494: 113612x01x20220607x3TxABC
+writing indd 113612x01 to list
+Loop 1495: 113612x01x20220607x7TxABC
+indd 113612x01 already captured, skipping
+Loop 1496: 128391x20220614x3TxABCD2
+writing indd 128391 to list
+Loop 1497: 128714x20220614x3TxLEADS
+writing indd 128714 to list
+Loop 1498: 122828x20220614x3TxABC
+indd 122828 already captured, skipping
+Loop 1499: 128301x20220616x3TxABCD2
+writing indd 128301 to list
+Loop 1500: 119035x20220616x7TxABC
+indd 119035 already captured, skipping
+Loop 1501: 128798x20220617x3TxLEADS
+writing indd 128798 to list
+Loop 1502: 112574x20220621x3TxABC
+indd 112574 already captured, skipping
+Loop 1503: 118601x20220621x3TxABC
+indd 118601 already captured, skipping
+Loop 1504: 125590x20220621x3TxABC
+indd 125590 already captured, skipping
+Loop 1505: 106642x20220622x3TxLEADS
+indd 106642 already captured, skipping
+Loop 1506: 128713x20220624x3TxLEADS
+writing indd 128713 to list
+Loop 1507: 128827x20220628x7TxABC
+writing indd 128827 to list
+Loop 1508: 128827x20220628x3TxABC
+indd 128827 already captured, skipping
+Loop 1509: 128563x20220628x3TxABCD2
+writing indd 128563 to list
+Loop 1510: 125527x20220628x3TxABC
+indd 125527 already captured, skipping
+Loop 1511: 125527x20220628x7TxABC
+indd 125527 already captured, skipping
+Loop 1512: 118998x20220630x3TxVCID
+indd 118998 already captured, skipping
+Loop 1513: 124728x20220706x3TxLEADS
+indd 124728 already captured, skipping
+Loop 1514: 123928x20220707x3TxABC
+indd 123928 already captured, skipping
+Loop 1515: 126549x20220708x3TxVCID
+writing indd 126549 to list
+Loop 1516: 121444x20220712x3TxABC
+indd 121444 already captured, skipping
+Loop 1517: 125142x20220713x3TxLEADS
+indd 125142 already captured, skipping
+Loop 1518: 122963x20220221xPI2620PETxABC
+indd 122963 already captured, skipping
+Loop 1519: 125213x20220509xPI2620PETxABC
+indd 125213 already captured, skipping
+Loop 1520: 117639x20220607xFBBPETxABC
+indd 117639 already captured, skipping
+Loop 1521: 123680x20220413xFBBPETxABC
+indd 123680 already captured, skipping
+Loop 1522: 123928x20220413xFBBPETxABC
+indd 123928 already captured, skipping
+Loop 1523: 125103x20220301xFBBPETxABC
+indd 125103 already captured, skipping
+Loop 1524: 125689x20220330xFBBPETxABC
+indd 125689 already captured, skipping
+Loop 1525: 126248x20220209xFBBPETxABC
+indd 126248 already captured, skipping
+Loop 1526: 127127x20220405xFBBPETxABC
+indd 127127 already captured, skipping
+Loop 1527: 127192x20220126xFBBPETxABC
+indd 127192 already captured, skipping
+Loop 1528: 127211x20220216xFBBPETxABC
+indd 127211 already captured, skipping
+Loop 1529: 127251x20220427xFBBPETxABC
+indd 127251 already captured, skipping
+Loop 1530: 127667x20220531xFBBPETxABC
+indd 127667 already captured, skipping
+Loop 1531: 128035x20220628xFBBPETxABC
+indd 128035 already captured, skipping
+Loop 1532: 122946x20220308xAV1451PETxABC
+indd 122946 already captured, skipping
+Loop 1533: 123680x20220524xAV1451PETxABC
+indd 123680 already captured, skipping
+Loop 1534: 124314x20220412xAV1451PETxABC
+indd 124314 already captured, skipping
+Loop 1535: 125041x20220614xAV1451PETxABC
+indd 125041 already captured, skipping
+Loop 1536: 126844x20220208xAV1451PETxABC
+indd 126844 already captured, skipping
+Loop 1537: 125081x20220720x3TxLEADS
+indd 125081 already captured, skipping
+Loop 1538: 125901x20220712xFBBPETxLEADS
+indd 125901 already captured, skipping
+Loop 1539: 1003598435x20220222xAV1451PETxLEADS
+writing indd 1003598435 to list
+Loop 1540: 1002701959x20220223xFBBPETxLEADS
+writing indd 1002701959 to list
+Loop 1541: 126266x20220621xAV1451PETxLEADS
+indd 126266 already captured, skipping
+Loop 1542: 125081x20220720xFDGPETxLEADS
+indd 125081 already captured, skipping
+Loop 1543: 127794x20220719xAV1451PETxLEADS
+indd 127794 already captured, skipping
+Loop 1544: 128771x20220728x3TxABCD2
+writing indd 128771 to list
+Loop 1545: 128922x20220728x3TxABCD2
+writing indd 128922 to list
+Loop 1546: 128314x20220728x3TxABCD2
+writing indd 128314 to list
+Loop 1547: 124288x20220811x3TxABC
+indd 124288 already captured, skipping
+Loop 1548: 117376x20220815x3TxVCID
+indd 117376 already captured, skipping
+Loop 1549: 128013x20220816x3TxABC
+writing indd 128013 to list
+Loop 1550: 128013x20220816x7TxABC
+indd 128013 already captured, skipping
+Loop 1551: 128986x20220818x3TxABC
+writing indd 128986 to list
+Loop 1552: 129131x20220818x3TxABC
+writing indd 129131 to list
+Loop 1553: 123727x20220823x3TxLEADS
+indd 123727 already captured, skipping
+Loop 1554: 125569x20220823x3TxABC
+writing indd 125569 to list
+Loop 1555: 124738x20220906x3TxABC
+indd 124738 already captured, skipping
+Loop 1556: 126535x20220628xFBBPETxABCD2
+indd 126535 already captured, skipping
+Loop 1557: 128147x20220511xFBBPETxABCD2
+indd 128147 already captured, skipping
+Loop 1558: 128279x20220615xFBBPETxABCD2
+indd 128279 already captured, skipping
+Loop 1559: 128281x20220608xFBBPETxABCD2
+indd 128281 already captured, skipping
+Loop 1560: 128281x20220706xAV1451PETxABCD2
+indd 128281 already captured, skipping
+Loop 1561: 125735x20220920x3TxABC
+writing indd 125735 to list
+Loop 1562: 117870x20220920x3TxABC
+indd 117870 already captured, skipping
+Loop 1563: 119202x20220921x3TxVCID
+indd 119202 already captured, skipping
+Loop 1564: 125259x20220927x3TxYMTL
+indd 125259 already captured, skipping
+Loop 1565: 123782x20220929x3TxABC
+indd 123782 already captured, skipping
+Loop 1566: 127133x20220929x3TxABC
+writing indd 127133 to list
+Loop 1567: 127133x20220929x7TxABC
+indd 127133 already captured, skipping
+Loop 1568: 121700x20221006x3TxABC
+writing indd 121700 to list
+Loop 1569: 121700x20221006x7TxABC
+indd 121700 already captured, skipping
+Loop 1570: 125081x20190701x3TxLEADS
+indd 125081 already captured, skipping
+Loop 1571: 125107x20190726x3TxLEADS
+indd 125107 already captured, skipping
+Loop 1572: 124561x20190404x3TxLEADS
+indd 124561 already captured, skipping
+Loop 1573: 124018x20181109x3TxLEADS
+indd 124018 already captured, skipping
+Loop 1574: 123718x20190812x3TxLEADS
+indd 123718 already captured, skipping
+Loop 1575: 124824x20190515x3TxLEADS
+indd 124824 already captured, skipping
+Loop 1576: 125572x20191021x3TxLEADS
+indd 125572 already captured, skipping
+Loop 1577: 125944x20200203x3TxLEADS
+indd 125944 already captured, skipping
+Loop 1578: 125965x20200204x3TxLEADS
+indd 125965 already captured, skipping
+Loop 1579: 123367x20220906xFBBPETxABC
+indd 123367 already captured, skipping
+Loop 1580: 128013x20220817xFBBPETxABC
+indd 128013 already captured, skipping
+Loop 1581: 124594x20220831xFBBPETxABC
+indd 124594 already captured, skipping
+Loop 1582: 128713x20220810xFBBPETxABC
+indd 128713 already captured, skipping
+Loop 1583: 125111x20220829xPI2620PETxABC
+indd 125111 already captured, skipping
+Loop 1584: 128301x20220810xFBBPETxABCD2
+indd 128301 already captured, skipping
+Loop 1585: 125300x20201116x3TxLEADS
+indd 125300 already captured, skipping
+Loop 1586: 128332x20220831xFBBPETxABCD2
+indd 128332 already captured, skipping
+Loop 1587: 128387x20220803xFBBPETxABCD2
+indd 128387 already captured, skipping
+Loop 1588: 128391x20220817xFBBPETxABCD2
+indd 128391 already captured, skipping
+Loop 1589: 128314x20220907xFBBPETxABCD2
+indd 128314 already captured, skipping
+Loop 1590: 128394x20220907xFBBPETxABCD2
+indd 128394 already captured, skipping
+Loop 1591: 128147x20220901xAV1451PETxABCD2
+indd 128147 already captured, skipping
+Loop 1592: 128279x20220802xAV1451PETxABCD2
+indd 128279 already captured, skipping
+Loop 1593: 128301x20220824xAV1451PETxABCD2
+indd 128301 already captured, skipping
+Loop 1594: 128387x20220830xAV1451PETxABCD2
+indd 128387 already captured, skipping
+Loop 1595: 126535x20220810xAV1451PETxABCD2
+indd 126535 already captured, skipping
+Loop 1596: 123367x20190917xFBBPETxABC
+indd 123367 already captured, skipping
+Loop 1597: 128386x20220914xFBBPETxABCD2
+indd 128386 already captured, skipping
+Loop 1598: 108672x20221011x3TxVCID
+indd 108672 already captured, skipping
+Loop 1599: 128735x20221011x3TxABCD2
+writing indd 128735 to list
+Loop 1600: 128953x20221013x3TxABC
+writing indd 128953 to list
+Loop 1601: 128504x20221018x3TxABCD2
+writing indd 128504 to list
+Loop 1602: 129131x20221018x7TxABC
+indd 129131 already captured, skipping
+Loop 1603: 125987x20221019x3TxVCID
+indd 125987 already captured, skipping
+Loop 1604: 125590x20221020x7TxYMTL
+indd 125590 already captured, skipping
+Loop 1605: 128983x20221020x3TxABC
+writing indd 128983 to list
+Loop 1606: 128983x20221020x7TxABC
+indd 128983 already captured, skipping
+Loop 1607: 125259x20221025x7TxYMTL
+indd 125259 already captured, skipping
+Loop 1608: 124288x20221025x7TxABC
+indd 124288 already captured, skipping
+Loop 1609: 123763x20221025x3TxABC
+indd 123763 already captured, skipping
+Loop 1610: 125569x20221025x7TxYMTL
+indd 125569 already captured, skipping
+Loop 1611: 123200x20221026x3TxLEADS
+indd 123200 already captured, skipping
+Loop 1612: 111768x01x20221026x3TxABC
+indd 111768x01 already captured, skipping
+Loop 1613: 128345x20221027x3TxABCD2
+writing indd 128345 to list
+Loop 1614: 123768x20191204xFBBPETxABC
+indd 123768 already captured, skipping
+Loop 1615: 128440x20221101x3TxABCD2
+writing indd 128440 to list
+Loop 1616: 127192x20220912xPI2620PETxABC
+indd 127192 already captured, skipping
+Loop 1617: 118923x20220928xAV1451PETxABC
+indd 118923 already captured, skipping
+Loop 1618: 127251x20220921xAV1451PETxABC
+indd 127251 already captured, skipping
+Loop 1619: 127032x20220913xFBBPETxABC
+indd 127032 already captured, skipping
+Loop 1620: 127995x20220913xFBBPETxABC
+indd 127995 already captured, skipping
+Loop 1621: 124972x20220920xFBBPETxABC
+indd 124972 already captured, skipping
+Loop 1622: 118923x20220921xFBBPETxABC
+indd 118923 already captured, skipping
+Loop 1623: 124004x20220927xFBBPETxABC
+indd 124004 already captured, skipping
+Loop 1624: 128986x20220928xFBBPETxABC
+indd 128986 already captured, skipping
+Loop 1625: 128481x20221108x3TxABCD2
+writing indd 128481 to list
+Loop 1626: 127211x20221109x3TxVCID
+indd 127211 already captured, skipping
+Loop 1627: 114802x20221110x3TxABCD2
+writing indd 114802 to list
+Loop 1628: 125908x20221019xFBBPETxABC
+indd 125908 already captured, skipping
+Loop 1629: 124048x20221019xFBBPETxABC
+indd 124048 already captured, skipping
+Loop 1630: 129131x20221018xFBBPETxABC
+indd 129131 already captured, skipping
+Loop 1631: 117326x20221012xFBBPETxABC
+indd 117326 already captured, skipping
+Loop 1632: 124288x20221025xFBBPETxABC
+indd 124288 already captured, skipping
+Loop 1633: 123367x20221018xAV1451PETxABC
+indd 123367 already captured, skipping
+Loop 1634: 124004x20221004xAV1451xABC
+indd 124004 already captured, skipping
+Loop 1635: 125987x20221019xPI2620PETxABC
+indd 125987 already captured, skipping
+Loop 1636: 124594x20221010xPI2620PETxABC
+indd 124594 already captured, skipping
+Loop 1637: 128922x20221012xFBBPETxABCD2
+indd 128922 already captured, skipping
+Loop 1638: 128771x20221012xFBBPETxABCD2
+indd 128771 already captured, skipping
+Loop 1639: 128394x20221025xAV1451PETxABCD2
+indd 128394 already captured, skipping
+Loop 1640: 118579x20221114x3TxVCID
+indd 118579 already captured, skipping
+Loop 1641: 111275x0120221115x3TxABC
+indd 111275x01 already captured, skipping
+Loop 1642: 111275x01x20221115x7TxABC
+indd 111275x01 already captured, skipping
+Loop 1643: 128566x20221115x3TxABCD2
+writing indd 128566 to list
+Loop 1644: 128183x20221116x3TxABCD2
+writing indd 128183 to list
+Loop 1645: 123200x20221026xFBBPETxLEADS
+indd 123200 already captured, skipping
+Loop 1646: CAMRIS^Wolk
+writing indd 128685 to list
