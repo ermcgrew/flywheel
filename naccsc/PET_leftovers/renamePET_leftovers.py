@@ -12,8 +12,10 @@ except flywheel.ApiException as e:
 
 #Load list from INDD database/Dave
 df_study=pd.read_csv('PETSEssionList_with_study.csv') 
-df_study['INDDID']=df_study['INDDID'].astype(int).astype(str)
+df_study['INDDID']=df_study['INDDID'].astype(int).astype(str) ##lose any .01, .02 subs, do those manually
 df_study['PETDate']=df_study['PETDate'].astype(str)
+df_study.drop_duplicates(subset=['INDDID','PETDate'],keep='first',inplace=True)
+
 # df_study.info()
 
 #file to record any sessions stil unidentified
@@ -108,11 +110,6 @@ for line in needstudy:
     else:
         # o.write(f"{line}\n")
         print(f"INDDID, Date {indd}, {dateMDY} not found in Dave's list")
-        # print(type(indd))
-
-
-
+  
 
 # o.close()
-
-
