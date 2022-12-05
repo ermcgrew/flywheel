@@ -1,10 +1,18 @@
-##Sessions where study couldn't be determined from Performed Procedure Step Description
+##Sessions where study couldn't be determined from Performed Procedure Step Description, compare to indd csv from Dave
+##run before with incorrect coding for study, so this version also uses that log
+
+#list of sessions renamed from florbetapir
+# cat rename_log_20221108_2.txt | grep -A 2 Florbetapir | sed '/--/d' | 
+# 	sed '/No matching performed procedure step description found, making note.../d' | 
+# 	sed 's/Renaming //g' | cut -f 3 -d " " >> florbetapir.txt  
+
+# cat renamedflorbetapir.txt | while read line ; do grep -R $line "PET_need_study.txt" ; done | wc -l
+#matches--all florbetapir sessions in leftover PET batch
+
 
 import pandas as pd
 import flywheel
-
 fw = flywheel.Client()
-#select project by project ID
 try:
     project = fw.get_project('5c508d5fc2a4ad002d7628d8') #NACC-SC
 except flywheel.ApiException as e:
@@ -12,21 +20,22 @@ except flywheel.ApiException as e:
 
 #Load list from INDD database/Dave
 df_study=pd.read_csv('PETSEssionList_with_study.csv') 
-df_study['INDDID']=df_study['INDDID'].astype(int).astype(str) ##lose any .01, .02 subs, do those manually
-df_study['PETDate']=df_study['PETDate'].astype(str)
+df_study['INDDID']=df_study['INDDID'].astype(str)  
+df_study.drop(df_study[df_study['INDDID'].str.len()==9].index,inplace=True) ##drop any .01, .02, matching is messy, do manually
+df_study['INDDID']=df_study['INDDID'].str.split('.').str[0] #get rid of decimal after Indd #
+df_study['PETDate']=df_study['PETDate'].astype(str) 
 df_study.drop_duplicates(subset=['INDDID','PETDate'],keep='first',inplace=True)
-
 # df_study.info()
-# print(df_study.loc[(df_study['INDDID'] == '122152') & (df_study['PETDate'] == '6/8/17')])
-# print(df_study.loc[(df_study['PETDate'] == '6/8/17')])
+
+##log of renamed sessions to use for retrieval from flywheel
+dfrename=pd.read_csv('renamePetPairs.csv')
 
 #file to record any sessions stil unidentified
-# o = open('PET_need_study_decimals.txt', 'a')
+o = open('PET_fbprun_not_renamed.txt', 'a')
 
 #loop through each session needing a study ID'ed
 needstudy = open('PET_need_study.txt','r') 
 for line in needstudy:
-    # print('*****************************************************************************')
     #reset variables to empty strings
     indd=''
     date=''
@@ -36,10 +45,9 @@ for line in needstudy:
 
     linelist = line.split('x')
     if len(linelist[1]) == 2:
-        indd= '.'.join(linelist[0:2]) ##to match PET session csv
+        indd= '.'.join(linelist[0:2]) #to match PET session csv
     else:
         indd=linelist[0]
-    # print(type(indd))
     
     date=linelist[-3] 
     if date[4] == '0':
@@ -55,64 +63,63 @@ for line in needstudy:
     # print(dateMDY)
 
     scantype=linelist[-2]
-    if scantype!='FBBPET':
-        # print(f'not an FBB PET scan')
-        continue
-    elif scantype=="FBBPET":
-        dfmatch=df_study.loc[(df_study['INDDID'] == indd) & (df_study['PETDate'] == dateMDY)]
-        #check that dfmatch has only 1 row
-        # print(dfmatch)
-        if len(dfmatch) == 1:
-            petprotocol = dfmatch['PETProtocol'].iloc[0]
-            tracer = dfmatch['PETTracer'].iloc[0]
-            if 'Florbetapir (amyloid)' in tracer:   
-                tracershort='FlorbetapirPET'
-                # print(f'This session should be FBP, was mis-typed: {scantype}')
-            elif 'Florbetaben' in tracer:
-                tracershort = 'FBBPET'
-            elif 'AV1451 (tau)' in tracer:
-                tracershort='AV1451PET'
-            else:
-                tracershort=''
-            # print(f'From spreadsheet: {tracer}, from renamed flywheel: {scantype}')
-
-            # print(f'{line} is {petprotocol}')
-            # print(petprotocol)
-            if petprotocol == 'ABCD2':
-                study = 'ABCD2'
-            elif petprotocol == 'LEADS':
-                study = "LEADS"
-            elif petprotocol == 'REVEAL-SCAN 825741':
-                study = "REVEAL"
-            elif petprotocol == "Clinical Trial" or petprotocol == "ADNI" or petprotocol == 'IDEAS':
-                study='Other'
-            elif petprotocol == "NACC_API": 
-                study='ABC'
-            else:
-                study = ''    
-
-
-            if study == '':
-                # o.write(f"{line}, study\n")
-                print(f'{indd},{dateMDY} matched but study not IDed') 
-                break
-            else: 
-                # newlabel = line + study
-                newlabel=indd +'x'+ date+'x'+tracershort+'x'+study
-                # print(newlabel)
-            
-            # try:
-            #     session = project.sessions.find(f'label={line}')
-            # except flywheel.ApiException as e:
-            #     print(f'Error: {e}') 
-            
-            # print(f'Found session: {session[0].label}')
-            print(f'Renaming {line} session to: {newlabel}')
-            # session[0].update({'label': newlabel})
-
-        else:
-            # o.write(f"{line}\n")
-            # print(f"INDDID, Date {indd}, {dateMDY} not found in Dave's list")
-            continue
     
-# o.close()
+    dfmatch=df_study.loc[(df_study['INDDID'] == indd) & (df_study['PETDate'] == dateMDY)]
+    # print(dfmatch)
+    # check that dfmatch has only 1 row
+    if len(dfmatch) == 1:
+        petprotocol = dfmatch['PETProtocol'].iloc[0]
+        tracer = dfmatch['PETTracer'].iloc[0]
+        if 'Florbetapir (amyloid)' in tracer:   
+            tracershort='FlorbetapirPET'
+        elif 'Florbetaben' in tracer:
+            tracershort = 'FBBPET'
+        elif 'AV1451 (tau)' in tracer:
+            tracershort='AV1451PET'
+        else:
+            tracershort=''
+
+        # print(f'{line} is {petprotocol}')
+        if petprotocol == 'ABCD2':
+            study = 'ABCD2'
+        elif petprotocol == 'LEADS':
+            study = "LEADS"
+        elif petprotocol == 'REVEAL-SCAN 825741':
+            study = "REVEAL"
+        elif petprotocol == "Clinical Trial" or petprotocol == "ADNI" or petprotocol == 'IDEAS' or petprotocol == "F-AV-1451 AVID":
+            study='Other'
+        elif 'NACC' in petprotocol: 
+            study='ABC'
+        else:
+            study = ''    
+
+        if study == '':
+            o.write(f"{line}, study\n")
+            print(f'{indd},{dateMDY} matched but study not IDed') 
+            continue
+        if tracershort=='': 
+            o.write(f"{line}, scantype\n")
+            print(f'{indd},{dateMDY} matched but scantype not IDed')
+            continue
+        else: 
+            newlabel=indd +'x'+ date+'x'+tracershort+'x'+study
+        
+        dfrenamematch = dfrename.loc[dfrename['old'] == line]
+        currentFWname=dfrenamematch['new'].iloc[0]
+
+        try:
+            session = project.sessions.find(f'label={currentFWname}')
+        except flywheel.ApiException as e:
+            print(f'Error: {e}') 
+        
+        # print(session)
+        print(f'Found session: {session[0].label}')
+        print(f'Renaming {line} session to: {newlabel}')
+        session[0].update({'label': newlabel})
+
+    else:
+        o.write(f"{line},no match\n")
+        print(f"INDDID, Date {indd}, {dateMDY} not matched")
+        continue
+    
+o.close()
