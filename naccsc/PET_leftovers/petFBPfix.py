@@ -26,10 +26,12 @@ df_study['MRIDate']=df_study['MRIDate'].astype(str)
 df_study.drop_duplicates(subset=['INDDID','PETDate'],keep='first',inplace=True)
 
 #list of sessions renamed from florbetapir
-#cat rename_log_20221108_2.txt | grep -C 1 manually | sed '/--/d’ | grep ABC | cut -f 3 -d " " >> log_OG_sessionNames.txt
+#cat rename_log_20221108_2.txt | grep -A 2 Florbetapir | sed '/--/d' | sed '/No matching performed procedure step description found, making note.../d' | sed 's/Renaming //g' | cut -f 3 -d " " >> florbetapir.txt  
 
 # list of sessions that should be FBPPET, but get their new names
+
 #parse new name
+# cat renamedflorbetapir.txt | while read line ; do grep -R $line "PET_need_study.txt" ; done | wc -l
 # replace scantype
 # to replace study, match to csv
 # put together correct name

@@ -17,9 +17,11 @@ df_study['PETDate']=df_study['PETDate'].astype(str)
 df_study.drop_duplicates(subset=['INDDID','PETDate'],keep='first',inplace=True)
 
 # df_study.info()
+# print(df_study.loc[(df_study['INDDID'] == '122152') & (df_study['PETDate'] == '6/8/17')])
+# print(df_study.loc[(df_study['PETDate'] == '6/8/17')])
 
 #file to record any sessions stil unidentified
-o = open('PET_need_study_decimals.txt', 'a')
+# o = open('PET_need_study_decimals.txt', 'a')
 
 #loop through each session needing a study ID'ed
 needstudy = open('PET_need_study.txt','r') 
@@ -37,6 +39,7 @@ for line in needstudy:
         indd= '.'.join(linelist[0:2]) ##to match PET session csv
     else:
         indd=linelist[0]
+    # print(type(indd))
     
     date=linelist[-3] 
     if date[4] == '0':
@@ -47,46 +50,56 @@ for line in needstudy:
         day = date[7]
     else:
         day = date[6:]
-    dateMDY= month + '/' + day + '/' + date[0:4]
     
+    dateMDY= month + '/' + day + '/' + date[2:4] ##year is only 2 digits now(?)
+    # print(dateMDY)
+
     scantype=linelist[-2]
     if scantype!='FBBPET':
-        print(f'not an FBB PET scan')
+        # print(f'not an FBB PET scan')
         continue
     elif scantype=="FBBPET":
         dfmatch=df_study.loc[(df_study['INDDID'] == indd) & (df_study['PETDate'] == dateMDY)]
         #check that dfmatch has only 1 row
+        # print(dfmatch)
         if len(dfmatch) == 1:
             petprotocol = dfmatch['PETProtocol'].iloc[0]
             tracer = dfmatch['PETTracer'].iloc[0]
-            # if 'Florbeta' in tracer:   
-            #     tracershort='FBBPET'
-            # elif 'AV1451 (tau)' in tracer:
-            #     tracershort='AV1451PET'
-            # else:
-            #     tracershort=''
+            if 'Florbetapir (amyloid)' in tracer:   
+                tracershort='FlorbetapirPET'
+                # print(f'This session should be FBP, was mis-typed: {scantype}')
+            elif 'Florbetaben' in tracer:
+                tracershort = 'FBBPET'
+            elif 'AV1451 (tau)' in tracer:
+                tracershort='AV1451PET'
+            else:
+                tracershort=''
+            # print(f'From spreadsheet: {tracer}, from renamed flywheel: {scantype}')
 
-            # if tracershort == scantype:
-            #     # print(f'{line} is {petprotocol}')
-            #     if petprotocol == 'ABCD2':
-            #         study = 'ABCD2'
-            #     elif petprotocol == 'LEADS':
-            #         study = "LEADS"
-            #     elif petprotocol == 'REVEAL-SCAN 825741':
-            #         study = "REVEAL"
-            #     else: 
-            #         study='ABC'
-            # else:
-            #     # o.write(f"{line}, tracer\n")
-            #     print(f'Tracer cannot be matched for {indd},{dateMDY}')
-            #     break
+            # print(f'{line} is {petprotocol}')
+            # print(petprotocol)
+            if petprotocol == 'ABCD2':
+                study = 'ABCD2'
+            elif petprotocol == 'LEADS':
+                study = "LEADS"
+            elif petprotocol == 'REVEAL-SCAN 825741':
+                study = "REVEAL"
+            elif petprotocol == "Clinical Trial" or petprotocol == "ADNI" or petprotocol == 'IDEAS':
+                study='Other'
+            elif petprotocol == "NACC_API": 
+                study='ABC'
+            else:
+                study = ''    
 
-            # if study == '':
-            #     # o.write(f"{line}, study\n")
-            #     print(f'{indd},{dateMDY} matched but study not IDed') 
-            #     break
-            # else: 
-            #     newlabel = line + study
+
+            if study == '':
+                # o.write(f"{line}, study\n")
+                print(f'{indd},{dateMDY} matched but study not IDed') 
+                break
+            else: 
+                # newlabel = line + study
+                newlabel=indd +'x'+ date+'x'+tracershort+'x'+study
+                # print(newlabel)
             
             # try:
             #     session = project.sessions.find(f'label={line}')
@@ -94,11 +107,12 @@ for line in needstudy:
             #     print(f'Error: {e}') 
             
             # print(f'Found session: {session[0].label}')
-            # print(f'Renaming {line} session to: {newlabel}')
+            print(f'Renaming {line} session to: {newlabel}')
             # session[0].update({'label': newlabel})
 
         else:
             # o.write(f"{line}\n")
-            print(f"INDDID, Date {indd}, {dateMDY} not found in Dave's list")
+            # print(f"INDDID, Date {indd}, {dateMDY} not found in Dave's list")
+            continue
     
 # o.close()
