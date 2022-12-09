@@ -21,6 +21,11 @@ def runGear(gear, inputs, dest):
         
    Returns:
         str: The id of the submitted job.
+
+   Examples:
+
+        fwRunUtilityGear  -g dcm2niix -t dcm2niix_input dwolklab/NACC/1234/1234-3T/files/foo.dicom
+        fwRunUtilityGear  -g dicom-mr-classifier-t dicom dwolklab/NACC/1234/1234-3T/files/foo.dicom
         
    """
    try:
@@ -41,6 +46,7 @@ if __name__ == '__main__':
     ap = argparse.ArgumentParser()
     ap.add_argument('-d', '--debug', default=False,  action='store_true', help='debug')
     ap.add_argument('-g', '--gear-name', required=True, action='store', help='gear name')
+    ap.add_argument('-l', '--show-log', default=False, action='store_true', help='Dump log at the end of the job')
     ap.add_argument('-t', '--tag', required=True,  action='store', help='gear input key')
     ap.add_argument('-v', '--version', action='store', help='gear version to run')
     ap.add_argument('-w', '--wait', default=False,  action='store_true', help='wait for job completion')
@@ -70,8 +76,18 @@ if __name__ == '__main__':
           print("{} : No such acquisition '{}'".format(CmdName,fn), file=sys.stderr)
           continue
 
-       dest = file_obj.parent
+# *** it is possible to specify the Acquisition instead of the acquisisition file and file_obj is a
+# list of file objects -- not what we want.
+# the path parsing should be more robust.
+       print("file_obj = '{}'".format(file_obj), file=sys.stderr)
+
+       dest = fw.get(file_obj.parents.acquisition)
+       
+       print("dest = '{}'".format(dest), file=sys.stderr)
+
        job_id = runGear(gear,{InputKey: file_obj}, dest)
+
+       print("job_id = '{}'".format(job_id), file=sys.stderr)
 
        if args.wait:
           while True:
@@ -80,4 +96,7 @@ if __name__ == '__main__':
              if (args.debug):
                 print("{} : Job {} status {}".format(CmdName,job_id, job_info.state), file=sys.stderr)
              if (job_info.state == 'complete'):
+                if (args.show_log):
+                   print(fw.get_job_logs(job_id), file=sys.stderr)
                 break
+      

@@ -1,0 +1,45 @@
+#!/bin/bash
+
+Rhost=scisub.pmacs.upenn.edu
+RDir=/project/bsc/Billing/Reports
+RILabChargesDir=/project/bsc/Billing/iLabCharges
+RCalculateCmd=/project/bsc/Billing/bin/calculateBscStorageCharges
+
+# *** should be able to change report locations, both local and remote
+# *** should be able to do a quiet mode
+# *** add -n -v and change echos out
+
+Day=$(date +%d)
+Month=$(date +%m)
+Year=$(date +%Y)
+
+while getopts d:m:y: arg
+do
+	case "$arg" in
+	     d|m|y)
+		eval "opt_${arg}=${OPTARG:=1}"
+		;;
+	esac
+done
+
+shift $(($OPTIND - 1))
+
+[ -n "$opt_d" ] && Day="$opt_d"
+[ -n "$opt_m" ] && Month="$opt_m"
+[ -n "$opt_y" ] && Year="$opt_y"
+
+Date="${Year}-${Month}-${Day}"
+YearMonth="${Year}-${Month}"
+
+RILabChargesFile="${RILabChargesDir}/${Date}-IlabBscPmacsClusterCharges.csv"
+LILabChargesDir="$(realpath ~/Work/flywheel/GCPBilling/${YearMonth})"
+LILabChargesFile="${LILabChargesDir}/${YearMonth}-IlabBscPmacsClusterCharges"
+
+[ -d $LILabChargesDir ] || echo mkdir "$LILabChargesDir"
+
+for Report in userreport.txt projectreport.txt
+do
+	echo scp "/tmp/${Report}" "${Rhost}:${RDir}/${Date}-${Report}"
+done
+
+echo "ssh "$Rhost" '. ~/environment 2> /dev/null; BSUB_QUIET= bsub -q bsc_interactive -I -tty ${RCalculateCmd} | tee $RILabChargesFile' | tee '${LILabChargesFile}'"

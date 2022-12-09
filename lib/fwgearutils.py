@@ -155,7 +155,7 @@ def fwGlobPath(fw,Path):
 
     return(Containers)
 
-def sloppyCopy(d, recurse=True, UTC=True):
+def sloppyCopy(d, recurse=True, UTC=True, regex=None, to=None):
     '''
     serializes a object, ignoring all the stuff it cant easily serialize, but will give you something
     '''
@@ -166,6 +166,9 @@ def sloppyCopy(d, recurse=True, UTC=True):
     try:
         json.dumps(d)
         #print("sloppyCopy d is serializable", file=sys.stderr)
+        if (regex):
+           d = re.sub(regex,to,d)
+           
         return(d)
 
     except (TypeError, OverflowError) as e:
@@ -188,6 +191,9 @@ def sloppyCopy(d, recurse=True, UTC=True):
                          nd[k] = sloppyCopy(d[k], UTC=UTC)
 
             # print("sloppyCopy: d is sorta dict", nd.copy(), file=sys.stderr)
+            if (regex):
+               nd = re.sub(regex,to,nd)
+
             return(nd)
 
        if (type(d) is list):
@@ -197,6 +203,9 @@ def sloppyCopy(d, recurse=True, UTC=True):
                   nd.append(sloppyCopy(i, UTC=UTC))
 
             # print("sloppyCopy: d is list", nd.copy(), file=sys.stderr)
+            if (regex):
+               nd = re.sub(regex,to,nd)
+
             return(nd)
 
        if (type(d) is datetime.datetime):

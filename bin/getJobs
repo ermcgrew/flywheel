@@ -267,14 +267,17 @@ with open(CondorYamlFile) as f:
 def getJobMachineType(GearName, Tags):
     MachineType = 'n1-standard-1'
 
-    MachineTypes = pyjq.all('.[][][]|select(.engineMatch.whitelist and .engineMatch.whitelist["gear-name"] and (.engineMatch.whitelist["gear-name"][]| match("^{}$"))) | .cloud.machineType'.format(GearName), CondorYaml)
-    if (len(MachineTypes) > 0):
-        MachineType = MachineTypes[0]
-    else:
-        # *** Should do something about tags here
-        True
+    try:
+        MachineTypes = pyjq.all('.[][][]|select(.engineMatch.whitelist and .engineMatch.whitelist["gear-name"] and (.engineMatch.whitelist["gear-name"][]| match("^{}$"))) | .cloud.machineType'.format(GearName), CondorYaml)
+        if (len(MachineTypes) > 0):
+            MachineType = MachineTypes[0]
+        else:
+            # *** Should do something about tags here
+            True
+        return(MachineType)
 
-    return(MachineType)
+    except (pyjq.ScriptRuntimeError) as e:
+        print("{} GearName failed".format(GearName), file=sys.stderr)
 
 #
 # *** Need to handle tags correctly
@@ -307,7 +310,7 @@ ap.add_argument('-d', '--debug', action='store_true', help='debug')
 ap.add_argument('-e', '--exhaustive', action='store_false', default=True, help='exhaustive session flag')
 ap.add_argument('-E', '--epoch', type=str, help='Epoch date YYYY-MM-DD')
 ap.add_argument('-i', '--initial-analysis', action='store_true', help='check for initial analysis flag')
-ap.add_argument('-l', '--limit', action='store', default=1000000, type=int, help='Flywheel cost allocation csv file')
+ap.add_argument('-l', '--limit', action='store', default=1000, type=int, help='Flywheel cost allocation csv file')
 ap.add_argument('-p', '--progressbar', action='store_true', help='show progress bar')
 ap.add_argument('-v', '--verbose', action='store_true', help='verbose')
 ap.add_argument('filter', nargs='*', type=str, default=None, help='arguments to fw.find()')
