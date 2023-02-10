@@ -22,10 +22,11 @@ for count, session in enumerate(sessions, 1):
     else:
         print(f'indd {indd} already captured, skipping')
         continue
- 
+
+print(inddlist[1].split())
 for x in range(0,len(inddlist)):
     inddlist[x]=inddlist[x].split()
 
-with open(f'inddid_naccsc_list.csv', 'w', newline='') as csvfile:
-    csvwriter=csv.writer(csvfile)
-    csvwriter.writerows(inddlist)
+# with open(f'inddid_naccsc_list.csv', 'w', newline='') as csvfile:
+#     csvwriter=csv.writer(csvfile)
+#     csvwriter.writerows(inddlist)
