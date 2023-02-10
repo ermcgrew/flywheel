@@ -31,7 +31,7 @@ def rename_session(session, subject, date):
     # print(session.label)
     scantype = ""
     study = ""
-    
+
     for acquisition in session.acquisitions():
         if scantype == "":  # keeps from looping through every acq
             modality = acquisition.files[0].modality
@@ -41,53 +41,55 @@ def rename_session(session, subject, date):
                 continue
             else:
                 for x in range(len(acquisition.files)):
-                    if (
-                        acquisition.files[x].type == "dicom"
-                    ):  # only need the dicom file's metadata
+                    if acquisition.files[x].type == "dicom":
+                        # only need the dicom file's metadata
                         labels = " ".join(
                             [
                                 acquisition.label
                                 for acquisition in session.acquisitions()
                             ]
-                        )  # all acq.labels into 1 string to be partial-matched to
+                        )
+                        # all acq.labels into 1 string to be partial-matched to
+
                         acquisition = acquisition.reload()
-                        f = acquisition.files[
-                            x
-                        ].info  # dictionary of metadata info per file
-
-                        if "MagneticFieldStrength" in f:
-                            magstrength = f["MagneticFieldStrength"]
-
-                        try:
-                            instname = f["InstitutionName"]
-                        except KeyError as e:
-                            instname = ""
-
-                        try:
-                            instaddress = f["InstitutionAddress"]
-                        except KeyError as e:
-                            instaddress = ""
-
-                        try:
-                            petid = f["PerformedProcedureStepDescription"]
-                        except KeyError as e:
-                            petid = ""
-
-                        try:
-                            protocolName = f["ProtocolName"]
-                        except KeyError as e:
-                            protocolName = ""
+                        f = acquisition.files[x].info
+                        # dictionary of metadata info per file
+                        datadict = {
+                            "MagneticFieldStrength": "",
+                            "InstitutionName": "",
+                            "InstitutionAddress": "",
+                            "PerformedProcedureStepDescription": "",
+                            "ProtocolName": "",
+                        }
+                        # populate datadict with info, error if key not found
+                        for key in datadict:
+                            try:
+                                datadict[key] = f[key]
+                            except KeyError as error:
+                                print(f"Key {error} not found")
 
                         if modality == "PT":
                             if "Amyloid" in labels or "AV45" in labels:
                                 scantype = "FBBPET"
-                                if "844047" in petid or "844047" in protocolName:
+                                if (
+                                    "844047"
+                                    in datadict["PerformedProcedureStepDescription"]
+                                    or "844047" in datadict["ProtocolName"]
+                                ):
                                     study = "ABCD2"
                                     break
-                                elif "825943" in petid or "825943" in protocolName:
+                                elif (
+                                    "825943"
+                                    in datadict["PerformedProcedureStepDescription"]
+                                    or "825943" in datadict["ProtocolName"]
+                                ):
                                     study = "ABC"
                                     break
-                                elif "829602" in petid or "829602" in protocolName:
+                                elif (
+                                    "829602"
+                                    in datadict["PerformedProcedureStepDescription"]
+                                    or "829602" in datadict["ProtocolName"]
+                                ):
                                     study = "LEADS"
                                     break
                                 else:
@@ -96,26 +98,35 @@ def rename_session(session, subject, date):
                                     )
                                     # mknote(indd,date,scantype)
                                     break
-                            elif (
-                                "2620" in labels
-                            ):  # PI2620 sometimes listed with space--PI 2620
+                            elif "2620" in labels:
+                                # PI2620 sometimes listed with space--PI 2620
                                 scantype = "PI2620PET"
                                 study = "ABC"
                                 break
                             elif "AV1451" in labels:
                                 scantype = "AV1451PET"
-                                if "844403" in petid or "844403" in protocolName:
+                                if (
+                                    "844403"
+                                    in datadict["PerformedProcedureStepDescription"]
+                                    or "844403" in datadict["ProtocolName"]
+                                ):
                                     study = "ABCD2"
                                     break
                                 elif (
-                                    "825944" in petid
-                                    or "833864" in petid
-                                    or "825944" in protocolName
-                                    or "833864" in protocolName
+                                    "825944"
+                                    in datadict["PerformedProcedureStepDescription"]
+                                    or "833864"
+                                    in datadict["PerformedProcedureStepDescription"]
+                                    or "825944" in datadict["ProtocolName"]
+                                    or "833864" in datadict["ProtocolName"]
                                 ):
                                     study = "ABC"
                                     break
-                                elif "829602" in petid or "829602" in protocolName:
+                                elif (
+                                    "829602"
+                                    in datadict["PerformedProcedureStepDescription"]
+                                    or "829602" in datadict["ProtocolName"]
+                                ):
                                     study = "LEADS"
                                     break
                                 else:
@@ -132,7 +143,7 @@ def rename_session(session, subject, date):
                                 print(f"{session.label} PET scan needs scantype")
 
                         elif modality == "MR":
-                            if round(magstrength) == 7:
+                            if round(datadict["MagneticFieldStrength"]) == 7:
                                 scantype = "7T"
                                 if session.label[-4:] == "YMTL":
                                     study = "YMTL"
@@ -140,9 +151,12 @@ def rename_session(session, subject, date):
                                 else:
                                     study = "ABC"
                                     break
-                            elif magstrength == 3:
+                            elif datadict["MagneticFieldStrength"] == 3:
                                 scantype = "3T"
-                                if instname == "HUP" or "Spruce" in instaddress:
+                                if (
+                                    datadict["InstitutionName"] == "HUP"
+                                    or "Spruce" in datadict["InstitutionAddress"]
+                                ):
                                     if "Axial" in labels:
                                         study = "LEADS"
                                         break
@@ -155,7 +169,10 @@ def rename_session(session, subject, date):
                                         )
                                         # mknote(indd,date,scantype)
                                         break
-                                elif instname == "SC3T" or "Curie" in instaddress:
+                                elif (
+                                    datadict["InstitutionName"] == "SC3T"
+                                    or "Curie" in datadict["InstitutionAddress"]
+                                ):
                                     if session.label[-4:] == "YMTL":
                                         study = "YMTL"
                                         break
@@ -209,7 +226,7 @@ if __name__ == "__main__":
 
     # review each session
     for session in sessions:
-        print("\n")
+        print("")
         print(f"{session.label}")
 
         sessionlabellist = session.label.rsplit("x", 3)
