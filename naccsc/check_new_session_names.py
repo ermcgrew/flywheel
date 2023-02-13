@@ -7,7 +7,13 @@ import os
 
 
 def check_correct(sessionlabellist, subject, date):
-    if len(sessionlabellist) == 4 and sessionlabellist[0] == subject and sessionlabellist[1] == date and sessionlabellist[2] in scantypelist and sessionlabellist[3] in studylist:
+    if (
+        len(sessionlabellist) == 4
+        and sessionlabellist[0] == subject
+        and sessionlabellist[1] == date
+        and sessionlabellist[2] in scantypelist
+        and sessionlabellist[3] in studylist
+    ):
         return True
     else:
         return False
