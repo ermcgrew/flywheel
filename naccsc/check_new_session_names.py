@@ -31,19 +31,25 @@ def rename_session(session, subject, date):
     }
 
     for acquisition in session.acquisitions():
+        print(f"looping through: {acquisition.label}")
         modality = acquisition.files[0].modality
-        if (modality == "CT" or modality == "SR"):  
-        # those acquisitions don't have detailed metadata
+        if modality == "CT" or modality == "SR":
+            # those acquisitions don't have detailed metadata
             continue
         else:
             acquisition = acquisition.reload()
-            
+
             # all acq.labels into 1 string to be partial-matched to
-            labels = " ".join([acquisition.label for acquisition in session.acquisitions()]) 
-            
+            labels = " ".join(
+                [acquisition.label for acquisition in session.acquisitions()]
+            )
+
             # only need the dicom file's metadata
-            dicom_file_index=[x for x in range(0,len(acquisition.files)) if acquisition.files[x].type == "dicom"][0]
-            file_info = acquisition.files[dicom_file_index].info               
+            dicom_file_index = [
+                x for x in range(0, len(acquisition.files))
+                if acquisition.files[x].type == "dicom"
+            ][0]
+            file_info = acquisition.files[dicom_file_index].info
             # populate datadict with info, error if key not found
             for key in datadict:
                 try:
@@ -55,22 +61,19 @@ def rename_session(session, subject, date):
                 if "Amyloid" in labels or "AV45" in labels:
                     scantype = "FBBPET"
                     if (
-                        "844047"
-                        in datadict["PerformedProcedureStepDescription"]
+                        "844047" in datadict["PerformedProcedureStepDescription"]
                         or "844047" in datadict["ProtocolName"]
                     ):
                         study = "ABCD2"
                         break
                     elif (
-                        "825943"
-                        in datadict["PerformedProcedureStepDescription"]
+                        "825943" in datadict["PerformedProcedureStepDescription"]
                         or "825943" in datadict["ProtocolName"]
                     ):
                         study = "ABC"
                         break
                     elif (
-                        "829602"
-                        in datadict["PerformedProcedureStepDescription"]
+                        "829602" in datadict["PerformedProcedureStepDescription"]
                         or "829602" in datadict["ProtocolName"]
                     ):
                         study = "LEADS"
@@ -80,7 +83,6 @@ def rename_session(session, subject, date):
                             "No matching performed procedure step description found, making note..."
                         )
                         # mknote(indd,date,scantype)
-                        break
                 elif "2620" in labels:
                     # PI2620 sometimes listed with space--PI 2620
                     scantype = "PI2620PET"
@@ -89,25 +91,21 @@ def rename_session(session, subject, date):
                 elif "AV1451" in labels:
                     scantype = "AV1451PET"
                     if (
-                        "844403"
-                        in datadict["PerformedProcedureStepDescription"]
+                        "844403" in datadict["PerformedProcedureStepDescription"]
                         or "844403" in datadict["ProtocolName"]
                     ):
                         study = "ABCD2"
                         break
                     elif (
-                        "825944"
-                        in datadict["PerformedProcedureStepDescription"]
-                        or "833864"
-                        in datadict["PerformedProcedureStepDescription"]
+                        "825944" in datadict["PerformedProcedureStepDescription"]
+                        or "833864" in datadict["PerformedProcedureStepDescription"]
                         or "825944" in datadict["ProtocolName"]
                         or "833864" in datadict["ProtocolName"]
                     ):
                         study = "ABC"
                         break
                     elif (
-                        "829602"
-                        in datadict["PerformedProcedureStepDescription"]
+                        "829602" in datadict["PerformedProcedureStepDescription"]
                         or "829602" in datadict["ProtocolName"]
                     ):
                         study = "LEADS"
@@ -117,7 +115,6 @@ def rename_session(session, subject, date):
                             "No matching performed procedure step description found, making note..."
                         )
                         # mknote(indd,date,scantype)
-                        break
                 elif "FDG" in labels:
                     scantype = "FDGPET"
                     study = "LEADS"
@@ -151,7 +148,6 @@ def rename_session(session, subject, date):
                                 "HUP 3T scan labels insufficient to id study, making note..."
                             )
                             # mknote(indd,date,scantype)
-                            break
                     elif (
                         datadict["InstitutionName"] == "SC3T"
                         or "Curie" in datadict["InstitutionAddress"]
@@ -174,7 +170,6 @@ def rename_session(session, subject, date):
                             "3T scan does not have inst. name or address to ID study, making note..."
                         )
                         # mknote(indd,date,scantype)
-                        break
                 else:
                     print(f"{session.label} MRI needs a scan strength")
 
@@ -220,7 +215,6 @@ if __name__ == "__main__":
             print(f"{session.label} is correct")
             continue
         else:
-            # print(f"{session.label} needs to be renamed")
             new_session_label = rename_session(session, subject, date)
             print(f"New label: {new_session_label}")
             # log session.label, new_session_label
