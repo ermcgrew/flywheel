@@ -20,167 +20,163 @@ def check_correct(sessionlabellist, subject, date):
 
 
 def rename_session(session, subject, date):
-    # print('in renaming function')
-    # print(session.label)
     scantype = ""
     study = ""
+    datadict = {
+        "MagneticFieldStrength": "",
+        "InstitutionName": "",
+        "InstitutionAddress": "",
+        "PerformedProcedureStepDescription": "",
+        "ProtocolName": "",
+    }
 
     for acquisition in session.acquisitions():
-        # print(f"acqq label: {acquisition.label}")
-        if scantype == "":  # keeps from looping through every acq
-            modality = acquisition.files[0].modality
-            if (modality == "CT" or modality == "SR"):  
-            # those acquisitions don't have detailed metadata
-                continue
-            else:
-                dicom_file_index=[x for x in range(0,len(acquisition.files)) if acquisition.files[x].type == "dicom"]
-                acquisition = acquisition.reload()
-                file_info = acquisition.files[dicom_file_index[0]].info
-                # only need the dicom file's metadata
-                labels = " ".join([acquisition.label for acquisition in session.acquisitions()])
-                # all acq.labels into 1 string to be partial-matched to
+        modality = acquisition.files[0].modality
+        if (modality == "CT" or modality == "SR"):  
+        # those acquisitions don't have detailed metadata
+            continue
+        else:
+            acquisition = acquisition.reload()
+            
+            # all acq.labels into 1 string to be partial-matched to
+            labels = " ".join([acquisition.label for acquisition in session.acquisitions()]) 
+            
+            # only need the dicom file's metadata
+            dicom_file_index=[x for x in range(0,len(acquisition.files)) if acquisition.files[x].type == "dicom"][0]
+            file_info = acquisition.files[dicom_file_index].info               
+            # populate datadict with info, error if key not found
+            for key in datadict:
+                try:
+                    datadict[key] = file_info[key]
+                except KeyError as error:
+                    print(f"Key {error} not found")
 
-                # dictionary of metadata info per file
-                datadict = {
-                    "MagneticFieldStrength": "",
-                    "InstitutionName": "",
-                    "InstitutionAddress": "",
-                    "PerformedProcedureStepDescription": "",
-                    "ProtocolName": "",
-                }
-                # populate datadict with info, error if key not found
-                for key in datadict:
-                    try:
-                        datadict[key] = file_info[key]
-                    except KeyError as error:
-                        print(f"Key {error} not found")
-
-                if modality == "PT":
-                    if "Amyloid" in labels or "AV45" in labels:
-                        scantype = "FBBPET"
-                        if (
-                            "844047"
-                            in datadict["PerformedProcedureStepDescription"]
-                            or "844047" in datadict["ProtocolName"]
-                        ):
-                            study = "ABCD2"
-                            break
-                        elif (
-                            "825943"
-                            in datadict["PerformedProcedureStepDescription"]
-                            or "825943" in datadict["ProtocolName"]
-                        ):
-                            study = "ABC"
-                            break
-                        elif (
-                            "829602"
-                            in datadict["PerformedProcedureStepDescription"]
-                            or "829602" in datadict["ProtocolName"]
-                        ):
-                            study = "LEADS"
-                            break
-                        else:
-                            print(
-                                "No matching performed procedure step description found, making note..."
-                            )
-                            # mknote(indd,date,scantype)
-                            break
-                    elif "2620" in labels:
-                        # PI2620 sometimes listed with space--PI 2620
-                        scantype = "PI2620PET"
+            if modality == "PT":
+                if "Amyloid" in labels or "AV45" in labels:
+                    scantype = "FBBPET"
+                    if (
+                        "844047"
+                        in datadict["PerformedProcedureStepDescription"]
+                        or "844047" in datadict["ProtocolName"]
+                    ):
+                        study = "ABCD2"
+                        break
+                    elif (
+                        "825943"
+                        in datadict["PerformedProcedureStepDescription"]
+                        or "825943" in datadict["ProtocolName"]
+                    ):
                         study = "ABC"
                         break
-                    elif "AV1451" in labels:
-                        scantype = "AV1451PET"
-                        if (
-                            "844403"
-                            in datadict["PerformedProcedureStepDescription"]
-                            or "844403" in datadict["ProtocolName"]
-                        ):
-                            study = "ABCD2"
-                            break
-                        elif (
-                            "825944"
-                            in datadict["PerformedProcedureStepDescription"]
-                            or "833864"
-                            in datadict["PerformedProcedureStepDescription"]
-                            or "825944" in datadict["ProtocolName"]
-                            or "833864" in datadict["ProtocolName"]
-                        ):
-                            study = "ABC"
-                            break
-                        elif (
-                            "829602"
-                            in datadict["PerformedProcedureStepDescription"]
-                            or "829602" in datadict["ProtocolName"]
-                        ):
-                            study = "LEADS"
-                            break
-                        else:
-                            print(
-                                "No matching performed procedure step description found, making note..."
-                            )
-                            # mknote(indd,date,scantype)
-                            break
-                    elif "FDG" in labels:
-                        scantype = "FDGPET"
+                    elif (
+                        "829602"
+                        in datadict["PerformedProcedureStepDescription"]
+                        or "829602" in datadict["ProtocolName"]
+                    ):
                         study = "LEADS"
                         break
                     else:
-                        print(f"{session.label} PET scan needs scantype")
+                        print(
+                            "No matching performed procedure step description found, making note..."
+                        )
+                        # mknote(indd,date,scantype)
+                        break
+                elif "2620" in labels:
+                    # PI2620 sometimes listed with space--PI 2620
+                    scantype = "PI2620PET"
+                    study = "ABC"
+                    break
+                elif "AV1451" in labels:
+                    scantype = "AV1451PET"
+                    if (
+                        "844403"
+                        in datadict["PerformedProcedureStepDescription"]
+                        or "844403" in datadict["ProtocolName"]
+                    ):
+                        study = "ABCD2"
+                        break
+                    elif (
+                        "825944"
+                        in datadict["PerformedProcedureStepDescription"]
+                        or "833864"
+                        in datadict["PerformedProcedureStepDescription"]
+                        or "825944" in datadict["ProtocolName"]
+                        or "833864" in datadict["ProtocolName"]
+                    ):
+                        study = "ABC"
+                        break
+                    elif (
+                        "829602"
+                        in datadict["PerformedProcedureStepDescription"]
+                        or "829602" in datadict["ProtocolName"]
+                    ):
+                        study = "LEADS"
+                        break
+                    else:
+                        print(
+                            "No matching performed procedure step description found, making note..."
+                        )
+                        # mknote(indd,date,scantype)
+                        break
+                elif "FDG" in labels:
+                    scantype = "FDGPET"
+                    study = "LEADS"
+                    break
+                else:
+                    print(f"{session.label} PET scan needs scantype")
 
-                elif modality == "MR":
-                    if round(datadict["MagneticFieldStrength"]) == 7:
-                        scantype = "7T"
-                        if session.label[-4:] == "YMTL":
-                            study = "YMTL"
+            elif modality == "MR":
+                if round(datadict["MagneticFieldStrength"]) == 7:
+                    scantype = "7T"
+                    if session.label[-4:] == "YMTL":
+                        study = "YMTL"
+                        break
+                    else:
+                        study = "ABC"
+                        break
+                elif datadict["MagneticFieldStrength"] == 3:
+                    scantype = "3T"
+                    if (
+                        datadict["InstitutionName"] == "HUP"
+                        or "Spruce" in datadict["InstitutionAddress"]
+                    ):
+                        if "Axial" in labels:
+                            study = "LEADS"
                             break
-                        else:
-                            study = "ABC"
+                        elif "LLASL" in labels:
+                            study = "VCID"
                             break
-                    elif datadict["MagneticFieldStrength"] == 3:
-                        scantype = "3T"
-                        if (
-                            datadict["InstitutionName"] == "HUP"
-                            or "Spruce" in datadict["InstitutionAddress"]
-                        ):
-                            if "Axial" in labels:
-                                study = "LEADS"
-                                break
-                            elif "LLASL" in labels:
-                                study = "VCID"
-                                break
-                            else:
-                                print(
-                                    "HUP 3T scan labels insufficient to id study, making note..."
-                                )
-                                # mknote(indd,date,scantype)
-                                break
-                        elif (
-                            datadict["InstitutionName"] == "SC3T"
-                            or "Curie" in datadict["InstitutionAddress"]
-                        ):
-                            if session.label[-4:] == "YMTL":
-                                study = "YMTL"
-                                break
-                            elif session.label[-5:] == "ABCD2":
-                                study = "ABCD2"
-                                break
-                            elif session.label[-3:] == "ABC":
-                                study = "ABC"
-                                break
-                            else:
-                                print("ABC or ABCD2--determine manually")
-                                # mknote(indd,date,scantype)
-                                break
                         else:
                             print(
-                                "3T scan does not have inst. name or address to ID study, making note..."
+                                "HUP 3T scan labels insufficient to id study, making note..."
                             )
                             # mknote(indd,date,scantype)
                             break
+                    elif (
+                        datadict["InstitutionName"] == "SC3T"
+                        or "Curie" in datadict["InstitutionAddress"]
+                    ):
+                        if session.label[-4:] == "YMTL":
+                            study = "YMTL"
+                            break
+                        elif session.label[-5:] == "ABCD2":
+                            study = "ABCD2"
+                            break
+                        elif session.label[-3:] == "ABC":
+                            study = "ABC"
+                            break
+                        else:
+                            print("ABC or ABCD2--determine manually")
+                            # mknote(indd,date,scantype)
+                            break
                     else:
-                        print(f"{session.label} MRI needs a scan strength")
+                        print(
+                            "3T scan does not have inst. name or address to ID study, making note..."
+                        )
+                        # mknote(indd,date,scantype)
+                        break
+                else:
+                    print(f"{session.label} MRI needs a scan strength")
 
     return subject + "x" + date + "x" + scantype + "x" + study
 
