@@ -2,8 +2,8 @@
 
 import fwgearutils
 import flywheel
-import sys
-import os
+import logging
+from datetime import datetime
 
 
 def check_correct(sessionlabellist, subject, date):
@@ -31,7 +31,7 @@ def rename_session(session, subject, date):
     }
 
     for acquisition in session.acquisitions():
-        print(f"looping through: {acquisition.label}")
+        # print(f"looping through: {acquisition.label}")
         modality = acquisition.files[0].modality
         if modality == "CT" or modality == "SR":
             # those acquisitions don't have detailed metadata
@@ -54,8 +54,8 @@ def rename_session(session, subject, date):
             for key in datadict:
                 try:
                     datadict[key] = file_info[key]
-                except KeyError as error:
-                    print(f"Key {error} not found")
+                except KeyError:
+                    pass
 
             if modality == "PT":
                 if "Amyloid" in labels or "AV45" in labels:
@@ -79,10 +79,7 @@ def rename_session(session, subject, date):
                         study = "LEADS"
                         break
                     else:
-                        print(
-                            "No matching performed procedure step description found, making note..."
-                        )
-                        # mknote(indd,date,scantype)
+                        logging.info(f"{session.label}; insufficient information to rename")
                 elif "2620" in labels:
                     # PI2620 sometimes listed with space--PI 2620
                     scantype = "PI2620PET"
@@ -111,16 +108,13 @@ def rename_session(session, subject, date):
                         study = "LEADS"
                         break
                     else:
-                        print(
-                            "No matching performed procedure step description found, making note..."
-                        )
-                        # mknote(indd,date,scantype)
+                        logging.info(f"{session.label}; insufficient information to rename")
                 elif "FDG" in labels:
                     scantype = "FDGPET"
                     study = "LEADS"
                     break
                 else:
-                    print(f"{session.label} PET scan needs scantype")
+                    logging.info(f"{session.label}; insufficient information to rename")
 
             elif modality == "MR":
                 if round(datadict["MagneticFieldStrength"]) == 7:
@@ -144,10 +138,7 @@ def rename_session(session, subject, date):
                             study = "VCID"
                             break
                         else:
-                            print(
-                                "HUP 3T scan labels insufficient to id study, making note..."
-                            )
-                            # mknote(indd,date,scantype)
+                            logging.info(f"{session.label}; insufficient information to rename")
                     elif (
                         datadict["InstitutionName"] == "SC3T"
                         or "Curie" in datadict["InstitutionAddress"]
@@ -162,60 +153,60 @@ def rename_session(session, subject, date):
                             study = "ABC"
                             break
                         else:
-                            print("ABC or ABCD2--determine manually")
-                            # mknote(indd,date,scantype)
+                            logging.info(f"{session.label}; insufficient information to rename")
                             break
                     else:
-                        print(
-                            "3T scan does not have inst. name or address to ID study, making note..."
-                        )
-                        # mknote(indd,date,scantype)
+                        logging.info(f"{session.label}; insufficient information to rename")
                 else:
-                    print(f"{session.label} MRI needs a scan strength")
+                    logging.info(f"{session.label}; insufficient information to rename")
 
     return subject + "x" + date + "x" + scantype + "x" + study
 
 
-if __name__ == "__main__":
-    CmdName = os.path.basename(sys.argv[0])
-
-    fw = fwgearutils.getFW("test")
+def main():
+    fw = fwgearutils.getFW("")
     if not fw:
-        print(f"{CmdName}: unable to initialize flywheel object", file=sys.stderr)
-        sys.exit(1)
+        logging.critical("Unable to establish flywheel client")
 
     # get NACC-SC flywheel project
     try:
         project = fw.get_project("5c508d5fc2a4ad002d7628d8")
-    except flywheel.ApiException as e:
-        print(f"Error: {e}")
+    except flywheel.ApiException:
+        logging.exception("Exception occurred")
 
     # get list of sessions
     try:
         sessions = project.sessions.iter_find("created>2022-12-01")
-    except flywheel.ApiException as e:
-        print(f"Error: {e}")
+    except flywheel.ApiException:
+        logging.exception("Exception occurred")
 
-    # accepted options for scantypes and studies
-    scantypelist = ["3T", "7T", "PI2620PET", "FBBPET", "AV1451PET", "FDGPET"]
-    studylist = ["ABC", "ABCD2", "VCID", "LEADS", "YMTL"]
-
-    # review each session
     for session in sessions:
-        print("")
-        print(f"{session.label}")
-
         sessionlabellist = session.label.rsplit("x", 3)
         subject = session.subject.label
         if "." in subject or "_" in subject:
-            print(f"Subejct label {subject} incorrect")
+            logging.warning(f"Subejct label {subject} incorrect")
+
         date = str(session.timestamp)[:10].replace("-", "")
 
         if check_correct(sessionlabellist, subject, date):
-            print(f"{session.label} is correct")
+            logging.debug(f"Session label {session.label} is correct")
             continue
         else:
             new_session_label = rename_session(session, subject, date)
-            print(f"New label: {new_session_label}")
-            # log session.label, new_session_label
+            logging.info(f"Session label renamed from:{session.label}:{new_session_label}")
             # session.update({'label': new_session_label})
+
+
+current_time = datetime.now().strftime("%Y-%m-%dT%H_%M_%S")
+# logging.basicConfig(filename=f"log_check_new_session_names_{current_time}.txt", filemode='w', format='%(levelname)s: %(message)s', level=logging.DEBUG)
+logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
+# Debug level: correct session label
+# Info level: renamed session label
+# Warning level: incorrectly formatted subject label
+# get list of renamed sessions with :
+    # cat log_check_new_session_names_2023-02-13T16_27_33.txt | grep renamed | cut -d ":" -f 3,4
+
+scantypelist = ["3T", "7T", "PI2620PET", "FBBPET", "AV1451PET", "FDGPET"]
+studylist = ["ABC", "ABCD2", "VCID", "LEADS", "YMTL"]
+
+main()

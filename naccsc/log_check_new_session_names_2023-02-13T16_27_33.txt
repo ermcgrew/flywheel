@@ -1,0 +1,54 @@
+INFO: Session label renamed from:128685­x20221201x3TxABCD2:128685x20221201x3TxABCD2
+INFO: Session label renamed from:BRAIN RESEARCH^WOLK:128396x20221201x3TxLEADS
+INFO: Session label 126433x20221205x3TxVCID is correct
+INFO: Session label 123851x20221206x3TxABC is correct
+INFO: Session label 125792x20221101xFBBPETxABC is correct
+INFO: Session label 125067x20221116xFBBPETxABC is correct
+INFO: Session label 123865x20221129xFBBPETxABC is correct
+INFO: Session label 123865x20221108xAV1451PETxABC is correct
+INFO: Session label 128440x20221129xFBBPETxABCD2 is correct
+INFO: Session label 119448x20221123xFBBPETxABCD2 is correct
+INFO: Session label 114802x20221122xFBBPETxABCD2 is correct
+INFO: Session label 111768x01x20221115xFBBPETxABCD2 is correct
+INFO: Session label 128504x20221109xFBBPETxABCD2 is correct
+INFO: Session label 128345x20221109xFBBPETxABCD2 is correct
+INFO: Session label 128345x20221130xAV1451PETxABCD2 is correct
+INFO: Session label 128332x20221129xAV1451PETxABCD2 is correct
+ERROR: KeyError Exception: 'MagneticFieldStrength'
+ERROR: KeyError Exception: 'InstitutionAddress'
+INFO: Session label renamed from:111768x01x20221122xAV1451xABCD2:111768x01x20221122xAV1451PETxABCD2
+INFO: Session label 128504x20221102xAV1451PETxABCD2 is correct
+INFO: Session label 100905x01x20221207x3TxVCID is correct
+INFO: Session label 114000x20221214x3TxVCID is correct
+INFO: Session label 114035x20221215x3TxABC is correct
+INFO: Session label 122889x20221216x3TxABC is correct
+INFO: Session label 125480x20221220x3TxABC is correct
+INFO: Session label 125480x20221220x7TxABC is correct
+INFO: Session label 125646x20230105x3TxABCD2 is correct
+INFO: Session label 119390x20230105x3TxABC is correct
+INFO: Session label 123434x20230110x3TxABC is correct
+INFO: Session label 128563x20221207xFBBPETxABCD2 is correct
+INFO: Session label 128439x20221207xAV1451PETxABCD2 is correct
+INFO: Session label 128563x20221214xAV1451PETxABCD2 is correct
+INFO: Session label 128440x20221206xAV1451PETxABCD2 is correct
+INFO: Session label 128481x20221202xAV1451PETxABCD2 is correct
+INFO: Session label 128386x20221220xAV1451PETxABCD2 is correct
+INFO: Session label 123754x20221213xFBBPETxABC is correct
+INFO: Session label 123754x20221220xAV1451PETxABC is correct
+INFO: Session label renamed from:127837x20230113x3T:127837x20230113x3TxLEADS
+INFO: Session label 126317x20230117x3TxABC is correct
+INFO: Session label 124822x20230118x3TxVCID is correct
+ERROR: KeyError Exception: 'MagneticFieldStrength'
+ERROR: KeyError Exception: 'InstitutionAddress'
+INFO: Session label renamed from:127837xFBBPETx20230117:127837x20230117xFBBPETxLEADS
+INFO: Session label renamed from:CAMRIS Wolk128689x20230119X3TXABCD2:128689x20230119x3TxABCD2
+INFO: Session label 122216x20230119x3TxABC is correct
+INFO: Session label 114787x20230124x3TxVCID is correct
+INFO: 128831x20230124x3T; insufficient information to rename
+INFO: Session label renamed from:128831x20230124x3T:128831x20230124x3Tx
+WARNING: Subejct label 112286.01 incorrect
+INFO: CAMRIS^Wolk; insufficient information to rename
+INFO: Session label renamed from:CAMRIS^Wolk:112286.01x20230131x3Tx
+ERROR: KeyError Exception: 'MagneticFieldStrength'
+ERROR: KeyError Exception: 'InstitutionAddress'
+INFO: Session label renamed from:127837xAV1451PETx20230131:127837x20230131xAV1451PETxLEADS
