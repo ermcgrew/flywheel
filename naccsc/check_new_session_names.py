@@ -31,7 +31,6 @@ def rename_session(session, subject, date):
     }
 
     for acquisition in session.acquisitions():
-        # print(f"looping through: {acquisition.label}")
         modality = acquisition.files[0].modality
         if modality == "CT" or modality == "SR":
             # those acquisitions don't have detailed metadata
@@ -46,7 +45,8 @@ def rename_session(session, subject, date):
 
             # only need the dicom file's metadata
             dicom_file_index = [
-                x for x in range(0, len(acquisition.files))
+                x
+                for x in range(0, len(acquisition.files))
                 if acquisition.files[x].type == "dicom"
             ][0]
             file_info = acquisition.files[dicom_file_index].info
@@ -79,7 +79,7 @@ def rename_session(session, subject, date):
                         study = "LEADS"
                         break
                     else:
-                        logging.info(f"{session.label}; insufficient information to rename")
+                        continue
                 elif "2620" in labels:
                     # PI2620 sometimes listed with space--PI 2620
                     scantype = "PI2620PET"
@@ -108,13 +108,13 @@ def rename_session(session, subject, date):
                         study = "LEADS"
                         break
                     else:
-                        logging.info(f"{session.label}; insufficient information to rename")
+                        continue
                 elif "FDG" in labels:
                     scantype = "FDGPET"
                     study = "LEADS"
                     break
                 else:
-                    logging.info(f"{session.label}; insufficient information to rename")
+                    break
 
             elif modality == "MR":
                 if round(datadict["MagneticFieldStrength"]) == 7:
@@ -138,7 +138,7 @@ def rename_session(session, subject, date):
                             study = "VCID"
                             break
                         else:
-                            logging.info(f"{session.label}; insufficient information to rename")
+                            continue
                     elif (
                         datadict["InstitutionName"] == "SC3T"
                         or "Curie" in datadict["InstitutionAddress"]
@@ -153,12 +153,12 @@ def rename_session(session, subject, date):
                             study = "ABC"
                             break
                         else:
-                            logging.info(f"{session.label}; insufficient information to rename")
+                            logging.warning(f"{session.label}; ABC or ABCD2")
                             break
                     else:
-                        logging.info(f"{session.label}; insufficient information to rename")
+                        continue
                 else:
-                    logging.info(f"{session.label}; insufficient information to rename")
+                    continue
 
     return subject + "x" + date + "x" + scantype + "x" + study
 
@@ -193,20 +193,29 @@ def main():
             continue
         else:
             new_session_label = rename_session(session, subject, date)
-            logging.info(f"Session label renamed from:{session.label}:{new_session_label}")
+            logging.info(
+                f"Session label renamed from:{session.label}:{new_session_label}"
+            )
+            if new_session_label[-1:] == "x":
+                logging.warning(
+                    f"{session.label}:{new_session_label}; insufficient information for scantype and/or study"
+                )
             # session.update({'label': new_session_label})
 
 
 current_time = datetime.now().strftime("%Y-%m-%dT%H_%M_%S")
 # logging.basicConfig(filename=f"log_check_new_session_names_{current_time}.txt", filemode='w', format='%(levelname)s: %(message)s', level=logging.DEBUG)
-logging.basicConfig(format='%(levelname)s: %(message)s', level=logging.DEBUG)
+logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.DEBUG)
 # Debug level: correct session label
 # Info level: renamed session label
-# Warning level: incorrectly formatted subject label
-# get list of renamed sessions with :
-    # cat log_check_new_session_names_2023-02-13T16_27_33.txt | grep renamed | cut -d ":" -f 3,4
+# Warning level: incorrectly formatted subject label & insufficient information for full renaming
+# get list of renamed sessions with:
+# cat log_check_new_session_names_2023-02-13T16_27_33.txt | grep INFO | cut -d ":" -f 3,4
+# get list of items needing attention with:
+# cat log_check_new_session_names_2023-02-13T16_27_33.txt | grep WARNING
 
 scantypelist = ["3T", "7T", "PI2620PET", "FBBPET", "AV1451PET", "FDGPET"]
 studylist = ["ABC", "ABCD2", "VCID", "LEADS", "YMTL"]
 
 main()
+# after main, send log file to email--how?
