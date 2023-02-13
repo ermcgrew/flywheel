@@ -7,23 +7,10 @@ import os
 
 
 def check_correct(sessionlabellist, subject, date):
-    check = [False, False, False, False]
-    # for x in range(0,len(sessionlabellist)):
-
-    if len(sessionlabellist) == 4:
-        if sessionlabellist[0] == subject:
-            check[0] = True
-
-        if sessionlabellist[1] == date:
-            check[1] = True
-
-        if sessionlabellist[2] in scantypelist:
-            check[2] = True
-
-        if sessionlabellist[3] in studylist:
-            check[3] = True
-
-    return check
+    if len(sessionlabellist) == 4 and sessionlabellist[0] == subject and sessionlabellist[1] == date and sessionlabellist[2] in scantypelist and sessionlabellist[3] in studylist:
+        return True
+    else:
+        return False
 
 
 def rename_session(session, subject, date):
@@ -235,7 +222,7 @@ if __name__ == "__main__":
             print(f"Subejct label {subject} incorrect")
         date = str(session.timestamp)[:10].replace("-", "")
 
-        if check_correct(sessionlabellist, subject, date) == [True, True, True, True]:
+        if check_correct(sessionlabellist, subject, date):
             print(f"{session.label} is correct")
             continue
         else:
