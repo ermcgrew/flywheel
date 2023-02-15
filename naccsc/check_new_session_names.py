@@ -3,7 +3,7 @@
 import fwgearutils
 import flywheel
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 def check_correct(sessionlabellist, subject, date):
@@ -174,9 +174,12 @@ def main():
     except flywheel.ApiException:
         logging.exception("Exception occurred")
 
+    weekago_dt = datetime.now() - timedelta(days=7)
+    search_string = "created>" + weekago_dt.strftime("%Y-%m-%d")
+
     # get list of sessions
     try:
-        sessions = project.sessions.iter_find("created>2022-12-01")
+        sessions = project.sessions.iter_find(search_string)  # "created>2022-12-01"
     except flywheel.ApiException:
         logging.exception("Exception occurred")
 
