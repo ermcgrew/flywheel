@@ -59,7 +59,11 @@ def rename_session(session, subject, date):
 
             if modality == "PT":
                 if "Amyloid" in labels or "AV45" in labels:
-                    scantype = "FBBPET"
+                    if "lorbetapir" in session.label:
+                        scantype = "FlorbetapirPET" 
+                        logging.warning(f"{session.label}: Florbetapir scan, double check")
+                    else:
+                        scantype = "FBBPET"
                     if (
                         "844047" in datadict["PerformedProcedureStepDescription"]
                         or "844047" in datadict["ProtocolName"]
