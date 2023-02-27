@@ -4,6 +4,8 @@ import fwgearutils
 import flywheel
 import logging
 from datetime import datetime, timedelta
+import os
+from pathlib import Path 
 
 
 def check_correct(sessionlabellist, subject, date):
@@ -172,7 +174,7 @@ def main():
     if not fw:
         logging.critical("Unable to establish flywheel client")
 
-    # get NACC-SC flywheel project
+    # NACC-SC flywheel project by ID
     try:
         project = fw.get_project("5c508d5fc2a4ad002d7628d8")
     except flywheel.ApiException:
@@ -207,22 +209,31 @@ def main():
                 logging.warning(
                     f"{session.label}:{new_session_label}; insufficient information for scantype and/or study"
                 )
+            # Uncomment for real version
             # session.update({'label': new_session_label})
 
+def email_log(filepath):
+    # Real version:
+    # os.system(f'mail -s "Flywheel session name change log" emily.mcgrew@pennmedicine.upenn.edu < {filepath}')
+    # for testing:
+    os.system(f'echo "mail -s "Flywheel session name change log" emily.mcgrew@pennmedicine.upenn.edu < {filepath}"')
 
-current_time = datetime.now().strftime("%Y-%m-%dT%H_%M_%S")
-# logging.basicConfig(filename=f"log_check_new_session_names_{current_time}.txt", filemode='w', format='%(levelname)s: %(message)s', level=logging.DEBUG)
-logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.DEBUG)
-# Debug level: correct session label
-# Info level: renamed session label
-# Warning level: incorrectly formatted subject label & insufficient information for full renaming
-# get list of renamed sessions with:
-# cat log_check_new_session_names_2023-02-13T16_27_33.txt | grep INFO | cut -d ":" -f 3,4
-# get list of items needing attention with:
-# cat log_check_new_session_names_2023-02-13T16_27_33.txt | grep WARNING
+
+def parse_log(filepath):
+    os.system(f'cat {filepath} | grep INFO | cut -d ":" -f 3,4 >> biglog.txt')
+
 
 scantypelist = ["3T", "7T", "PI2620PET", "FBBPET", "AV1451PET", "FDGPET"]
 studylist = ["ABC", "ABCD2", "VCID", "LEADS", "YMTL"]
+current_time = datetime.now().strftime("%Y-%m-%dT%H_%M_%S")
+logfilename=f"log_check_new_session_names_{current_time}.txt"
+filepath = Path.cwd() / logfilename
+
+# Real version:
+# logging.basicConfig(filename=logfilename, filemode='w', format='%(levelname)s: %(message)s', level=logging.DEBUG)
+# for testing:
+logging.basicConfig(format="%(levelname)s: %(message)s", level=logging.DEBUG)
 
 main()
-# after main, send log file to email--how?
+email_log(filepath)
+parse_log(filepath)
