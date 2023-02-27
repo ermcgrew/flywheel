@@ -5,7 +5,7 @@ import flywheel
 import logging
 from datetime import datetime, timedelta
 import os
-from pathlib import Path 
+from pathlib import Path
 
 
 def check_correct(sessionlabellist, subject, date):
@@ -62,8 +62,10 @@ def rename_session(session, subject, date):
             if modality == "PT":
                 if "Amyloid" in labels or "AV45" in labels:
                     if "lorbetapir" in session.label:
-                        scantype = "FlorbetapirPET" 
-                        logging.warning(f"{session.label}: Florbetapir scan, double check")
+                        scantype = "FlorbetapirPET"
+                        logging.warning(
+                            f"{session.label}: Florbetapir scan, double check"
+                        )
                     else:
                         scantype = "FBBPET"
                     if (
@@ -212,11 +214,14 @@ def main():
             # Uncomment for real version
             # session.update({'label': new_session_label})
 
+
 def email_log(filepath):
     # Real version:
     # os.system(f'mail -s "Flywheel session name change log" emily.mcgrew@pennmedicine.upenn.edu < {filepath}')
     # for testing:
-    os.system(f'echo "mail -s "Flywheel session name change log" emily.mcgrew@pennmedicine.upenn.edu < {filepath}"')
+    os.system(
+        f'echo "mail -s "Flywheel session name change log" emily.mcgrew@pennmedicine.upenn.edu < {filepath}"'
+    )
 
 
 def parse_log(filepath):
@@ -226,7 +231,7 @@ def parse_log(filepath):
 scantypelist = ["3T", "7T", "PI2620PET", "FBBPET", "AV1451PET", "FDGPET"]
 studylist = ["ABC", "ABCD2", "VCID", "LEADS", "YMTL"]
 current_time = datetime.now().strftime("%Y-%m-%dT%H_%M_%S")
-logfilename=f"log_check_new_session_names_{current_time}.txt"
+logfilename = f"log_check_new_session_names_{current_time}.txt"
 filepath = Path.cwd() / logfilename
 
 # Real version:
