@@ -220,7 +220,7 @@ def email_log(filepath):
 
 
 def parse_log(filepath):
-    os.system(f'cat {filepath} | grep INFO | cut -d ":" -f 3,4 >> biglog.txt')
+    os.system(f'echo cat {filepath} | grep INFO | cut -d ":" -f 3,4 >> biglog.txt')
 
 
 scantypelist = ["3T", "7T", "PI2620PET", "FBBPET", "AV1451PET", "FDGPET"]
