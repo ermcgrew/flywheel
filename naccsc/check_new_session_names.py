@@ -171,6 +171,24 @@ def rename_session(session, subject, date):
     return subject + "x" + date + "x" + scantype + "x" + study
 
 
+def email_log(filepath):
+    # Real version:
+    # os.system(f'mail -s "Flywheel session name change log" emily.mcgrew@pennmedicine.upenn.edu < {filepath}')
+    # for testing:
+    os.system(
+        f'echo "mail -s "Flywheel session name change log" emily.mcgrew@pennmedicine.upenn.edu < {filepath}"'
+    )
+
+
+def parse_log(filepath):
+    # Real version:
+    # os.system(f'cat {filepath} | grep INFO | cut -d ":" -f 3,4,6 >> all_fw_session_renames.txt')
+    # for testing:
+    os.system(
+        f'echo cat {filepath} | grep INFO | cut -d ":" -f 3,4,6 >> all_fw_session_renames.txt'
+    )
+
+
 def main():
     fw = fwgearutils.getFW("")
     if not fw:
@@ -187,7 +205,10 @@ def main():
 
     # get list of sessions
     try:
-        sessions = project.sessions.iter_find(search_string)  # "created>2022-12-01"
+        # Real version:
+        # sessions = project.sessions.iter_find(search_string)
+        # for testing:
+        sessions = project.sessions.iter_find("created>2023-01-01")
     except flywheel.ApiException:
         logging.exception("Exception occurred")
 
@@ -205,7 +226,7 @@ def main():
         else:
             new_session_label = rename_session(session, subject, date)
             logging.info(
-                f"Session label renamed from:{session.label}:{new_session_label}"
+                f"Session label renamed from:{session.label}:{new_session_label}: on date:{current_date}"
             )
             if new_session_label[-1:] == "x":
                 logging.warning(
@@ -215,23 +236,11 @@ def main():
             # session.update({'label': new_session_label})
 
 
-def email_log(filepath):
-    # Real version:
-    # os.system(f'mail -s "Flywheel session name change log" emily.mcgrew@pennmedicine.upenn.edu < {filepath}')
-    # for testing:
-    os.system(
-        f'echo "mail -s "Flywheel session name change log" emily.mcgrew@pennmedicine.upenn.edu < {filepath}"'
-    )
-
-
-def parse_log(filepath):
-    os.system(f'echo cat {filepath} | grep INFO | cut -d ":" -f 3,4 >> biglog.txt')
-
-
 scantypelist = ["3T", "7T", "PI2620PET", "FBBPET", "AV1451PET", "FDGPET"]
 studylist = ["ABC", "ABCD2", "VCID", "LEADS", "YMTL"]
-current_time = datetime.now().strftime("%Y-%m-%dT%H_%M_%S")
-logfilename = f"log_check_new_session_names_{current_time}.txt"
+current_datetime = datetime.now().strftime("%Y-%m-%dT%H_%M_%S")
+current_date = datetime.now().strftime("%Y-%m-%d")
+logfilename = f"log_check_new_session_names_{current_datetime}.txt"
 filepath = Path.cwd() / logfilename
 
 # Real version:
