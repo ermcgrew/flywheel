@@ -1,0 +1,50 @@
+DEBUG: Session label 125646x20230105x3TxABCD2 is correct
+DEBUG: Session label 119390x20230105x3TxABC is correct
+DEBUG: Session label 123434x20230110x3TxABC is correct
+DEBUG: Session label 128563x20221207xFBBPETxABCD2 is correct
+DEBUG: Session label 128439x20221207xAV1451PETxABCD2 is correct
+DEBUG: Session label 128563x20221214xAV1451PETxABCD2 is correct
+DEBUG: Session label 128440x20221206xAV1451PETxABCD2 is correct
+DEBUG: Session label 128481x20221202xAV1451PETxABCD2 is correct
+DEBUG: Session label 128386x20221220xAV1451PETxABCD2 is correct
+DEBUG: Session label 123754x20221213xFBBPETxABC is correct
+DEBUG: Session label 123754x20221220xAV1451PETxABC is correct
+INFO: Session label renamed from:127837x20230113x3T:127837x20230113x3TxLEADS: on date:2023-02-28
+DEBUG: Session label 126317x20230117x3TxABC is correct
+DEBUG: Session label 124822x20230118x3TxVCID is correct
+INFO: Session label renamed from:127837xFBBPETx20230117:127837x20230117xFBBPETxLEADS: on date:2023-02-28
+INFO: Session label renamed from:CAMRIS Wolk128689x20230119X3TXABCD2:128689x20230119x3TxABCD2: on date:2023-02-28
+DEBUG: Session label 122216x20230119x3TxABC is correct
+DEBUG: Session label 114787x20230124x3TxVCID is correct
+WARNING: 128831x20230124x3T; ABC or ABCD2
+INFO: Session label renamed from:128831x20230124x3T:128831x20230124x3Tx: on date:2023-02-28
+WARNING: 128831x20230124x3T:128831x20230124x3Tx; insufficient information for scantype and/or study
+WARNING: Subejct label 112286.01 incorrect
+WARNING: CAMRIS^Wolk; ABC or ABCD2
+INFO: Session label renamed from:CAMRIS^Wolk:112286.01x20230131x3Tx: on date:2023-02-28
+WARNING: CAMRIS^Wolk:112286.01x20230131x3Tx; insufficient information for scantype and/or study
+INFO: Session label renamed from:127837xAV1451PETx20230131:127837x20230131xAV1451PETxLEADS: on date:2023-02-28
+DEBUG: Session label 123727x20221018xAV1451PETxLEADS is correct
+DEBUG: Session label 122139x20230214x3TxVCID is correct
+INFO: Session label renamed from:BRAIN RESEARCH^WOLK:127075x20230215x3TxLEADS: on date:2023-02-28
+DEBUG: Session label 124666x20230214xAV1451PETxLEADS is correct
+DEBUG: Session label 127075x20230215xFBBPETxLEADS is correct
+DEBUG: Session label 128831x20230131xFBBPETxABCD2 is correct
+DEBUG: Session label 128735x20230124xFBBPETxABCD2 is correct
+DEBUG: Session label 125646x20230118xFBBPETxABCD2 is correct
+DEBUG: Session label 128566x20230117xFBBPETxABCD2 is correct
+DEBUG: Session label 114802x20230118xAV1451PETxABCD2 is correct
+DEBUG: Session label 128520x20230104xFBBPETxABCD2 is correct
+DEBUG: Session label 128983x20230131xFBBPETxABC is correct
+DEBUG: Session label 124597x20230118xFBBPETxABC is correct
+DEBUG: Session label 124288x20230125xAV1451PETxABC is correct
+DEBUG: Session label 125928x20230123xPI2620PETxABC is correct
+DEBUG: Session label 123724x20230123xPI2620PETxABC is correct
+DEBUG: Session label 128396x20230217xAV1451PETxLEADS is correct
+INFO: Session label renamed from:BRAIN RESEARCH^WOLK:129896x20230220x3TxLEADS: on date:2023-02-28
+DEBUG: Session label 129847x20230221x3TxABC is correct
+DEBUG: Session label 100113x20230222x3TxVCID is correct
+DEBUG: Session label 127251x20230223x3TxVCID is correct
+DEBUG: Session label 123367x20230223x3TxABC is correct
+DEBUG: Session label 124666x20230223x3TxLEADS is correct
+DEBUG: Session label 124666x20230223xFBBPETxLEADS is correct
